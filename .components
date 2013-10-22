@@ -1,0 +1,9 @@
+---
+:orm: mongoid
+:test: cucumber
+:mock: none
+:script: none
+:renderer: erb
+:stylesheet: none
+:namespace: CdOrganizacional
+:migration_format: number
