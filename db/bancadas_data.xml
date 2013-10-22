@@ -1,0 +1,966 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bancadas>
+  <bancada sigla="PT" nome="Partido dos Trabalhadores">
+    <lider>
+      <nome>JOSÉ GUIMARÃES</nome>
+      <partido>PT</partido>
+      <uf>CE</uf>
+    </lider>
+    <vice_lider>
+      <nome>VALMIR ASSUNÇÃO</nome>
+      <partido>PT</partido>
+      <uf>BA</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>SIBÁ MACHADO</nome>
+      <partido>PT</partido>
+      <uf>AC</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>LUIZ COUTO</nome>
+      <partido>PT</partido>
+      <uf>PB</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>BOHN GASS</nome>
+      <partido>PT</partido>
+      <uf>RS</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>AMAURI TEIXEIRA</nome>
+      <partido>PT</partido>
+      <uf>BA</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>FERNANDO FERRO</nome>
+      <partido>PT</partido>
+      <uf>PE</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>VANDERLEI SIRAQUE</nome>
+      <partido>PT</partido>
+      <uf>SP</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>AFONSO FLORENCE</nome>
+      <partido>PT</partido>
+      <uf>BA</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>BENEDITA DA SILVA</nome>
+      <partido>PT</partido>
+      <uf>RJ</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>ERIKA KOKAY</nome>
+      <partido>PT</partido>
+      <uf>DF</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>EUDES XAVIER</nome>
+      <partido>PT</partido>
+      <uf>CE</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>FÁTIMA BEZERRA</nome>
+      <partido>PT</partido>
+      <uf>RN</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>JORGE BITTAR</nome>
+      <partido>PT</partido>
+      <uf>RJ</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>JOSIAS GOMES</nome>
+      <partido>PT</partido>
+      <uf>BA</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>MARCON</nome>
+      <partido>PT</partido>
+      <uf>RS</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>MARGARIDA SALOMÃO</nome>
+      <partido>PT</partido>
+      <uf>MG</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>PEDRO UCZAI</nome>
+      <partido>PT</partido>
+      <uf>SC</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>POLICARPO</nome>
+      <partido>PT</partido>
+      <uf>DF</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>VICENTINHO</nome>
+      <partido>PT</partido>
+      <uf>SP</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>ZÉ GERALDO</nome>
+      <partido>PT</partido>
+      <uf>PA</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>ZECA DIRCEU</nome>
+      <partido>PT</partido>
+      <uf>PR</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>MÁRCIO MACÊDO</nome>
+      <partido>PT</partido>
+      <uf>SE</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>PADRE JOÃO</nome>
+      <partido>PT</partido>
+      <uf>MG</uf>
+    </vice_lider>
+  </bancada>
+  <bancada sigla="PMDB" nome="Partido do Movimento Democrático Brasileiro">
+    <lider>
+      <nome>EDUARDO CUNHA</nome>
+      <partido>PMDB</partido>
+      <uf>RJ</uf>
+    </lider>
+    <vice_lider>
+      <nome>MARCELO CASTRO</nome>
+      <partido>PMDB</partido>
+      <uf>PI</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>DARCÍSIO PERONDI</nome>
+      <partido>PMDB</partido>
+      <uf>RS</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>EDINHO ARAÚJO</nome>
+      <partido>PMDB</partido>
+      <uf>SP</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>EDINHO BEZ</nome>
+      <partido>PMDB</partido>
+      <uf>SC</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>MAURO BENEVIDES</nome>
+      <partido>PMDB</partido>
+      <uf>CE</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>MARLLOS SAMPAIO</nome>
+      <partido>PMDB</partido>
+      <uf>PI</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>LUCIO VIEIRA LIMA</nome>
+      <partido>PMDB</partido>
+      <uf>BA</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>FRANCISCO ESCÓRCIO</nome>
+      <partido>PMDB</partido>
+      <uf>MA</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>ELISEU PADILHA</nome>
+      <partido>PMDB</partido>
+      <uf>RS</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>FABIO TRAD</nome>
+      <partido>PMDB</partido>
+      <uf>MS</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>EDIO LOPES</nome>
+      <partido>PMDB</partido>
+      <uf>RR</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>COLBERT MARTINS</nome>
+      <partido>PMDB</partido>
+      <uf>BA</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>DANILO FORTE</nome>
+      <partido>PMDB</partido>
+      <uf>CE</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>JÚNIOR COIMBRA</nome>
+      <partido>PMDB</partido>
+      <uf>TO</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>MANOEL JUNIOR</nome>
+      <partido>PMDB</partido>
+      <uf>PB</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>ALEXANDRE SANTOS</nome>
+      <partido>PMDB</partido>
+      <uf>RJ</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>LEONARDO PICCIANI</nome>
+      <partido>PMDB</partido>
+      <uf>RJ</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>ANDRÉ ZACHAROW</nome>
+      <partido>PMDB</partido>
+      <uf>PR</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>FÁTIMA PELAES</nome>
+      <partido>PMDB</partido>
+      <uf>AP</uf>
+    </vice_lider>
+  </bancada>
+  <bancada sigla="PSDB" nome="Partido da Social Democracia Brasileira">
+    <lider>
+      <nome>CARLOS SAMPAIO</nome>
+      <partido>PSDB</partido>
+      <uf>SP</uf>
+    </lider>
+    <vice_lider>
+      <nome>JOÃO CAMPOS</nome>
+      <partido>PSDB</partido>
+      <uf>GO</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>DOMINGOS SÁVIO</nome>
+      <partido>PSDB</partido>
+      <uf>MG</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>VANDERLEI MACRIS</nome>
+      <partido>PSDB</partido>
+      <uf>SP</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>ANTONIO CARLOS MENDES THAME</nome>
+      <partido>PSDB</partido>
+      <uf>SP</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>CESAR COLNAGO</nome>
+      <partido>PSDB</partido>
+      <uf>ES</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>IZALCI</nome>
+      <partido>PSDB</partido>
+      <uf>DF</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>ANDREIA ZITO</nome>
+      <partido>PSDB</partido>
+      <uf>RJ</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>EDUARDO BARBOSA</nome>
+      <partido>PSDB</partido>
+      <uf>MG</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>NILSON PINTO</nome>
+      <partido>PSDB</partido>
+      <uf>PA</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>PINTO ITAMARATY</nome>
+      <partido>PSDB</partido>
+      <uf>MA</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>RAIMUNDO GOMES DE MATOS</nome>
+      <partido>PSDB</partido>
+      <uf>CE</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>VAZ DE LIMA</nome>
+      <partido>PSDB</partido>
+      <uf>SP</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>RICARDO TRIPOLI</nome>
+      <partido>PSDB</partido>
+      <uf>SP</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>LUIZ CARLOS HAULY</nome>
+      <partido>PSDB</partido>
+      <uf>PR</uf>
+    </vice_lider>
+  </bancada>
+  <bancada sigla="PP" nome="Partido Progressista">
+    <lider>
+      <nome>EDUARDO DA FONTE</nome>
+      <partido>PP</partido>
+      <uf>PE</uf>
+    </lider>
+    <vice_lider>
+      <nome>WALDIR MARANHÃO</nome>
+      <partido>PP</partido>
+      <uf>MA</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>RENATO MOLLING</nome>
+      <partido>PP</partido>
+      <uf>RS</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>ESPERIDIÃO AMIN</nome>
+      <partido>PP</partido>
+      <uf>SC</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>IRACEMA PORTELLA</nome>
+      <partido>PP</partido>
+      <uf>PI</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>BETINHO ROSADO</nome>
+      <partido>PP</partido>
+      <uf>RN</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>MISSIONÁRIO JOSÉ OLIMPIO</nome>
+      <partido>PP</partido>
+      <uf>SP</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>SANDES JÚNIOR</nome>
+      <partido>PP</partido>
+      <uf>GO</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>DIMAS FABIANO</nome>
+      <partido>PP</partido>
+      <uf>MG</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>ROBERTO BALESTRA</nome>
+      <partido>PP</partido>
+      <uf>GO</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>DILCEU SPERAFICO</nome>
+      <partido>PP</partido>
+      <uf>PR</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>LUIS CARLOS HEINZE</nome>
+      <partido>PP</partido>
+      <uf>RS</uf>
+    </vice_lider>
+  </bancada>
+  <bancada sigla="PSD" nome="Partido Social Democrático">
+    <lider>
+      <nome>EDUARDO SCIARRA</nome>
+      <partido>PSD</partido>
+      <uf>PR</uf>
+    </lider>
+    <vice_lider>
+      <nome>ELEUSES PAIVA</nome>
+      <partido>PSD</partido>
+      <uf>SP</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>GUILHERME CAMPOS</nome>
+      <partido>PSD</partido>
+      <uf>SP</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>HEULER CRUVINEL</nome>
+      <partido>PSD</partido>
+      <uf>GO</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>HUGO NAPOLEÃO</nome>
+      <partido>PSD</partido>
+      <uf>PI</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>MOREIRA MENDES</nome>
+      <partido>PSD</partido>
+      <uf>RO</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>EDSON PIMENTA</nome>
+      <partido>PSD</partido>
+      <uf>BA</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>SERGIO ZVEITER</nome>
+      <partido>PSD</partido>
+      <uf>RJ</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>MARCOS MONTES</nome>
+      <partido>PSD</partido>
+      <uf>MG</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>SILAS CÂMARA</nome>
+      <partido>PSD</partido>
+      <uf>AM</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>ONOFRE SANTO AGOSTINI</nome>
+      <partido>PSD</partido>
+      <uf>SC</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>JEFFERSON CAMPOS</nome>
+      <partido>PSD</partido>
+      <uf>SP</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>IRAJÁ ABREU</nome>
+      <partido>PSD</partido>
+      <uf>TO</uf>
+    </vice_lider>
+  </bancada>
+  <bancada sigla="Bloco PR, PTdoB, PRP" nome="Bloco Parlamentar PR, PTdoB, PRP">
+    <lider>
+      <nome>ANTHONY GAROTINHO</nome>
+      <partido>PR</partido>
+      <uf>RJ</uf>
+    </lider>
+    <vice_lider>
+      <nome>BERNARDO SANTANA DE VASCONCELLOS</nome>
+      <partido>PR</partido>
+      <uf>MG</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>GORETE PEREIRA</nome>
+      <partido>PR</partido>
+      <uf>CE</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>WELLINGTON ROBERTO</nome>
+      <partido>PR</partido>
+      <uf>PB</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>MILTON MONTI</nome>
+      <partido>PR</partido>
+      <uf>SP</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>WELLINGTON FAGUNDES</nome>
+      <partido>PR</partido>
+      <uf>MT</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>LOURIVAL MENDES</nome>
+      <partido>PTdoB</partido>
+      <uf>MA</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>LINCOLN PORTELA</nome>
+      <partido>PR</partido>
+      <uf>MG</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>PAULO FEIJÓ</nome>
+      <partido>PR</partido>
+      <uf>RJ</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>ANDERSON FERREIRA</nome>
+      <partido>PR</partido>
+      <uf>PE</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>PAULO FREIRE</nome>
+      <partido>PR</partido>
+      <uf>SP</uf>
+    </vice_lider>
+  </bancada>
+  <bancada sigla="DEM" nome="Democratas">
+    <lider>
+      <nome>RONALDO CAIADO</nome>
+      <partido>DEM</partido>
+      <uf>GO</uf>
+    </lider>
+    <vice_lider>
+      <nome>MENDONÇA FILHO</nome>
+      <partido>DEM</partido>
+      <uf>PE</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>ABELARDO LUPION</nome>
+      <partido>DEM</partido>
+      <uf>PR</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>ALEXANDRE LEITE</nome>
+      <partido>DEM</partido>
+      <uf>SP</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>PROFESSORA DORINHA SEABRA REZENDE</nome>
+      <partido>DEM</partido>
+      <uf>TO</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>MENDONÇA PRADO</nome>
+      <partido>DEM</partido>
+      <uf>SE</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>ONYX LORENZONI</nome>
+      <partido>DEM</partido>
+      <uf>RS</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>RODRIGO MAIA</nome>
+      <partido>DEM</partido>
+      <uf>RJ</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>EFRAIM FILHO</nome>
+      <partido>DEM</partido>
+      <uf>PB</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>LIRA MAIA</nome>
+      <partido>DEM</partido>
+      <uf>PA</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>MANDETTA</nome>
+      <partido>DEM</partido>
+      <uf>MS</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>FÁBIO SOUTO</nome>
+      <partido>DEM</partido>
+      <uf>BA</uf>
+    </vice_lider>
+  </bancada>
+  <bancada sigla="PSB" nome="Partido Socialista Brasileiro">
+    <lider>
+      <nome>BETO ALBUQUERQUE</nome>
+      <partido>PSB</partido>
+      <uf>RS</uf>
+    </lider>
+    <vice_lider>
+      <nome>GLAUBER BRAGA</nome>
+      <partido>PSB</partido>
+      <uf>RJ</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>PAULO FOLETTO</nome>
+      <partido>PSB</partido>
+      <uf>ES</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>LUIZA ERUNDINA</nome>
+      <partido>PSB</partido>
+      <uf>SP</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>SEVERINO NINHO</nome>
+      <partido>PSB</partido>
+      <uf>PE</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>ISAIAS SILVESTRE</nome>
+      <partido>PSB</partido>
+      <uf>MG</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>SANDRA ROSADO</nome>
+      <partido>PSB</partido>
+      <uf>RN</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>JÚLIO DELGADO</nome>
+      <partido>PSB</partido>
+      <uf>MG</uf>
+    </vice_lider>
+  </bancada>
+  <bancada sigla="SDD" nome="Solidariedade">
+    <lider>
+      <nome>FERNANDO FRANCISCHINI</nome>
+      <partido>SDD</partido>
+      <uf>PR</uf>
+    </lider>
+    <vice_lider>
+      <nome>ARTHUR OLIVEIRA MAIA</nome>
+      <partido>SDD</partido>
+      <uf>BA</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>JOÃO DADO</nome>
+      <partido>SDD</partido>
+      <uf>SP</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>LUIZ ARGÔLO</nome>
+      <partido>SDD</partido>
+      <uf>BA</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>SEBASTIÃO BALA ROCHA</nome>
+      <partido>SDD</partido>
+      <uf>AP</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>DOMINGOS DUTRA</nome>
+      <partido>SDD</partido>
+      <uf>MA</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>ARMANDO VERGÍLIO</nome>
+      <partido>SDD</partido>
+      <uf>GO</uf>
+    </vice_lider>
+  </bancada>
+  <bancada sigla="PDT" nome="Partido Democrático Trabalhista">
+    <lider>
+      <nome>ANDRÉ FIGUEIREDO</nome>
+      <partido>PDT</partido>
+      <uf>CE</uf>
+    </lider>
+    <vice_lider>
+      <nome>FÉLIX MENDONÇA JÚNIOR</nome>
+      <partido>PDT</partido>
+      <uf>BA</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>REGUFFE</nome>
+      <partido>PDT</partido>
+      <uf>DF</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>ENIO BACCI</nome>
+      <partido>PDT</partido>
+      <uf>RS</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>FLÁVIA MORAIS</nome>
+      <partido>PDT</partido>
+      <uf>GO</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>MARCOS ROGÉRIO</nome>
+      <partido>PDT</partido>
+      <uf>RO</uf>
+    </vice_lider>
+  </bancada>
+  <bancada sigla="PROS" nome="Partido Republicano da Ordem Social">
+    <lider>
+      <nome>GIVALDO CARIMBÃO</nome>
+      <partido>PROS</partido>
+      <uf>AL</uf>
+    </lider>
+    <vice_lider>
+      <nome>RONALDO FONSECA</nome>
+      <partido>PROS</partido>
+      <uf>DF</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>SALVADOR ZIMBALDI</nome>
+      <partido>PROS</partido>
+      <uf>SP</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>ANTONIO BALHMANN</nome>
+      <partido>PROS</partido>
+      <uf>CE</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>DR. JORGE SILVA</nome>
+      <partido>PROS</partido>
+      <uf>ES</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>VALTENIR PEREIRA</nome>
+      <partido>PROS</partido>
+      <uf>MT</uf>
+    </vice_lider>
+  </bancada>
+  <bancada sigla="PTB" nome="Partido Trabalhista Brasileiro">
+    <lider>
+      <nome>JOVAIR ARANTES</nome>
+      <partido>PTB</partido>
+      <uf>GO</uf>
+    </lider>
+    <vice_lider>
+      <nome>ANTONIO BRITO</nome>
+      <partido>PTB</partido>
+      <uf>BA</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>ARNALDO FARIA DE SÁ</nome>
+      <partido>PTB</partido>
+      <uf>SP</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>JOSUÉ BENGTSON</nome>
+      <partido>PTB</partido>
+      <uf>PA</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>PAES LANDIM</nome>
+      <partido>PTB</partido>
+      <uf>PI</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>RONALDO NOGUEIRA</nome>
+      <partido>PTB</partido>
+      <uf>RS</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>WALNEY ROCHA</nome>
+      <partido>PTB</partido>
+      <uf>RJ</uf>
+    </vice_lider>
+  </bancada>
+  <bancada sigla="PCdoB" nome="Partido Comunista do Brasil">
+    <lider>
+      <nome>MANUELA D'ÁVILA</nome>
+      <partido>PCdoB</partido>
+      <uf>RS</uf>
+    </lider>
+    <vice_lider>
+      <nome>ALICE PORTUGAL</nome>
+      <partido>PCdoB</partido>
+      <uf>BA</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>OSMAR JÚNIOR</nome>
+      <partido>PCdoB</partido>
+      <uf>PI</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>ASSIS MELO</nome>
+      <partido>PCdoB</partido>
+      <uf>RS</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>LUCIANA SANTOS</nome>
+      <partido>PCdoB</partido>
+      <uf>PE</uf>
+    </vice_lider>
+  </bancada>
+  <bancada sigla="PSC" nome="Partido Social Cristão">
+    <lider>
+      <nome>ANDRE MOURA</nome>
+      <partido>PSC</partido>
+      <uf>SE</uf>
+    </lider>
+    <vice_lider>
+      <nome>LEONARDO GADELHA</nome>
+      <partido>PSC</partido>
+      <uf>PB</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>NELSON PADOVANI</nome>
+      <partido>PSC</partido>
+      <uf>PR</uf>
+    </vice_lider>
+  </bancada>
+  <bancada sigla="PRB" nome="Partido Republicano Brasileiro">
+    <lider>
+      <nome>GEORGE HILTON</nome>
+      <partido>PRB</partido>
+      <uf>MG</uf>
+    </lider>
+    <vice_lider>
+      <nome>JHONATAN DE JESUS</nome>
+      <partido>PRB</partido>
+      <uf>RR</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>CLEBER VERDE</nome>
+      <partido>PRB</partido>
+      <uf>MA</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>MÁRCIO MARINHO</nome>
+      <partido>PRB</partido>
+      <uf>BA</uf>
+    </vice_lider>
+  </bancada>
+  <bancada sigla="PV" nome="Partido Verde">
+    <lider>
+      <nome>SARNEY FILHO</nome>
+      <partido>PV</partido>
+      <uf>MA</uf>
+    </lider>
+    <vice_lider>
+      <nome>ROSANE FERREIRA</nome>
+      <partido>PV</partido>
+      <uf>PR</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>ANTÔNIO ROBERTO</nome>
+      <partido>PV</partido>
+      <uf>MG</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>HENRIQUE AFONSO</nome>
+      <partido>PV</partido>
+      <uf>AC</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>ROBERTO DE LUCENA</nome>
+      <partido>PV</partido>
+      <uf>SP</uf>
+    </vice_lider>
+  </bancada>
+  <bancada sigla="PPS" nome="Partido Popular Socialista">
+    <lider>
+      <nome>RUBENS BUENO</nome>
+      <partido>PPS</partido>
+      <uf>PR</uf>
+    </lider>
+    <vice_lider>
+      <nome>ARNALDO JORDY</nome>
+      <partido>PPS</partido>
+      <uf>PA</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>ARNALDO JARDIM</nome>
+      <partido>PPS</partido>
+      <uf>SP</uf>
+    </vice_lider>
+  </bancada>
+  <bancada sigla="PSOL" nome="Partido Socialismo e Liberdade">
+    <lider>
+      <nome>IVAN VALENTE</nome>
+      <partido>PSOL</partido>
+      <uf>SP</uf>
+    </lider>
+    <vice_lider>
+      <nome>JEAN WYLLYS</nome>
+      <partido>PSOL</partido>
+      <uf>RJ</uf>
+    </vice_lider>
+  </bancada>
+  <bancada sigla="PMN" nome="Partido da Mobilização Nacional">
+    <representante>
+      <nome>DR. CARLOS ALBERTO</nome>
+      <partido>PMN</partido>
+      <uf>RJ</uf>
+    </representante>
+  </bancada>
+  <bancada sigla="Governo" nome="Liderança do Governo">
+    <lider>
+      <nome>ARLINDO CHINAGLIA</nome>
+      <partido>PT</partido>
+      <uf>SP</uf>
+    </lider>
+    <vice_lider>
+      <nome>OSMAR SERRAGLIO</nome>
+      <partido>PMDB</partido>
+      <uf>PR</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>LUCIANO CASTRO</nome>
+      <partido>PR</partido>
+      <uf>RR</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>ALEX CANZIANI</nome>
+      <partido>PTB</partido>
+      <uf>PR</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>JOSÉ GUIMARÃES</nome>
+      <partido>PT</partido>
+      <uf>CE</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>WALDIR MARANHÃO</nome>
+      <partido>PP</partido>
+      <uf>MA</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>HUGO LEAL</nome>
+      <partido>PROS</partido>
+      <uf>RJ</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>REBECCA GARCIA</nome>
+      <partido>PP</partido>
+      <uf>AM</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>HENRIQUE FONTANA</nome>
+      <partido>PT</partido>
+      <uf>RS</uf>
+    </vice_lider>
+  </bancada>
+  <bancada sigla="Minoria" nome="Liderança da Minoria">
+    <lider>
+      <nome>NILSON LEITÃO</nome>
+      <partido>PSDB</partido>
+      <uf>MT</uf>
+    </lider>
+    <vice_lider>
+      <nome>FELIPE MAIA</nome>
+      <partido>DEM</partido>
+      <uf>RN</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>PLÍNIO VALÉRIO</nome>
+      <partido>PSDB</partido>
+      <uf>AM</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>MARA GABRILLI</nome>
+      <partido>PSDB</partido>
+      <uf>SP</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>EMANUEL FERNANDES</nome>
+      <partido>PSDB</partido>
+      <uf>SP</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>NELSON MARCHEZAN JUNIOR</nome>
+      <partido>PSDB</partido>
+      <uf>RS</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>SANDRO ALEX</nome>
+      <partido>PPS</partido>
+      <uf>PR</uf>
+    </vice_lider>
+  </bancada>
+  <bancada sigla="PR" nome="Partido da República">
+    <lider>
+      <nome>ANTHONY GAROTINHO</nome>
+      <partido>PR</partido>
+      <uf>RJ</uf>
+    </lider>
+  </bancada>
+  <bancada sigla="PTdoB" nome="Partido Trabalhista do Brasil">
+    <representante>
+      <nome>ROSINHA DA ADEFAL</nome>
+      <partido>PTdoB</partido>
+      <uf>AL</uf>
+    </representante>
+  </bancada>
+  <bancada sigla="PRP" nome="Partido Republicano Progressista">
+    <representante>
+      <nome>CHICO DAS VERDURAS</nome>
+      <partido>PRP</partido>
+      <uf>RR</uf>
+    </representante>
+  </bancada>
+</bancadas>
