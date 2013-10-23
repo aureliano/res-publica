@@ -1,6 +1,6 @@
 # encoding: utf-8
 
-start_time = Time.now
+start_time = $data_preparation_start.nil? ? Time.now : $data_preparation_start
 BUCKET_SIZE = 100
 
 def elapsed_time(t1, t2)
