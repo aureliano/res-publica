@@ -5,6 +5,18 @@ module CdOrganizacional
     register Padrino::Rendering
     register Padrino::Helpers
 
+    get :index do
+      render :index
+    end
+
+    get :sobre do
+      render :sobre
+    end
+    
+    get :changelog, :map => '/log/versao/todas' do
+      render :changelog
+    end
+  
     error 404 do
       redirect '/404'
     end
