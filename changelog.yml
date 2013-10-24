@@ -1,0 +1,7 @@
+---
+'0.1.0':
+- Extrai da API de dados abertos da Câmara dos Deputados dados de bancadas, comissões, deputados, e partidos.
+- Carrega dados pertinentes à API na base de dados do projeto.
+- Exibe tela com informações do projeto.
+- Exibe data da última extração de dados no rodapé de cada página.
+- Cria tarefa para auxílio no versionamento do projeto.

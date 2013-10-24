@@ -1,0 +1,20 @@
+<% @page_title = 'Log de versão' %>
+
+<% @changelog_ativa = true %>
+
+<div class="hero-unit">
+  <h3>Log de versão</h3>
+  <p>Acompanhe aqui as alterações realizadas no sítio.</p>
+</div>
+
+<a href="https://github.com/aureliano/programas-siconv/tree/v-0.1.0">Versão 0.1.0</a>
+<ul>
+  <li>Extrai da API de dados abertos da Câmara dos Deputados dados de bancadas, comissões, deputados, e partidos.</li>
+  <li>Carrega dados pertinentes à API na base de dados do projeto.</li>
+  <li>Exibe tela com informações do projeto.</li>
+  <li>Exibe data da última extração de dados no rodapé de cada página.</li>
+  <li>Cria tarefa para auxílio no versionamento do projeto.</li>
+</ul>
+<% if @show_full_log %><% else %>
+<%= link_to 'Ver log completo...', url(:changelog, :version => 'todas') %>
+<% end %>
