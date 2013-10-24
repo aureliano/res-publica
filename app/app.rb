@@ -12,6 +12,16 @@ module CdOrganizacional
     get :sobre do
       render :sobre
     end
+  
+    get :changelog, :map => '/log/versao/:version' do
+      @show_full_log = case params[:version]
+        when 'atual' then false
+        when 'todas' then 'true'
+        else redirect '/404'
+      end
+      
+      render :changelog
+    end
     
     get :changelog, :map => '/log/versao/todas' do
       render :changelog
