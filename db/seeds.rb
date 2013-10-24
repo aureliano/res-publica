@@ -94,4 +94,8 @@ shell.say ''
 
 shell.say 'Povoamento da base de dados concluído'
 
+metadata = YAML.load_file 'metadata.yml'
+metadata['LAST_EXTRACTION_DATE'] = Time.now.strftime('%d/%m/%Y')
+File.open('metadata.yml', 'w') {|file| file.write metadata.to_yaml }
+
 shell.say 'Tempo gasto: ' + elapsed_time(start_time, Time.now)
