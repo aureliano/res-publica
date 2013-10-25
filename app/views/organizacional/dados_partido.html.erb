@@ -1,0 +1,52 @@
+<% @page_title = 'Partidos Políticos' %>
+
+<div class="hero-unit">
+  <h3>Partido Político</h3>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="span6">
+      <div name="sigla">
+        <span><strong>Legenda: </strong></span><span><%= @partido.sigla %></span>
+      </div>
+
+      <% unless @partido.extinto? %>
+      <div name="numero">
+        <span><strong>Número: </strong></span><span><%= @partido.numero %></span>
+      </div>
+      <% end %>
+
+      <div name="nome">
+        <span><strong>Nome: </strong></span><span><%= @partido.nome %></span>
+      </div>
+
+      <div name="situacao">
+        <span><strong>Situação: </strong></span><span><%= @partido.situacao %></span>
+      </div>
+
+      <% unless @partido.extinto? %>
+      <div name="data_registro_tse">
+        <span><strong>Data de registro no TSE: </strong></span><span><%= @partido.data_registro_tse %></span>
+      </div>
+      <% else %>
+      <div name="data_extincao">
+        <span><strong>Data de extinção: </strong></span><span><%= @partido.data_extincao %></span>
+      </div>
+      <% end %>
+
+      <% unless @partido.extinto? %>
+      <div name="sitio">
+        <span><strong>Sítio: </strong></span><span><a href="<%= @partido.sitio %>"><%= @partido.sitio %></a></span>
+      </div>
+      <% end %>
+    </div>
+    <% unless @partido.extinto? %>
+    <div class="span4">
+      <a href="<%= @partido.sitio %>">
+        <img src="<%= @partido.logo %>" alt="Logo do Partido" class="party-logo">
+      </a>
+    </div>
+    <% end %>
+  </div>
+</div>

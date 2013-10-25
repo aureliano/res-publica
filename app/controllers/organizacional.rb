@@ -15,6 +15,13 @@ ResPublica::App.controllers :organizacional do
     render 'organizacional/partidos'
   end
   
+  get :partido, :with => :id do
+    @partido = Partido.where(:_id => params[:id]).first
+    redirect '/404' unless @partido
+
+    render 'organizacional/dados_partido'
+  end
+  
   get :bancadas do
     render 'organizacional/bancadas'
   end
