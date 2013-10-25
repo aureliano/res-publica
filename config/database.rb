@@ -3,9 +3,9 @@ host = 'localhost'
 port = Mongo::Connection::DEFAULT_PORT
 
 database_name = case Padrino.env
-  when :development then 'cd_organizacional_development'
+  when :development then 'res_publica_development'
   when :production  then ''
-  when :test        then 'cd_organizacional_test'
+  when :test        then 'res_publica_test'
 end
 
 Mongoid.database = if Padrino.env == :production

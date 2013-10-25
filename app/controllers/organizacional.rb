@@ -1,4 +1,4 @@
-CdOrganizacional::App.controllers :organizacional do
+ResPublica::App.controllers :organizacional do
   
   get :index do
     render 'organizacional/index'
