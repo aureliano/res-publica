@@ -1,0 +1,44 @@
+<% @page_title = 'Organizacional'
+   @organizacional_ativa = true %>
+   
+<br/><br/><br/>
+
+<div class="pagination-centered">
+  <h2>Res Publica</h2>
+  <h3>Dados organizacionais</h3>
+  <p class="lead">
+    Conheça a estrutura organizacional da Câmara e seus agentes.
+  </p>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="span3">
+      <a href="<%= url :organizacional, :partidos %>" class="btn subject-block">
+        <h4>Partidos Políticos</h4>
+        <p>Relação dos Partidos políticos ativos e desativados.</p>
+      </a>
+    </div>
+    
+    <div class="span3">
+      <a href="<%= url :organizacional, :bancadas %>" class="btn subject-block">
+        <h4>Bancadas</h4>
+        <p>Relação de Bancadas parlamentares.</p>
+      </a>
+    </div>
+    
+    <div class="span3">
+      <a href="<%= url :organizacional, :comissoes %>" class="btn subject-block">
+        <h4>Comissões</h4>
+        <p>Comissões.</p>
+      </a>
+    </div>
+
+    <div class="span3">
+      <a href="<%= url :organizacional, :deputados %>" class="btn subject-block">
+        <h4>Deputados</h4>
+        <p>Deputados.</p>
+      </a>
+    </div>
+  </div>
+</div>

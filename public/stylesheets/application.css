@@ -29,3 +29,8 @@ select {
 #action_buttons {
   margin-left: 100px;
 }
+
+.subject-block {
+  width: 180px;
+  height: 200px;
+}
