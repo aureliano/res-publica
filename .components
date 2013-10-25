@@ -5,5 +5,5 @@
 :script: none
 :renderer: erb
 :stylesheet: none
-:namespace: CdOrganizacional
+:namespace: ResPublica
 :migration_format: number

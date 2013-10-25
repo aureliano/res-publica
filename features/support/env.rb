@@ -7,4 +7,4 @@ require 'rspec/expectations'
 ##
 # You can handle all padrino applications using instead:
 #   Padrino.application
-Capybara.app = CdOrganizacional::App.tap { |app|  }
+Capybara.app = ResPublica::App.tap { |app|  }

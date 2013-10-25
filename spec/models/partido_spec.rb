@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 require 'spec_helper'
 
 describe Partido do
@@ -22,6 +24,12 @@ describe Partido do
     Partido.new.extinto?.should eq false
     Partido.new(:data_extincao => '').extinto?.should eq false
     Partido.new(:data_extincao => Time.now.to_s).extinto?.should eq true
+  end
+  
+  it 'verifica situação do partido' do
+    Partido.new.situacao.should eq 'Ativo'
+    Partido.new(:data_extincao => '').situacao.should eq 'Ativo'
+    Partido.new(:data_extincao => Time.now.to_s).situacao.should eq 'Extinto'
   end
   
 end

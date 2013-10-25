@@ -7,6 +7,23 @@
   <p>Relação dos Partidos políticos ativos e desativados.</p>
 </div>
 
-<div class="container">
-
+<div class="container">  
+  <% form_tag '/organizacional/partidos', :method => 'get', :id => 'form_consulta' do %>
+    <table>
+      <tr>
+        <td><label for="situacao">Situação: </label></td>
+        <td><select id="situacao_partido" name="situacao_partido">
+        <% ['Ativos', 'Extintos', 'Todos'].each do |situacao| %>
+        <option value="<%= situacao %>"<%= ' selected' if params[:situacao_partido] == situacao %>><%= situacao %></option>
+        <% end %>
+        </select></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td align="right"><button type="submit" class="btn">Consultar</button></td>
+      </tr>
+    </table>
+  <% end %>
+      
+  <%= partidos_data_table(:data => @partidos, :total => @total, :situacao_partido => params[:situacao_partido]).html_safe %>
 </div>

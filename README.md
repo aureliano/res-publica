@@ -7,7 +7,7 @@ Sítio da web: não disponível
 
 Instalação
 ----------
-Para orientações detalhadas da configuração do ambiente de desenvolvimento visite a página [Preparação do ambiente de desenvolvimento](https://github.com/aureliano/cd-organizacional/wiki/Prepara%C3%A7%C3%A3o-do-ambiente-de-desenvolvimento).
+Para orientações detalhadas da configuração do ambiente de desenvolvimento visite a página [Preparação do ambiente de desenvolvimento](https://github.com/aureliano/res-publica/wiki/Prepara%C3%A7%C3%A3o-do-ambiente-de-desenvolvimento).
 
 Pré-requisitos:
 - [Ruby] (http://www.ruby-lang.org)
@@ -19,7 +19,7 @@ Baixar gems necessárias:
 bundle install
 ```
 
-Para orientações detalhadas para execução da aplicação visite a página [Execução da aplicação](https://github.com/aureliano/cd-organizacional/wiki/Execu%C3%A7%C3%A3o-da-aplica%C3%A7%C3%A3o).
+Para orientações detalhadas para execução da aplicação visite a página [Execução da aplicação](https://github.com/aureliano/res-publica/wiki/Execu%C3%A7%C3%A3o-da-aplica%C3%A7%C3%A3o).
 
 Preparar ambiente de trabalho:
 ```
