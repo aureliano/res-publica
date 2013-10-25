@@ -22,10 +22,22 @@ shell.say ''
 shell.say "Carregando dados de 'partido' do arquivo 'db/partidos_data.xml'"
 Partido.delete_all
 
+partidos = YAML.load_file 'db/partidos.yml'
 doc = Nokogiri::XML(File.open('db/partidos_data.xml'))
 doc.xpath('//partidos/partido').each do |e|
   nodes = e.children
-  Partido.create :sigla => nodes[3].content, :nome => nodes[5].content, :data_extincao => nodes[9].content.strip
+  sigla = nodes[3].content
+  p = partidos[sigla]
+  partido = Partido.new :sigla => sigla, :nome => nodes[5].content, :data_extincao => nodes[9].content.strip
+  
+  unless p.nil?
+    partido.numero = p['numero']
+    partido.data_registro_tse = p['data_registro_tse']
+    partido.sitio = p['sitio']
+    partido.logo = p['logo']
+  end
+  
+  partido.save
 end
 
 shell.say "Carregando dados de 'comissão' do arquivo 'db/deputados_data.xml'"

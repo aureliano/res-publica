@@ -12,6 +12,10 @@ describe Partido do
     partido.should respond_to :sigla
     partido.should respond_to :nome
     partido.should respond_to :data_extincao
+    partido.should respond_to :numero
+    partido.should respond_to :data_registro_tse
+    partido.should respond_to :logo
+    partido.should respond_to :sitio
   end
   
   it 'verifica se partido foi extinto' do

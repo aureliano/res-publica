@@ -1,0 +1,157 @@
+--- 
+DEM: 
+  numero: 25
+  data_registro_tse: 11/09/1986
+  logo: "http://www.dem.org.br/wp-content/themes/demnovo/images/logo_novo.png"
+  sitio: "http://www.dem.org.br/"
+PCO: 
+  numero: 29
+  data_registro_tse: 30/09/1997
+  logo: "http://www.pco.org.br/arquivo/img/logo/logo.jpg"
+  sitio: "http://www.pco.org.br/"
+PCdoB: 
+  numero: 65
+  data_registro_tse: 23/06/1988
+  logo: "http://upload.wikimedia.org/wikipedia/commons/4/40/PCdoB.gif"
+  sitio: "http://www.pcdob.org.br/"
+PDT: 
+  numero: 12
+  data_registro_tse: 10/11/1981
+  logo: "http://upload.wikimedia.org/wikipedia/pt/6/6f/Pdt-logo.jpg"
+  sitio: "http://www.pdt.org.br/"
+PEN: 
+  numero: 51
+  data_registro_tse: 19/06/2012
+  logo: "http://pen51.org.br/images/logo.png"
+  sitio: "http://pen51.org.br/"
+PHS: 
+  numero: 31
+  data_registro_tse: 20/03/1997
+  logo: "http://phs.org.br/template/images/logo_main.png"
+  sitio: "http://phs.org.br/"
+PMDB: 
+  numero: 15
+  data_registro_tse: 30/06/1981
+  logo: "http://upload.wikimedia.org/wikipedia/pt/e/ef/PMDB_Logotipo.jpg"
+  sitio: "http://pmdb.org.br/"
+PMN: 
+  numero: 33
+  data_registro_tse: 25/10/1990
+  logo: "http://pmn.org.br/arquivos/img/ico/logo_pmn_pq.png"
+  sitio: "http://pmn.org.br/"
+PP: 
+  numero: 11
+  data_registro_tse: 16/11/1995
+  logo: "http://www.pp.org.br//entidade/453/1694/images/logo_pp.png"
+  sitio: "http://www.pp.org.br/"
+PPL: 
+  numero: 54
+  data_registro_tse: 04/10/2011
+  logo: "http://partidopatrialivre.org.br/imagens/images/LogoNovo.jpg"
+  sitio: "http://partidopatrialivre.org.br/"
+PPS: 
+  numero: 23
+  data_registro_tse: 19/03/1992
+  logo: "http://upload.wikimedia.org/wikipedia/commons/7/7b/Logo_do_PPS.png"
+  sitio: "http://portal.pps.org.br/"
+PR: 
+  numero: 22
+  data_registro_tse: 19/12/2006
+  logo: "http://upload.wikimedia.org/wikipedia/pt/9/93/Pr-logo.jpg"
+  sitio: "http://www.partidodarepublica.org.br/"
+PRB: 
+  numero: 10
+  data_registro_tse: 25/08/2005
+  logo: "http://upload.wikimedia.org/wikipedia/pt/4/4d/Partido_Republicano_Brasileiro.jpg"
+  sitio: "http://www.prb.org.br/"
+PROS: 
+  numero: 90
+  data_registro_tse: 24/09/2013
+  logo: "http://upload.wikimedia.org/wikipedia/pt/e/e1/PROS.jpg"
+  sitio: "http://www.pros.org.br/"
+PRP: 
+  numero: 44
+  data_registro_tse: 19/10/1991
+  logo: "http://upload.wikimedia.org/wikipedia/pt/d/de/PRP-logo.jpg"
+  sitio: "http://www.prp.org.br/"
+PRTB: 
+  numero: 28
+  data_registro_tse: 18/02/1997
+  logo: "http://upload.wikimedia.org/wikipedia/pt/f/f8/Prtb.jpg"
+  sitio: "http://prtb.org.br/"
+PSB: 
+  numero: 40
+  data_registro_tse: 01/07/1988
+  logo: "http://upload.wikimedia.org/wikipedia/commons/9/9b/PSB.gif"
+  sitio: "http://www.psb40.org.br/"
+PSC: 
+  numero: 20
+  data_registro_tse: 29/03/1990
+  logo: "http://upload.wikimedia.org/wikipedia/pt/9/97/Psc-logo.jpg"
+  sitio: "http://www.psc.org.br/"
+PSD: 
+  numero: 55
+  data_registro_tse: 27/09/2011
+  logo: "http://upload.wikimedia.org/wikipedia/commons/b/b4/Logos_psd.gif"
+  sitio: "http://www.psd.org.br/"
+PSDB: 
+  numero: 45
+  data_registro_tse: 24/08/1989
+  logo: "http://static.psdb.org.br/wp-content/uploads/2013/10/header-logo-psdb.png"
+  sitio: "http://www.psdb.org.br/"
+PSDC: 
+  numero: 27
+  data_registro_tse: 05/08/1997
+  logo: "http://www.psdc.org.br/wp-content/themes/psdc2013/images/logo.png"
+  sitio: "http://www.psdc.org.br/"
+PSL: 
+  numero: 17
+  data_registro_tse: 02/06/1998
+  logo: "http://upload.wikimedia.org/wikipedia/pt/2/21/Psl.JPG"
+  sitio: "http://www.pslnacional.org.br/"
+PSOL: 
+  numero: 50
+  data_registro_tse: 15/09/2005
+  logo: "http://upload.wikimedia.org/wikipedia/commons/f/ff/Psol_ziraldo.png"
+  sitio: "http://psol50.org.br/"
+PSTU: 
+  numero: 16
+  data_registro_tse: 19/12/1995
+  logo: "http://www.pstu.org.br//imagens/topo.png"
+  sitio: "http://www.pstu.org.br/"
+PT: 
+  numero: 13
+  data_registro_tse: 11/02/1982
+  logo: "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/PT_star_real_version.svg/247px-PT_star_real_version.svg.png"
+  sitio: "http://www.pt.org.br/"
+PTB: 
+  numero: 14
+  data_registro_tse: 03/11/1981
+  logo: "http://www.ptb.org.br//imagens/estados/BR.jpg"
+  sitio: "http://www.ptb.org.br/"
+PTC: 
+  numero: 36
+  data_registro_tse: 22/02/1990
+  logo: "http://upload.wikimedia.org/wikipedia/pt/0/0a/PTC.gif"
+  sitio: "http://www.ptc36nacional.com.br/"
+PTN: 
+  numero: 19
+  data_registro_tse: 02/10/1997
+  logo: "http://www.ptn.org.br/images/logo_ptn_topo.png"
+  sitio: "http://www.ptn.org.br/"
+PTdoB: 
+  numero: 70
+  data_registro_tse: 11/10/1994
+  logo: "http://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Logo_70_PtdoB.jpg/320px-Logo_70_PtdoB.jpg"
+  sitio: "http://www.ptdob.org.br/"
+PV: 
+  numero: 43
+  data_registro_tse: 30/09/1993
+  logo: "http://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Logo_pv.jpg/261px-Logo_pv.jpg"
+  sitio: "http://pv.org.br/"
+SDD: 
+  numero: 77
+  data_registro_tse: 24/09/2013
+  logo: "http://www.solidariedade.org.br/assets/img/logo-solidariedade.png"
+  sitio: "http://www.solidariedade.org.br/"
+
