@@ -1,21 +1,21 @@
-<% @page_title = 'Partidos Políticos' %>
+<% @page_title = 'Partido Político' %>
 
 <div class="hero-unit">
-  <h3>Partido Político</h3>
+  <h3><%= @partido.sigla %> - <%= @partido.nome %></h3>
 </div>
 
 <div class="container">
   <div class="row">
     <div class="span6">
-      <div name="sigla">
-        <span><strong>Legenda: </strong></span><span><%= @partido.sigla %></span>
-      </div>
-
       <% unless @partido.extinto? %>
       <div name="numero">
         <span><strong>Número: </strong></span><span><%= @partido.numero %></span>
       </div>
       <% end %>
+      
+      <div name="sigla">
+        <span><strong>Legenda: </strong></span><span><%= @partido.sigla %></span>
+      </div>
 
       <div name="nome">
         <span><strong>Nome: </strong></span><span><%= @partido.nome %></span>
@@ -48,5 +48,9 @@
       </a>
     </div>
     <% end %>
+  </div>
+  <br/>
+  <div>
+    <%= link_to 'Deputados', url(:organizacional, :deputados, :partido => @partido.sigla), :class => 'btn btn-primary' %>
   </div>
 </div>

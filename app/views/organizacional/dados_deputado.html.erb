@@ -1,0 +1,64 @@
+<% @page_title = 'Deputado Federal' %>
+
+<div class="hero-unit">
+  <h3>Deputado Federal - <%= @deputado.nome_parlamentar %></h3>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="span6">
+      <h4>Dados do Deputado</h4>
+      <div name="matricula">
+        <span><strong>Matrícula: </strong></span><span><%= @deputado.matricula %></span>
+      </div>
+      
+      <div name="nome_parlamentar">
+        <span><strong>Nome parlamentar: </strong></span><span><%= @deputado.nome_parlamentar %></span>
+      </div>
+
+      <div name="nome">
+        <span><strong>Nome completo: </strong></span><span><%= @deputado.nome %></span>
+      </div>
+
+      <div name="partido">
+        <span><strong>Partido: </strong></span><span><%= @deputado.partido %></span>
+      </div>
+
+      <div name="uf">
+        <span><strong>UF: </strong></span><span><%= @deputado.uf %></span>
+      </div>
+
+      <div name="sexo">
+        <span><strong>Sexo: </strong></span><span><%= @deputado.sexo.capitalize %></span>
+      </div>
+      
+      <hr/>
+      
+      <h4>Endereço</h4>
+      <div name="endereco">
+        Praça dos Três Poderes - Câmara dos Deputados<br/>
+        Gabinente: <%= @deputado.gabinete %> - Anexo: <%= @deputado.anexo %><br/>
+        CEP: 70160-900 - Brasília - DF<br/>
+      </div>
+      
+      <h4>Contato</h4>
+      <div name="telefone">
+        <span><strong>Telefone: </strong></span><span>(61) <%= @deputado.fone %></span>
+      </div>
+      
+      <div name="email">
+        <span><strong>e-mail: </strong></span><span><%= @deputado.email %></span>
+      </div>
+    </div>
+    <div class="span4">
+      <a href="<%= @deputado.url_foto %>">
+        <img src="<%= @deputado.url_foto %>" alt="Foto do Deputado" class="deputado-foto">
+      </a>
+    </div>
+  </div>
+  <br/>
+  <div>
+    <%= link_to 'Comissões Titular', '', :class => 'btn btn-primary' %>
+    <%= link_to 'Comissões Suplente', '', :class => 'btn btn-primary' %>
+  </div>
+</div>

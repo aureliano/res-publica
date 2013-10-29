@@ -1,0 +1,9 @@
+<% @page_title = 'Deputados Federais' %>
+
+<div class="hero-unit">
+  <h3>Deputados Federais</h3>
+</div>
+
+<div class="container">
+  <%= deputados_data_table(:data => @deputados, :total => @total).html_safe %>
+</div>

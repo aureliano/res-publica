@@ -36,7 +36,6 @@ class Partido
     partidos = []
     
     where(criteria)
-      .desc(:data_disponibilizacao)
       .skip(options[:skip])
       .limit(options[:limit])
       .each {|document| partidos << document }

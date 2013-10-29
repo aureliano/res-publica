@@ -31,7 +31,24 @@ ResPublica::App.controllers :organizacional do
   end
   
   get :deputados do
+    options = {:skip => skip_value, :limit => DataPage.default_page_size}
+    @deputados, @total = Deputado.search options
+    
     render 'organizacional/deputados'
+  end
+  
+  get :deputados, :with => :partido do
+    options = {:skip => skip_value, :limit => DataPage.default_page_size, :partido => params[:partido]}
+    @deputados, @total = Deputado.search options
+    
+    render 'organizacional/deputados_partidos'
+  end
+  
+  get :deputado, :with => :id do
+    @deputado = Deputado.where(:_id => params[:id]).first
+    redirect '/404' unless @deputado
+
+    render 'organizacional/dados_deputado'
   end
 
 end

@@ -29,6 +29,32 @@ ResPublica::App.helpers do
     
     t << "\n<hr/><div name=\"div_total_partidos\">Total de partidos: #{data_page.total}</div>"
   end
+
+  def deputados_data_table(options)
+    options[:page] ||= pagination_page_index
+    data_page = DataPage.new(options)
+    return "<i>Nenhum deputado encontrado.</i>" if data_page.data.empty?
+        
+    t = "<table name=\"deputados\" class=\"table table-striped\">"
+    t << "<thead>"
+    t << "\n  <tr>\n    <th>Nome</th>\n    <th>Condição</th>"
+    t << "\n  </tr>"
+    t << "</thead>"
+    
+    t << "\n<tboby>"
+    data_page.data.each do |deputado|
+      t << "\n  <tr>\n    <td>#{deputado.nome_parlamentar}</td>"
+      t << "\n    <td>#{deputado.condicao}</td>"
+      t << "\n    <td><a href=\"/organizacional/deputado/#{deputado.id}\" class=\"btn btn-primary btn-small\">Detalhar</a></td>"
+      t << "\n  </tr>"
+    end
+    
+    t << "\n</tbody>"
+    t << "\n</table>"
+    t << pagination_layer(data_page)
+    
+    t << "\n<hr/><div name=\"div_total_deputados\">Total de deputados: #{data_page.total}</div>"
+  end
   
   def pagination_layer(data_page)
     t = "<div class=\"pagination\">"

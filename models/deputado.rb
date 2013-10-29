@@ -18,4 +18,26 @@ class Deputado
   field :comissoes_titular, :type => Array
   field :comissoes_suplente, :type => Array
 
+  def self.search(options)
+    options[:skip] ||= 0
+    options[:limit] ||= 0
+    deputados = []
+    criteria = _create_criteria options
+    
+    where(criteria)
+      .skip(options[:skip])
+      .limit(options[:limit])
+      .each {|document| deputados << document }
+    
+    count = where(criteria).count
+    [deputados, count]
+  end
+  
+  private
+  def self._create_criteria(options)
+    criteria = {}
+    criteria[:partido] = options[:partido] if options[:partido] && !options[:partido].empty?
+    criteria
+  end
+  
 end
