@@ -8,4 +8,19 @@ class Comissao
     where(:sigla => s).first
   end
   
+  def self.search(options)
+    options[:skip] ||= 0
+    options[:limit] ||= 0
+    comissoes = []
+    
+    all
+      .skip(options[:skip])
+      .limit(options[:limit])
+      .asc(:sigla)
+      .each {|document| comissoes << document }
+    
+    count = all.count
+    [comissoes, count]
+  end
+  
 end

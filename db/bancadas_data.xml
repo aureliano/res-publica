@@ -144,11 +144,6 @@
       <uf>SP</uf>
     </vice_lider>
     <vice_lider>
-      <nome>EDINHO BEZ</nome>
-      <partido>PMDB</partido>
-      <uf>SC</uf>
-    </vice_lider>
-    <vice_lider>
       <nome>MAURO BENEVIDES</nome>
       <partido>PMDB</partido>
       <uf>CE</uf>
@@ -222,6 +217,11 @@
       <nome>FÁTIMA PELAES</nome>
       <partido>PMDB</partido>
       <uf>AP</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>ROGÉRIO PENINHA MENDONÇA</nome>
+      <partido>PMDB</partido>
+      <uf>SC</uf>
     </vice_lider>
   </bancada>
   <bancada sigla="PSDB" nome="Partido da Social Democracia Brasileira">

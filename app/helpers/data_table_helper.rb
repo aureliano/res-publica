@@ -19,7 +19,7 @@ ResPublica::App.helpers do
       t << "\n  <tr>\n    <td>#{partido.sigla}</td>"
       t << "\n    <td>#{partido.nome}</td>"
       t << "\n    <td>#{partido.situacao}</td>" if options[:situacao_partido] == 'Todos'
-      t << "\n    <td><a href=\"partido/#{partido.id}\" class=\"btn btn-primary btn-small\">Detalhar</a></td>"
+      t << "\n    <td width=\"100\"><a href=\"partido/#{partido.sigla}\" class=\"btn btn-primary btn-small\">Detalhar</a></td>"
       t << "\n  </tr>"
     end
     
@@ -45,7 +45,7 @@ ResPublica::App.helpers do
     data_page.data.each do |deputado|
       t << "\n  <tr>\n    <td>#{deputado.nome_parlamentar}</td>"
       t << "\n    <td>#{deputado.condicao}</td>"
-      t << "\n    <td><a href=\"/organizacional/deputado/#{deputado.id}\" class=\"btn btn-primary btn-small\">Detalhar</a></td>"
+      t << "\n    <td width=\"100\"><a href=\"/organizacional/deputado/#{deputado.id}\" class=\"btn btn-primary btn-small\">Detalhar</a></td>"
       t << "\n  </tr>"
     end
     
@@ -54,6 +54,31 @@ ResPublica::App.helpers do
     t << pagination_layer(data_page)
     
     t << "\n<hr/><div name=\"div_total_deputados\">Total de deputados: #{data_page.total}</div>"
+  end
+  
+  def comissoes_data_table(options)
+    options[:page] ||= pagination_page_index
+    data_page = DataPage.new(options)
+    return "<i>Nenhuma comissão encontrado.</i>" if data_page.data.empty?
+        
+    t = "<table name=\"comissoes\" class=\"table table-striped\">"
+    t << "<thead>"
+    t << "\n  <tr>\n    <th>Sigla</th>"
+    t << "\n  </tr>"
+    t << "</thead>"
+    
+    t << "\n<tboby>"
+    data_page.data.each do |comissao|
+      t << "\n  <tr>\n    <td>#{comissao.sigla}</td>"
+      t << "\n    <td width=\"100\"><a href=\"/organizacional/comissao/#{comissao.id}\" class=\"btn btn-primary btn-small\">Detalhar</a></td>"
+      t << "\n  </tr>"
+    end
+    
+    t << "\n</tbody>"
+    t << "\n</table>"
+    t << pagination_layer(data_page)
+    
+    t << "\n<hr/><div name=\"div_total_comissoes\">Total de comissões: #{data_page.total}</div>"
   end
   
   def pagination_layer(data_page)

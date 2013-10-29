@@ -1,0 +1,9 @@
+<% @page_title = 'Comissões Parlamentares' %>
+
+<div class="hero-unit">
+  <h3>Comissões Parlamentares</h3>
+</div>
+
+<div class="container">
+  <%= comissoes_data_table(:data => @comissoes, :total => @total).html_safe %>
+</div>

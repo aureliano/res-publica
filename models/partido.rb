@@ -38,6 +38,7 @@ class Partido
     where(criteria)
       .skip(options[:skip])
       .limit(options[:limit])
+      .asc(:sigla)
       .each {|document| partidos << document }
     
     count = where(criteria).count

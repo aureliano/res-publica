@@ -15,8 +15,8 @@ ResPublica::App.controllers :organizacional do
     render 'organizacional/partidos'
   end
   
-  get :partido, :with => :id do
-    @partido = Partido.where(:_id => params[:id]).first
+  get :partido, :with => :sigla do
+    @partido = Partido.where(:sigla => params[:sigla]).first
     redirect '/404' unless @partido
 
     render 'organizacional/dados_partido'
@@ -27,7 +27,24 @@ ResPublica::App.controllers :organizacional do
   end
   
   get :comissoes do
+    options = {:skip => skip_value, :limit => DataPage.default_page_size}
+    @comissoes, @total = Comissao.search options
+    
     render 'organizacional/comissoes'
+  end
+  
+  get :comissao, :with => :id do
+    @comissao = Comissao.where(:_id => params[:id]).first
+    redirect '/404' unless @comissao
+
+    options = {:skip => skip_value, :limit => DataPage.default_page_size}
+    options[:comissoes_titular] = @comissao.sigla
+    @deputados_titulares, @total_titulares = Deputado.search options
+    options[:comissoes_titular] = nil
+    options[:comissoes_suplente] = @comissao.sigla
+    @deputados_suplentes, @total_suplentes = Deputado.search options
+
+    render 'organizacional/dados_comissao'
   end
   
   get :deputados do

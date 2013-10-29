@@ -27,6 +27,7 @@ class Deputado
     where(criteria)
       .skip(options[:skip])
       .limit(options[:limit])
+      .asc(:nome_parlamentar)
       .each {|document| deputados << document }
     
     count = where(criteria).count
@@ -37,6 +38,8 @@ class Deputado
   def self._create_criteria(options)
     criteria = {}
     criteria[:partido] = options[:partido] if options[:partido] && !options[:partido].empty?
+    criteria[:comissoes_titular] = {:$in => [options[:comissoes_titular]]} if options[:comissoes_titular] && !options[:comissoes_titular].empty?
+    criteria[:comissoes_suplente] = {:$in => [options[:comissoes_suplente]]} if options[:comissoes_suplente] && !options[:comissoes_suplente].empty?
     criteria
   end
   

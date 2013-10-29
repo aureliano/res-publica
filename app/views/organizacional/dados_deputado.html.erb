@@ -21,7 +21,7 @@
       </div>
 
       <div name="partido">
-        <span><strong>Partido: </strong></span><span><%= @deputado.partido %></span>
+        <span><strong>Partido: </strong></span><span><%= link_to @deputado.partido, url(:organizacional, :partido, :sigla => @deputado.partido) %></span>
       </div>
 
       <div name="uf">

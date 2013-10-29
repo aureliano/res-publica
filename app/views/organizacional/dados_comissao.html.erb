@@ -1,0 +1,22 @@
+<% @page_title = 'Comissão Parlamentar' %>
+
+<div class="hero-unit">
+  <h3>Comissão Parlamentar - <%= @comissao.sigla %></h3>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="span10">
+      <div name="sigla">
+        <span><strong>Sigla: </strong></span><span><%= @comissao.sigla %></span>
+      </div>
+      
+      <div name="nome">
+        <span><strong>Nome: </strong></span><span><%= @comissao.nome %></span>
+      </div>
+      
+      <%= deputados_data_table(:data => @deputados_titulares, :total => @total_titulares).html_safe %>
+      <%= deputados_data_table(:data => @deputados_suplentes, :total => @total_suplentes).html_safe %>
+    </div>
+  </div>
+</div>
