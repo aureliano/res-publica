@@ -57,6 +57,7 @@ Deputado.delete_all
 
 doc = Nokogiri::XML(File.open('db/deputados_data.xml'))
 fields = Deputado.new.inspect.scan(/[\w\d]+:/).delete_if {|e| e == '_id:' || e == '_type:' || e == 'comissoes_titular:' || e == 'comissoes_suplente:' }
+count = 1
 doc.xpath('//deputado').each do |e|
   d = Deputado.new
   fields.each do |field|
@@ -65,15 +66,17 @@ doc.xpath('//deputado').each do |e|
     d.send(field + '=', /<#{tag}>.+<\/#{tag}>/.match(e.to_s).to_s.gsub(/(<#{tag}>|<\/#{tag}>)/, ''))
   end
   
-  tags = e.at_xpath('//comissoes/titular').to_s.scan /sigla="[\w\d]+"/
+  tags = e.at_xpath("//deputado[#{count}]/comissoes/titular").to_s.scan /sigla="[\w\d]+"/
   d.comissoes_titular = []
   tags.each {|c| d.comissoes_titular << /"[\w\d]+"/.match(c).to_s.gsub(/"/, '') }
-  
-  tags = e.at_xpath('//comissoes/suplente').to_s.scan /sigla="[\w\d]+"/
+
+  tags = e.at_xpath("//deputado[#{count}]/comissoes/suplente").to_s.scan /sigla="[\w\d]+"/
   d.comissoes_suplente = []
   tags.each {|c| d.comissoes_suplente << /"[\w\d]+"/.match(c).to_s.gsub(/"/, '') }
-  
+
   d.save
+  count += 1
+
 end
 
 shell.say "Carregando dados de 'bancada' do arquivo 'db/bancadas_data.xml'"
