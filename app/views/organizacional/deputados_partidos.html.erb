@@ -1,9 +1,11 @@
 <% @page_title = 'Deputados do Partido' %>
 
 <div class="hero-unit">
-  <h3>Deputados do <%= params[:partido] %></h3>
+  <h3>Deputados do Partido <%= params[:partido] %></h3>
 </div>
 
 <div class="container">
-  <%= deputados_data_table(:data => @deputados, :total => @total).html_safe %>
+  <%= data_table(:data => @deputados, :total => @total, :seed => 'deputado',
+      :fields => [{:title => 'Nome', :name => 'nome_parlamentar'}, {:title => 'Condição', :name => 'condicao'}],
+      :detail_path => '/organizacional/deputado/', :field_id => 'id').html_safe %>
 </div>

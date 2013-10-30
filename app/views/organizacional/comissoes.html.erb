@@ -5,5 +5,7 @@
 </div>
 
 <div class="container">
-  <%= comissoes_data_table(:data => @comissoes, :total => @total).html_safe %>
+  <%= data_table(:data => @comissoes, :total => @total, :seed => 'comissao',
+      :fields => [{:title => 'Sigla', :name => 'sigla'}],
+      :detail_path => '/organizacional/comissao/', :field_id => 'id').html_safe %>
 </div>

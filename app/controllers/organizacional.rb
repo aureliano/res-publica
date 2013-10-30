@@ -37,7 +37,7 @@ ResPublica::App.controllers :organizacional do
     @comissao = Comissao.where(:_id => params[:id]).first
     redirect '/404' unless @comissao
 
-    options = {:skip => skip_value, :limit => DataPage.default_page_size}
+    options = {:skip => 0, :limit => Deputado.all.size}
     options[:comissoes_titular] = @comissao.sigla
     @deputados_titulares, @total_titulares = Deputado.search options
     options[:comissoes_titular] = nil

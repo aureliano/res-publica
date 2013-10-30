@@ -15,8 +15,43 @@
         <span><strong>Nome: </strong></span><span><%= @comissao.nome %></span>
       </div>
       
-      <%= deputados_data_table(:data => @deputados_titulares, :total => @total_titulares).html_safe %>
-      <%= deputados_data_table(:data => @deputados_suplentes, :total => @total_suplentes).html_safe %>
+      <hr/>
+      
+      <h4>Deputados</h4>
+      <div class="accordion" id="accordion2">
+        <div class="accordion-group">
+          <div class="accordion-heading">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+              Titulares (<%= @total_titulares %>)
+            </a>
+          </div>
+          <div id="collapseOne" class="accordion-body collapse">
+            <div class="accordion-inner">
+              <%= data_table(:data => @deputados_titulares, :total => @total_titulares, :seed => 'deputado',
+                :fields => [{:title => 'Nome', :name => 'nome_parlamentar'}],
+                :detail_path => '/organizacional/deputado/', :field_id => 'id', :hide_pagination => true).html_safe %>
+            </div>
+          </div>
+        </div>
+        
+        <div class="accordion-group">
+          <div class="accordion-heading">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+              Suplentes (<%= @total_suplentes %>)
+            </a>
+          </div>
+          <div id="collapseTwo" class="accordion-body collapse">
+            <div class="accordion-inner">
+              <%= data_table(:data => @deputados_suplentes, :total => @total_suplentes, :seed => 'deputado',
+                :fields => [{:title => 'Nome', :name => 'nome_parlamentar'}],
+                :detail_path => '/organizacional/deputado/', :field_id => 'id', :hide_pagination => true).html_safe %>
+            </div>
+          </div>
+        </div>
+      </div>
+      
     </div>
   </div>
 </div>
+
+<script src="http://getbootstrap.com/2.3.2/assets/js/bootstrap-collapse.js" type="text/javascript"></script>

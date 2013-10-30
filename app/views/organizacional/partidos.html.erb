@@ -22,6 +22,12 @@
       </tr>
     </table>
   <% end %>
-      
-  <%= partidos_data_table(:data => @partidos, :total => @total, :situacao_partido => params[:situacao_partido]).html_safe %>
+
+  <%
+    fields = [{:title => 'Legenda', :name => 'sigla'}, {:title => 'Nome', :name => 'nome'}]
+    fields << {:title => 'Situação', :name => 'situacao'} if params[:situacao_partido] == 'Todos'
+  %>
+
+  <%= data_table(:data => @partidos, :total => @total, :seed => 'partido',
+      :fields => fields, :detail_path => 'partido/', :field_id => 'sigla').html_safe %>
 </div>
