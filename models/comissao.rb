@@ -12,14 +12,15 @@ class Comissao
     options[:skip] ||= 0
     options[:limit] ||= 0
     comissoes = []
+    criteria = (options[:comissoes]) ? where(:sigla => {:$in => options[:comissoes]}) : all
     
-    all
+    criteria
       .skip(options[:skip])
       .limit(options[:limit])
       .asc(:sigla)
       .each {|document| comissoes << document }
     
-    count = all.count
+    count = criteria.count
     [comissoes, count]
   end
   

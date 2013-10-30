@@ -33,6 +33,16 @@ ResPublica::App.controllers :organizacional do
     render 'organizacional/comissoes'
   end
   
+  get :comissoes, :with => [:deputado, :condicao] do
+    deputado = Deputado.where(:_id => params[:deputado]).first
+    redirect '/404' unless deputado
+    
+    @comissoes = (params[:condicao] == 'suplente') ? deputado.comissoes_suplente : deputado.comissoes_titular
+    @comissoes, @total = Comissao.search({:skip => skip_value, :limit => DataPage.default_page_size, :comissoes => @comissoes})
+    
+    render 'organizacional/comissoes'
+  end
+  
   get :comissao, :with => :id do
     @comissao = Comissao.where(:_id => params[:id]).first
     redirect '/404' unless @comissao

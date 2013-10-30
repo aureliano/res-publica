@@ -58,7 +58,7 @@
   </div>
   <br/>
   <div>
-    <%= link_to 'Comissões Titular', '', :class => 'btn btn-primary' %>
-    <%= link_to 'Comissões Suplente', '', :class => 'btn btn-primary' %>
+    <%= link_to 'Comissões Titular', '/organizacional/comissoes/' + @deputado.id.to_s + '/titular', :class => 'btn btn-primary' %>
+    <%= link_to 'Comissões Suplente', '/organizacional/comissoes/' + @deputado.id.to_s + '/suplente', :class => 'btn btn-primary' %>
   </div>
 </div>

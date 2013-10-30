@@ -5,7 +5,7 @@ ResPublica::App.helpers do
   def data_table(options)
     options[:page] ||= pagination_page_index
     data_page = DataPage.new(options)
-    return "<i>#{options[:empty_message]}</i>" if data_page.data.empty?
+    return "<i>Nenhum registro foi encontrado.</i>" if data_page.data.empty?
 
     t = "<table name=\"dt_#{options[:seed]}\" class=\"table table-striped\">"
     t << "<thead>\n  <tr>"
