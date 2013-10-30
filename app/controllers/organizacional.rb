@@ -23,7 +23,21 @@ ResPublica::App.controllers :organizacional do
   end
   
   get :bancadas do
+    options = {:skip => skip_value, :limit => DataPage.default_page_size}
+    @bancadas, @total = Bancada.search options
+    
     render 'organizacional/bancadas'
+  end
+  
+  get :bancada, :with => :id do
+    @bancada = Bancada.where(:_id => params[:id]).first
+    redirect '/404' unless @bancada
+    
+    @vice_lideres = Deputado
+      .where(:nome_parlamentar => {:$in => @bancada.vice_lideres})
+      .only(:id, :nome_parlamentar)
+    
+    render 'organizacional/dados_bancada'
   end
   
   get :comissoes do

@@ -1,0 +1,52 @@
+<% @page_title = 'Bancada Parlamentar' %>
+
+<div class="hero-unit">
+  <h3>Bancada Parlamentar - <%= @bancada.sigla %></h3>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="span10">
+      <div name="sigla">
+        <span><strong>Sigla: </strong></span><span><%= @bancada.sigla %></span>
+      </div>
+      
+      <div name="nome">
+        <span><strong>Nome: </strong></span><span><%= @bancada.nome %></span>
+      </div>
+      
+      <% if @bancada.representante.nil? %>
+      <div name="lider">
+        <span><strong>Líder: </strong></span><span><%= link_to_deputado_by_nome_parlamentar @bancada.lider %></span>
+      </div>
+      <% else %>
+      <div name="representante">
+        <span><strong>Representante: </strong></span><span><%= link_to_deputado_by_nome_parlamentar @bancada.representante %></span>
+      </div>
+      <% end %>
+      
+      <hr/>
+      
+      <h4>Componentes da Bancada</h4>
+      <div class="accordion" id="accordion2">
+        <div class="accordion-group">
+          <div class="accordion-heading">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+              Vice-líderes (<%= @vice_lideres.size %>) [+/-]
+            </a>
+          </div>
+          <div id="collapseOne" class="accordion-body collapse">
+            <div class="accordion-inner">
+              <%= data_table(:data => @vice_lideres, :total => @vice_lideres.size, :seed => 'deputado',
+                :fields => [{:title => 'Nome', :name => 'nome_parlamentar'}],
+                :detail_path => '/organizacional/deputado/', :field_id => 'id', :hide_pagination => true).html_safe %>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<script src="http://getbootstrap.com/2.3.2/assets/js/bootstrap-collapse.js" type="text/javascript"></script>
