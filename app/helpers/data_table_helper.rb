@@ -2,83 +2,37 @@
 
 ResPublica::App.helpers do
 
-  def partidos_data_table(options)
+  def data_table(options)
     options[:page] ||= pagination_page_index
     data_page = DataPage.new(options)
-    return "<i>Nenhum partido encontrado.</i>" if data_page.data.empty?
-        
-    t = "<table name=\"partidos\" class=\"table table-striped\">"
-    t << "<thead>"
-    t << "\n  <tr>\n    <th>Legenda</th>\n    <th>Nome</th>"
-    t << "   <th>Situação</th>" if options[:situacao_partido] == 'Todos'
+    return "<i>#{options[:empty_message]}</i>" if data_page.data.empty?
+
+    t = "<table name=\"dt_#{options[:seed]}\" class=\"table table-striped\">"
+    t << "<thead>\n  <tr>"
+
+    options[:fields].each do |f|
+      t << "\n    <th>#{f[:title]}</th>"
+    end
+
     t << "\n  </tr>"
     t << "</thead>"
     
     t << "\n<tboby>"
     data_page.data.each do |partido|
-      t << "\n  <tr>\n    <td>#{partido.sigla}</td>"
-      t << "\n    <td>#{partido.nome}</td>"
-      t << "\n    <td>#{partido.situacao}</td>" if options[:situacao_partido] == 'Todos'
-      t << "\n    <td width=\"100\"><a href=\"partido/#{partido.sigla}\" class=\"btn btn-primary btn-small\">Detalhar</a></td>"
+      t << "\n  <tr>"
+      options[:fields].each do |f|
+        t << "\n    <td>#{partido.send(f[:name])}</td>"
+      end
+      t << "\n    <td width=\"100\"><a href=\"#{options[:detail_path]}#{partido.send(options[:field_id])}\" class=\"btn btn-primary btn-small\">Detalhar</a></td>"
       t << "\n  </tr>"
+      
     end
     
     t << "\n</tbody>"
     t << "\n</table>"
-    t << pagination_layer(data_page)
+    t << pagination_layer(data_page) if options[:hide_pagination].nil? || options[:hide_pagination] == false
     
-    t << "\n<hr/><div name=\"div_total_partidos\">Total de partidos: #{data_page.total}</div>"
-  end
-
-  def deputados_data_table(options)
-    options[:page] ||= pagination_page_index
-    data_page = DataPage.new(options)
-    return "<i>Nenhum deputado encontrado.</i>" if data_page.data.empty?
-        
-    t = "<table name=\"deputados\" class=\"table table-striped\">"
-    t << "<thead>"
-    t << "\n  <tr>\n    <th>Nome</th>\n    <th>Condição</th>"
-    t << "\n  </tr>"
-    t << "</thead>"
-    
-    t << "\n<tboby>"
-    data_page.data.each do |deputado|
-      t << "\n  <tr>\n    <td>#{deputado.nome_parlamentar}</td>"
-      t << "\n    <td>#{deputado.condicao}</td>"
-      t << "\n    <td width=\"100\"><a href=\"/organizacional/deputado/#{deputado.id}\" class=\"btn btn-primary btn-small\">Detalhar</a></td>"
-      t << "\n  </tr>"
-    end
-    
-    t << "\n</tbody>"
-    t << "\n</table>"
-    t << pagination_layer(data_page)
-    
-    t << "\n<hr/><div name=\"div_total_deputados\">Total de deputados: #{data_page.total}</div>"
-  end
-  
-  def comissoes_data_table(options)
-    options[:page] ||= pagination_page_index
-    data_page = DataPage.new(options)
-    return "<i>Nenhuma comissão encontrado.</i>" if data_page.data.empty?
-        
-    t = "<table name=\"comissoes\" class=\"table table-striped\">"
-    t << "<thead>"
-    t << "\n  <tr>\n    <th>Sigla</th>"
-    t << "\n  </tr>"
-    t << "</thead>"
-    
-    t << "\n<tboby>"
-    data_page.data.each do |comissao|
-      t << "\n  <tr>\n    <td>#{comissao.sigla}</td>"
-      t << "\n    <td width=\"100\"><a href=\"/organizacional/comissao/#{comissao.id}\" class=\"btn btn-primary btn-small\">Detalhar</a></td>"
-      t << "\n  </tr>"
-    end
-    
-    t << "\n</tbody>"
-    t << "\n</table>"
-    t << pagination_layer(data_page)
-    
-    t << "\n<hr/><div name=\"div_total_comissoes\">Total de comissões: #{data_page.total}</div>"
+    t << "\n<hr/><div name=\"div_total_#{options[:seed]}\">Total de #{seeds[options[:seed]]}: #{data_page.total}</div>"
   end
   
   def pagination_layer(data_page)
@@ -100,13 +54,23 @@ ResPublica::App.helpers do
     
     data_page.pages > 1 ? t : ''
   end
-  
+
+  private
   def inject_params(page_index=nil)
     url = '?'
     url << "page=#{page_index}"
     url << "&situacao_partido=#{params[:situacao_partido]}" if params[:situacao_partido]
     
     url
+  end
+  
+  def seeds
+    {
+      'partido' => 'partidos',
+      'comissao' => 'comissões',
+      'deputado' => 'deputados',
+      'bancada' => 'bancadas'
+    }
   end
 
 end
