@@ -6,22 +6,25 @@
 </div>
 
 <div class="container">
+
   <% form_tag '/organizacional/partidos', :method => 'get', :id => 'form_consulta' do %>
-    <table>
-      <tr>
-        <td><label for="situacao">Situação: </label></td>
-        <td><select id="situacao_partido" name="situacao_partido">
+    <div>
+        <label for="situacao" class="short-label">Situação: </label>
+        <select id="situacao_partido" name="situacao_partido" class="filter-component">
         <% ['Ativos', 'Extintos', 'Todos'].each do |situacao| %>
         <option value="<%= situacao %>"<%= ' selected' if params[:situacao_partido] == situacao %>><%= situacao %></option>
         <% end %>
-        </select></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td align="right"><button type="submit" class="btn">Consultar</button></td>
-      </tr>
-    </table>
+        </select>
+    </div>
+    <div>
+        <label for="tags" class="short-label">Partido: </label>
+        <input type="text" id="tags" name="tags" value="<%= params[:tags] %>" class="filter-component" style="height: 28px;"/>
+    </div>
+    <div align="right" style="width: 500px">
+        <button type="submit" class="btn">Consultar</button>
+    </div>
   <% end %>
+
 
   <%
     fields = [{:title => 'Legenda', :name => 'sigla'}, {:title => 'Nome', :name => 'nome'}]

@@ -12,22 +12,15 @@
   height: 15px;
 }
 
-label {
+.short-label {
   display: block;
-  width: 200px;
+  width: 100px;
   float: left;
 }
 
-input {
-  width: 300px;
-}
-
-select {
-  width: 310px;
-}
-
-#action_buttons {
-  margin-left: 100px;
+.filter-component {
+  width: 400px;
+  height: 28px;  
 }
 
 .subject-block {
