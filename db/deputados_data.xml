@@ -67,6 +67,7 @@
         <comissao nome="Comissão de Legislação Participativa" sigla="CLP" />
         <comissao nome="Comissão Mista Permanente sobre Mudanças Climáticas - CMMC" sigla="CMMC" />
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Especial  destinada a proferir parecer à Proposta de Emenda à Constituição nº 405-A, de 2009,  do Sr. Cleber Verde, que &quot;altera a redação do § 8º do art. 195 da Constituição Federal, para assegurar ao Garimpeiro e ao pequeno minerador o direito à aposentadoria&quot;" sigla="PEC40509" />
       </suplente>
     </comissoes>
@@ -225,6 +226,7 @@
       <titular>
         <comissao nome="Comissão de Minas e Energia" sigla="CME" />
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 11-A, de 2011, do Sr. Sandro Alex, que &quot;altera e acrescenta novos dispositivos à Constituição Federal, vedando a nomeação ou a designação para os cargos que menciona daqueles considerados inelegíveis pela Justiça Eleitoral para qualquer cargo&quot; (proíbe a nomeação daqueles que tenham sido considerados inelegíveis pela Justiça Eleitoral para os cargos de Ministro de Estado ou cargo equiparado, Secretário Executivo, cargos em comissão e designação para exercício de função de confiança)" sigla="PEC01111" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 209-A, de 2012, da Srª Rose de Freitas, do Sr. Luiz Pitiman e outros, que &quot;insere o § 1º ao art. 105, da Constituição Federal, e renumera o parágrafo único&quot; (para atribuir requisito de admissibilidade ao recurso especial no âmbito do STJ)" sigla="PEC20912" />
         <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 37, de 2011, do Sr. Welinton Prado, que &quot;dispõe sobre o regime de aproveitamento das substâncias minerais, com exceção dos minérios nucleares, petróleo, gás natural e outros hidrocarbonetos fluidos e das substâncias minerais submetidas ao regime de licenciamento de que trata o inciso III do art. 2º do Decreto-lei nº 227, de 28 de fevereiro de 1967&quot;" sigla="PL003711" />
@@ -266,6 +268,7 @@
         <comissao nome="Comissão de Defesa do Consumidor" sigla="CDC" />
         <comissao nome="Comissão Especial destinada a efetuar estudo e apresentar propostas em relação à Reforma do Código Penal" sigla="CEPENAL" />
         <comissao nome="Grupo de Trabalho destinado a estudar e elaborar propostas referentes à Reforma Política e à consulta popular sobre o tema" sigla="GTREFPOL" />
+        <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 196-A, de 2012, do Senado Federal, que &quot;altera o § 2° do art. 55 da Constituição Federal, para estabelecer que a perda de mandato será decidida por voto aberto nos casos que especifica&quot;" sigla="PEC19612" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 197-A, de 2012, do Senado Federal, que &quot;altera o § 2º do art. 155 da Constituição Federal, para modificar a sistemática de cobrança do imposto sobre operações relativas à circulação de mercadorias e sobre prestações de serviços de transporte interestadual e intermunicipal e de comunicação incidente sobre as operações e prestações realizadas de forma não presencial e que destinem bens e serviços a consumidor final localizado em outro Estado&quot;" sigla="PEC19712" />
       </suplente>
     </comissoes>
@@ -643,6 +646,7 @@
       </titular>
       <suplente>
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão de Relações Exteriores e de Defesa Nacional" sigla="CREDN" />
       </suplente>
     </comissoes>
@@ -812,7 +816,9 @@
     <comissoes>
       <titular />
       <suplente>
+        <comissao nome="Comissão de Finanças e Tributação" sigla="CFT" />
         <comissao nome="Comissão de Relações Exteriores e de Defesa Nacional" sigla="CREDN" />
+        <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 196-A, de 2012, do Senado Federal, que &quot;altera o § 2° do art. 55 da Constituição Federal, para estabelecer que a perda de mandato será decidida por voto aberto nos casos que especifica&quot;" sigla="PEC19612" />
       </suplente>
     </comissoes>
   </deputado>
@@ -1052,6 +1058,7 @@
         <comissao nome="Comissão de Agricultura, Pecuária, Abastecimento e Desenvolvimento Rural" sigla="CAPADR" />
         <comissao nome="Representação Brasileira no Parlamento do Mercosul." sigla="MERCOSUL" />
         <comissao nome="Comissão Especial destinada a apreciar e proferir parecer à Proposta de Emenda à Constituição nº 215-A, de 2000, do Sr. Almir Sá e outros, que &quot;acrescenta o inciso XVIII ao art. 49; modifica o § 4º e acrescenta o § 8º ambos no art. 231, da Constituição Federal&quot; (inclui dentre as competências exclusivas do Congresso Nacional a aprovação de demarcação das terras tradicionalmente ocupadas pelos índios e a ratificação das demarcações já homologadas; estabelecendo que os critérios e procedimentos de demarcação serão regulamentados por lei), e apensadas" sigla="PEC21500" />
+        <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 443-A, de 2009, do Sr. Bonifácio de Andrada, estabelecendo que &quot;o subsídio do grau ou nível máximo das carreiras da Advocacia-Geral da União, das Procuradorias dos Estados e do Distrito Federal corresponderá a noventa inteiros e vinte e cinco centésimos por cento do subsídio mensal, fixado para os Ministros do Supremo Tribunal Federal, e os subsídios dos demais integrantes das respectivas categorias da estrutura da advocacia pública serão fixados em lei e escalonados, não podendo a diferença entre um e outro ser superior a dez por centro ou inferior a cinco por cento, nem exceder a noventa inteiros e vinte e cinco centésimos por cento do subsídio mensal fixado para os Ministros do Supremo Tribunal Federal, obedecido, em qualquer caso, o disposto nos artigos 37, XI, e 39, § 4º&quot;" sigla="PEC44309" />
         <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 1610, de 1996, do Senado Federal, que &quot;dispõe sobre a exploração e o aproveitamento de recursos minerais em terras indígenas, de que tratam os arts. 176, parágrafo primeiro, e 231, parágrafo terceiro, da Constituição Federal&quot;" sigla="PL161096" />
         <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 7123, de 2010, do Sr. Assis do Couto, que &quot;institui a Estrada-Parque Caminho do Colono, no Parque Nacional do Iguaçu&quot;" sigla="PL712310" />
       </suplente>
@@ -1465,6 +1472,7 @@
       <titular>
         <comissao nome="Comissão Especial destinada a debater e propor modificações à Lei 12.619, de 30 de abril de 2012, que regulamenta a Profissão de Motorista" sigla="CEMOTOR" />
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão de Relações Exteriores e de Defesa Nacional" sigla="CREDN" />
         <comissao nome="Comissão Especial destinada a apreciar e  proferir parecer à Proposta de Emenda à Constituição nº 005-A, de 2011, do Sr. Nelson Marquezelli, que &quot;altera o inciso XV do art. 48 e revoga os incisos VII e VIII do art. 49 para estabelecer que os subsídios do Presidente e Vice-Presidente da República, Ministros de Estado, Senadores e Deputados Federais são idênticos aos dos Ministros do Supremo Tribunal Federal&quot;" sigla="PEC00511" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 55-A, de 2011, do Sr. Hugo Motta, que &quot;dá nova redação ao § 8º do art. 144, da Constituição Federal, para disciplinar a carreira dos agentes públicos responsáveis pelo policiamento de trânsito, em âmbito municipal&quot;" sigla="PEC05511" />
@@ -1648,6 +1656,7 @@
       <titular>
         <comissao nome="Comissão de Finanças e Tributação" sigla="CFT" />
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 197-A, de 2012, do Senado Federal, que &quot;altera o § 2º do art. 155 da Constituição Federal, para modificar a sistemática de cobrança do imposto sobre operações relativas à circulação de mercadorias e sobre prestações de serviços de transporte interestadual e intermunicipal e de comunicação incidente sobre as operações e prestações realizadas de forma não presencial e que destinem bens e serviços a consumidor final localizado em outro Estado&quot;" sigla="PEC19712" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 368, de 2009, do Sr. Carlos Bezerra, que &quot;dá nova redação ao art. 42 do Ato das Disposições Constitucionais Transitórias, ampliando o prazo em que a União deverá destinar às regiões Centro-Oeste e Nordeste percentuais mínimos dos recursos destinados à irrigação&quot;" sigla="PEC36809" />
         <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 3460, de 2004, do Sr. Walter Feldman, que &quot;institui diretrizes para a Política Nacional de Planejamento Regional Urbano, cria o Sistema Nacional de Planejamento e Informações Regionais Urbanas e dá outras providências&quot; (Estatuto da Metrópole)" sigla="PL346004" />
@@ -1700,6 +1709,7 @@
     <comissoes>
       <titular>
         <comissao nome="Comissão de Agricultura, Pecuária, Abastecimento e Desenvolvimento Rural" sigla="CAPADR" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 565-A, de 2006, do Senado Federal, que &quot;altera os arts. 57, 165, 166, e acrescenta art. 165-A, todos da Constituição Federal, tornando de execução obrigatória a programação constante da lei orçamentária anual&quot;" sigla="PEC56506" />
         <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 7123, de 2010, do Sr. Assis do Couto, que &quot;institui a Estrada-Parque Caminho do Colono, no Parque Nacional do Iguaçu&quot;" sigla="PL712310" />
@@ -1803,6 +1813,7 @@
     <email>dep.claudiocajado@camara.gov.br</email>
     <comissoes>
       <titular>
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão de Relações Exteriores e de Defesa Nacional" sigla="CREDN" />
         <comissao nome="Procuradoria Parlamentar" sigla="PROPAR" />
@@ -2197,6 +2208,7 @@
         <comissao nome="Comissão Especial destinada a efetuar estudos e apresentar propostas com relação ao Projeto de Lei nº 4378, de 1998, do Sr. Milton Mendes, que &quot;regula as relações jurídicas entre a agroindústria e o produtor rural integrado e dá outras providências&quot;" sigla="CEAGRIRU" />
         <comissao nome="Comissão Especial destinada a acompanhar a aplicação das seguintes Leis de Anistia: Lei nº 8878/1994, que &quot;dispõe sobre a concessão de anistia&quot;; Lei nº 10.790/2003, que &quot;concede anistia a dirigentes ou representantes sindicais e trabalhadores punidos por participação em movimento reivindicatório&quot;; Lei nº 11.282/2006, que &quot;anistia os trabalhadores da Empresa Brasileira de Correios e Telégrafos-ECT punidos em razão da participação em movimento grevista&quot;; e Lei nº 10.559/2002, que &quot;regulamenta o artigo 8º do Ato das Disposições Constitucionais Transitórias e dá outras providências&quot;" sigla="CEANISTI" />
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Especial destinada a apreciar e  proferir parecer à Proposta de Emenda à Constituição nº 005-A, de 2011, do Sr. Nelson Marquezelli, que &quot;altera o inciso XV do art. 48 e revoga os incisos VII e VIII do art. 49 para estabelecer que os subsídios do Presidente e Vice-Presidente da República, Ministros de Estado, Senadores e Deputados Federais são idênticos aos dos Ministros do Supremo Tribunal Federal&quot;" sigla="PEC00511" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 82-A, de 2007, do Sr. Flávio Dino e outros, que &quot;acresce os arts. 132-A e 135-A e altera o art. 168 da Constituição Federal&quot;  (atribui autonomia funcional e prerrogativas aos membros da Defensoria Pública, Advocacia da União, Procuradoria da Fazenda Nacional, Procuradoria-Geral Federal, Procuradorias das autarquias e às Procuradorias dos Estados, do Distrito Federal e dos Municípios) e apensada" sigla="PEC08207" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 197-A, de 2012, do Senado Federal, que &quot;altera o § 2º do art. 155 da Constituição Federal, para modificar a sistemática de cobrança do imposto sobre operações relativas à circulação de mercadorias e sobre prestações de serviços de transporte interestadual e intermunicipal e de comunicação incidente sobre as operações e prestações realizadas de forma não presencial e que destinem bens e serviços a consumidor final localizado em outro Estado&quot;" sigla="PEC19712" />
@@ -2446,6 +2458,7 @@
       <suplente>
         <comissao nome="Comissão de Ciência e Tecnologia, Comunicação e Informática" sigla="CCTCI" />
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão de Turismo e Desporto" sigla="CTD" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 290-A, de 2013, da Sra. Margarida Salomão e outros, que &quot;altera e adiciona dispositivos na Constituição Federal para atualizar o tratamento das atividades de ciência, tecnologia e inovação&quot;" sigla="PEC29013" />
         <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 2.177, de 2011, do Sr. Bruno Araújo, que &quot;institui o Código Nacional de Ciência,Tecnologia e Inovação&quot;" sigla="PL217711" />
@@ -2492,7 +2505,7 @@
     <urlFoto>http://www.camara.gov.br/internet/deputado/bandep/74665.jpg</urlFoto>
     <sexo>masculino</sexo>
     <uf>MG</uf>
-    <partido>PR</partido>
+    <partido>PSD</partido>
     <gabinete>333</gabinete>
     <anexo>4</anexo>
     <fone>3215-5333</fone>
@@ -2789,7 +2802,6 @@
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 82-A, de 2007, do Sr. Flávio Dino e outros, que &quot;acresce os arts. 132-A e 135-A e altera o art. 168 da Constituição Federal&quot;  (atribui autonomia funcional e prerrogativas aos membros da Defensoria Pública, Advocacia da União, Procuradoria da Fazenda Nacional, Procuradoria-Geral Federal, Procuradorias das autarquias e às Procuradorias dos Estados, do Distrito Federal e dos Municípios) e apensada" sigla="PEC08207" />
       </titular>
       <suplente>
-        <comissao nome="Comissão Parlamentar de Inquérito destinada a apurar a exploração do trabalho infantil no Brasil e dá outras providências" sigla="CPITRAB" />
         <comissao nome="Comissão Parlamentar de Inquérito destinada a investigar o tráfico de pessoas no Brasil, suas causas, consequências e responsáveis no período de 2003 a 2011, compreendido na vigência da Convenção de Palermo." sigla="CPITRAPE" />
         <comissao nome="Grupo de Trabalho destinado a estudar e elaborar propostas referentes à Reforma Política e à consulta popular sobre o tema" sigla="GTREFPOL" />
       </suplente>
@@ -2867,6 +2879,26 @@
         <comissao nome="Comissão de Fiscalização Financeira e Controle" sigla="CFFC" />
         <comissao nome="Subcomissão Especial para Acompanhamento, Fiscalização e Controle dos Recursos Públicos Federais destinados à Saúde no Brasil." sigla="SUBSAUDE" />
       </titular>
+      <suplente />
+    </comissoes>
+  </deputado>
+  <deputado>
+    <ideCadastro>74108</ideCadastro>
+    <condicao>Titular</condicao>
+    <matricula>248</matricula>
+    <idParlamentar>521402</idParlamentar>
+    <nome>NÁRCIO RODRIGUES DA SILVEIRA</nome>
+    <nomeParlamentar>NARCIO RODRIGUES</nomeParlamentar>
+    <urlFoto>http://www.camara.gov.br/internet/deputado/bandep/74108.jpg</urlFoto>
+    <sexo>masculino</sexo>
+    <uf>MG</uf>
+    <partido>PSDB</partido>
+    <gabinete>431</gabinete>
+    <anexo>4</anexo>
+    <fone>3215-5431</fone>
+    <email>dep.narciorodrigues@camara.gov.br</email>
+    <comissoes>
+      <titular />
       <suplente />
     </comissoes>
   </deputado>
@@ -2966,13 +2998,11 @@
       <titular>
         <comissao nome="Comissão de Ciência e Tecnologia, Comunicação e Informática" sigla="CCTCI" />
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Representação Brasileira no Parlamento do Mercosul." sigla="MERCOSUL" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 90-A, de 2011, da Sra Luiza Erundina, que &quot;dá nova redação ao art. 6º da Constituição Federal, para introduzir o transporte como direito social&quot;" sigla="PEC09011" />
         <comissao nome="Comissão Especial  destinada a proferir parecer à Proposta de Emenda à Constituição nº 405-A, de 2009,  do Sr. Cleber Verde, que &quot;altera a redação do § 8º do art. 195 da Constituição Federal, para assegurar ao Garimpeiro e ao pequeno minerador o direito à aposentadoria&quot;" sigla="PEC40509" />
-        <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 479-A, de 2010, do Sr. Sebastião Bala Rocha, que &quot;acrescenta o inciso LXXIX ao art. 5º da Constituição Federal, para Incluir o acesso à internet em alta velocidade entre os direitos fundamentais do cidadão&quot;" sigla="PEC47910" />
         <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 2.126, de 2011, do Poder Executivo, que &quot;estabelece princípios, garantias, direitos e deveres para o uso da Internet no Brasil.&quot;" sigla="PL212611" />
-        <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 5013, de 2013, do Senado Federal, que &quot;estabelece normas gerais de política urbana e de proteção à saúde e ao meio ambiente associadas à implantação e ao compartilhamento da infraestrutura de telecomunicações&quot; (altera a Lei nº 9.472, de 1997 e a Lei nº 11.934, de 2009), e apensados" sigla="PL501313" />
-        <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 6025, de 2005, ao Projeto de Lei nº 8046, de 2010, ambos do Senado Federal, e outros, que tratam do &quot;Código de Processo Civil&quot; (revogam a Lei nº 5.869, de 1973)" sigla="PL602505" />
         <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 7663, de 2010, do Sr. Osmar Terra, que &quot;acrescenta e altera dispositivos à Lei nº 11.343, de 23 de agosto de 2006, para tratar do Sistema Nacional de Políticas sobre Drogas , dispor sobre a obrigatoriedade da classificação das drogas, introduzir circunstâncias qualificadoras dos crimes previstos nos arts. 33 a 37, definir as condições de atenção aos usuários  ou dependentes de drogas e dá outras providências&quot;" sigla="PL766310" />
         <comissao nome="Subcomissão Especial para analisar formas de financiamento de mídia alternativa" sigla="SUBMIALT" />
       </titular>
@@ -3096,6 +3126,7 @@
       <suplente>
         <comissao nome="Comissão de Agricultura, Pecuária, Abastecimento e Desenvolvimento Rural" sigla="CAPADR" />
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Subcomissão Permanente de Combate à Cartelização do Agronegócio no Brasil." sigla="SUBCARTL" />
         <comissao nome="Subcomissão Permanente para Acompanhamento, Fiscalização e Controle dos Recursos Públicos Federais Destinados à Copa de 2014 e às Olimpíadas de 2016." sigla="SUBCOPA" />
       </suplente>
@@ -3175,6 +3206,7 @@
         <comissao nome="Comissão de Ciência e Tecnologia, Comunicação e Informática" sigla="CCTCI" />
         <comissao nome="Comissão de Cultura" sigla="CCULT" />
         <comissao nome="Comissão Externa para acompanhar as ações e medidas que possam envolver a empresa Anglo Ferrous Amapá Mineração Ltda, o Estado do Amapá e União Federal, para reconstrução do Porto de Minério da ICOMI e demais danos oriundos do grave acidente ocorrido no Estado do Amapá, em 28/03/2013, com ônus para a Câmara dos Deputados" sigla="CEXAMAPA" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Especial destinada a apreciar e  proferir parecer à Proposta de Emenda à Constituição nº 005-A, de 2011, do Sr. Nelson Marquezelli, que &quot;altera o inciso XV do art. 48 e revoga os incisos VII e VIII do art. 49 para estabelecer que os subsídios do Presidente e Vice-Presidente da República, Ministros de Estado, Senadores e Deputados Federais são idênticos aos dos Ministros do Supremo Tribunal Federal&quot;" sigla="PEC00511" />
         <comissao nome="Comissão Especial destinada a apreciar e  proferir parecer à Proposta de Emenda à Constituição nº 111-A, de 2011, da Sra. Dalva Figueiredo, que &quot;altera o art. 31 da Emenda Constitucional nº 19, de 4 de junho de 1998, e dá outras providências&quot;." sigla="PEC11111" />
@@ -3478,6 +3510,7 @@
       <suplente>
         <comissao nome="Comissão Especial destinada a debater e propor modificações à Lei 12.619, de 30 de abril de 2012, que regulamenta a Profissão de Motorista" sigla="CEMOTOR" />
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão de Trabalho, de Administração e Serviço Público" sigla="CTASP" />
         <comissao nome="Comissão Especial destinada a apreciar e proferir parecer à Proposta de Emenda à Constituição nº 70-A, de 2011, do Senado Federal, que &quot;altera o procedimento de apreciação das medidas provisórias pelo Congresso Nacional&quot;" sigla="PEC07011" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 565-A, de 2006, do Senado Federal, que &quot;altera os arts. 57, 165, 166, e acrescenta art. 165-A, todos da Constituição Federal, tornando de execução obrigatória a programação constante da lei orçamentária anual&quot;" sigla="PEC56506" />
@@ -3670,6 +3703,7 @@
       </titular>
       <suplente>
         <comissao nome="Comissão de Desenvolvimento Urbano" sigla="CDU" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
       </suplente>
     </comissoes>
@@ -3864,6 +3898,7 @@
       <titular>
         <comissao nome="Comissão de Fiscalização Financeira e Controle" sigla="CFFC" />
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Especial  destinada a proferir parecer à Proposta de Emenda à Constituição nº 405-A, de 2009,  do Sr. Cleber Verde, que &quot;altera a redação do § 8º do art. 195 da Constituição Federal, para assegurar ao Garimpeiro e ao pequeno minerador o direito à aposentadoria&quot;" sigla="PEC40509" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 565-A, de 2006, do Senado Federal, que &quot;altera os arts. 57, 165, 166, e acrescenta art. 165-A, todos da Constituição Federal, tornando de execução obrigatória a programação constante da lei orçamentária anual&quot;" sigla="PEC56506" />
         <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 1610, de 1996, do Senado Federal, que &quot;dispõe sobre a exploração e o aproveitamento de recursos minerais em terras indígenas, de que tratam os arts. 176, parágrafo primeiro, e 231, parágrafo terceiro, da Constituição Federal&quot;" sigla="PL161096" />
@@ -3905,6 +3940,7 @@
       </titular>
       <suplente>
         <comissao nome="Comissão de Constituição e Justiça e de Cidadania" sigla="CCJC" />
+        <comissao nome="Subcomissão Especial de Política Indigenista" sigla="SUBPOLIN" />
         <comissao nome="Subcomissão Especial de Rádio Digital" sigla="SUBRADIG" />
       </suplente>
     </comissoes>
@@ -3960,9 +3996,11 @@
         <comissao nome="Comissão de Constituição e Justiça e de Cidadania" sigla="CCJC" />
         <comissao nome="Comissão Especial destinada a efetuar estudo e apresentar propostas em relação à Reforma Política." sigla="CEREFPOL" />
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Grupo de Trabalho destinado a estudar e elaborar propostas referentes à Reforma Política e à consulta popular sobre o tema" sigla="GTREFPOL" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 10-A, de 1995, do Sr. Adhemar de Barros Filho, que &quot;modifica o art. 45 da Constituição Federal e acrescenta parágrafos ao mesmo artigo&quot;, criando o sistema distrital misto" sigla="PEC01095" />
         <comissao nome="Comissão Especial destinada a apreciar e proferir parecer à Proposta de Emenda à Constituição nº 70-A, de 2011, do Senado Federal, que &quot;altera o procedimento de apreciação das medidas provisórias pelo Congresso Nacional&quot;" sigla="PEC07011" />
+        <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 82-A, de 2007, do Sr. Flávio Dino e outros, que &quot;acresce os arts. 132-A e 135-A e altera o art. 168 da Constituição Federal&quot;  (atribui autonomia funcional e prerrogativas aos membros da Defensoria Pública, Advocacia da União, Procuradoria da Fazenda Nacional, Procuradoria-Geral Federal, Procuradorias das autarquias e às Procuradorias dos Estados, do Distrito Federal e dos Municípios) e apensada" sigla="PEC08207" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 565-A, de 2006, do Senado Federal, que &quot;altera os arts. 57, 165, 166, e acrescenta art. 165-A, todos da Constituição Federal, tornando de execução obrigatória a programação constante da lei orçamentária anual&quot;" sigla="PEC56506" />
         <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 6025, de 2005, ao Projeto de Lei nº 8046, de 2010, ambos do Senado Federal, e outros, que tratam do &quot;Código de Processo Civil&quot; (revogam a Lei nº 5.869, de 1973)" sigla="PL602505" />
         <comissao nome="SUBCOMISSÃO ESPECIAL DE CONTROLE DE ARMAS, MUNIÇÕES E EXPLOSIVOS" sigla="SUBCOARM" />
@@ -4175,6 +4213,7 @@
       <suplente>
         <comissao nome="Comissão de Agricultura, Pecuária, Abastecimento e Desenvolvimento Rural" sigla="CAPADR" />
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 7495, de 2006, do Senado Federal,  que &quot;regulamenta os §§ 4º e 5º do art. 198 da Constituição, dispõe sobre o aproveitamento de pessoal amparado pelo parágrafo único do art. 2º da Emenda Constitucional nº 51, de 14 de fevereiro de 2006, e dá outras providências&quot; (cria 5.365 empregos públicos de Agente de Combate às Endemias, no âmbito do Quadro Suplementar de Combate às Endemias da FUNASA)" sigla="PL749506" />
       </suplente>
     </comissoes>
@@ -4308,7 +4347,6 @@
     <comissoes>
       <titular>
         <comissao nome="Comissão de Constituição e Justiça e de Cidadania" sigla="CCJC" />
-        <comissao nome="Comissão Parlamentar de Inquérito destinada a investigar o tráfico de pessoas no Brasil, suas causas, consequências e responsáveis no período de 2003 a 2011, compreendido na vigência da Convenção de Palermo." sigla="CPITRAPE" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 196-A, de 2012, do Senado Federal, que &quot;altera o § 2° do art. 55 da Constituição Federal, para estabelecer que a perda de mandato será decidida por voto aberto nos casos que especifica&quot;" sigla="PEC19612" />
         <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 1572, de 2011, do Sr. Vicente Candido, que &quot;institui o Código Comercial&quot;" sigla="PL157211" />
         <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 6025, de 2005, ao Projeto de Lei nº 8046, de 2010, ambos do Senado Federal, e outros, que tratam do &quot;Código de Processo Civil&quot; (revogam a Lei nº 5.869, de 1973)" sigla="PL602505" />
@@ -4856,6 +4894,7 @@
     <email>dep.eduardogomes@camara.gov.br</email>
     <comissoes>
       <titular>
+        <comissao nome="Comissão de Ciência e Tecnologia, Comunicação e Informática" sigla="CCTCI" />
         <comissao nome="Comissão Externa destinada a acompanhar os desdobramentos da grave situação vivenciada na reserva Suiá-Missú, localizada na região Araguaia do Estado de Mato Grosso." sigla="CEXSUIA" />
         <comissao nome="Grupo de trabalho que promove a Câmara de Negociação de Desenvolvimento Econômico e Social destinada a discutir propostas que interessam à classe trabalhadora e aos empresários." sigla="GTDESESO" />
       </titular>
@@ -4975,7 +5014,6 @@
         <comissao nome="Comissão Parlamentar de Inquérito destinada a investigar o tráfico de pessoas no Brasil, suas causas, consequências e responsáveis no período de 2003 a 2011, compreendido na vigência da Convenção de Palermo." sigla="CPITRAPE" />
         <comissao nome="Comissão de Seguridade Social e Família" sigla="CSSF" />
         <comissao nome="Comissão Especial destinada a apreciar e  proferir parecer à Proposta de Emenda à Constituição nº 186-A, de 2007, do Sr. Décio Lima, que &quot;acrescenta os § 13 e 14, ao art. 37 da Constituição Federal&quot; (determina que lei complementar definirá as normas gerais aplicáveis à Administração Tributária da União, dos Estados, do Distrito Federal e dos Municípios)" sigla="PEC18607" />
-        <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 196-A, de 2012, do Senado Federal, que &quot;altera o § 2° do art. 55 da Constituição Federal, para estabelecer que a perda de mandato será decidida por voto aberto nos casos que especifica&quot;" sigla="PEC19612" />
       </suplente>
     </comissoes>
   </deputado>
@@ -5025,6 +5063,7 @@
       </titular>
       <suplente>
         <comissao nome="Comissão de Agricultura, Pecuária, Abastecimento e Desenvolvimento Rural" sigla="CAPADR" />
+        <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 443-A, de 2009, do Sr. Bonifácio de Andrada, estabelecendo que &quot;o subsídio do grau ou nível máximo das carreiras da Advocacia-Geral da União, das Procuradorias dos Estados e do Distrito Federal corresponderá a noventa inteiros e vinte e cinco centésimos por cento do subsídio mensal, fixado para os Ministros do Supremo Tribunal Federal, e os subsídios dos demais integrantes das respectivas categorias da estrutura da advocacia pública serão fixados em lei e escalonados, não podendo a diferença entre um e outro ser superior a dez por centro ou inferior a cinco por cento, nem exceder a noventa inteiros e vinte e cinco centésimos por cento do subsídio mensal fixado para os Ministros do Supremo Tribunal Federal, obedecido, em qualquer caso, o disposto nos artigos 37, XI, e 39, § 4º&quot;" sigla="PEC44309" />
         <comissao nome="Subcomissão Permanente Marco Regulatório de Mineração no Brasil" sigla="SUBREGMN" />
       </suplente>
     </comissoes>
@@ -5093,6 +5132,7 @@
         <comissao nome="Comissão de Viação e Transportes" sigla="CVT" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 290-A, de 2013, da Sra. Margarida Salomão e outros, que &quot;altera e adiciona dispositivos na Constituição Federal para atualizar o tratamento das atividades de ciência, tecnologia e inovação&quot;" sigla="PEC29013" />
         <comissao nome="Comissão Especial  destinada a proferir parecer à Proposta de Emenda à Constituição nº 405-A, de 2009,  do Sr. Cleber Verde, que &quot;altera a redação do § 8º do art. 195 da Constituição Federal, para assegurar ao Garimpeiro e ao pequeno minerador o direito à aposentadoria&quot;" sigla="PEC40509" />
+        <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 443-A, de 2009, do Sr. Bonifácio de Andrada, estabelecendo que &quot;o subsídio do grau ou nível máximo das carreiras da Advocacia-Geral da União, das Procuradorias dos Estados e do Distrito Federal corresponderá a noventa inteiros e vinte e cinco centésimos por cento do subsídio mensal, fixado para os Ministros do Supremo Tribunal Federal, e os subsídios dos demais integrantes das respectivas categorias da estrutura da advocacia pública serão fixados em lei e escalonados, não podendo a diferença entre um e outro ser superior a dez por centro ou inferior a cinco por cento, nem exceder a noventa inteiros e vinte e cinco centésimos por cento do subsídio mensal fixado para os Ministros do Supremo Tribunal Federal, obedecido, em qualquer caso, o disposto nos artigos 37, XI, e 39, § 4º&quot;" sigla="PEC44309" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 479-A, de 2010, do Sr. Sebastião Bala Rocha, que &quot;acrescenta o inciso LXXIX ao art. 5º da Constituição Federal, para Incluir o acesso à internet em alta velocidade entre os direitos fundamentais do cidadão&quot;" sigla="PEC47910" />
         <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 2.177, de 2011, do Sr. Bruno Araújo, que &quot;institui o Código Nacional de Ciência,Tecnologia e Inovação&quot;" sigla="PL217711" />
       </suplente>
@@ -5211,6 +5251,7 @@
         <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 7495, de 2006, do Senado Federal,  que &quot;regulamenta os §§ 4º e 5º do art. 198 da Constituição, dispõe sobre o aproveitamento de pessoal amparado pelo parágrafo único do art. 2º da Emenda Constitucional nº 51, de 14 de fevereiro de 2006, e dá outras providências&quot; (cria 5.365 empregos públicos de Agente de Combate às Endemias, no âmbito do Quadro Suplementar de Combate às Endemias da FUNASA)" sigla="PL749506" />
       </titular>
       <suplente>
+        <comissao nome="Comissão de Turismo e Desporto" sigla="CTD" />
         <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 6025, de 2005, ao Projeto de Lei nº 8046, de 2010, ambos do Senado Federal, e outros, que tratam do &quot;Código de Processo Civil&quot; (revogam a Lei nº 5.869, de 1973)" sigla="PL602505" />
       </suplente>
     </comissoes>
@@ -5301,6 +5342,7 @@
       <titular>
         <comissao nome="Comissão Especial destinada a efetuar estudo e apresentar propostas em relação à Reforma do Código Penal" sigla="CEPENAL" />
         <comissao nome="Comissão de Relações Exteriores e de Defesa Nacional" sigla="CREDN" />
+        <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 11-A, de 2011, do Sr. Sandro Alex, que &quot;altera e acrescenta novos dispositivos à Constituição Federal, vedando a nomeação ou a designação para os cargos que menciona daqueles considerados inelegíveis pela Justiça Eleitoral para qualquer cargo&quot; (proíbe a nomeação daqueles que tenham sido considerados inelegíveis pela Justiça Eleitoral para os cargos de Ministro de Estado ou cargo equiparado, Secretário Executivo, cargos em comissão e designação para exercício de função de confiança)" sigla="PEC01111" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 90-A, de 2011, da Sra Luiza Erundina, que &quot;dá nova redação ao art. 6º da Constituição Federal, para introduzir o transporte como direito social&quot;" sigla="PEC09011" />
         <comissao nome="Comissão Especial destinada a apreciar e proferir parecer à Proposta de Emenda à Constituição nº 215-A, de 2000, do Sr. Almir Sá e outros, que &quot;acrescenta o inciso XVIII ao art. 49; modifica o § 4º e acrescenta o § 8º ambos no art. 231, da Constituição Federal&quot; (inclui dentre as competências exclusivas do Congresso Nacional a aprovação de demarcação das terras tradicionalmente ocupadas pelos índios e a ratificação das demarcações já homologadas; estabelecendo que os critérios e procedimentos de demarcação serão regulamentados por lei), e apensadas" sigla="PEC21500" />
         <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 1610, de 1996, do Senado Federal, que &quot;dispõe sobre a exploração e o aproveitamento de recursos minerais em terras indígenas, de que tratam os arts. 176, parágrafo primeiro, e 231, parágrafo terceiro, da Constituição Federal&quot;" sigla="PL161096" />
@@ -5513,6 +5555,7 @@
     <comissoes>
       <titular>
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão de Viação e Transportes" sigla="CVT" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 368, de 2009, do Sr. Carlos Bezerra, que &quot;dá nova redação ao art. 42 do Ato das Disposições Constitucionais Transitórias, ampliando o prazo em que a União deverá destinar às regiões Centro-Oeste e Nordeste percentuais mínimos dos recursos destinados à irrigação&quot;" sigla="PEC36809" />
         <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 3460, de 2004, do Sr. Walter Feldman, que &quot;institui diretrizes para a Política Nacional de Planejamento Regional Urbano, cria o Sistema Nacional de Planejamento e Informações Regionais Urbanas e dá outras providências&quot; (Estatuto da Metrópole)" sigla="PL346004" />
@@ -5669,7 +5712,9 @@
     <fone>3215-5313</fone>
     <email>dep.manato@camara.gov.br</email>
     <comissoes>
-      <titular />
+      <titular>
+        <comissao nome="Comissão de Seguridade Social e Família" sigla="CSSF" />
+      </titular>
       <suplente />
     </comissoes>
   </deputado>
@@ -5696,6 +5741,7 @@
       </titular>
       <suplente>
         <comissao nome="Comissão Especial destinada a efetuar estudo e apresentar propostas em relação à Reforma do Código Penal" sigla="CEPENAL" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 10-A, de 2011, do Sr. Luiz Fernando Machado, que &quot;altera os arts. 28, 29 e 84 da Constituição Federal para instituir a obrigatoriedade de elaboração e cumprimento do plano de metas pelo Poder Executivo municipal, estadual e federal, com base nas propostas da campanha eleitoral&quot;" sigla="PEC01011" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 290-A, de 2013, da Sra. Margarida Salomão e outros, que &quot;altera e adiciona dispositivos na Constituição Federal para atualizar o tratamento das atividades de ciência, tecnologia e inovação&quot;" sigla="PEC29013" />
@@ -5868,6 +5914,8 @@
       <suplente>
         <comissao nome="Comissão de Direitos Humanos e Minorias" sigla="CDHM" />
         <comissao nome="Comissão de Seguridade Social e Família" sigla="CSSF" />
+        <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 82-A, de 2007, do Sr. Flávio Dino e outros, que &quot;acresce os arts. 132-A e 135-A e altera o art. 168 da Constituição Federal&quot;  (atribui autonomia funcional e prerrogativas aos membros da Defensoria Pública, Advocacia da União, Procuradoria da Fazenda Nacional, Procuradoria-Geral Federal, Procuradorias das autarquias e às Procuradorias dos Estados, do Distrito Federal e dos Municípios) e apensada" sigla="PEC08207" />
+        <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 443-A, de 2009, do Sr. Bonifácio de Andrada, estabelecendo que &quot;o subsídio do grau ou nível máximo das carreiras da Advocacia-Geral da União, das Procuradorias dos Estados e do Distrito Federal corresponderá a noventa inteiros e vinte e cinco centésimos por cento do subsídio mensal, fixado para os Ministros do Supremo Tribunal Federal, e os subsídios dos demais integrantes das respectivas categorias da estrutura da advocacia pública serão fixados em lei e escalonados, não podendo a diferença entre um e outro ser superior a dez por centro ou inferior a cinco por cento, nem exceder a noventa inteiros e vinte e cinco centésimos por cento do subsídio mensal fixado para os Ministros do Supremo Tribunal Federal, obedecido, em qualquer caso, o disposto nos artigos 37, XI, e 39, § 4º&quot;" sigla="PEC44309" />
         <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 2.126, de 2011, do Poder Executivo, que &quot;estabelece princípios, garantias, direitos e deveres para o uso da Internet no Brasil.&quot;" sigla="PL212611" />
       </suplente>
     </comissoes>
@@ -5944,6 +5992,7 @@
         <comissao nome="Comissão Especial destinada a acompanhar a aplicação das seguintes Leis de Anistia: Lei nº 8878/1994, que &quot;dispõe sobre a concessão de anistia&quot;; Lei nº 10.790/2003, que &quot;concede anistia a dirigentes ou representantes sindicais e trabalhadores punidos por participação em movimento reivindicatório&quot;; Lei nº 11.282/2006, que &quot;anistia os trabalhadores da Empresa Brasileira de Correios e Telégrafos-ECT punidos em razão da participação em movimento grevista&quot;; e Lei nº 10.559/2002, que &quot;regulamenta o artigo 8º do Ato das Disposições Constitucionais Transitórias e dá outras providências&quot;" sigla="CEANISTI" />
         <comissao nome="Comissão Especial destinada a discutir o Financiamento da Saúde Pública." sigla="CESAUDE" />
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Parlamentar de Inquérito destinada a apurar denúncias de turismo sexual e exploração sexual de crianças e adolescentes, conforme diversas matérias publicadas pela imprensa." sigla="CPICRIAN" />
         <comissao nome="Comissão Parlamentar de Inquérito destinada a apurar a exploração do trabalho infantil no Brasil e dá outras providências" sigla="CPITRAB" />
         <comissao nome="Comissão de Trabalho, de Administração e Serviço Público" sigla="CTASP" />
@@ -6009,6 +6058,7 @@
         <comissao nome="Comissão de Constituição e Justiça e de Cidadania" sigla="CCJC" />
         <comissao nome="Comissão de Integração Nacional, Desenvolvimento Regional e da Amazônia" sigla="CINDRA" />
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 55-A, de 2011, do Sr. Hugo Motta, que &quot;dá nova redação ao § 8º do art. 144, da Constituição Federal, para disciplinar a carreira dos agentes públicos responsáveis pelo policiamento de trânsito, em âmbito municipal&quot;" sigla="PEC05511" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 368, de 2009, do Sr. Carlos Bezerra, que &quot;dá nova redação ao art. 42 do Ato das Disposições Constitucionais Transitórias, ampliando o prazo em que a União deverá destinar às regiões Centro-Oeste e Nordeste percentuais mínimos dos recursos destinados à irrigação&quot;" sigla="PEC36809" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 454-A, de 2009, do Sr. Ronaldo Caiado, que &quot;altera o Título VIII, Capítulo II, Seção II - Da Saúde -, da Constituição da República Federativa do Brasil de 1988&quot; (estabelecendo diretrizes para a organização da carreira única de Médico de Estado)" sigla="PEC45409" />
@@ -6039,6 +6089,7 @@
       </titular>
       <suplente>
         <comissao nome="Comissão de Finanças e Tributação" sigla="CFT" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Conselho de Ética e Decoro Parlamentar da Câmara dos Deputados" sigla="COETICA" />
         <comissao nome="Comissão de Turismo e Desporto" sigla="CTD" />
@@ -6176,6 +6227,7 @@
     <comissoes>
       <titular>
         <comissao nome="Comissão de Finanças e Tributação" sigla="CFT" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Subcomissão Especial da Reforma Tributária" sigla="SUBRETRI" />
         <comissao nome="Subcomissão Permanente do Sistema Financeiro" sigla="SUBSISFI" />
@@ -6470,6 +6522,7 @@
         <comissao nome="Comissão de Ciência e Tecnologia, Comunicação e Informática" sigla="CCTCI" />
         <comissao nome="Comissão Especial para analisar todos os artigos ainda não regulamentados da Constituição Federal de 1988." sigla="CECONST" />
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 290-A, de 2013, da Sra. Margarida Salomão e outros, que &quot;altera e adiciona dispositivos na Constituição Federal para atualizar o tratamento das atividades de ciência, tecnologia e inovação&quot;" sigla="PEC29013" />
         <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 2.177, de 2011, do Sr. Bruno Araújo, que &quot;institui o Código Nacional de Ciência,Tecnologia e Inovação&quot;" sigla="PL217711" />
         <comissao nome="Comissão Especial destinada a analisar e proferir parecer ao Projeto de Lei nº 3555-A, de 2004, do Sr. José Eduardo Cardozo, que &quot;estabelece normas gerais em contratos de seguro privado e revoga dispositivos do Código Civil, do Código Comercial Brasileiro e do Decreto-Lei nº 73 de 1966&quot; (revoga dispositivos das Leis nºs 556, de 1850 e 10.406, de 2002)" sigla="PL355504" />
@@ -6600,6 +6653,7 @@
       </titular>
       <suplente>
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão de Trabalho, de Administração e Serviço Público" sigla="CTASP" />
         <comissao nome="Representação Brasileira no Parlamento do Mercosul." sigla="MERCOSUL" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 55-A, de 2011, do Sr. Hugo Motta, que &quot;dá nova redação ao § 8º do art. 144, da Constituição Federal, para disciplinar a carreira dos agentes públicos responsáveis pelo policiamento de trânsito, em âmbito municipal&quot;" sigla="PEC05511" />
@@ -6676,6 +6730,7 @@
       <suplente>
         <comissao nome="Comissão Especial destinada a efetuar estudo e apresentar propostas em relação à Reforma Política." sigla="CEREFPOL" />
         <comissao nome="Comissão Especial destinada a analisar as Propostas de Emenda à Constituição que versem sobre Segurança Pública." sigla="CESEGUR" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão de Trabalho, de Administração e Serviço Público" sigla="CTASP" />
         <comissao nome="Comissão Especial destinada a apreciar e proferir parecer à Proposta de Emenda à Constituição nº 70-A, de 2011, do Senado Federal, que &quot;altera o procedimento de apreciação das medidas provisórias pelo Congresso Nacional&quot;" sigla="PEC07011" />
@@ -6846,7 +6901,6 @@
         <comissao nome="Comissão Especial destinada a analisar as Propostas de Emenda à Constituição que versem sobre Segurança Pública." sigla="CESEGUR" />
         <comissao nome="Comissão de Fiscalização Financeira e Controle" sigla="CFFC" />
         <comissao nome="Comissão Parlamentar de Inquérito destinada a investigar o tráfico de pessoas no Brasil, suas causas, consequências e responsáveis no período de 2003 a 2011, compreendido na vigência da Convenção de Palermo." sigla="CPITRAPE" />
-        <comissao nome="Comissão Parlamentar de Inquérito destinada a investigar o tráfico de pessoas no Brasil, suas causas, consequências e responsáveis no período de 2003 a 2011, compreendido na vigência da Convenção de Palermo." sigla="CPITRAPE" />
         <comissao nome="Grupo de Trabalho destinado a debater a questão das terras indígenas" sigla="GTTERRAS" />
         <comissao nome="Comissão Especial  destinada a proferir parecer à Proposta de Emenda à Constituição nº 405-A, de 2009,  do Sr. Cleber Verde, que &quot;altera a redação do § 8º do art. 195 da Constituição Federal, para assegurar ao Garimpeiro e ao pequeno minerador o direito à aposentadoria&quot;" sigla="PEC40509" />
         <comissao nome="Comissão Especial destinada a apreciar e  proferir parecer à Proposta de Emenda à Constituição nº 506-A, de 2010, do Senado Federal, que &quot;acrescenta artigo ao Ato das Disposições Constitucionais Transitórias (ADCT), para dispor sobre a prorrogação dos beneficios para a Zona Franca de Manaus, e dá outras providências&quot; (prorroga até 31 de dezembro de 2029)" sigla="PEC50610" />
@@ -6942,6 +6996,7 @@
         <comissao nome="Comissão Especial destinada a efetuar estudo e apresentar propostas em relação à Reforma do Código Penal" sigla="CEPENAL" />
         <comissao nome="Comissão Especial destinada a efetuar estudo e apresentar propostas em relação à Reforma Política." sigla="CEREFPOL" />
         <comissao nome="Comissão Especial destinada a analisar as Propostas de Emenda à Constituição que versem sobre Segurança Pública." sigla="CESEGUR" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão de Segurança Pública e Combate ao Crime Organizado" sigla="CSPCCO" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 10-A, de 1995, do Sr. Adhemar de Barros Filho, que &quot;modifica o art. 45 da Constituição Federal e acrescenta parágrafos ao mesmo artigo&quot;, criando o sistema distrital misto" sigla="PEC01095" />
@@ -7069,6 +7124,7 @@
     <comissoes>
       <titular>
         <comissao nome="Comissão de Constituição e Justiça e de Cidadania" sigla="CCJC" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 37, de 2011, do Sr. Welinton Prado, que &quot;dispõe sobre o regime de aproveitamento das substâncias minerais, com exceção dos minérios nucleares, petróleo, gás natural e outros hidrocarbonetos fluidos e das substâncias minerais submetidas ao regime de licenciamento de que trata o inciso III do art. 2º do Decreto-lei nº 227, de 28 de fevereiro de 1967&quot;" sigla="PL003711" />
       </titular>
@@ -7289,6 +7345,7 @@
     <comissoes>
       <titular>
         <comissao nome="Comissão de Finanças e Tributação" sigla="CFT" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão de Segurança Pública e Combate ao Crime Organizado" sigla="CSPCCO" />
         <comissao nome="Grupo de trabalho que promove a Câmara de Negociação de Desenvolvimento Econômico e Social destinada a discutir propostas que interessam à classe trabalhadora e aos empresários." sigla="GTDESESO" />
@@ -7545,6 +7602,7 @@
       </titular>
       <suplente>
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão de Viação e Transportes" sigla="CVT" />
       </suplente>
     </comissoes>
@@ -7666,6 +7724,7 @@
         <comissao nome="Comissão Externa para acompanhar as ações e medidas que possam envolver a empresa Anglo Ferrous Amapá Mineração Ltda, o Estado do Amapá e União Federal, para reconstrução do Porto de Minério da ICOMI e demais danos oriundos do grave acidente ocorrido no Estado do Amapá, em 28/03/2013, com ônus para a Câmara dos Deputados" sigla="CEXAMAPA" />
         <comissao nome="Comissão Externa destinada a acompanhar os desdobramentos da grave situação vivenciada na reserva Suiá-Missú, localizada na região Araguaia do Estado de Mato Grosso." sigla="CEXSUIA" />
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão de Viação e Transportes" sigla="CVT" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 10-A, de 2011, do Sr. Luiz Fernando Machado, que &quot;altera os arts. 28, 29 e 84 da Constituição Federal para instituir a obrigatoriedade de elaboração e cumprimento do plano de metas pelo Poder Executivo municipal, estadual e federal, com base nas propostas da campanha eleitoral&quot;" sigla="PEC01011" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 55-A, de 2011, do Sr. Hugo Motta, que &quot;dá nova redação ao § 8º do art. 144, da Constituição Federal, para disciplinar a carreira dos agentes públicos responsáveis pelo policiamento de trânsito, em âmbito municipal&quot;" sigla="PEC05511" />
@@ -7753,13 +7812,12 @@
     <email>dep.luizfernandofaria@camara.gov.br</email>
     <comissoes>
       <titular>
-        <comissao nome="Comissão de Trabalho, de Administração e Serviço Público" sigla="CTASP" />
+        <comissao nome="Comissão de Minas e Energia" sigla="CME" />
         <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 37, de 2011, do Sr. Welinton Prado, que &quot;dispõe sobre o regime de aproveitamento das substâncias minerais, com exceção dos minérios nucleares, petróleo, gás natural e outros hidrocarbonetos fluidos e das substâncias minerais submetidas ao regime de licenciamento de que trata o inciso III do art. 2º do Decreto-lei nº 227, de 28 de fevereiro de 1967&quot;" sigla="PL003711" />
         <comissao nome="Subcomissão Permanente Marco Regulatório de Mineração no Brasil" sigla="SUBREGMN" />
         <comissao nome="Subcomissão Especial para Tratar dos Bens cedidos às Operadoras de Telefonia e Reversíveis à União." sigla="SUBUNIAO" />
       </titular>
       <suplente>
-        <comissao nome="Comissão de Minas e Energia" sigla="CME" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 147-A, de 2012, do Sr. Amauri Teixeira, que &quot;fixa parâmetros para a remuneração dos Auditores Fiscais da Receita Federal do Brasil, dos Auditores Fiscais do Trabalho e do grau ou nível máximo da carreira dos servidores do Banco Central do Brasil&quot;" sigla="PEC14712" />
       </suplente>
     </comissoes>
@@ -7932,6 +7990,7 @@
     <comissoes>
       <titular>
         <comissao nome="Comissão de Desenvolvimento Econômico, Indústria e Comércio" sigla="CDEIC" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
       </titular>
       <suplente>
@@ -8158,6 +8217,7 @@
       </titular>
       <suplente>
         <comissao nome="Comissão de Constituição e Justiça e de Cidadania" sigla="CCJC" />
+        <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 82-A, de 2007, do Sr. Flávio Dino e outros, que &quot;acresce os arts. 132-A e 135-A e altera o art. 168 da Constituição Federal&quot;  (atribui autonomia funcional e prerrogativas aos membros da Defensoria Pública, Advocacia da União, Procuradoria da Fazenda Nacional, Procuradoria-Geral Federal, Procuradorias das autarquias e às Procuradorias dos Estados, do Distrito Federal e dos Municípios) e apensada" sigla="PEC08207" />
         <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 5627, de 2013, do Poder Executivo, que &quot;altera o Decreto-Lei nº 9.760, de 5 de setembro de 1946, o Decreto-Lei nº 2.398, de 21 de dezembro de 1987, a Lei nº 9.636, de 15 de maio de 1998, dispõe sobre o parcelamento e a remissão de dívidas patrimoniais com a União, e dá outras providências&quot;" sigla="PL562713" />
         <comissao nome="Subcomissão da Memória, Verdade e Justiça." sigla="SUBMEMOR" />
       </suplente>
@@ -8384,6 +8444,7 @@
       </titular>
       <suplente>
         <comissao nome="Comissão Especial destinada a discutir o Financiamento da Saúde Pública." sigla="CESAUDE" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Parlamentar de Inquérito destinada a apurar denúncias de turismo sexual e exploração sexual de crianças e adolescentes, conforme diversas matérias publicadas pela imprensa." sigla="CPICRIAN" />
         <comissao nome="Comissão de Turismo e Desporto" sigla="CTD" />
@@ -8676,7 +8737,6 @@
         <comissao nome="Comissão Especial destinada a apreciar e  proferir parecer à Proposta de Emenda à Constituição nº 111-A, de 2011, da Sra. Dalva Figueiredo, que &quot;altera o art. 31 da Emenda Constitucional nº 19, de 4 de junho de 1998, e dá outras providências&quot;." sigla="PEC11111" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 147-A, de 2012, do Sr. Amauri Teixeira, que &quot;fixa parâmetros para a remuneração dos Auditores Fiscais da Receita Federal do Brasil, dos Auditores Fiscais do Trabalho e do grau ou nível máximo da carreira dos servidores do Banco Central do Brasil&quot;" sigla="PEC14712" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 368, de 2009, do Sr. Carlos Bezerra, que &quot;dá nova redação ao art. 42 do Ato das Disposições Constitucionais Transitórias, ampliando o prazo em que a União deverá destinar às regiões Centro-Oeste e Nordeste percentuais mínimos dos recursos destinados à irrigação&quot;" sigla="PEC36809" />
-        <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 443-A, de 2009, do Sr. Bonifácio de Andrada, estabelecendo que &quot;o subsídio do grau ou nível máximo das carreiras da Advocacia-Geral da União, das Procuradorias dos Estados e do Distrito Federal corresponderá a noventa inteiros e vinte e cinco centésimos por cento do subsídio mensal, fixado para os Ministros do Supremo Tribunal Federal, e os subsídios dos demais integrantes das respectivas categorias da estrutura da advocacia pública serão fixados em lei e escalonados, não podendo a diferença entre um e outro ser superior a dez por centro ou inferior a cinco por cento, nem exceder a noventa inteiros e vinte e cinco centésimos por cento do subsídio mensal fixado para os Ministros do Supremo Tribunal Federal, obedecido, em qualquer caso, o disposto nos artigos 37, XI, e 39, § 4º&quot;" sigla="PEC44309" />
         <comissao nome="Comissão Especial destinada a apreciar e  proferir parecer à Proposta de Emenda à Constituição nº 506-A, de 2010, do Senado Federal, que &quot;acrescenta artigo ao Ato das Disposições Constitucionais Transitórias (ADCT), para dispor sobre a prorrogação dos beneficios para a Zona Franca de Manaus, e dá outras providências&quot; (prorroga até 31 de dezembro de 2029)" sigla="PEC50610" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 565-A, de 2006, do Senado Federal, que &quot;altera os arts. 57, 165, 166, e acrescenta art. 165-A, todos da Constituição Federal, tornando de execução obrigatória a programação constante da lei orçamentária anual&quot;" sigla="PEC56506" />
         <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 6025, de 2005, ao Projeto de Lei nº 8046, de 2010, ambos do Senado Federal, e outros, que tratam do &quot;Código de Processo Civil&quot; (revogam a Lei nº 5.869, de 1973)" sigla="PL602505" />
@@ -8882,6 +8942,7 @@
         <comissao nome="Comissão de Agricultura, Pecuária, Abastecimento e Desenvolvimento Rural" sigla="CAPADR" />
         <comissao nome="Comissão Especial destinada a analisar as Propostas de Emenda à Constituição que versem sobre Segurança Pública." sigla="CESEGUR" />
         <comissao nome="Comissão Especial destinada a apreciar e  proferir parecer à Proposta de Emenda à Constituição nº 186-A, de 2007, do Sr. Décio Lima, que &quot;acrescenta os § 13 e 14, ao art. 37 da Constituição Federal&quot; (determina que lei complementar definirá as normas gerais aplicáveis à Administração Tributária da União, dos Estados, do Distrito Federal e dos Municípios)" sigla="PEC18607" />
+        <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 443-A, de 2009, do Sr. Bonifácio de Andrada, estabelecendo que &quot;o subsídio do grau ou nível máximo das carreiras da Advocacia-Geral da União, das Procuradorias dos Estados e do Distrito Federal corresponderá a noventa inteiros e vinte e cinco centésimos por cento do subsídio mensal, fixado para os Ministros do Supremo Tribunal Federal, e os subsídios dos demais integrantes das respectivas categorias da estrutura da advocacia pública serão fixados em lei e escalonados, não podendo a diferença entre um e outro ser superior a dez por centro ou inferior a cinco por cento, nem exceder a noventa inteiros e vinte e cinco centésimos por cento do subsídio mensal fixado para os Ministros do Supremo Tribunal Federal, obedecido, em qualquer caso, o disposto nos artigos 37, XI, e 39, § 4º&quot;" sigla="PEC44309" />
         <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 37, de 2011, do Sr. Welinton Prado, que &quot;dispõe sobre o regime de aproveitamento das substâncias minerais, com exceção dos minérios nucleares, petróleo, gás natural e outros hidrocarbonetos fluidos e das substâncias minerais submetidas ao regime de licenciamento de que trata o inciso III do art. 2º do Decreto-lei nº 227, de 28 de fevereiro de 1967&quot;" sigla="PL003711" />
       </suplente>
     </comissoes>
@@ -9020,7 +9081,6 @@
         <comissao nome="Comissão de Educação" sigla="CE" />
         <comissao nome="Comissão Especial destinada a promover estudos e proposições para a reformulação do ensino médio." sigla="CEENSI" />
         <comissao nome="Conselho de Ética e Decoro Parlamentar da Câmara dos Deputados" sigla="COETICA" />
-        <comissao nome="Grupo de Trabalho destinado a estudar e elaborar propostas referentes à Reforma Política e à consulta popular sobre o tema" sigla="GTREFPOL" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 10-A, de 2011, do Sr. Luiz Fernando Machado, que &quot;altera os arts. 28, 29 e 84 da Constituição Federal para instituir a obrigatoriedade de elaboração e cumprimento do plano de metas pelo Poder Executivo municipal, estadual e federal, com base nas propostas da campanha eleitoral&quot;" sigla="PEC01011" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 32-A, de 1999, do Sr. Pompeo de Mattos, que &quot;determina a concessão de bolsas de estudos e crédito educativo para o ensino médio e superior aos estudantes carentes em instituições privadas, acrescentando inciso VIII ao art. 208 da Constituição Federal&quot;" sigla="PEC03299" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 55-A, de 2011, do Sr. Hugo Motta, que &quot;dá nova redação ao § 8º do art. 144, da Constituição Federal, para disciplinar a carreira dos agentes públicos responsáveis pelo policiamento de trânsito, em âmbito municipal&quot;" sigla="PEC05511" />
@@ -9039,6 +9099,7 @@
       <suplente>
         <comissao nome="Comissão de Ciência e Tecnologia, Comunicação e Informática" sigla="CCTCI" />
         <comissao nome="Comissão Parlamentar de Inquérito destinada a investigar o tráfico de pessoas no Brasil, suas causas, consequências e responsáveis no período de 2003 a 2011, compreendido na vigência da Convenção de Palermo." sigla="CPITRAPE" />
+        <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 196-A, de 2012, do Senado Federal, que &quot;altera o § 2° do art. 55 da Constituição Federal, para estabelecer que a perda de mandato será decidida por voto aberto nos casos que especifica&quot;" sigla="PEC19612" />
         <comissao nome="Subcomissão Especial destinada a acompanhar as ações do Plano Nacional de Banda Larga – PNBL" sigla="SUBPNBL" />
       </suplente>
     </comissoes>
@@ -9353,6 +9414,7 @@
         <comissao nome="Conselho de Ética e Decoro Parlamentar da Câmara dos Deputados" sigla="COETICA" />
         <comissao nome="Comissão Parlamentar de Inquérito destinada a investigar o tráfico de pessoas no Brasil, suas causas, consequências e responsáveis no período de 2003 a 2011, compreendido na vigência da Convenção de Palermo." sigla="CPITRAPE" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 10-A, de 2011, do Sr. Luiz Fernando Machado, que &quot;altera os arts. 28, 29 e 84 da Constituição Federal para instituir a obrigatoriedade de elaboração e cumprimento do plano de metas pelo Poder Executivo municipal, estadual e federal, com base nas propostas da campanha eleitoral&quot;" sigla="PEC01011" />
+        <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 82-A, de 2007, do Sr. Flávio Dino e outros, que &quot;acresce os arts. 132-A e 135-A e altera o art. 168 da Constituição Federal&quot;  (atribui autonomia funcional e prerrogativas aos membros da Defensoria Pública, Advocacia da União, Procuradoria da Fazenda Nacional, Procuradoria-Geral Federal, Procuradorias das autarquias e às Procuradorias dos Estados, do Distrito Federal e dos Municípios) e apensada" sigla="PEC08207" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 196-A, de 2012, do Senado Federal, que &quot;altera o § 2° do art. 55 da Constituição Federal, para estabelecer que a perda de mandato será decidida por voto aberto nos casos que especifica&quot;" sigla="PEC19612" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 197-A, de 2012, do Senado Federal, que &quot;altera o § 2º do art. 155 da Constituição Federal, para modificar a sistemática de cobrança do imposto sobre operações relativas à circulação de mercadorias e sobre prestações de serviços de transporte interestadual e intermunicipal e de comunicação incidente sobre as operações e prestações realizadas de forma não presencial e que destinem bens e serviços a consumidor final localizado em outro Estado&quot;" sigla="PEC19712" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 290-A, de 2013, da Sra. Margarida Salomão e outros, que &quot;altera e adiciona dispositivos na Constituição Federal para atualizar o tratamento das atividades de ciência, tecnologia e inovação&quot;" sigla="PEC29013" />
@@ -9430,7 +9492,9 @@
     <fone>3215-5942</fone>
     <email>dep.arthurlira@camara.gov.br</email>
     <comissoes>
-      <titular />
+      <titular>
+        <comissao nome="Comissão de Finanças e Tributação" sigla="CFT" />
+      </titular>
       <suplente>
         <comissao nome="Comissão Especial destinada a analisar as Propostas de Emenda à Constituição que versem sobre Segurança Pública." sigla="CESEGUR" />
       </suplente>
@@ -9602,12 +9666,12 @@
     <email>dep.luizargolo@camara.gov.br</email>
     <comissoes>
       <titular>
-        <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 37, de 2011, do Sr. Welinton Prado, que &quot;dispõe sobre o regime de aproveitamento das substâncias minerais, com exceção dos minérios nucleares, petróleo, gás natural e outros hidrocarbonetos fluidos e das substâncias minerais submetidas ao regime de licenciamento de que trata o inciso III do art. 2º do Decreto-lei nº 227, de 28 de fevereiro de 1967&quot;" sigla="PL003711" />
         <comissao nome="Subcomissão Permanente dos portos e vias navegáveis." sigla="SUBPORTO" />
         <comissao nome="Subcomissão Permanente Marco Regulatório de Mineração no Brasil" sigla="SUBREGMN" />
         <comissao nome="Subcomissão Especial destinada a acompanhar e propor medidas e ações relacionadas à reforma regulatória do transporte." sigla="SUBRETRA" />
       </titular>
       <suplente>
+        <comissao nome="Comissão de Minas e Energia" sigla="CME" />
         <comissao nome="Comissão de Seguridade Social e Família" sigla="CSSF" />
         <comissao nome="Comissão de Viação e Transportes" sigla="CVT" />
         <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 1.927, de 2003, do Sr. Fernando de Fabinho, que &quot;acrescenta dispositivo à Lei nº 10.336, de 19 de dezembro de 2001, para isentar as empresas de transporte coletivo urbano municipal e Transporte Coletivo Urbano Alternativo da Contribuição de Intervenção no Domínio Econômico - CIDE&quot;" sigla="PL192703" />
@@ -9644,6 +9708,7 @@
         <comissao nome="Comissão de Agricultura, Pecuária, Abastecimento e Desenvolvimento Rural" sigla="CAPADR" />
         <comissao nome="Comissão de Constituição e Justiça e de Cidadania" sigla="CCJC" />
         <comissao nome="Comissão Especial destinada a debater e propor modificações à Lei 12.619, de 30 de abril de 2012, que regulamenta a Profissão de Motorista" sigla="CEMOTOR" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 90-A, de 2011, da Sra Luiza Erundina, que &quot;dá nova redação ao art. 6º da Constituição Federal, para introduzir o transporte como direito social&quot;" sigla="PEC09011" />
         <comissao nome="Comissão Especial destinada a apreciar e proferir parecer à Proposta de Emenda à Constituição nº 215-A, de 2000, do Sr. Almir Sá e outros, que &quot;acrescenta o inciso XVIII ao art. 49; modifica o § 4º e acrescenta o § 8º ambos no art. 231, da Constituição Federal&quot; (inclui dentre as competências exclusivas do Congresso Nacional a aprovação de demarcação das terras tradicionalmente ocupadas pelos índios e a ratificação das demarcações já homologadas; estabelecendo que os critérios e procedimentos de demarcação serão regulamentados por lei), e apensadas" sigla="PEC21500" />
@@ -9708,6 +9773,7 @@
         <comissao nome="Comissão de Desenvolvimento Econômico, Indústria e Comércio" sigla="CDEIC" />
         <comissao nome="Comissão Especial destinada a promover estudos e proposições para a reformulação do ensino médio." sigla="CEENSI" />
         <comissao nome="Comissão Especial destinada a efetuar estudos, levantar as proposições em tramitação e apresentar propostas em relação à temática envolvendo o aprimoramento do Estado, das Instituições e da Democracia brasileira" sigla="CEESTA" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Subcomissão Especial destinada a discutir e apresentar propostas para a regulamentação da atividade de Marketing Multinível no Brasil." sigla="SUBMARKT" />
         <comissao nome="Subcomissão especial destinada a acompanhar, estudar e propor políticas públicas para promover e ampliar a participação do setor produtivo nacional na cadeia de exploração e refino do petróleo, especialmente na camada do pré-sal." sigla="SUBPETRO" />
@@ -9869,7 +9935,6 @@
       </titular>
       <suplente>
         <comissao nome="Comissão de Constituição e Justiça e de Cidadania" sigla="CCJC" />
-        <comissao nome="Comissão Parlamentar de Inquérito destinada a investigar o tráfico de pessoas no Brasil, suas causas, consequências e responsáveis no período de 2003 a 2011, compreendido na vigência da Convenção de Palermo." sigla="CPITRAPE" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 565-A, de 2006, do Senado Federal, que &quot;altera os arts. 57, 165, 166, e acrescenta art. 165-A, todos da Constituição Federal, tornando de execução obrigatória a programação constante da lei orçamentária anual&quot;" sigla="PEC56506" />
         <comissao nome="Subcomissão Especial de Crimes e Penas" sigla="SUBCRIPE" />
       </suplente>
@@ -10038,6 +10103,7 @@
       </titular>
       <suplente>
         <comissao nome="Comissão de Minas e Energia" sigla="CME" />
+        <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 82-A, de 2007, do Sr. Flávio Dino e outros, que &quot;acresce os arts. 132-A e 135-A e altera o art. 168 da Constituição Federal&quot;  (atribui autonomia funcional e prerrogativas aos membros da Defensoria Pública, Advocacia da União, Procuradoria da Fazenda Nacional, Procuradoria-Geral Federal, Procuradorias das autarquias e às Procuradorias dos Estados, do Distrito Federal e dos Municípios) e apensada" sigla="PEC08207" />
         <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 7495, de 2006, do Senado Federal,  que &quot;regulamenta os §§ 4º e 5º do art. 198 da Constituição, dispõe sobre o aproveitamento de pessoal amparado pelo parágrafo único do art. 2º da Emenda Constitucional nº 51, de 14 de fevereiro de 2006, e dá outras providências&quot; (cria 5.365 empregos públicos de Agente de Combate às Endemias, no âmbito do Quadro Suplementar de Combate às Endemias da FUNASA)" sigla="PL749506" />
         <comissao nome="Subcomissão Especial para analisar formas de financiamento de mídia alternativa" sigla="SUBMIALT" />
         <comissao nome="Subcomissão Permanente sobre Petróleo, Gás Natural e Etanol." sigla="SUBPETGE" />
@@ -10121,6 +10187,7 @@
         <comissao nome="Comissão de Constituição e Justiça e de Cidadania" sigla="CCJC" />
         <comissao nome="Comissão Especial destinada a analisar as Propostas de Emenda à Constituição que versem sobre Segurança Pública." sigla="CESEGUR" />
         <comissao nome="Comissão Externa para acompanhar a luta da comunidade indígena Guarani-Kaiowá, do Mato Grosso do Sul, para permanecer às margens do Rio Hovy, próximo ao território tradicional Pyelito Kue/Mbarakay" sigla="CEXINDI" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 11-A, de 2011, do Sr. Sandro Alex, que &quot;altera e acrescenta novos dispositivos à Constituição Federal, vedando a nomeação ou a designação para os cargos que menciona daqueles considerados inelegíveis pela Justiça Eleitoral para qualquer cargo&quot; (proíbe a nomeação daqueles que tenham sido considerados inelegíveis pela Justiça Eleitoral para os cargos de Ministro de Estado ou cargo equiparado, Secretário Executivo, cargos em comissão e designação para exercício de função de confiança)" sigla="PEC01111" />
       </titular>
@@ -10608,7 +10675,7 @@
     <urlFoto>http://www.camara.gov.br/internet/deputado/bandep/160590.jpg</urlFoto>
     <sexo>masculino</sexo>
     <uf>MA</uf>
-    <partido>PSD</partido>
+    <partido>PSDB</partido>
     <gabinete>268</gabinete>
     <anexo>3</anexo>
     <fone>3215-5268</fone>
@@ -10642,6 +10709,7 @@
     <comissoes>
       <titular>
         <comissao nome="Comissão de Constituição e Justiça e de Cidadania" sigla="CCJC" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão de Segurança Pública e Combate ao Crime Organizado" sigla="CSPCCO" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 10-A, de 1995, do Sr. Adhemar de Barros Filho, que &quot;modifica o art. 45 da Constituição Federal e acrescenta parágrafos ao mesmo artigo&quot;, criando o sistema distrital misto" sigla="PEC01095" />
@@ -10833,6 +10901,7 @@
         <comissao nome="Comissão Externa destinada a acompanhar os desdobramentos da grave situação vivenciada na reserva Suiá-Missú, localizada na região Araguaia do Estado de Mato Grosso." sigla="CEXSUIA" />
         <comissao nome="Comissão de Minas e Energia" sigla="CME" />
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Especial destinada a apreciar e  proferir parecer à Proposta de Emenda à Constituição nº 005-A, de 2011, do Sr. Nelson Marquezelli, que &quot;altera o inciso XV do art. 48 e revoga os incisos VII e VIII do art. 49 para estabelecer que os subsídios do Presidente e Vice-Presidente da República, Ministros de Estado, Senadores e Deputados Federais são idênticos aos dos Ministros do Supremo Tribunal Federal&quot;" sigla="PEC00511" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 55-A, de 2011, do Sr. Hugo Motta, que &quot;dá nova redação ao § 8º do art. 144, da Constituição Federal, para disciplinar a carreira dos agentes públicos responsáveis pelo policiamento de trânsito, em âmbito municipal&quot;" sigla="PEC05511" />
         <comissao nome="Subcomissão Permanente de Energia Elétrica e Fontes Renováveis de Energia" sigla="SUBENEEL" />
@@ -10978,7 +11047,6 @@
         <comissao nome="Comissão Especial destinada a promover estudos e proposições para a reformulação do ensino médio." sigla="CEENSI" />
       </titular>
       <suplente>
-        <comissao nome="Comissão de Constituição e Justiça e de Cidadania" sigla="CCJC" />
         <comissao nome="Comissão de Direitos Humanos e Minorias" sigla="CDHM" />
       </suplente>
     </comissoes>
@@ -11003,6 +11071,7 @@
         <comissao nome="Comissão Especial destinada a efetuar estudo e apresentar propostas em relação à Reforma Política." sigla="CEREFPOL" />
         <comissao nome="Comissão Especial destinada a discutir o Financiamento da Saúde Pública." sigla="CESAUDE" />
         <comissao nome="Comissão de Seguridade Social e Família" sigla="CSSF" />
+        <comissao nome="Grupo de Trabalho destinado a estudar e elaborar propostas referentes à Reforma Política e à consulta popular sobre o tema" sigla="GTREFPOL" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 10-A, de 1995, do Sr. Adhemar de Barros Filho, que &quot;modifica o art. 45 da Constituição Federal e acrescenta parágrafos ao mesmo artigo&quot;, criando o sistema distrital misto" sigla="PEC01095" />
         <comissao nome="Comissão Especial destinada a apreciar e proferir parecer à Proposta de Emenda à Constituição nº 70-A, de 2011, do Senado Federal, que &quot;altera o procedimento de apreciação das medidas provisórias pelo Congresso Nacional&quot;" sigla="PEC07011" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 454-A, de 2009, do Sr. Ronaldo Caiado, que &quot;altera o Título VIII, Capítulo II, Seção II - Da Saúde -, da Constituição da República Federativa do Brasil de 1988&quot; (estabelecendo diretrizes para a organização da carreira única de Médico de Estado)" sigla="PEC45409" />
@@ -11034,6 +11103,7 @@
       <titular>
         <comissao nome="Comissão de Agricultura, Pecuária, Abastecimento e Desenvolvimento Rural" sigla="CAPADR" />
         <comissao nome="Comissão de Cultura" sigla="CCULT" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Especial destinada a apreciar e proferir parecer ao Projeto de Lei nº 5332, de 2009, da Sra. Elcione Barbalho, que &quot;cria o 'pão brasileiro', a ser produzido com farinha de trigo adicionada de farinha de mandioca refinada, de farinha de raspa de mandioca ou de fécula de mandioca, adquiridos pelo poder público, e estabelece regime tributário especial para a farinha de trigo misturada, e dá outras providências&quot;" sigla="PL533209" />
         <comissao nome="Subcomissão Especial destinada à identificação de fontes de financiamento para a Cultura." sigla="SUBFINCT" />
@@ -11166,6 +11236,7 @@
     <comissoes>
       <titular>
         <comissao nome="Comissão Especial destinada a discutir o Financiamento da Saúde Pública." sigla="CESAUDE" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Parlamentar de Inquérito destinada a apurar denúncias de turismo sexual e exploração sexual de crianças e adolescentes, conforme diversas matérias publicadas pela imprensa." sigla="CPICRIAN" />
         <comissao nome="Comissão de Seguridade Social e Família" sigla="CSSF" />
@@ -11334,6 +11405,7 @@
         <comissao nome="Comissão de Meio Ambiente e Desenvolvimento Sustentável" sigla="CMADS" />
         <comissao nome="Comissão Parlamentar de Inquérito destinada a apurar denúncias de turismo sexual e exploração sexual de crianças e adolescentes, conforme diversas matérias publicadas pela imprensa." sigla="CPICRIAN" />
         <comissao nome="Comissão Parlamentar de Inquérito destinada a investigar o tráfico de pessoas no Brasil, suas causas, consequências e responsáveis no período de 2003 a 2011, compreendido na vigência da Convenção de Palermo." sigla="CPITRAPE" />
+        <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 443-A, de 2009, do Sr. Bonifácio de Andrada, estabelecendo que &quot;o subsídio do grau ou nível máximo das carreiras da Advocacia-Geral da União, das Procuradorias dos Estados e do Distrito Federal corresponderá a noventa inteiros e vinte e cinco centésimos por cento do subsídio mensal, fixado para os Ministros do Supremo Tribunal Federal, e os subsídios dos demais integrantes das respectivas categorias da estrutura da advocacia pública serão fixados em lei e escalonados, não podendo a diferença entre um e outro ser superior a dez por centro ou inferior a cinco por cento, nem exceder a noventa inteiros e vinte e cinco centésimos por cento do subsídio mensal fixado para os Ministros do Supremo Tribunal Federal, obedecido, em qualquer caso, o disposto nos artigos 37, XI, e 39, § 4º&quot;" sigla="PEC44309" />
         <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 5627, de 2013, do Poder Executivo, que &quot;altera o Decreto-Lei nº 9.760, de 5 de setembro de 1946, o Decreto-Lei nº 2.398, de 21 de dezembro de 1987, a Lei nº 9.636, de 15 de maio de 1998, dispõe sobre o parcelamento e a remissão de dívidas patrimoniais com a União, e dá outras providências&quot;" sigla="PL562713" />
         <comissao nome="Subcomissão Especial da Aviação Civil." sigla="SUBESCIV" />
         <comissao nome="Subcomissão Permanente Marco Regulatório de Mineração no Brasil" sigla="SUBREGMN" />
@@ -11343,6 +11415,7 @@
         <comissao nome="Comissão de Integração Nacional, Desenvolvimento Regional e da Amazônia" sigla="CINDRA" />
         <comissao nome="Comissão de Minas e Energia" sigla="CME" />
         <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 1610, de 1996, do Senado Federal, que &quot;dispõe sobre a exploração e o aproveitamento de recursos minerais em terras indígenas, de que tratam os arts. 176, parágrafo primeiro, e 231, parágrafo terceiro, da Constituição Federal&quot;" sigla="PL161096" />
+        <comissao nome="Subcomissão Especial de Política Indigenista" sigla="SUBPOLIN" />
       </suplente>
     </comissoes>
   </deputado>
@@ -11364,6 +11437,7 @@
     <comissoes>
       <titular>
         <comissao nome="Comissão Externa destinada a acompanhar a apuração dos fatos relacionados à tragédia que vitimou centenas de jovens em um incêndio no município de Santa Maria, Rio Grande do Sul, e oferecer sugestão de aperfeiçoamento da legislação sobre o tema." sigla="CEXSANTA" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Parlamentar de Inquérito destinada a apurar a exploração do trabalho infantil no Brasil e dá outras providências" sigla="CPITRAB" />
         <comissao nome="Comissão de Seguridade Social e Família" sigla="CSSF" />
@@ -11472,6 +11546,7 @@
       <titular>
         <comissao nome="Comissão de Ciência e Tecnologia, Comunicação e Informática" sigla="CCTCI" />
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 479-A, de 2010, do Sr. Sebastião Bala Rocha, que &quot;acrescenta o inciso LXXIX ao art. 5º da Constituição Federal, para Incluir o acesso à internet em alta velocidade entre os direitos fundamentais do cidadão&quot;" sigla="PEC47910" />
         <comissao nome="Subcomissão Especial destinada a acompanhar as ações do Plano Nacional de Banda Larga – PNBL" sigla="SUBPNBL" />
       </titular>
@@ -11496,6 +11571,7 @@
     <comissoes>
       <titular>
         <comissao nome="Comissão de Defesa do Consumidor" sigla="CDC" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Conselho de Ética e Decoro Parlamentar da Câmara dos Deputados" sigla="COETICA" />
         <comissao nome="Comissão Parlamentar de Inquérito destinada a investigar o tráfico de pessoas no Brasil, suas causas, consequências e responsáveis no período de 2003 a 2011, compreendido na vigência da Convenção de Palermo." sigla="CPITRAPE" />
@@ -11979,7 +12055,9 @@
         <comissao nome="Comissão de Constituição e Justiça e de Cidadania" sigla="CCJC" />
         <comissao nome="Comissão Especial destinada a efetuar estudo e apresentar propostas em relação à Reforma Política." sigla="CEREFPOL" />
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Parlamentar de Inquérito destinada a apurar denúncias de turismo sexual e exploração sexual de crianças e adolescentes, conforme diversas matérias publicadas pela imprensa." sigla="CPICRIAN" />
+        <comissao nome="Grupo de Trabalho destinado a estudar e elaborar propostas referentes à Reforma Política e à consulta popular sobre o tema" sigla="GTREFPOL" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 10-A, de 1995, do Sr. Adhemar de Barros Filho, que &quot;modifica o art. 45 da Constituição Federal e acrescenta parágrafos ao mesmo artigo&quot;, criando o sistema distrital misto" sigla="PEC01095" />
         <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 3460, de 2004, do Sr. Walter Feldman, que &quot;institui diretrizes para a Política Nacional de Planejamento Regional Urbano, cria o Sistema Nacional de Planejamento e Informações Regionais Urbanas e dá outras providências&quot; (Estatuto da Metrópole)" sigla="PL346004" />
         <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei Complementar nº 237, de 2012, do Sr. Pedro Eugênio, que &quot;altera a Lei Complementar nº 123, de 14 de dezembro de 2006&quot; (altera o Estatuto Nacional da Microempresa e da Empresa de Pequeno Porte; a Lei nº 5.889, de 1973; a Lei nº 8.212, de 1991; Lei nº 8.213, de 1991; Lei nº 11.101, de 2005)" sigla="PLP23712" />
@@ -12040,6 +12118,7 @@
         <comissao nome="Comissão de Ciência e Tecnologia, Comunicação e Informática" sigla="CCTCI" />
         <comissao nome="Comissão Especial destinada a debater e propor modificações à Lei 12.619, de 30 de abril de 2012, que regulamenta a Profissão de Motorista" sigla="CEMOTOR" />
         <comissao nome="Comissão Especial destinada a efetuar estudo e apresentar propostas em relação à Reforma Política." sigla="CEREFPOL" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Grupo de Trabalho para análise, estudo e formulação de proposições relacionadas à Lei Eleitoral" sigla="GTELEIT" />
         <comissao nome="Grupo de Trabalho destinado a estudar e elaborar propostas referentes à Reforma Política e à consulta popular sobre o tema" sigla="GTREFPOL" />
@@ -12118,6 +12197,7 @@
         <comissao nome="Coordenadoria dos Direitos da Mulher (Resolução da Câmara dos Deputados nº 31, de 2013, que dispõe sobre a Secretaria da Mulher)" sigla="CDMULHER" />
         <comissao nome="Comissão de Seguridade Social e Família" sigla="CSSF" />
         <comissao nome="Grupo de Trabalho para análise, estudo e formulação de proposições relacionadas à Lei Eleitoral" sigla="GTELEIT" />
+        <comissao nome="Grupo de Trabalho destinado a estudar e elaborar propostas referentes à Reforma Política e à consulta popular sobre o tema" sigla="GTREFPOL" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 454-A, de 2009, do Sr. Ronaldo Caiado, que &quot;altera o Título VIII, Capítulo II, Seção II - Da Saúde -, da Constituição da República Federativa do Brasil de 1988&quot; (estabelecendo diretrizes para a organização da carreira única de Médico de Estado)" sigla="PEC45409" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 565-A, de 2006, do Senado Federal, que &quot;altera os arts. 57, 165, 166, e acrescenta art. 165-A, todos da Constituição Federal, tornando de execução obrigatória a programação constante da lei orçamentária anual&quot;" sigla="PEC56506" />
         <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 3460, de 2004, do Sr. Walter Feldman, que &quot;institui diretrizes para a Política Nacional de Planejamento Regional Urbano, cria o Sistema Nacional de Planejamento e Informações Regionais Urbanas e dá outras providências&quot; (Estatuto da Metrópole)" sigla="PL346004" />
@@ -12292,6 +12372,7 @@
         <comissao nome="Comissão Externa da Câmara dos Deputados, sem ônus para esta Casa, destinada a analisar e discutir o legado a ser deixado pela Copa do Mundo de 2014 e dos Jogos Olímpicos e Paraolímpicos de 2016 para a Cidade do Rio de Janeiro e sua Região Metropolitana." sigla="CEXCOPA" />
         <comissao nome="Comissão Externa para acompanhar a luta da comunidade indígena Guarani-Kaiowá, do Mato Grosso do Sul, para permanecer às margens do Rio Hovy, próximo ao território tradicional Pyelito Kue/Mbarakay" sigla="CEXINDI" />
         <comissao nome="Comissão de Segurança Pública e Combate ao Crime Organizado" sigla="CSPCCO" />
+        <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 82-A, de 2007, do Sr. Flávio Dino e outros, que &quot;acresce os arts. 132-A e 135-A e altera o art. 168 da Constituição Federal&quot;  (atribui autonomia funcional e prerrogativas aos membros da Defensoria Pública, Advocacia da União, Procuradoria da Fazenda Nacional, Procuradoria-Geral Federal, Procuradorias das autarquias e às Procuradorias dos Estados, do Distrito Federal e dos Municípios) e apensada" sigla="PEC08207" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 147-A, de 2012, do Sr. Amauri Teixeira, que &quot;fixa parâmetros para a remuneração dos Auditores Fiscais da Receita Federal do Brasil, dos Auditores Fiscais do Trabalho e do grau ou nível máximo da carreira dos servidores do Banco Central do Brasil&quot;" sigla="PEC14712" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 196-A, de 2012, do Senado Federal, que &quot;altera o § 2° do art. 55 da Constituição Federal, para estabelecer que a perda de mandato será decidida por voto aberto nos casos que especifica&quot;" sigla="PEC19612" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 443-A, de 2009, do Sr. Bonifácio de Andrada, estabelecendo que &quot;o subsídio do grau ou nível máximo das carreiras da Advocacia-Geral da União, das Procuradorias dos Estados e do Distrito Federal corresponderá a noventa inteiros e vinte e cinco centésimos por cento do subsídio mensal, fixado para os Ministros do Supremo Tribunal Federal, e os subsídios dos demais integrantes das respectivas categorias da estrutura da advocacia pública serão fixados em lei e escalonados, não podendo a diferença entre um e outro ser superior a dez por centro ou inferior a cinco por cento, nem exceder a noventa inteiros e vinte e cinco centésimos por cento do subsídio mensal fixado para os Ministros do Supremo Tribunal Federal, obedecido, em qualquer caso, o disposto nos artigos 37, XI, e 39, § 4º&quot;" sigla="PEC44309" />
@@ -12645,12 +12726,12 @@
         <comissao nome="Comissão Externa, com ônus para esta Casa, objetivando visitar a região serrana do Rio de Janeiro, para averiguar os danos sociais, ambientais e econômicos, decorrentes das enchentes, inundações e desmoronamentos, bem como verificar as providências que estão sendo tomadas no sentindo de atender as populações afetadas" sigla="CEXDEST" />
         <comissao nome="Comissão Mista Permanente sobre Mudanças Climáticas - CMMC" sigla="CMMC" />
         <comissao nome="Comissão de Relações Exteriores e de Defesa Nacional" sigla="CREDN" />
-        <comissao nome="Grupo de Trabalho destinado a estudar e elaborar propostas referentes à Reforma Política e à consulta popular sobre o tema" sigla="GTREFPOL" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 10-A, de 1995, do Sr. Adhemar de Barros Filho, que &quot;modifica o art. 45 da Constituição Federal e acrescenta parágrafos ao mesmo artigo&quot;, criando o sistema distrital misto" sigla="PEC01095" />
         <comissao nome="Subcomissão Especial para Acompanhar as Atividades da Conferência das Partes sobre Mudanças Climáticas." sigla="SUBMCLIM" />
       </titular>
       <suplente>
         <comissao nome="Comissão de Meio Ambiente e Desenvolvimento Sustentável" sigla="CMADS" />
+        <comissao nome="Grupo de Trabalho destinado a estudar e elaborar propostas referentes à Reforma Política e à consulta popular sobre o tema" sigla="GTREFPOL" />
       </suplente>
     </comissoes>
   </deputado>
@@ -12733,6 +12814,7 @@
         <comissao nome="Comissão de Agricultura, Pecuária, Abastecimento e Desenvolvimento Rural" sigla="CAPADR" />
         <comissao nome="Comissão Especial destinada a debater e propor modificações à Lei 12.619, de 30 de abril de 2012, que regulamenta a Profissão de Motorista" sigla="CEMOTOR" />
         <comissao nome="Comissão de Integração Nacional, Desenvolvimento Regional e da Amazônia" sigla="CINDRA" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Especial destinada a apreciar e  proferir parecer à Proposta de Emenda à Constituição nº 005-A, de 2011, do Sr. Nelson Marquezelli, que &quot;altera o inciso XV do art. 48 e revoga os incisos VII e VIII do art. 49 para estabelecer que os subsídios do Presidente e Vice-Presidente da República, Ministros de Estado, Senadores e Deputados Federais são idênticos aos dos Ministros do Supremo Tribunal Federal&quot;" sigla="PEC00511" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 82-A, de 2007, do Sr. Flávio Dino e outros, que &quot;acresce os arts. 132-A e 135-A e altera o art. 168 da Constituição Federal&quot;  (atribui autonomia funcional e prerrogativas aos membros da Defensoria Pública, Advocacia da União, Procuradoria da Fazenda Nacional, Procuradoria-Geral Federal, Procuradorias das autarquias e às Procuradorias dos Estados, do Distrito Federal e dos Municípios) e apensada" sigla="PEC08207" />
@@ -13006,6 +13088,7 @@
         <comissao nome="Comissão de Meio Ambiente e Desenvolvimento Sustentável" sigla="CMADS" />
         <comissao nome="Comissão Mista Permanente sobre Mudanças Climáticas - CMMC" sigla="CMMC" />
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 5013, de 2013, do Senado Federal, que &quot;estabelece normas gerais de política urbana e de proteção à saúde e ao meio ambiente associadas à implantação e ao compartilhamento da infraestrutura de telecomunicações&quot; (altera a Lei nº 9.472, de 1997 e a Lei nº 11.934, de 2009), e apensados" sigla="PL501313" />
         <comissao nome="Subcomissão Especial Destinada a Regulamentar o Poder de Fiscalização e Controle da Câmara dos Deputados sobre a Atividade Nuclear" sigla="SUBFISAN" />
       </titular>
@@ -13069,6 +13152,7 @@
       <titular>
         <comissao nome="Comissão de Agricultura, Pecuária, Abastecimento e Desenvolvimento Rural" sigla="CAPADR" />
         <comissao nome="Comissão Especial destinada a efetuar estudos e apresentar propostas com relação ao Projeto de Lei nº 4378, de 1998, do Sr. Milton Mendes, que &quot;regula as relações jurídicas entre a agroindústria e o produtor rural integrado e dá outras providências&quot;" sigla="CEAGRIRU" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 479-A, de 2010, do Sr. Sebastião Bala Rocha, que &quot;acrescenta o inciso LXXIX ao art. 5º da Constituição Federal, para Incluir o acesso à internet em alta velocidade entre os direitos fundamentais do cidadão&quot;" sigla="PEC47910" />
         <comissao nome="Subcomissão Especial destinada a discutir o uso de biocombustíveis no Brasil" sigla="SUBBIOBR" />
@@ -13619,6 +13703,7 @@
         <comissao nome="Comissão Especial destinada a discutir o Financiamento da Saúde Pública." sigla="CESAUDE" />
         <comissao nome="Comissão Especial destinada a analisar as Propostas de Emenda à Constituição que versem sobre Segurança Pública." sigla="CESEGUR" />
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Grupo de Trabalho para análise, estudo e formulação de proposições relacionadas à Lei Eleitoral" sigla="GTELEIT" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 11-A, de 2011, do Sr. Sandro Alex, que &quot;altera e acrescenta novos dispositivos à Constituição Federal, vedando a nomeação ou a designação para os cargos que menciona daqueles considerados inelegíveis pela Justiça Eleitoral para qualquer cargo&quot; (proíbe a nomeação daqueles que tenham sido considerados inelegíveis pela Justiça Eleitoral para os cargos de Ministro de Estado ou cargo equiparado, Secretário Executivo, cargos em comissão e designação para exercício de função de confiança)" sigla="PEC01111" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 55-A, de 2011, do Sr. Hugo Motta, que &quot;dá nova redação ao § 8º do art. 144, da Constituição Federal, para disciplinar a carreira dos agentes públicos responsáveis pelo policiamento de trânsito, em âmbito municipal&quot;" sigla="PEC05511" />
@@ -13700,6 +13785,7 @@
       </titular>
       <suplente>
         <comissao nome="Comissão de Minas e Energia" sigla="CME" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 479-A, de 2010, do Sr. Sebastião Bala Rocha, que &quot;acrescenta o inciso LXXIX ao art. 5º da Constituição Federal, para Incluir o acesso à internet em alta velocidade entre os direitos fundamentais do cidadão&quot;" sigla="PEC47910" />
         <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 2.126, de 2011, do Poder Executivo, que &quot;estabelece princípios, garantias, direitos e deveres para o uso da Internet no Brasil.&quot;" sigla="PL212611" />
@@ -13914,6 +14000,7 @@
       <suplente>
         <comissao nome="Comissão de Constituição e Justiça e de Cidadania" sigla="CCJC" />
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Parlamentar de Inquérito destinada a apurar denúncias de turismo sexual e exploração sexual de crianças e adolescentes, conforme diversas matérias publicadas pela imprensa." sigla="CPICRIAN" />
         <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 1.927, de 2003, do Sr. Fernando de Fabinho, que &quot;acrescenta dispositivo à Lei nº 10.336, de 19 de dezembro de 2001, para isentar as empresas de transporte coletivo urbano municipal e Transporte Coletivo Urbano Alternativo da Contribuição de Intervenção no Domínio Econômico - CIDE&quot;" sigla="PL192703" />
         <comissao nome="Subcomissão Especial para Acompanhamento Técnico dos Sistemas de Segurança Pública e Privada a Serem Implantados na Copa do Mundo e Olimpíadas." sigla="SUBSEGCO" />
@@ -13950,6 +14037,7 @@
       <suplente>
         <comissao nome="Comissão de Desenvolvimento Urbano" sigla="CDU" />
         <comissao nome="Comissão Especial destinada a promover estudos e proposições para a reformulação do ensino médio." sigla="CEENSI" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 10-A, de 2011, do Sr. Luiz Fernando Machado, que &quot;altera os arts. 28, 29 e 84 da Constituição Federal para instituir a obrigatoriedade de elaboração e cumprimento do plano de metas pelo Poder Executivo municipal, estadual e federal, com base nas propostas da campanha eleitoral&quot;" sigla="PEC01011" />
         <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 7197, de 2002, do Senado Federal, que &quot;acrescenta §§ aos arts. 104 e 105 da Lei nº 8.069, de 13 de julho de 1990, que dispõe sobre o Estatuto da Criança e do Adolescente e dá outras providências, para permitir a aplicação de medidas sócio-educativas aos infratores que atingirem a maioridade penal&quot;" sigla="PL719702" />
@@ -14010,6 +14098,7 @@
       <titular>
         <comissao nome="Comissão de Cultura" sigla="CCULT" />
         <comissao nome="Comissão de Educação" sigla="CE" />
+        <comissao nome="Comissão Externa para acompanhar as investigações dos possíveis maus tratos do laboratório do Instituto Royal na cidade de São Roque, São Paulo, sem ônus para a Câmara dos Deputados" sigla="CEXMALTR" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 290-A, de 2013, da Sra. Margarida Salomão e outros, que &quot;altera e adiciona dispositivos na Constituição Federal para atualizar o tratamento das atividades de ciência, tecnologia e inovação&quot;" sigla="PEC29013" />
         <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 2.177, de 2011, do Sr. Bruno Araújo, que &quot;institui o Código Nacional de Ciência,Tecnologia e Inovação&quot;" sigla="PL217711" />
         <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 7197, de 2002, do Senado Federal, que &quot;acrescenta §§ aos arts. 104 e 105 da Lei nº 8.069, de 13 de julho de 1990, que dispõe sobre o Estatuto da Criança e do Adolescente e dá outras providências, para permitir a aplicação de medidas sócio-educativas aos infratores que atingirem a maioridade penal&quot;" sigla="PL719702" />
@@ -14629,6 +14718,7 @@
       <suplente>
         <comissao nome="Comissão Especial destinada a debater e propor modificações à Lei 12.619, de 30 de abril de 2012, que regulamenta a Profissão de Motorista" sigla="CEMOTOR" />
         <comissao nome="Comissão de Turismo e Desporto" sigla="CTD" />
+        <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 82-A, de 2007, do Sr. Flávio Dino e outros, que &quot;acresce os arts. 132-A e 135-A e altera o art. 168 da Constituição Federal&quot;  (atribui autonomia funcional e prerrogativas aos membros da Defensoria Pública, Advocacia da União, Procuradoria da Fazenda Nacional, Procuradoria-Geral Federal, Procuradorias das autarquias e às Procuradorias dos Estados, do Distrito Federal e dos Municípios) e apensada" sigla="PEC08207" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 368, de 2009, do Sr. Carlos Bezerra, que &quot;dá nova redação ao art. 42 do Ato das Disposições Constitucionais Transitórias, ampliando o prazo em que a União deverá destinar às regiões Centro-Oeste e Nordeste percentuais mínimos dos recursos destinados à irrigação&quot;" sigla="PEC36809" />
       </suplente>
     </comissoes>
@@ -14929,6 +15019,7 @@
         <comissao nome="Comissão de Desenvolvimento Urbano" sigla="CDU" />
         <comissao nome="Comissão de Integração Nacional, Desenvolvimento Regional e da Amazônia" sigla="CINDRA" />
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 5627, de 2013, do Poder Executivo, que &quot;altera o Decreto-Lei nº 9.760, de 5 de setembro de 1946, o Decreto-Lei nº 2.398, de 21 de dezembro de 1987, a Lei nº 9.636, de 15 de maio de 1998, dispõe sobre o parcelamento e a remissão de dívidas patrimoniais com a União, e dá outras providências&quot;" sigla="PL562713" />
       </titular>
       <suplente>
@@ -14957,6 +15048,7 @@
     <comissoes>
       <titular>
         <comissao nome="Comissão de Defesa do Consumidor" sigla="CDC" />
+        <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Mista de Planos, Orçamentos Públicos e Fiscalização" sigla="CMO" />
         <comissao nome="Comissão Parlamentar de Inquérito destinada a investigar o tráfico de pessoas no Brasil, suas causas, consequências e responsáveis no período de 2003 a 2011, compreendido na vigência da Convenção de Palermo." sigla="CPITRAPE" />
         <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 1572, de 2011, do Sr. Vicente Candido, que &quot;institui o Código Comercial&quot;" sigla="PL157211" />
@@ -15349,26 +15441,6 @@
     <anexo>4</anexo>
     <fone>3215-5318</fone>
     <email>dep.nilmariomiranda@camara.gov.br</email>
-    <comissoes>
-      <titular />
-      <suplente />
-    </comissoes>
-  </deputado>
-  <deputado>
-    <ideCadastro>171620</ideCadastro>
-    <condicao>Suplente</condicao>
-    <matricula>612</matricula>
-    <idParlamentar>5829186</idParlamentar>
-    <nome>RENATO BARBOSA DE ANDRADE</nome>
-    <nomeParlamentar>RENATO ANDRADE</nomeParlamentar>
-    <urlFoto>http://www.camara.gov.br/internet/deputado/bandep/171620.jpg</urlFoto>
-    <sexo>masculino</sexo>
-    <uf>MG</uf>
-    <partido>PP</partido>
-    <gabinete>431</gabinete>
-    <anexo>4</anexo>
-    <fone>3215-5431</fone>
-    <email>dep.renatoandrade@camara.gov.br</email>
     <comissoes>
       <titular />
       <suplente />

@@ -301,68 +301,6 @@
       <uf>PR</uf>
     </vice_lider>
   </bancada>
-  <bancada sigla="PP" nome="Partido Progressista">
-    <lider>
-      <nome>EDUARDO DA FONTE</nome>
-      <partido>PP</partido>
-      <uf>PE</uf>
-    </lider>
-    <vice_lider>
-      <nome>WALDIR MARANHÃO</nome>
-      <partido>PP</partido>
-      <uf>MA</uf>
-    </vice_lider>
-    <vice_lider>
-      <nome>RENATO MOLLING</nome>
-      <partido>PP</partido>
-      <uf>RS</uf>
-    </vice_lider>
-    <vice_lider>
-      <nome>ESPERIDIÃO AMIN</nome>
-      <partido>PP</partido>
-      <uf>SC</uf>
-    </vice_lider>
-    <vice_lider>
-      <nome>IRACEMA PORTELLA</nome>
-      <partido>PP</partido>
-      <uf>PI</uf>
-    </vice_lider>
-    <vice_lider>
-      <nome>BETINHO ROSADO</nome>
-      <partido>PP</partido>
-      <uf>RN</uf>
-    </vice_lider>
-    <vice_lider>
-      <nome>MISSIONÁRIO JOSÉ OLIMPIO</nome>
-      <partido>PP</partido>
-      <uf>SP</uf>
-    </vice_lider>
-    <vice_lider>
-      <nome>SANDES JÚNIOR</nome>
-      <partido>PP</partido>
-      <uf>GO</uf>
-    </vice_lider>
-    <vice_lider>
-      <nome>DIMAS FABIANO</nome>
-      <partido>PP</partido>
-      <uf>MG</uf>
-    </vice_lider>
-    <vice_lider>
-      <nome>ROBERTO BALESTRA</nome>
-      <partido>PP</partido>
-      <uf>GO</uf>
-    </vice_lider>
-    <vice_lider>
-      <nome>DILCEU SPERAFICO</nome>
-      <partido>PP</partido>
-      <uf>PR</uf>
-    </vice_lider>
-    <vice_lider>
-      <nome>LUIS CARLOS HEINZE</nome>
-      <partido>PP</partido>
-      <uf>RS</uf>
-    </vice_lider>
-  </bancada>
   <bancada sigla="PSD" nome="Partido Social Democrático">
     <lider>
       <nome>EDUARDO SCIARRA</nome>
@@ -428,6 +366,68 @@
       <nome>IRAJÁ ABREU</nome>
       <partido>PSD</partido>
       <uf>TO</uf>
+    </vice_lider>
+  </bancada>
+  <bancada sigla="PP" nome="Partido Progressista">
+    <lider>
+      <nome>EDUARDO DA FONTE</nome>
+      <partido>PP</partido>
+      <uf>PE</uf>
+    </lider>
+    <vice_lider>
+      <nome>WALDIR MARANHÃO</nome>
+      <partido>PP</partido>
+      <uf>MA</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>RENATO MOLLING</nome>
+      <partido>PP</partido>
+      <uf>RS</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>ESPERIDIÃO AMIN</nome>
+      <partido>PP</partido>
+      <uf>SC</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>IRACEMA PORTELLA</nome>
+      <partido>PP</partido>
+      <uf>PI</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>BETINHO ROSADO</nome>
+      <partido>PP</partido>
+      <uf>RN</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>MISSIONÁRIO JOSÉ OLIMPIO</nome>
+      <partido>PP</partido>
+      <uf>SP</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>SANDES JÚNIOR</nome>
+      <partido>PP</partido>
+      <uf>GO</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>DIMAS FABIANO</nome>
+      <partido>PP</partido>
+      <uf>MG</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>ROBERTO BALESTRA</nome>
+      <partido>PP</partido>
+      <uf>GO</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>DILCEU SPERAFICO</nome>
+      <partido>PP</partido>
+      <uf>PR</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>LUIS CARLOS HEINZE</nome>
+      <partido>PP</partido>
+      <uf>RS</uf>
     </vice_lider>
   </bancada>
   <bancada sigla="Bloco PR, PTdoB, PRP" nome="Bloco Parlamentar PR, PTdoB, PRP">
