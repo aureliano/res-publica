@@ -5,7 +5,7 @@ ResPublica::App.controllers :organizacional do
   end
   
   get :partidos do
-    options = {:skip => skip_value, :limit => DataPage.default_page_size}
+    options = {:skip => skip_value, :limit => DataPage.default_page_size, :tags => get_tags_without_stopwords(params[:tags])}
     @partidos, @total = case params[:situacao_partido]
       when 'Todos' then Partido.todos options
       when 'Extintos' then Partido.partidos_extintos options

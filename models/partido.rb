@@ -35,6 +35,7 @@ class Partido
     options[:skip] ||= 0
     options[:limit] ||= 0
     partidos = []
+    criteria[:tags] = {:$all => options[:tags]} if (options[:tags] && !options[:tags].empty?)
     
     where(criteria)
       .skip(options[:skip])

@@ -27,5 +27,12 @@ ResPublica::App.helpers do
   def bool_to_s(bool)
     (bool) ? 'Sim' : 'Não'
   end
+  
+  def get_tags_without_stopwords(text)
+    return [] if text.nil?
+    tags = text.split(/\s/)
+    tags.each {|tag| tag.downcase! }
+    tags.delete_if {|t| APP[:stopwords].include? t }
+  end
 
 end
