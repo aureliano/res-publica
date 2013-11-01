@@ -1,7 +1,6 @@
 # encoding: utf-8
 
 start_time = $data_preparation_start.nil? ? Time.now : $data_preparation_start
-BUCKET_SIZE = 100
 
 def elapsed_time(t1, t2)
   diff = (t2 - t1)
@@ -14,6 +13,34 @@ def elapsed_time(t1, t2)
   else
     format("%.5f", diff) + " milisegundos."
   end
+end
+
+def replace_special_characters(text)
+  return text if text.nil?
+  
+  txt = text.dup
+  APP[:special_characters].each {|k, v| txt.gsub! /#{k}/, v }
+  txt
+end
+
+def get_tags_without_stopwords(text)
+  txt = replace_special_characters text
+  return txt if txt.nil?
+  
+  tags = txt.downcase.split(/[\s\/]/)
+  tags.delete_if {|t| APP[:stopwords].include? t }
+end
+
+def create_tags(fields)
+  tags = []
+  
+  fields.each do |field|
+    tokens = get_tags_without_stopwords(field)
+    tokens.delete_if {|t| tags.include? t }
+    tags.concat tokens
+  end
+  
+  tags
 end
 
 shell.say 'Populando base de dados do projeto'
@@ -37,6 +64,7 @@ doc.xpath('//partidos/partido').each do |e|
     partido.logo = p['logo']
   end
   
+  partido.tags = create_tags [partido.numero.to_s, partido.sigla, partido.nome]
   partido.save
 end
 
@@ -49,14 +77,14 @@ doc.xpath('//comissao').each do |e|
   comissoes[e['sigla']] = e['nome']
 end
 
-comissoes.each {|sigla, nome| Comissao.create :sigla => sigla, :nome => nome }
+comissoes.each {|sigla, nome| Comissao.create :sigla => sigla, :nome => nome, :tags => create_tags([sigla, nome]) }
 comissoes = nil
 
 shell.say "Carregando dados de 'deputado' do arquivo 'db/deputados_data.xml'"
 Deputado.delete_all
 
 doc = Nokogiri::XML(File.open('db/deputados_data.xml'))
-fields = Deputado.new.inspect.scan(/[\w\d]+:/).delete_if {|e| e == '_id:' || e == '_type:' || e == 'comissoes_titular:' || e == 'comissoes_suplente:' }
+fields = Deputado.new.inspect.scan(/[\w\d]+:/).delete_if {|e| e == '_id:' || e == '_type:' || e == 'comissoes_titular:' || e == 'comissoes_suplente:' || e == 'tags:' }
 count = 1
 doc.xpath('//deputado').each do |e|
   d = Deputado.new
@@ -74,9 +102,9 @@ doc.xpath('//deputado').each do |e|
   d.comissoes_suplente = []
   tags.each {|c| d.comissoes_suplente << /"[\w\d]+"/.match(c).to_s.gsub(/"/, '') }
 
+  d.tags = create_tags([d.nome, d.nome_parlamentar])
   d.save
   count += 1
-
 end
 
 shell.say "Carregando dados de 'bancada' do arquivo 'db/bancadas_data.xml'"
@@ -103,6 +131,7 @@ text.scan(/sigla="[\w\d]+"/).each do |b|
     bancada.vice_lideres.clear
   end
   
+  bancada.tags = create_tags([bancada.sigla, bancada.nome])
   bancada.save
 end
 

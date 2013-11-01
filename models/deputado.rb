@@ -17,6 +17,7 @@ class Deputado
   field :email, :type => String
   field :comissoes_titular, :type => Array
   field :comissoes_suplente, :type => Array
+  field :tags, :type => Array
 
   def self.search(options)
     options[:skip] ||= 0

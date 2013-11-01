@@ -25,6 +25,7 @@ describe Deputado do
     deputado.should respond_to :email
     deputado.should respond_to :comissoes_titular
     deputado.should respond_to :comissoes_suplente
+    deputado.should respond_to :tags
   end
 
 end

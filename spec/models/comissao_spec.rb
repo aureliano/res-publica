@@ -13,6 +13,7 @@ describe Comissao do
     comissao.should respond_to :_id
     comissao.should respond_to :sigla
     comissao.should respond_to :nome
+    comissao.should respond_to :tags
   end
   
   it 'encontra Comissão pela sigla' do

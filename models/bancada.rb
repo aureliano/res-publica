@@ -6,6 +6,7 @@ class Bancada
   field :representante, :type => String
   field :lider, :type => String
   field :vice_lideres, :type => Array
+  field :tags, :type => Array
   
   def self.search(options)
     options[:skip] ||= 0

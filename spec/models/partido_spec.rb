@@ -18,6 +18,7 @@ describe Partido do
     partido.should respond_to :data_registro_tse
     partido.should respond_to :logo
     partido.should respond_to :sitio
+    partido.should respond_to :tags
   end
   
   it 'verifica se partido foi extinto' do

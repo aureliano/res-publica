@@ -8,6 +8,7 @@ class Partido
   field :sitio, :type => String
   field :logo, :type => String
   field :data_extincao, :type => String
+  field :tags, :type => Array
 
   def extinto?
     !data_extincao.nil? && !data_extincao.empty?

@@ -3,6 +3,7 @@ class Comissao
   
   field :sigla, :type => String
   field :nome, :type => String
+  field :tags, :type => Array
   
   def self.by_sigla(s)
     where(:sigla => s).first
