@@ -82,7 +82,7 @@ ResPublica::App.controllers :organizacional do
     options = {:skip => skip_value, :limit => DataPage.default_page_size, :partido => params[:partido]}
     @deputados, @total = Deputado.search options
     
-    render 'organizacional/deputados_partidos'
+    render 'organizacional/deputados_partido'
   end
   
   get :deputado, :with => :id do
