@@ -131,7 +131,6 @@ text.scan(/sigla="[\w\d]+"/).each do |b|
     bancada.vice_lideres.clear
   end
   
-  bancada.tags = create_tags([bancada.sigla, bancada.nome])
   bancada.save
 end
 

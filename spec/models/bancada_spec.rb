@@ -14,7 +14,6 @@ describe Bancada do
     bancada.should respond_to :representante
     bancada.should respond_to :lider
     bancada.should respond_to :vice_lideres
-    bancada.should respond_to :tags
   end
 
 end
