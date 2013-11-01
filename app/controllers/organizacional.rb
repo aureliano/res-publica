@@ -72,14 +72,14 @@ ResPublica::App.controllers :organizacional do
   end
   
   get :deputados do
-    options = {:skip => skip_value, :limit => DataPage.default_page_size}
+    options = {:skip => skip_value, :limit => DataPage.default_page_size, :tags => get_tags_without_stopwords(params[:tags])}
     @deputados, @total = Deputado.search options
     
     render 'organizacional/deputados'
   end
   
   get :deputados, :with => :partido do
-    options = {:skip => skip_value, :limit => DataPage.default_page_size, :partido => params[:partido]}
+    options = {:skip => skip_value, :limit => DataPage.default_page_size, :partido => params[:partido], :tags => get_tags_without_stopwords(params[:tags])}
     @deputados, @total = Deputado.search options
     
     render 'organizacional/deputados_partido'
