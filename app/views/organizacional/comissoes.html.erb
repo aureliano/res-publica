@@ -5,6 +5,16 @@
 </div>
 
 <div class="container">
+  <% form_tag '', :method => 'get', :id => 'form_consulta' do %>
+    <div>
+        <label for="tags" class="short-label">Comissão: </label>
+        <input type="text" id="tags" name="tags" value="<%= params[:tags] %>" class="filter-component" style="height: 28px;"/>
+    </div>
+    <div align="right" style="width: 500px">
+        <button type="submit" class="btn">Consultar</button>
+    </div>
+  <% end %>
+  
   <%= data_table(:data => @comissoes, :total => @total, :seed => 'comissao',
       :fields => [{:title => 'Sigla', :name => 'sigla'}],
       :detail_path => '/organizacional/comissao/', :field_id => 'id').html_safe %>

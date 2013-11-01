@@ -13,7 +13,15 @@ class Comissao
     options[:skip] ||= 0
     options[:limit] ||= 0
     comissoes = []
-    criteria = (options[:comissoes]) ? where(:sigla => {:$in => options[:comissoes]}) : all
+
+    criteria = if (options[:comissoes] || options[:tags])
+      params = {}
+      params[:sigla] = {:$in => options[:comissoes]} if options[:comissoes]
+      params[:tags] = {:$all => options[:tags]} if (options[:tags] && !options[:tags].empty?)
+      where params
+    else
+      all
+    end
     
     criteria
       .skip(options[:skip])

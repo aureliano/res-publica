@@ -41,7 +41,7 @@ ResPublica::App.controllers :organizacional do
   end
   
   get :comissoes do
-    options = {:skip => skip_value, :limit => DataPage.default_page_size}
+    options = {:skip => skip_value, :limit => DataPage.default_page_size, :tags => get_tags_without_stopwords(params[:tags])}
     @comissoes, @total = Comissao.search options
     
     render 'organizacional/comissoes'
@@ -52,7 +52,7 @@ ResPublica::App.controllers :organizacional do
     redirect '/404' unless deputado
     
     @comissoes = (params[:condicao] == 'suplente') ? deputado.comissoes_suplente : deputado.comissoes_titular
-    @comissoes, @total = Comissao.search({:skip => skip_value, :limit => DataPage.default_page_size, :comissoes => @comissoes})
+    @comissoes, @total = Comissao.search({:skip => skip_value, :limit => DataPage.default_page_size, :comissoes => @comissoes, :tags => get_tags_without_stopwords(params[:tags])})
     
     render 'organizacional/comissoes'
   end
