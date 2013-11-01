@@ -4,7 +4,7 @@ port = Mongo::Connection::DEFAULT_PORT
 
 database_name = case Padrino.env
   when :development then 'res_publica_development'
-  when :production  then ''
+  when :production  then 'heroku_app19101384'
   when :test        then 'res_publica_test'
 end
 
