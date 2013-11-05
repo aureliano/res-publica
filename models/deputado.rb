@@ -42,6 +42,7 @@ class Deputado
     criteria[:comissoes_titular] = {:$in => [options[:comissoes_titular]]} if options[:comissoes_titular] && !options[:comissoes_titular].empty?
     criteria[:comissoes_suplente] = {:$in => [options[:comissoes_suplente]]} if options[:comissoes_suplente] && !options[:comissoes_suplente].empty?
     criteria[:tags] = {:$all => options[:tags]} if (options[:tags] && !options[:tags].empty?)
+    criteria[:uf] = options[:uf] if options[:uf] && !options[:uf].empty?
     criteria
   end
   

@@ -61,6 +61,7 @@ ResPublica::App.helpers do
     url << "page=#{page_index}"
     url << "&situacao_partido=#{params[:situacao_partido]}" if params[:situacao_partido]
     url << "&tags=#{params[:tags]}" if params[:tags]
+    url << "&uf=#{params[:uf]}" if params[:uf]
     
     url
   end

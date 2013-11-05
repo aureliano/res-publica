@@ -1,14 +1,23 @@
 <% @page_title = 'Deputados Federais' %>
 
 <div class="hero-unit">
-  <h3>Deputados Federais</h3>
+  <h3>Deputados Federais <%= params[:partido] %></h3>
 </div>
 
 <div class="container">
   <% form_tag '', :method => 'get', :id => 'form_consulta' do %>
     <div>
-        <label for="tags" class="short-label">Comissão: </label>
+        <label for="tags" class="short-label">Deputado: </label>
         <input type="text" id="tags" name="tags" value="<%= params[:tags] %>" class="filter-component" style="height: 28px;"/>
+    </div>
+    <div>
+      <label for="uf" class="short-label">UF: </label>
+      <select id="uf" name="uf" class="filter-component">
+      <option value="">Selecione...</option>
+      <% APP[:estados].each do |uf, nome| %>
+      <option value="<%= uf %>"<%= ' selected' if params[:uf] == uf %>><%= nome %></option>
+      <% end %>
+      </select>
     </div>
     <div align="right" style="width: 500px">
         <button type="submit" class="btn">Consultar</button>
