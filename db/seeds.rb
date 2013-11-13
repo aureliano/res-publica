@@ -137,7 +137,7 @@ end
 
 shell.say ''
 
-shell.say 'Criando dados agregados de Deputados por UF'
+shell.say 'Criando dados agregados de Deputados'
 load('db/stat_deputados.rb')
 
 shell.say ''
