@@ -1,0 +1,12 @@
+<% @page_title = 'Estatísticas' %>
+
+<% @head_code = draw_chart(:data => @chart_data, :chart_class => 'GeoChart', :displayMode => 'markers', :resolution => 'provinces', :height => 700, :width => 900).html_safe %>
+
+<div class="hero-unit">
+  <h3>Deputados/UF</h3>
+  <p>Deputados Federais por Unidade Federativa.</p>
+</div>
+
+<div id="chart_div">
+  Não foi possível carregar o gráfico :(
+</div>

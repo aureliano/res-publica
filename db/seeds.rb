@@ -1,6 +1,7 @@
 # encoding: utf-8
 
 start_time = $data_preparation_start.nil? ? Time.now : $data_preparation_start
+BUCKET_SIZE = 100
 
 def elapsed_time(t1, t2)
   diff = (t2 - t1)
@@ -133,6 +134,11 @@ text.scan(/sigla="[\w\d]+"/).each do |b|
   
   bancada.save
 end
+
+shell.say ''
+
+shell.say 'Criando dados agregados de Deputados por UF'
+load('db/stat_deputados.rb')
 
 shell.say ''
 

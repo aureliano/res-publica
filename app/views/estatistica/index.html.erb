@@ -1,0 +1,30 @@
+<% @page_title = 'Estatísticas'
+   @estatistica_ativa = true %>
+   
+<br/><br/><br/>
+
+<div class="pagination-centered">
+  <h2>Res Publica</h2>
+  <h3>Estatísticas</h3>
+  <p class="lead">
+    Dados estatísticos da Câmara e seus agentes.
+  </p>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="span3">
+      <a href="<%= url :estatistica, :deputado_uf %>" class="btn subject-block">
+        <h4>Deputados/UF</h4>
+        <p align="justify">Gráfico com o total de Deputados Federais por Unidade Federativa.</p>
+      </a>
+    </div>
+    
+    <div class="span3">
+      <a href="<%= url :estatistica, :deputado_sexo %>" class="btn subject-block">
+        <h4>Deputados/Sexo</h4>
+        <p align="justify">Gráfico com o total de Deputados Federais por sexo.</p>
+      </a>
+    </div>
+  </div>
+</div>
