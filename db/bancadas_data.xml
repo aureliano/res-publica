@@ -224,6 +224,18 @@
       <uf>SC</uf>
     </vice_lider>
   </bancada>
+  <bancada sigla="Bloco PP, PROS" nome="Bloco Parlamentar PP, PROS">
+    <lider>
+      <nome>EDUARDO DA FONTE</nome>
+      <partido>PP</partido>
+      <uf>PE</uf>
+    </lider>
+    <vice_lider>
+      <nome>GIVALDO CARIMBÃO</nome>
+      <partido>PROS</partido>
+      <uf>AL</uf>
+    </vice_lider>
+  </bancada>
   <bancada sigla="PSDB" nome="Partido da Social Democracia Brasileira">
     <lider>
       <nome>CARLOS SAMPAIO</nome>
@@ -368,68 +380,6 @@
       <uf>TO</uf>
     </vice_lider>
   </bancada>
-  <bancada sigla="PP" nome="Partido Progressista">
-    <lider>
-      <nome>EDUARDO DA FONTE</nome>
-      <partido>PP</partido>
-      <uf>PE</uf>
-    </lider>
-    <vice_lider>
-      <nome>WALDIR MARANHÃO</nome>
-      <partido>PP</partido>
-      <uf>MA</uf>
-    </vice_lider>
-    <vice_lider>
-      <nome>RENATO MOLLING</nome>
-      <partido>PP</partido>
-      <uf>RS</uf>
-    </vice_lider>
-    <vice_lider>
-      <nome>ESPERIDIÃO AMIN</nome>
-      <partido>PP</partido>
-      <uf>SC</uf>
-    </vice_lider>
-    <vice_lider>
-      <nome>IRACEMA PORTELLA</nome>
-      <partido>PP</partido>
-      <uf>PI</uf>
-    </vice_lider>
-    <vice_lider>
-      <nome>BETINHO ROSADO</nome>
-      <partido>PP</partido>
-      <uf>RN</uf>
-    </vice_lider>
-    <vice_lider>
-      <nome>MISSIONÁRIO JOSÉ OLIMPIO</nome>
-      <partido>PP</partido>
-      <uf>SP</uf>
-    </vice_lider>
-    <vice_lider>
-      <nome>SANDES JÚNIOR</nome>
-      <partido>PP</partido>
-      <uf>GO</uf>
-    </vice_lider>
-    <vice_lider>
-      <nome>DIMAS FABIANO</nome>
-      <partido>PP</partido>
-      <uf>MG</uf>
-    </vice_lider>
-    <vice_lider>
-      <nome>ROBERTO BALESTRA</nome>
-      <partido>PP</partido>
-      <uf>GO</uf>
-    </vice_lider>
-    <vice_lider>
-      <nome>DILCEU SPERAFICO</nome>
-      <partido>PP</partido>
-      <uf>PR</uf>
-    </vice_lider>
-    <vice_lider>
-      <nome>LUIS CARLOS HEINZE</nome>
-      <partido>PP</partido>
-      <uf>RS</uf>
-    </vice_lider>
-  </bancada>
   <bancada sigla="Bloco PR, PTdoB, PRP" nome="Bloco Parlamentar PR, PTdoB, PRP">
     <lider>
       <nome>ANTHONY GAROTINHO</nome>
@@ -485,6 +435,48 @@
       <nome>PAULO FREIRE</nome>
       <partido>PR</partido>
       <uf>SP</uf>
+    </vice_lider>
+  </bancada>
+  <bancada sigla="PSB" nome="Partido Socialista Brasileiro">
+    <lider>
+      <nome>BETO ALBUQUERQUE</nome>
+      <partido>PSB</partido>
+      <uf>RS</uf>
+    </lider>
+    <vice_lider>
+      <nome>GLAUBER BRAGA</nome>
+      <partido>PSB</partido>
+      <uf>RJ</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>PAULO FOLETTO</nome>
+      <partido>PSB</partido>
+      <uf>ES</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>LUIZA ERUNDINA</nome>
+      <partido>PSB</partido>
+      <uf>SP</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>SEVERINO NINHO</nome>
+      <partido>PSB</partido>
+      <uf>PE</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>ISAIAS SILVESTRE</nome>
+      <partido>PSB</partido>
+      <uf>MG</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>SANDRA ROSADO</nome>
+      <partido>PSB</partido>
+      <uf>RN</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>JÚLIO DELGADO</nome>
+      <partido>PSB</partido>
+      <uf>MG</uf>
     </vice_lider>
   </bancada>
   <bancada sigla="DEM" nome="Democratas">
@@ -549,48 +541,6 @@
       <uf>BA</uf>
     </vice_lider>
   </bancada>
-  <bancada sigla="PSB" nome="Partido Socialista Brasileiro">
-    <lider>
-      <nome>BETO ALBUQUERQUE</nome>
-      <partido>PSB</partido>
-      <uf>RS</uf>
-    </lider>
-    <vice_lider>
-      <nome>GLAUBER BRAGA</nome>
-      <partido>PSB</partido>
-      <uf>RJ</uf>
-    </vice_lider>
-    <vice_lider>
-      <nome>PAULO FOLETTO</nome>
-      <partido>PSB</partido>
-      <uf>ES</uf>
-    </vice_lider>
-    <vice_lider>
-      <nome>LUIZA ERUNDINA</nome>
-      <partido>PSB</partido>
-      <uf>SP</uf>
-    </vice_lider>
-    <vice_lider>
-      <nome>SEVERINO NINHO</nome>
-      <partido>PSB</partido>
-      <uf>PE</uf>
-    </vice_lider>
-    <vice_lider>
-      <nome>ISAIAS SILVESTRE</nome>
-      <partido>PSB</partido>
-      <uf>MG</uf>
-    </vice_lider>
-    <vice_lider>
-      <nome>SANDRA ROSADO</nome>
-      <partido>PSB</partido>
-      <uf>RN</uf>
-    </vice_lider>
-    <vice_lider>
-      <nome>JÚLIO DELGADO</nome>
-      <partido>PSB</partido>
-      <uf>MG</uf>
-    </vice_lider>
-  </bancada>
   <bancada sigla="SDD" nome="Solidariedade">
     <lider>
       <nome>FERNANDO FRANCISCHINI</nome>
@@ -618,14 +568,14 @@
       <uf>AP</uf>
     </vice_lider>
     <vice_lider>
-      <nome>DOMINGOS DUTRA</nome>
-      <partido>SDD</partido>
-      <uf>MA</uf>
-    </vice_lider>
-    <vice_lider>
       <nome>ARMANDO VERGÍLIO</nome>
       <partido>SDD</partido>
       <uf>GO</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>AUREO</nome>
+      <partido>SDD</partido>
+      <uf>RJ</uf>
     </vice_lider>
   </bancada>
   <bancada sigla="PDT" nome="Partido Democrático Trabalhista">
@@ -658,38 +608,6 @@
       <nome>MARCOS ROGÉRIO</nome>
       <partido>PDT</partido>
       <uf>RO</uf>
-    </vice_lider>
-  </bancada>
-  <bancada sigla="PROS" nome="Partido Republicano da Ordem Social">
-    <lider>
-      <nome>GIVALDO CARIMBÃO</nome>
-      <partido>PROS</partido>
-      <uf>AL</uf>
-    </lider>
-    <vice_lider>
-      <nome>RONALDO FONSECA</nome>
-      <partido>PROS</partido>
-      <uf>DF</uf>
-    </vice_lider>
-    <vice_lider>
-      <nome>SALVADOR ZIMBALDI</nome>
-      <partido>PROS</partido>
-      <uf>SP</uf>
-    </vice_lider>
-    <vice_lider>
-      <nome>ANTONIO BALHMANN</nome>
-      <partido>PROS</partido>
-      <uf>CE</uf>
-    </vice_lider>
-    <vice_lider>
-      <nome>DR. JORGE SILVA</nome>
-      <partido>PROS</partido>
-      <uf>ES</uf>
-    </vice_lider>
-    <vice_lider>
-      <nome>VALTENIR PEREIRA</nome>
-      <partido>PROS</partido>
-      <uf>MT</uf>
     </vice_lider>
   </bancada>
   <bancada sigla="PTB" nome="Partido Trabalhista Brasileiro">
@@ -853,9 +771,9 @@
   </bancada>
   <bancada sigla="PMN" nome="Partido da Mobilização Nacional">
     <representante>
-      <nome>DR. CARLOS ALBERTO</nome>
+      <nome>FRANCISCO TENÓRIO</nome>
       <partido>PMN</partido>
-      <uf>RJ</uf>
+      <uf>AL</uf>
     </representante>
   </bancada>
   <bancada sigla="Governo" nome="Liderança do Governo">
@@ -912,6 +830,11 @@
       <uf>MT</uf>
     </lider>
     <vice_lider>
+      <nome>EMANUEL FERNANDES</nome>
+      <partido>PSDB</partido>
+      <uf>SP</uf>
+    </vice_lider>
+    <vice_lider>
       <nome>FELIPE MAIA</nome>
       <partido>DEM</partido>
       <uf>RN</uf>
@@ -927,11 +850,6 @@
       <uf>SP</uf>
     </vice_lider>
     <vice_lider>
-      <nome>EMANUEL FERNANDES</nome>
-      <partido>PSDB</partido>
-      <uf>SP</uf>
-    </vice_lider>
-    <vice_lider>
       <nome>NELSON MARCHEZAN JUNIOR</nome>
       <partido>PSDB</partido>
       <uf>RS</uf>
@@ -942,12 +860,106 @@
       <uf>PR</uf>
     </vice_lider>
   </bancada>
+  <bancada sigla="PP" nome="Partido Progressista">
+    <lider>
+      <nome>EDUARDO DA FONTE</nome>
+      <partido>PP</partido>
+      <uf>PE</uf>
+    </lider>
+    <vice_lider>
+      <nome>WALDIR MARANHÃO</nome>
+      <partido>PP</partido>
+      <uf>MA</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>RENATO MOLLING</nome>
+      <partido>PP</partido>
+      <uf>RS</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>ESPERIDIÃO AMIN</nome>
+      <partido>PP</partido>
+      <uf>SC</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>IRACEMA PORTELLA</nome>
+      <partido>PP</partido>
+      <uf>PI</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>BETINHO ROSADO</nome>
+      <partido>PP</partido>
+      <uf>RN</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>MISSIONÁRIO JOSÉ OLIMPIO</nome>
+      <partido>PP</partido>
+      <uf>SP</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>SANDES JÚNIOR</nome>
+      <partido>PP</partido>
+      <uf>GO</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>DIMAS FABIANO</nome>
+      <partido>PP</partido>
+      <uf>MG</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>ROBERTO BALESTRA</nome>
+      <partido>PP</partido>
+      <uf>GO</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>DILCEU SPERAFICO</nome>
+      <partido>PP</partido>
+      <uf>PR</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>LUIS CARLOS HEINZE</nome>
+      <partido>PP</partido>
+      <uf>RS</uf>
+    </vice_lider>
+  </bancada>
   <bancada sigla="PR" nome="Partido da República">
     <lider>
       <nome>ANTHONY GAROTINHO</nome>
       <partido>PR</partido>
       <uf>RJ</uf>
     </lider>
+  </bancada>
+  <bancada sigla="PROS" nome="Partido Republicano da Ordem Social">
+    <lider>
+      <nome>GIVALDO CARIMBÃO</nome>
+      <partido>PROS</partido>
+      <uf>AL</uf>
+    </lider>
+    <vice_lider>
+      <nome>RONALDO FONSECA</nome>
+      <partido>PROS</partido>
+      <uf>DF</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>SALVADOR ZIMBALDI</nome>
+      <partido>PROS</partido>
+      <uf>SP</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>ANTONIO BALHMANN</nome>
+      <partido>PROS</partido>
+      <uf>CE</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>DR. JORGE SILVA</nome>
+      <partido>PROS</partido>
+      <uf>ES</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>VALTENIR PEREIRA</nome>
+      <partido>PROS</partido>
+      <uf>MT</uf>
+    </vice_lider>
   </bancada>
   <bancada sigla="PTdoB" nome="Partido Trabalhista do Brasil">
     <representante>
