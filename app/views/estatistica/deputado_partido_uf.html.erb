@@ -1,0 +1,31 @@
+<% @page_title = 'Estatísticas' %>
+
+<% @head_code = draw_chart(:data => @chart_data, :chart_class => 'GeoChart', :displayMode => 'markers', :resolution => 'provinces', :height => 700, :width => 900).html_safe %>
+
+<div class="hero-unit">
+  <h3>Deputados/Partido/UF</h3>
+  <p>Deputados Federais por Partido e Unidade Federativa.</p>
+</div>
+
+<div class="container">
+  <% form_tag '', :method => 'get', :id => 'form_consulta' do %>
+    <div>
+      <label for="partido" class="short-label">Partido: </label>
+      <select id="partido" name="partido" class="filter-component">
+      <option value="">Selecione...</option>
+      <% Partido.where(:data_extincao => '').asc(:sigla).only(:sigla).each do |p| %>
+      <option value="<%= p.sigla %>"<%= ' selected' if params[:partido] == p.sigla %>><%= p.sigla %></option>
+      <% end %>
+      </select>
+    </div>
+    <div align="right" style="width: 500px">
+        <button type="submit" class="btn">Consultar</button>
+    </div>
+  <% end %>
+</div>
+
+<% unless params[:partido].nil? || params[:partido].empty? %>
+<div id="chart_div">
+  Não foi possível carregar o gráfico :(
+</div>
+<% end %>

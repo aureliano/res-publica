@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 ResPublica::App.helpers do
 
   def deputado_uf_chart_data
@@ -23,6 +25,13 @@ ResPublica::App.helpers do
     
     [['UF', 'Deputados do sexo masculino', 'Deputados do sexo feminino']]
       .concat(hash.map {|k, v| [APP[:estados][k], v['M'].to_i, v['F'].to_i] })
+  end
+  
+  def deputado_uf_partido_chart_data(partido)
+    [['UF', "Nº deputados do #{partido}"]]
+      .concat(DeputadoUfPartidoStat
+        .where(:partido => partido)
+        .only(:uf, :total).map {|stat| [APP[:estados][stat.uf], stat.total] })
   end
 
 end
