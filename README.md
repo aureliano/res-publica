@@ -31,3 +31,6 @@ Iniciar aplicação:
 padrino start
 ```
 Por favor, visite o site do [Padrino] (http://www.padrinorb.com) para obter mais instruções.
+
+
+[![Build Status](https://travis-ci.org/aureliano/programas-siconv.png?branch=master)](https://travis-ci.org/aureliano/programas-siconv)
