@@ -5,3 +5,15 @@
 - Exibe tela com informações do projeto.
 - Exibe data da última extração de dados no rodapé de cada página.
 - Cria tarefa para auxílio no versionamento do projeto.
+- Cria página com informações do projeto (Sobre).
+- Cria página com dados organizacionais da Câmara dos Deputados.
+- Cria página de partidos.
+- Cria página de deputados.
+- Cria página de comissões.
+- Cria página de bancadas.
+- Cria página com dados estatísticos da Câmara dos Deputados.
+- Cria página de deputados por UF.
+- Cria página de deputados por sexo.
+- Cria página de deputados por UF e sexo.
+- Cria página de deputados por partido e UF.
+- Cria página de log de versão.
