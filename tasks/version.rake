@@ -39,6 +39,7 @@ namespace :site do
   private
     def create_tag_number(bug)
       tag = `git tag`.split("\n").last
+      return ['0.0.0', '0.1.0'] if tag.nil?
       new_tag = tag.dup
       
       lindex = (bug) ? 2 : 1
