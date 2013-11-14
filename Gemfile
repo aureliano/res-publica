@@ -29,6 +29,7 @@ gem "rest-client", "~> 1.6.7"
 
 # Padrino Stable Gem
 gem 'padrino', '0.11.3'
+gem 'newrelic_rpm' # https://devcenter.heroku.com/articles/newrelic
 
 # Or Padrino Edge
 # gem 'padrino', :github => 'padrino/padrino-framework'
