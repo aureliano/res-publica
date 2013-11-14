@@ -1,0 +1,44 @@
+<% @page_title = 'Deputados Federais' %>
+
+<div class="hero-unit">
+  <h3>Deputados Federais <%= params[:partido] %></h3>
+</div>
+
+<div class="container">
+  <%= link_to 'Início', url(:index) %>
+  <ul>
+    <li>
+      <%= link_to 'Organizacional', url(:organizacional, :index) %>
+      <ul>
+        <li><%= link_to 'Partidos Políticos', url(:organizacional, :partidos) %></li>
+        <li><%= link_to 'Bancadas', url(:organizacional, :bancadas) %></li>
+        <li><%= link_to 'Comissões', url(:organizacional, :comissoes) %></li>
+        <li><%= link_to 'Deputados', url(:organizacional, :deputados) %></li>
+      </ul>
+    </li>
+    <li>
+      <%= link_to 'Estatística', url(:estatistica, :index) %>
+      <ul>
+        <li><%= link_to 'Deputados/UF', url(:estatistica, :deputado_uf) %></li>
+        <li><%= link_to 'Deputados/Sexo', url(:estatistica, :deputado_sexo) %></li>
+        <li><%= link_to 'Deputados/UF/Sexo', url(:estatistica, :deputado_uf_sexo) %></li>
+        <li><%= link_to 'Deputados/Partido/UF', url(:estatistica, :deputado_partido_uf) %></li>
+      </ul>
+    </li>
+    <li>
+      Ajuda
+      <ul>
+        <li><%= link_to 'Log de versão', url(:changelog, :version => 'atual') %></li>
+        <li>
+          <%= link_to 'Sobre', url(:sobre) %>
+          <ul>
+            <li><%= link_to 'Missão',  url(:sobre) %></li>
+            <li><%= link_to 'A Câmara',  url(:sobre) %></li>
+            <li><%= link_to 'Colaboração',  url(:sobre) %></li>
+            <li><%= link_to 'Licença', url(:sobre) %></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>

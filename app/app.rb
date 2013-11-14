@@ -12,6 +12,10 @@ module ResPublica
     get :sobre do
       render :sobre
     end
+    
+    get :mapa do
+      render :mapa
+    end
   
     get :changelog, :map => '/log/versao/:version' do
       @show_full_log = case params[:version]
