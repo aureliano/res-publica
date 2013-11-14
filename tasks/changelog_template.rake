@@ -10,7 +10,7 @@ require 'yaml'
 namespace :site do
 
   template_file = 'app/views/changelog.html.erb'
-  url = 'https://github.com/aureliano/res-publica/tree/v-'
+  url = 'https://github.com/aureliano/res-publica/releases/tag/'
 
   desc 'Atualiza template da página de log de alterações de acordo com o arquivo changelog.yml'
   task :changelog do
