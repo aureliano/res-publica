@@ -18,3 +18,5 @@
 - Cria página de deputados por partido e UF.
 - Cria página de log de versão.
 - Cria página com mapa do sítio.
+- Adiciona suporte a monitoração do servidor web com New Relic.
+- Adiciona processo de integração contínua.

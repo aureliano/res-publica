@@ -7,7 +7,7 @@
   <p>Acompanhe aqui as alterações realizadas no sítio.</p>
 </div>
 
-<a href="https://github.com/aureliano/programas-siconv/tree/v-0.1.0">Versão 0.1.0</a>
+<a href="https://github.com/aureliano/res-publica/tree/v-0.1.0">Versão 0.1.0</a>
 <ul>
   <li>Extrai da API de dados abertos da Câmara dos Deputados dados de bancadas, comissões, deputados, e partidos.</li>
   <li>Carrega dados pertinentes à API na base de dados do projeto.</li>
@@ -27,6 +27,8 @@
   <li>Cria página de deputados por partido e UF.</li>
   <li>Cria página de log de versão.</li>
   <li>Cria página com mapa do sítio.</li>
+  <li>Adiciona suporte a monitoração do servidor web com New Relic.</li>
+  <li>Adiciona processo de integração contínua.</li>
 </ul>
 <% if @show_full_log %><% else %>
 <%= link_to 'Ver log completo...', url(:changelog, :version => 'todas') %>
