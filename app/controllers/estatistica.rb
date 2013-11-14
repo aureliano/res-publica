@@ -13,5 +13,10 @@ ResPublica::App.controllers :estatistica do
     @chart_data = deputado_sexo_chart_data
     render 'estatistica/deputado_sexo'
   end
+  
+  get :deputado_uf_sexo, :map => '/estatistica/deputados/uf-sexo' do
+    @chart_data = deputado_uf_sexo_chart_data
+    render 'estatistica/deputado_uf_sexo'
+  end
 
 end
