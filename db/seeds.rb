@@ -160,14 +160,14 @@ if PADRINO_ENV == 'production'
     config.oauth_token_secret = ENV['OAUTH_TOKEN_SECRET']
   end
 
-  Twitter.update "Extração de dados abertos da Câmara dos Deputados do Brasil realizada em #{APP[:last_extractio_date]}. http://res-publica.herokuapp.com"
+  Twitter.update "Extração de dados abertos da Câmara dos Deputados do Brasil realizada em #{metadata['LAST_EXTRACTION_DATE']}. http://res-publica.herokuapp.com"
 
   shell.say ''
   shell.say 'Publicação de programas no Twitter concluída'
   
   shell.say ''
   shell.say 'Salva nota de extração na base de dados'
-  Noticia.create :texto => "#{APP[:last_extraction_date]} - Nova extração de dados.", :data => Time.now, :tipo => 'extracao'
+  Noticia.create :texto => "#{metadata['LAST_EXTRACTION_DATE']} - Nova extração de dados.", :data => Time.now, :tipo => 'extracao'
 
   shell.say 'Remove notícias antigas.'
   Noticia.all.sort {|x, y| x <=> y}.drop(15).each {|doc| doc.delete }

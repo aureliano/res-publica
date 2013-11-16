@@ -11,7 +11,6 @@ xml.feed "xmlns" => "http://www.w3.org/2005/Atom" do
       xml.title   noticia.texto
       xml.link    "rel" => "alternate", "href" => noticia.url
       xml.id      noticia.url
-      xml.updated noticia.data.strftime "%Y-%m-%dT%H:%M:%SZ"
       xml.author  { xml.name 'Res Publica' }
     end
   end

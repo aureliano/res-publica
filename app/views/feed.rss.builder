@@ -8,8 +8,6 @@ xml.rss "version" => "2.0", "xmlns:dc" => "http://purl.org/dc/elements/1.1/" do
     for noticia in @noticias
       xml.item do
         xml.title noticia.texto
-        xml.description noticia.texto
-        xml.pubDate time_to_date_s noticia.data
         xml.link noticia.url
       end
     end
