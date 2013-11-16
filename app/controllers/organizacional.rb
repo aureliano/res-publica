@@ -1,3 +1,5 @@
+require 'prawn'
+
 ResPublica::App.controllers :organizacional do
   
   get :index do
@@ -69,6 +71,17 @@ ResPublica::App.controllers :organizacional do
     @deputados_suplentes, @total_suplentes = Deputado.search options
 
     render 'organizacional/dados_comissao'
+  end
+  
+  get :comissao_contatos, :with => :id do
+    @comissao = Comissao.where(:_id => params[:id]).first
+    redirect '/404' unless @comissao
+    
+    content = generate_comissao_contacts_report(@comissao)
+    file = "tmp/Comissao_#{@comissao.sigla}_Contatos.pdf"
+    Prawn::Document.generate(file) { text content }
+    
+    send_file file, :filename => file, :type => 'Application/octet-stream'
   end
   
   get :deputados do

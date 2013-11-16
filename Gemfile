@@ -17,6 +17,7 @@ gem 'rake'
 gem 'erubis', "~> 2.7.0"
 gem 'mongoid', '2.4.12'
 gem 'bson_ext', :require => "mongo"
+gem 'prawn'
 
 # Test requirements
 gem 'rspec', '2.12.0'
