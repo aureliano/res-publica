@@ -30,6 +30,11 @@ module ResPublica
     get :changelog, :map => '/log/versao/todas' do
       render :changelog
     end
+    
+    get :feed, :provides => [:rss, :atom] do
+      @noticias = Noticia.all
+      render 'feed'
+    end
   
     error 404 do
       redirect '/404'

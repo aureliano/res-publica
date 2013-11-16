@@ -148,4 +148,29 @@ metadata = YAML.load_file 'metadata.yml'
 metadata['LAST_EXTRACTION_DATE'] = Time.now.strftime('%d/%m/%Y')
 File.open('metadata.yml', 'w') {|file| file.write metadata.to_yaml }
 
+if PADRINO_ENV == 'production'
+  shell.say ''
+  shell.say 'Publicando notícia no Twitter'
+
+  # https://github.com/sferik/twitter
+  Twitter.configure do |config|
+    config.consumer_key = ENV['CONSUMER_KEY']
+    config.consumer_secret = ENV['CONSUMER_SECRET']
+    config.oauth_token = ENV['OAUTH_TOKEN']
+    config.oauth_token_secret = ENV['OAUTH_TOKEN_SECRET']
+  end
+
+  Twitter.update "Extração de dados abertos da Câmara dos Deputados do Brasil realizada em #{APP[:last_extractio_date]}. http://res-publica.herokuapp.com"
+
+  shell.say ''
+  shell.say 'Publicação de programas no Twitter concluída'
+  
+  shell.say ''
+  shell.say 'Salva nota de extração na base de dados'
+  Noticia.create :texto => "#{APP[:last_extraction_date]} - Nova extração de dados.", :data => Time.now, :tipo => 'extracao'
+
+  shell.say 'Remove notícias antigas.'
+  Noticia.all.sort {|x, y| x <=> y}.drop(15).each {|doc| doc.delete }
+end
+
 shell.say 'Tempo gasto: ' + elapsed_time(start_time, Time.now)
