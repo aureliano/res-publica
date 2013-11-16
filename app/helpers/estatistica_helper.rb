@@ -7,7 +7,7 @@ ResPublica::App.helpers do
   end
   
   def deputado_sexo_chart_data
-    [['Sexo', 'Deputados']].concat(DeputadoSexoStat.all.map {|stat| [stat.sexo, stat.total.to_i] })
+    [['Sexo', 'Deputados']].concat(DeputadoSexoStat.all.map {|stat| [stat.sexo.capitalize, stat.total.to_i] })
   end
   
   def deputado_uf_sexo_chart_data
