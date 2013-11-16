@@ -3,11 +3,11 @@
 ResPublica::App.helpers do
 
   def deputado_uf_chart_data
-    [['UF', 'Deputados']].concat(DeputadoUfStat.all.map {|stat| [APP[:estados][stat.uf], stat.total] })
+    [['UF', 'Deputados']].concat(DeputadoUfStat.all.map {|stat| [APP[:estados][stat.uf], stat.total.to_i] })
   end
   
   def deputado_sexo_chart_data
-    [['Sexo', 'Deputados']].concat(DeputadoSexoStat.all.map {|stat| [stat.sexo, stat.total] })
+    [['Sexo', 'Deputados']].concat(DeputadoSexoStat.all.map {|stat| [stat.sexo, stat.total.to_i] })
   end
   
   def deputado_uf_sexo_chart_data
@@ -31,7 +31,7 @@ ResPublica::App.helpers do
     [['UF', "Nº deputados do #{partido}"]]
       .concat(DeputadoUfPartidoStat
         .where(:partido => partido)
-        .only(:uf, :total).map {|stat| [APP[:estados][stat.uf], stat.total] })
+        .only(:uf, :total).map {|stat| [APP[:estados][stat.uf], stat.total.to_i] })
   end
 
 end
