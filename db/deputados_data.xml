@@ -203,6 +203,7 @@
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 565-A, de 2006, do Senado Federal, que &quot;altera os arts. 57, 165, 166, e acrescenta art. 165-A, todos da Constituição Federal, tornando de execução obrigatória a programação constante da lei orçamentária anual&quot;" sigla="PEC56506" />
         <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 1610, de 1996, do Senado Federal, que &quot;dispõe sobre a exploração e o aproveitamento de recursos minerais em terras indígenas, de que tratam os arts. 176, parágrafo primeiro, e 231, parágrafo terceiro, da Constituição Federal&quot;" sigla="PL161096" />
         <comissao nome="Subcomissão Permanente para Acompanhamento, Fiscalização e Controle dos Recursos Públicos Federais Destinados à Copa de 2014 e às Olimpíadas de 2016." sigla="SUBCOPA" />
+        <comissao nome="Subcomissão Permanente de Acompanhamento e Fiscalização dos Recursos Públicos Federais Aplicados em Obras Inacabadas e também daquelas em Execução no Âmbito do Programa de Aceleração do Crescimento" sigla="SUBPAC" />
       </suplente>
     </comissoes>
   </deputado>
@@ -1965,6 +1966,7 @@
         <comissao nome="Comissão de Relações Exteriores e de Defesa Nacional" sigla="CREDN" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 10-A, de 1995, do Sr. Adhemar de Barros Filho, que &quot;modifica o art. 45 da Constituição Federal e acrescenta parágrafos ao mesmo artigo&quot;, criando o sistema distrital misto" sigla="PEC01095" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 209-A, de 2012, da Srª Rose de Freitas, do Sr. Luiz Pitiman e outros, que &quot;insere o § 1º ao art. 105, da Constituição Federal, e renumera o parágrafo único&quot; (para atribuir requisito de admissibilidade ao recurso especial no âmbito do STJ)" sigla="PEC20912" />
+        <comissao nome="Subcomissão Permanente de Acompanhamento e Fiscalização dos Recursos Públicos Federais Aplicados em Obras Inacabadas e também daquelas em Execução no Âmbito do Programa de Aceleração do Crescimento" sigla="SUBPAC" />
         <comissao nome="Subcomissão Especial para Acompanhamento e Fiscalização dos Recursos Federais Aplicados no Combate à Seca do Nordeste" sigla="SUBSECNR" />
       </suplente>
     </comissoes>
@@ -2857,6 +2859,7 @@
       <suplente>
         <comissao nome="Comissão Especial destinada a apreciar e proferir parecer à Proposta de Emenda à Constituição nº 70-A, de 2011, do Senado Federal, que &quot;altera o procedimento de apreciação das medidas provisórias pelo Congresso Nacional&quot;" sigla="PEC07011" />
         <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei Complementar nº 221, de 2012, do Sr. Vaz de Lima, que &quot;altera os Anexos da Lei Complementar nº 123, de 14 de dezembro de 2006, para permitir o abatimento de parcela dedutível do valor devido mensalmente pelo pagamento do Simples Nacional, conforme a faixa de renda da pessoa jurídica&quot; (altera também o art. 18 da Lei Complementar nº 123, de 2006), e apensado" sigla="PLP22112" />
+        <comissao nome="Subcomissão Permanente de Acompanhamento e Fiscalização dos Recursos Públicos Federais Aplicados em Obras Inacabadas e também daquelas em Execução no Âmbito do Programa de Aceleração do Crescimento" sigla="SUBPAC" />
       </suplente>
     </comissoes>
   </deputado>
@@ -3124,6 +3127,7 @@
         <comissao nome="Comissão de Fiscalização Financeira e Controle" sigla="CFFC" />
         <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 5627, de 2013, do Poder Executivo, que &quot;altera o Decreto-Lei nº 9.760, de 5 de setembro de 1946, o Decreto-Lei nº 2.398, de 21 de dezembro de 1987, a Lei nº 9.636, de 15 de maio de 1998, dispõe sobre o parcelamento e a remissão de dívidas patrimoniais com a União, e dá outras providências&quot;" sigla="PL562713" />
         <comissao nome="Subcomissão Permanente de Acompanhamento, Fiscalização e Controle da Execução Orçamentária e Financeira e das Obras do Programa de Aceleração do Crescimento (PAC) e do Programa Minha Casa Minha Vida." sigla="SUBFIPAC" />
+        <comissao nome="Subcomissão Permanente de Acompanhamento e Fiscalização dos Recursos Públicos Federais Aplicados em Obras Inacabadas e também daquelas em Execução no Âmbito do Programa de Aceleração do Crescimento" sigla="SUBPAC" />
         <comissao nome="Subcomissão Especial para Acompanhamento e Fiscalização dos Recursos Federais Aplicados no Combate à Seca do Nordeste" sigla="SUBSECNR" />
         <comissao nome="Subcomissão Especial da Comissão de Defesa do Consumidor para tratar das questões relativas às tarifas e taxas bancárias em especial os reajustes aplicados nos últimos meses" sigla="SUBTFBAN" />
       </titular>
@@ -3906,6 +3910,7 @@
       <suplente>
         <comissao nome="Comissão de Agricultura, Pecuária, Abastecimento e Desenvolvimento Rural" sigla="CAPADR" />
         <comissao nome="Subcomissão Permanente de Acompanhamento, Fiscalização e Controle da Execução Orçamentária e Financeira e das Obras do Programa de Aceleração do Crescimento (PAC) e do Programa Minha Casa Minha Vida." sigla="SUBFIPAC" />
+        <comissao nome="Subcomissão Permanente de Acompanhamento e Fiscalização dos Recursos Públicos Federais Aplicados em Obras Inacabadas e também daquelas em Execução no Âmbito do Programa de Aceleração do Crescimento" sigla="SUBPAC" />
       </suplente>
     </comissoes>
   </deputado>
@@ -6060,6 +6065,7 @@
       <titular>
         <comissao nome="Comissão de Fiscalização Financeira e Controle" sigla="CFFC" />
         <comissao nome="Grupo de trabalho que promove a Câmara de Negociação de Desenvolvimento Econômico e Social destinada a discutir propostas que interessam à classe trabalhadora e aos empresários." sigla="GTDESESO" />
+        <comissao nome="Subcomissão Permanente de Acompanhamento e Fiscalização dos Recursos Públicos Federais Aplicados em Obras Inacabadas e também daquelas em Execução no Âmbito do Programa de Aceleração do Crescimento" sigla="SUBPAC" />
         <comissao nome="Subcomissão Especial para Acompanhamento e Fiscalização dos Recursos Federais Aplicados no Combate à Seca do Nordeste" sigla="SUBSECNR" />
       </titular>
       <suplente>
@@ -6592,6 +6598,7 @@
       <titular>
         <comissao nome="Comissão de Fiscalização Financeira e Controle" sigla="CFFC" />
         <comissao nome="Subcomissão Permanente de Acompanhamento, Fiscalização e Controle da Execução Orçamentária e Financeira e das Obras do Programa de Aceleração do Crescimento (PAC) e do Programa Minha Casa Minha Vida." sigla="SUBFIPAC" />
+        <comissao nome="Subcomissão Permanente de Acompanhamento e Fiscalização dos Recursos Públicos Federais Aplicados em Obras Inacabadas e também daquelas em Execução no Âmbito do Programa de Aceleração do Crescimento" sigla="SUBPAC" />
       </titular>
       <suplente>
         <comissao nome="Comissão de Desenvolvimento Econômico, Indústria e Comércio" sigla="CDEIC" />
@@ -6914,6 +6921,7 @@
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 565-A, de 2006, do Senado Federal, que &quot;altera os arts. 57, 165, 166, e acrescenta art. 165-A, todos da Constituição Federal, tornando de execução obrigatória a programação constante da lei orçamentária anual&quot;" sigla="PEC56506" />
         <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 1610, de 1996, do Senado Federal, que &quot;dispõe sobre a exploração e o aproveitamento de recursos minerais em terras indígenas, de que tratam os arts. 176, parágrafo primeiro, e 231, parágrafo terceiro, da Constituição Federal&quot;" sigla="PL161096" />
         <comissao nome="SUBCOMISSÃO ESPECIAL DE CONTROLE DE ARMAS, MUNIÇÕES E EXPLOSIVOS" sigla="SUBCOARM" />
+        <comissao nome="Subcomissão Permanente de Acompanhamento e Fiscalização dos Recursos Públicos Federais Aplicados em Obras Inacabadas e também daquelas em Execução no Âmbito do Programa de Aceleração do Crescimento" sigla="SUBPAC" />
         <comissao nome="Subcomissão Especial para Acompanhamento e Fiscalização dos Recursos Federais Aplicados no Combate à Seca do Nordeste" sigla="SUBSECNR" />
         <comissao nome="Subcomissão Permanente para estudar Políticas, Orçamento e Financiamento da Segurança Pública." sigla="SUBSEGPU" />
       </titular>
@@ -8769,6 +8777,7 @@
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 565-A, de 2006, do Senado Federal, que &quot;altera os arts. 57, 165, 166, e acrescenta art. 165-A, todos da Constituição Federal, tornando de execução obrigatória a programação constante da lei orçamentária anual&quot;" sigla="PEC56506" />
         <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 6025, de 2005, ao Projeto de Lei nº 8046, de 2010, ambos do Senado Federal, e outros, que tratam do &quot;Código de Processo Civil&quot; (revogam a Lei nº 5.869, de 1973)" sigla="PL602505" />
         <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 7495, de 2006, do Senado Federal,  que &quot;regulamenta os §§ 4º e 5º do art. 198 da Constituição, dispõe sobre o aproveitamento de pessoal amparado pelo parágrafo único do art. 2º da Emenda Constitucional nº 51, de 14 de fevereiro de 2006, e dá outras providências&quot; (cria 5.365 empregos públicos de Agente de Combate às Endemias, no âmbito do Quadro Suplementar de Combate às Endemias da FUNASA)" sigla="PL749506" />
+        <comissao nome="Subcomissão Permanente de Acompanhamento e Fiscalização dos Recursos Públicos Federais Aplicados em Obras Inacabadas e também daquelas em Execução no Âmbito do Programa de Aceleração do Crescimento" sigla="SUBPAC" />
       </titular>
       <suplente>
         <comissao nome="Comissão Especial destinada a debater e propor modificações à Lei 12.619, de 30 de abril de 2012, que regulamenta a Profissão de Motorista" sigla="CEMOTOR" />
@@ -8806,6 +8815,7 @@
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 196-A, de 2012, do Senado Federal, que &quot;altera o § 2° do art. 55 da Constituição Federal, para estabelecer que a perda de mandato será decidida por voto aberto nos casos que especifica&quot;" sigla="PEC19612" />
         <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 2.126, de 2011, do Poder Executivo, que &quot;estabelece princípios, garantias, direitos e deveres para o uso da Internet no Brasil.&quot;" sigla="PL212611" />
         <comissao nome="SUBCOMISSÃO ESPECIAL PARA ACOMPANHAMENTO, FISCALIZAÇÃO E CONTROLE DAS OBRAS FINANCIADAS COM DINHEIRO PÚBLICO PARA A CONSTRUÇÃO DO TREM DE ALTA VELOCIDADE" sigla="SUBFTREM" />
+        <comissao nome="Subcomissão Permanente de Acompanhamento e Fiscalização dos Recursos Públicos Federais Aplicados em Obras Inacabadas e também daquelas em Execução no Âmbito do Programa de Aceleração do Crescimento" sigla="SUBPAC" />
         <comissao nome="Subcomissão Permanente dos portos e vias navegáveis." sigla="SUBPORTO" />
         <comissao nome="Subcomissão Especial para Acompanhamento, Fiscalização e Controle dos Recursos Públicos Federais destinados à Saúde no Brasil." sigla="SUBSAUDE" />
         <comissao nome="Subcomissão Permanente para acompanhar a implementação do projeto do trem de alta velocidade brasileiro – TAV e as ações para aprimoramento dos sistemas de transporte de passageiros sobre trilhos nas regiões metropolitanas." sigla="SUBTAV" />
@@ -11354,7 +11364,9 @@
         <comissao nome="Comissão de Fiscalização Financeira e Controle" sigla="CFFC" />
         <comissao nome="Comissão Especial destinada a proferir parecer à Proposta de Emenda à Constituição nº 293-A, de 2013, do Senado Federal, que &quot;altera os incisos II, III e VIII do § 3º do art. 142 da Constituição Federal, para estender aos profissionais de saúde das Forças Armadas a possibilidade de cumulação de cargo a que se refere o art. 37, inciso XVI, alínea &quot;c&quot;&quot;" sigla="PEC29313" />
       </titular>
-      <suplente />
+      <suplente>
+        <comissao nome="Subcomissão Permanente de Acompanhamento e Fiscalização dos Recursos Públicos Federais Aplicados em Obras Inacabadas e também daquelas em Execução no Âmbito do Programa de Aceleração do Crescimento" sigla="SUBPAC" />
+      </suplente>
     </comissoes>
   </deputado>
   <deputado>
@@ -12687,6 +12699,7 @@
         <comissao nome="Comissão de Fiscalização Financeira e Controle" sigla="CFFC" />
         <comissao nome="Conselho de Ética e Decoro Parlamentar da Câmara dos Deputados" sigla="COETICA" />
         <comissao nome="Comissão Especial destinada a proferir parecer ao Projeto de Lei nº 8035, de 2010, do Poder Executivo, que &quot;aprova o Plano Nacional de Educação para o decênio 2011-2020 e dá outras providências&quot;" sigla="PL803510" />
+        <comissao nome="Subcomissão Permanente de Acompanhamento e Fiscalização dos Recursos Públicos Federais Aplicados em Obras Inacabadas e também daquelas em Execução no Âmbito do Programa de Aceleração do Crescimento" sigla="SUBPAC" />
       </suplente>
     </comissoes>
   </deputado>
