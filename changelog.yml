@@ -20,3 +20,4 @@
 - Cria página com mapa do sítio.
 - Adiciona suporte a monitoração do servidor web com New Relic.
 - Adiciona processo de integração contínua.
+- Cria funcionalidade para publicação de notícias via Feed e Twitter.
