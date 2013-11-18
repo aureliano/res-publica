@@ -9,10 +9,6 @@ DAY_SEED = 2
 
 namespace :data do
 
-  task :prepare => [:extraction, :merge] do
-    
-  end
-  
   desc 'Carrega dados extraídos da API de dados abertos e salva no banco de dados para tratamento posterior (rake db:seed)'
   task :fill do
     $data_preparation_start = Time.now
@@ -21,7 +17,7 @@ namespace :data do
       Process.exit 0
     end
     
-    ['data:extraction', 'db:seed'].each do |task_name|
+    ['data:extraction', 'data:merge', 'db:seed'].each do |task_name|
       begin
         Rake::Task[task_name].invoke
       rescue Exception => ex

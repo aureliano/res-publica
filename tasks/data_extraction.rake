@@ -6,6 +6,7 @@
 # data: 22/10/2013
 
 require 'rest_client'
+require 'nokogiri'
 
 namespace :data do
 
@@ -21,10 +22,16 @@ namespace :data do
       puts "Carregando arquivos de dados de '#{name}'"
       download_data_files(name.to_s, url)
     end
+    
+    numero_legislatura = ((Time.now.year - 1795) / 4).to_i
+    url = "http://www.camara.gov.br/SitCamaraWS/Deputados.asmx/ObterDetalhesDeputado?ideCadastro=<ide_cadastro>&numLegislatura=#{numero_legislatura}"
+    ids_deputados.each do |id|
+      download_data_files("deputado_#{id}", url.sub(/<ide_cadastro>/, id), true)
+    end
   end
   
-  def download_data_files(name, url)
-    object_path = 'db/' + name   
+  def download_data_files(name, url, temp = false)
+    object_path = ((temp) ? ('tmp/' + name) : ('db/' + name))
     res = download_data_file(url, object_path)
     
     if res != 0
@@ -51,6 +58,13 @@ namespace :data do
     end
     
     0
+  end
+  
+  def ids_deputados
+    doc = Nokogiri::XML(File.open('db/deputados_data.xml'))
+    doc.xpath('//deputado/ideCadastro').map do |e|
+      e.to_s.gsub(/<\/?ideCadastro>/, '')
+    end
   end
   
 end
