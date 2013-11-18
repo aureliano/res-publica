@@ -49,6 +49,49 @@
       <div name="email">
         <span><strong>e-mail: </strong></span><span><%= @deputado.email %></span>
       </div>
+      
+      <hr/>
+      
+      <h4>Períodos de exercício</h4>
+      <div id="periodos_exercicio">
+        <% @deputado.periodos_exercicio.each do |pe| %>
+        <div>
+          <span><strong>UF: </strong></span><span><%= pe['uf'] %></span>
+        </div>
+        <div>
+          <span><strong>Situação: </strong></span><span><%= pe['situacao'] %></span>
+        </div>
+        <div>
+          <span><strong>Data início: </strong></span><span><%= pe['data_inicio'] %></span>
+        </div>
+        <div>
+          <span><strong>Data fim: </strong></span><span><%= pe['data_fim'] %></span>
+        </div>
+        <div>
+          <span><strong>Causa fim exercício: </strong></span><span><%= pe['causa_fim_exercicio'] %></span>
+        </div>
+        <br/>
+        <% end %>
+      </div>
+      <% unless @deputado.filiacoes_partidarias.empty? %>
+      <hr/>
+      
+      <h4>Filiações partidárias</h4>
+      <div id="filiacoes_partidarias">
+        <% @deputado.filiacoes_partidarias.each do |fp| %>
+        <div>
+          <span><strong>Partido anterior: </strong></span><span><%= fp['partido_anterior'] %></span>
+        </div>
+        <div>
+          <span><strong>Partido posterior: </strong></span><span><%= fp['partido_posterior'] %></span>
+        </div>
+        <div>
+          <span><strong>Data filiação partido posterior: </strong></span><span><%= fp['data_filiacao_partido_posterior'] %></span>
+        </div>
+        <br/>
+        <% end %>
+      </div>
+      <% end %>
     </div>
     <div class="span4">
       <a href="<%= @deputado.url_foto %>">

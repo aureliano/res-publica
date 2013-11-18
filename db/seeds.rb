@@ -84,8 +84,11 @@ comissoes = nil
 shell.say "Carregando dados de 'deputado' do arquivo 'db/deputados_data.xml'"
 Deputado.delete_all
 
-doc = Nokogiri::XML(File.open('db/deputados_data.xml'))
-fields = Deputado.new.inspect.scan(/[\w\d]+:/).delete_if {|e| e == '_id:' || e == '_type:' || e == 'comissoes_titular:' || e == 'comissoes_suplente:' || e == 'tags:' }
+detalhamento = YAML.load_file 'db/deputados_detalhamento.yml'
+fields = Deputado.new.inspect.scan(/[\w\d]+:/).delete_if {|e|
+  e == '_id:' || e == '_type:' || e == 'comissoes_titular:' || e == 'comissoes_suplente:' || e == 'tags:' ||
+  e == 'profissao:' || e == 'data_nascimento:' || e == 'periodos_exercicio:' || e == 'filiacoes_partidarias:'
+}
 count = 1
 doc.xpath('//deputado').each do |e|
   d = Deputado.new
@@ -104,6 +107,14 @@ doc.xpath('//deputado').each do |e|
   tags.each {|c| d.comissoes_suplente << /"[\w\d]+"/.match(c).to_s.gsub(/"/, '') }
 
   d.tags = create_tags([d.nome, d.nome_parlamentar])
+  
+  hash = detalhamento[d.ide_cadastro.to_s]
+
+  d.profissao = hash[:profissao]
+  d.data_nascimento = hash[:data_nascimento]
+  d.periodos_exercicio = hash[:periodosExercicio]
+  d.filiacoes_partidarias = hash[:filiacoesPartidarias]
+  
   d.save
   count += 1
 end

@@ -7,6 +7,8 @@ class Deputado
   field :id_parlamentar, :type => Integer
   field :nome, :type => String
   field :nome_parlamentar, :type => String
+  field :profissao, :type => String
+  field :data_nascimento, :type => String
   field :url_foto, :type => String
   field :sexo, :type => String
   field :uf, :type => String
@@ -17,6 +19,8 @@ class Deputado
   field :email, :type => String
   field :comissoes_titular, :type => Array
   field :comissoes_suplente, :type => Array
+  field :periodos_exercicio, :type => Array
+  field :filiacoes_partidarias, :type => Array
   field :tags, :type => Array
 
   def self.search(options)

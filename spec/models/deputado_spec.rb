@@ -15,6 +15,8 @@ describe Deputado do
     deputado.should respond_to :id_parlamentar
     deputado.should respond_to :nome
     deputado.should respond_to :nome_parlamentar
+    deputado.should respond_to :profissao
+    deputado.should respond_to :data_nascimento
     deputado.should respond_to :url_foto
     deputado.should respond_to :sexo
     deputado.should respond_to :uf
@@ -25,6 +27,8 @@ describe Deputado do
     deputado.should respond_to :email
     deputado.should respond_to :comissoes_titular
     deputado.should respond_to :comissoes_suplente
+    deputado.should respond_to :periodos_exercicio
+    deputado.should respond_to :filiacoes_partidarias
     deputado.should respond_to :tags
   end
 
