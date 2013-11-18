@@ -10,6 +10,9 @@ require File.expand_path '../data_loader.rb', __FILE__
 include Boot
 
 APP = {}
+APP[:numero_legislatura] = ((Time.now.year - 1795) / 4).to_i
+APP[:periodo_legislatura] = "#{(APP[:numero_legislatura] * 4 + 1795)} - #{(APP[:numero_legislatura] * 4 + 1795 + 3)}"
+
 metadata = YAML.load_file 'metadata.yml'
 APP[:last_extraction_date] = (PADRINO_ENV == 'test') ? Time.now.strftime('%d/%m/%Y') : metadata['LAST_EXTRACTION_DATE']
 APP[:app_version] = metadata['APP_VERSION']
