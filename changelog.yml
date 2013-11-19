@@ -1,4 +1,9 @@
 ---
+'0.2.0':
+- Extrai da API de dados abertos da Câmara dos Deputados dados de detalhamento dos deputados federais.
+- Exibe período de exercício na página de detalhamento do deputado federal.
+- Exibe histórico de filiação partidária na página de detalhamento do deputado federal.
+- Extrai da API de dados abertos da Câmara dos Deputados dados de proposições.
 '0.1.0':
 - Extrai da API de dados abertos da Câmara dos Deputados dados de bancadas, comissões, deputados, e partidos.
 - Carrega dados pertinentes à API na base de dados do projeto.

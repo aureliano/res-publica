@@ -7,6 +7,14 @@
   <p>Acompanhe aqui as alterações realizadas no sítio.</p>
 </div>
 
+<a href="https://github.com/aureliano/res-publica/releases/tag/0.2.0">Versão 0.2.0</a>
+<ul>
+  <li>Extrai dados de detalhamento dos deputados federaisi.</li>
+  <li>Exibe período de exercício na página de detalhamento do deputado federal.</li>
+  <li>Exibe histórico de filiação partidária na página de detalhamento do deputado federal.</li>
+</ul>
+<% if @show_full_log %>
+<hr/>
 <a href="https://github.com/aureliano/res-publica/releases/tag/0.1.0">Versão 0.1.0</a>
 <ul>
   <li>Extrai da API de dados abertos da Câmara dos Deputados dados de bancadas, comissões, deputados, e partidos.</li>
@@ -30,7 +38,6 @@
   <li>Adiciona suporte a monitoração do servidor web com New Relic.</li>
   <li>Adiciona processo de integração contínua.</li>
   <li>Cria funcionalidade para publicação de notícias via Feed e Twitter.</li>
-</ul>
-<% if @show_full_log %><% else %>
+</ul><% else %>
 <%= link_to 'Ver log completo...', url(:changelog, :version => 'todas') %>
 <% end %>
