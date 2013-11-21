@@ -169,7 +169,7 @@ text.scan(/sigla="[\w\d]+"/).each do |b|
 end
 
 shell.say "Carregando dados de 'proposição' do arquivo 'db/proposicoes_db.csv'"
-Proposicao.delete_all
+
 data = load_data_from_csv 'db/proposicoes_db.csv'
 data.each do |row|
   tags = get_tags_without_stopwords row['tags']
