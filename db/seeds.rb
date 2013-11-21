@@ -173,6 +173,9 @@ shell.say "Carregando dados de 'proposição' do arquivo 'db/proposicoes_db.csv'
 data = load_data_from_csv 'db/proposicoes_db.csv'
 data.each do |row|
   tags = get_tags_without_stopwords row['tags']
+  tags.concat get_tags_without_stopwords row['autor']
+  tags.concat [row['sigla'], row['numero'], row['ano']]
+  
   Proposicao.create :id_cadastro => row['id'], :nome => row['nome'],
                     :sigla => row['sigla'], :numero => row['numero'], :ano => row['ano'],
                     :autor => row['autor'], :tags => tags
