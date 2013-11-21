@@ -118,6 +118,7 @@ doc.xpath('//deputado').each do |e|
   d.save
   count += 1
 end
+detalhamento = nil
 
 shell.say "Carregando dados de 'bancada' do arquivo 'db/bancadas_data.xml'"
 Bancada.delete_all
@@ -154,10 +155,6 @@ load('db/stat_deputados.rb')
 shell.say ''
 
 shell.say 'Povoamento da base de dados concluído'
-
-metadata = YAML.load_file 'metadata.yml'
-metadata['LAST_EXTRACTION_DATE'] = Time.now.strftime('%d/%m/%Y')
-File.open('metadata.yml', 'w') {|file| file.write metadata.to_yaml }
 
 if PADRINO_ENV == 'production'
   shell.say ''
