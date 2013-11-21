@@ -1,5 +1,7 @@
 # encoding: utf-8
 
+require 'csv'
+
 start_time = $data_preparation_start.nil? ? Time.now : $data_preparation_start
 BUCKET_SIZE = 100
 
@@ -16,11 +18,30 @@ def elapsed_time(t1, t2)
   end
 end
 
+def load_data_from_csv(file)
+  data = Array.new
+  text = File.read(file)  
+  csv = CSV.parse(text, :headers => true, :force_quotes => true, :col_sep => ';')
+  columns = csv.headers
+  
+  csv.each do |row|
+    row_data = Hash.new
+    columns.each do |column|
+      row_data[column] = row[column]
+    end
+    
+    data << row_data
+  end
+  
+  data
+end
+
 def replace_special_characters(text)
   return text if text.nil?
   
   txt = text.dup
   APP[:special_characters].each {|k, v| txt.gsub! /#{k}/, v }
+  txt.gsub! /[()]/, ''
   txt
 end
 
@@ -145,6 +166,16 @@ text.scan(/sigla="[\w\d]+"/).each do |b|
   end
   
   bancada.save
+end
+
+shell.say "Carregando dados de 'proposição' do arquivo 'db/proposicoes_db.csv'"
+Proposicao.delete_all
+data = load_data_from_csv 'db/proposicoes_db.csv'
+data.each do |row|
+  tags = get_tags_without_stopwords row['tags']
+  Proposicao.create :id_cadastro => row['id'], :nome => row['nome'],
+                    :sigla => row['sigla'], :numero => row['numero'], :ano => row['ano'],
+                    :autor => row['autor'], :tags => tags
 end
 
 shell.say ''

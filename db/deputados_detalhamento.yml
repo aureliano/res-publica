@@ -1,1 +1,6064 @@
---- {}
+---
+'109152':
+  :profissao: Advogado
+  :data_nascimento: 08/12/1975
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'109372':
+  :profissao: ! "\n    "
+  :data_nascimento: 04/02/1959
+  :periodosExercicio:
+  - :uf: RS
+    :situacao: Suplente
+    :data_inicio: 14/03/2012
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'116663':
+  :profissao: Jornalista
+  :data_nascimento: 08/12/1950
+  :periodosExercicio:
+  - :uf: RJ
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PV
+    :partido_posterior: PSB
+    :data_filiacao_partido_posterior: 08/10/2013
+'118384':
+  :profissao: ! "\n    "
+  :data_nascimento: 29/09/1945
+  :periodosExercicio:
+  - :uf: RJ
+    :situacao: Efetivado
+    :data_inicio: 03/02/2011
+    :data_fim: 14/06/2012
+    :causa_fim_exercicio: Afastamento
+  - :uf: RJ
+    :situacao: Efetivado
+    :data_inicio: 02/01/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'121759':
+  :profissao: Delegado de Polícia
+  :data_nascimento: 28/12/1974
+  :periodosExercicio:
+  - :uf: PI
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'122195':
+  :profissao: ! "\n    "
+  :data_nascimento: 12/05/1975
+  :periodosExercicio:
+  - :uf: PB
+    :situacao: Suplente
+    :data_inicio: 23/12/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'123756':
+  :profissao: Economista
+  :data_nascimento: 17/07/1970
+  :periodosExercicio:
+  - :uf: AC
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'129037':
+  :profissao: Advogado
+  :data_nascimento: 06/06/1983
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'129618':
+  :profissao: FISIOTERAPEUTA OCUPACIONAL
+  :data_nascimento: 10/04/1952
+  :periodosExercicio:
+  - :uf: CE
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'132056':
+  :profissao: ENGENHEIRO CIVIL, INDUSTRIAL
+  :data_nascimento: 03/09/1931
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'133373':
+  :profissao: Industriário (Metalúrgico)
+  :data_nascimento: 27/12/1965
+  :periodosExercicio:
+  - :uf: RS
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'133374':
+  :profissao: Médico, Advogado
+  :data_nascimento: 30/05/1964
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PDT
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 26/10/2011
+  - :partido_anterior: PSD
+    :partido_posterior: PROS
+    :data_filiacao_partido_posterior: 02/10/2013
+'133439':
+  :profissao: Advogado, Economista, Empresário
+  :data_nascimento: 10/11/1966
+  :periodosExercicio:
+  - :uf: CE
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'136811':
+  :profissao: Engenheiro Agrônomo
+  :data_nascimento: 25/04/1962
+  :periodosExercicio:
+  - :uf: RS
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'137983':
+  :profissao: Empresário
+  :data_nascimento: 18/07/1949
+  :periodosExercicio:
+  - :uf: MA
+    :situacao: Suplente
+    :data_inicio: 05/04/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141335':
+  :profissao: AGRICULTOR FAMILIAR
+  :data_nascimento: 20/06/1969
+  :periodosExercicio:
+  - :uf: PA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141371':
+  :profissao: ADVOGADO
+  :data_nascimento: 11/09/1940
+  :periodosExercicio:
+  - :uf: RJ
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141372':
+  :profissao: PRODUTOR RURAL, EMPRESÁRIO, ENGENHEIRO AGRÔNOMO
+  :data_nascimento: 15/12/1961
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141375':
+  :profissao: Empresária
+  :data_nascimento: 25/03/1973
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141378':
+  :profissao: Comerciante
+  :data_nascimento: 02/03/1964
+  :periodosExercicio:
+  - :uf: PR
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141379':
+  :profissao: Bacharel em Direito
+  :data_nascimento: 13/07/1974
+  :periodosExercicio:
+  - :uf: RJ
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141381':
+  :profissao: BANCÁRIO
+  :data_nascimento: 19/06/1955
+  :periodosExercicio:
+  - :uf: PR
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141383':
+  :profissao: Apresentador de Televisão, Administrador, Teólogo e Bispo Evangélico
+  :data_nascimento: 05/05/1968
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141384':
+  :profissao: ADMINISTRADOR DE EMPRESAS
+  :data_nascimento: 01/10/1980
+  :periodosExercicio:
+  - :uf: SE
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141385':
+  :profissao: Agricultor, Pecuarista e Engenheiro Agrônomo
+  :data_nascimento: 16/05/1964
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141386':
+  :profissao: Comerciário
+  :data_nascimento: 11/09/1964
+  :periodosExercicio:
+  - :uf: CE
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141390':
+  :profissao: CONSULTOR EMPRESARIAL EM COMPORTAMENTO HUMANO, ADMINISTRADOR
+  :data_nascimento: 20/06/1942
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141391':
+  :profissao: Engeheiro Civil e Professor
+  :data_nascimento: 08/05/1955
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141394':
+  :profissao: ADVOGADO
+  :data_nascimento: 15/03/1972
+  :periodosExercicio:
+  - :uf: PE
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141395':
+  :profissao: ! "\n    "
+  :data_nascimento: 26/07/1923
+  :periodosExercicio:
+  - :uf: ES
+    :situacao: Efetivado
+    :data_inicio: 08/02/2011
+    :data_fim: 24/02/2012
+    :causa_fim_exercicio: Afastamento
+  - :uf: ES
+    :situacao: Efetivado
+    :data_inicio: 06/07/2012
+    :data_fim: 03/11/2012
+    :causa_fim_exercicio: Afastamento
+  - :uf: ES
+    :situacao: Efetivado
+    :data_inicio: 02/01/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141396':
+  :profissao: Médico Ginecologista e Obstetra
+  :data_nascimento: 26/09/1955
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141398':
+  :profissao: ECONOMISTA
+  :data_nascimento: 08/06/1959
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141400':
+  :profissao: PROCURADOR DE JUSTIÇA
+  :data_nascimento: 31/03/1960
+  :periodosExercicio:
+  - :uf: RS
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141401':
+  :profissao: Industrial, Advogado e Professor
+  :data_nascimento: 04/11/1941
+  :periodosExercicio:
+  - :uf: MT
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: 03/07/2012
+    :causa_fim_exercicio: Licença Conjunta Consecutiva
+  - :uf: MT
+    :situacao: Titular
+    :data_inicio: 02/11/2012
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141402':
+  :profissao: FUNCIONÁRIO PÚBLICO, EMPRESÁRIO
+  :data_nascimento: 02/06/1958
+  :periodosExercicio:
+  - :uf: MA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: 04/10/2011
+    :causa_fim_exercicio: Licença Conjunta Consecutiva
+  - :uf: MA
+    :situacao: Titular
+    :data_inicio: 04/02/2012
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141405':
+  :profissao: ECONOMISTA, EMPRESÁRIO
+  :data_nascimento: 30/08/1953
+  :periodosExercicio:
+  - :uf: SC
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141408':
+  :profissao: Vendedor Autônomo, Professor, Servidor Público, Político e Bacharel
+    em Direito
+  :data_nascimento: 10/05/1972
+  :periodosExercicio:
+  - :uf: MA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: 31/05/2012
+    :causa_fim_exercicio: Licença Conjunta Consecutiva
+  - :uf: MA
+    :situacao: Titular
+    :data_inicio: 29/09/2012
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141412':
+  :profissao: ! "\n    "
+  :data_nascimento: 22/11/1976
+  :periodosExercicio:
+  - :uf: MA
+    :situacao: Efetivado
+    :data_inicio: 03/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141413':
+  :profissao: Professor de Ensino Médio e Advogado
+  :data_nascimento: 01/10/1960
+  :periodosExercicio:
+  - :uf: SC
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141417':
+  :profissao: Servidor Público
+  :data_nascimento: 04/01/1952
+  :periodosExercicio:
+  - :uf: RR
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141419':
+  :profissao: ! "\n    "
+  :data_nascimento: 21/07/1954
+  :periodosExercicio:
+  - :uf: RJ
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141421':
+  :profissao: EMPRESÁRIO
+  :data_nascimento: 17/10/1972
+  :periodosExercicio:
+  - :uf: PE
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141422':
+  :profissao: ADVOGADO
+  :data_nascimento: 18/03/1979
+  :periodosExercicio:
+  - :uf: PB
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141423':
+  :profissao: Engenheiro Civil e Professor
+  :data_nascimento: 09/09/1955
+  :periodosExercicio:
+  - :uf: MT
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: 02/02/2011
+    :causa_fim_exercicio: Secretário de Estado
+  - :uf: MT
+    :situacao: Titular
+    :data_inicio: 26/10/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PP
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 26/10/2011
+'141427':
+  :profissao: Empresário
+  :data_nascimento: 22/12/1961
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141428':
+  :profissao: Administrador de Empresas
+  :data_nascimento: 01/09/1977
+  :periodosExercicio:
+  - :uf: RN
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PMN
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 26/10/2011
+'141429':
+  :profissao: Advogado
+  :data_nascimento: 07/12/1973
+  :periodosExercicio:
+  - :uf: RN
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141430':
+  :profissao: EMPRESÁRIO
+  :data_nascimento: 26/12/1978
+  :periodosExercicio:
+  - :uf: RJ
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PHS
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 26/10/2011
+'141431':
+  :profissao: Administrador de Empresas
+  :data_nascimento: 28/02/1984
+  :periodosExercicio:
+  - :uf: PE
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141434':
+  :profissao: ENGENHEIRO CIVIL
+  :data_nascimento: 17/11/1949
+  :periodosExercicio:
+  - :uf: AC
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141438':
+  :profissao: Economista e Analista de Sistemas
+  :data_nascimento: 18/02/1952
+  :periodosExercicio:
+  - :uf: AM
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141440':
+  :profissao: Professor e Auditor-Fiscal
+  :data_nascimento: 13/08/1939
+  :periodosExercicio:
+  - :uf: CE
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141441':
+  :profissao: Radialista, Apresentador de Televisão, Teólogo e Animador
+  :data_nascimento: 11/06/1971
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141446':
+  :profissao: EMPRESÁRIO, ENGENHEIRO CIVIL
+  :data_nascimento: 26/03/1978
+  :periodosExercicio:
+  - :uf: AC
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141447':
+  :profissao: Comerciante e Empresário
+  :data_nascimento: 20/11/1962
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: DEM
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 26/10/2011
+'141450':
+  :profissao: Advogado
+  :data_nascimento: 06/08/1962
+  :periodosExercicio:
+  - :uf: RJ
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PSC
+    :partido_posterior: PROS
+    :data_filiacao_partido_posterior: 02/10/2013
+'141453':
+  :profissao: Administrador Público
+  :data_nascimento: 07/05/1943
+  :periodosExercicio:
+  - :uf: GO
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141454':
+  :profissao: Industrial
+  :data_nascimento: 07/11/1955
+  :periodosExercicio:
+  - :uf: PR
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141455':
+  :profissao: Professora e Arquiteta
+  :data_nascimento: 03/11/1946
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141457':
+  :profissao: ! "\n    "
+  :data_nascimento: 17/04/1963
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Suplente
+    :data_inicio: 04/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141458':
+  :profissao: Engenheiro Civil
+  :data_nascimento: 08/10/1972
+  :periodosExercicio:
+  - :uf: BA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: 02/02/2013
+    :causa_fim_exercicio: Licença Conjunta Consecutiva
+  - :uf: BA
+    :situacao: Titular
+    :data_inicio: 03/06/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141459':
+  :profissao: Economista
+  :data_nascimento: 20/09/1953
+  :periodosExercicio:
+  - :uf: RN
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141462':
+  :profissao: ENGENHEIRO AGRÔNOMO
+  :data_nascimento: 01/09/1952
+  :periodosExercicio:
+  - :uf: PA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141463':
+  :profissao: Advogado e Professor
+  :data_nascimento: 22/03/1952
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: 01/08/2011
+    :causa_fim_exercicio: Licença Conjunta Consecutiva
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 09/12/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141464':
+  :profissao: Advogado e Engenheiro Civil
+  :data_nascimento: 21/02/1957
+  :periodosExercicio:
+  - :uf: CE
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141465':
+  :profissao: Administrador de Empresas
+  :data_nascimento: 10/05/1960
+  :periodosExercicio:
+  - :uf: MA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: 12/06/2012
+    :causa_fim_exercicio: Licença Conjunta Consecutiva
+  - :uf: MA
+    :situacao: Titular
+    :data_inicio: 11/10/2012
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141467':
+  :profissao: Agricultor, Bancário e Delegado de Polícia
+  :data_nascimento: 17/02/1963
+  :periodosExercicio:
+  - :uf: AL
+    :situacao: Efetivado
+    :data_inicio: 03/01/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141470':
+  :profissao: ADVOGADO
+  :data_nascimento: 13/02/1959
+  :periodosExercicio:
+  - :uf: CE
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141472':
+  :profissao: ADVOGADO.
+  :data_nascimento: 17/04/1952
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141473':
+  :profissao: COMERCIÁRIO, SINDICALISTA, JUIZ, PRESIDENTE DA FUNDACENTRO, SUPERINTENDENTE
+    DO INSS/SP
+  :data_nascimento: 01/07/1958
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PV
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 26/10/2011
+'141480':
+  :profissao: EMPRESÁRIO, PECUARISTA
+  :data_nascimento: 11/02/1947
+  :periodosExercicio:
+  - :uf: TO
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: 02/02/2013
+    :causa_fim_exercicio: Licença Conjunta Consecutiva
+  - :uf: TO
+    :situacao: Titular
+    :data_inicio: 03/06/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141482':
+  :profissao: Empresário
+  :data_nascimento: 01/04/1975
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141484':
+  :profissao: ADMINISTRADOR DE EMPRESAS
+  :data_nascimento: 27/12/1972
+  :periodosExercicio:
+  - :uf: PA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141487':
+  :profissao: ENGENHEIRO MECÂNICO, AGROPECUARISTA, EMPRESÁRIO - ADMINISTRAÇÃO
+  :data_nascimento: 12/09/1957
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141488':
+  :profissao: Advogado
+  :data_nascimento: 06/05/1961
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141490':
+  :profissao: Médico
+  :data_nascimento: 21/02/1964
+  :periodosExercicio:
+  - :uf: PB
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141492':
+  :profissao: JORNALISTA
+  :data_nascimento: 18/08/1981
+  :periodosExercicio:
+  - :uf: RS
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: 28/06/2012
+    :causa_fim_exercicio: Licença Conjunta Consecutiva
+  - :uf: RS
+    :situacao: Titular
+    :data_inicio: 02/11/2012
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141496':
+  :profissao: RADIALISTA
+  :data_nascimento: 27/01/1968
+  :periodosExercicio:
+  - :uf: RR
+    :situacao: Suplente
+    :data_inicio: 17/01/2013
+    :data_fim: 15/10/2013
+    :causa_fim_exercicio: Afastamento
+  - :uf: RR
+    :situacao: Suplente
+    :data_inicio: 07/11/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: DEM
+    :partido_posterior: PP
+    :data_filiacao_partido_posterior: 29/08/2013
+  - :partido_anterior: PP
+    :partido_posterior: PROS
+    :data_filiacao_partido_posterior: 03/10/2013
+'141497':
+  :profissao: ADVOGADO
+  :data_nascimento: 23/06/1963
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: 03/02/2011
+    :causa_fim_exercicio: Secretário de Estado
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 19/06/2012
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141498':
+  :profissao: ! "\n    "
+  :data_nascimento: 07/10/1949
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Efetivado
+    :data_inicio: 08/02/2011
+    :data_fim: 19/06/2012
+    :causa_fim_exercicio: Afastamento
+  - :uf: SP
+    :situacao: Efetivado
+    :data_inicio: 20/12/2012
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141500':
+  :profissao: MÉDICO, PROFESSOR DE MEDICINA, MÉDICO DO TRABALHO
+  :data_nascimento: 03/08/1949
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: DEM
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 26/10/2011
+'141502':
+  :profissao: Servidora Pública Federal
+  :data_nascimento: 25/04/1961
+  :periodosExercicio:
+  - :uf: AP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141503':
+  :profissao: FUNCIONÁRIA PÚBLICA
+  :data_nascimento: 09/08/1946
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141507':
+  :profissao: Diretor de Empresas
+  :data_nascimento: 08/01/1964
+  :periodosExercicio:
+  - :uf: SC
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141509':
+  :profissao: Professor e Comunicador
+  :data_nascimento: 11/06/1978
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141514':
+  :profissao: BACHAREL EM DIREITO
+  :data_nascimento: 08/10/1959
+  :periodosExercicio:
+  - :uf: PI
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141515':
+  :profissao: Advogado e Professor de Direito
+  :data_nascimento: 29/07/1961
+  :periodosExercicio:
+  - :uf: RJ
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141516':
+  :profissao: ADVOGADO
+  :data_nascimento: 21/06/1963
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141517':
+  :profissao: Administrador e Consultor
+  :data_nascimento: 08/02/1968
+  :periodosExercicio:
+  - :uf: CE
+    :situacao: Suplente
+    :data_inicio: 19/02/2013
+    :data_fim: 11/03/2013
+    :causa_fim_exercicio: Secretário de Estado
+  - :uf: CE
+    :situacao: Suplente
+    :data_inicio: 12/09/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PMDB
+    :partido_posterior: PP
+    :data_filiacao_partido_posterior: 03/10/2013
+'141518':
+  :profissao: SINDICALISTA, CONTROLADOR DE QUALIDADE, METALÚRGICO
+  :data_nascimento: 24/02/1956
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PDT
+    :partido_posterior: SDD
+    :data_filiacao_partido_posterior: 01/10/2013
+'141522':
+  :profissao: EMPRESÁRIO, APRESENTADOR DE TELEVISÃO
+  :data_nascimento: 31/08/1964
+  :periodosExercicio:
+  - :uf: AM
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141523':
+  :profissao: ECONOMISTA
+  :data_nascimento: 06/06/1964
+  :periodosExercicio:
+  - :uf: PE
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141527':
+  :profissao: Administrador, Assessor Político, Industriário, Professor e Auxiliar
+    de Escritório
+  :data_nascimento: 01/10/1960
+  :periodosExercicio:
+  - :uf: RS
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141529':
+  :profissao: PROFESSOR UNIVERSITÁRIO
+  :data_nascimento: 03/04/1951
+  :periodosExercicio:
+  - :uf: BA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141531':
+  :profissao: Advogado e Administrador de Empresas
+  :data_nascimento: 15/07/1971
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141537':
+  :profissao: ADVOGADO, AGROPECUARISTA
+  :data_nascimento: 19/07/1946
+  :periodosExercicio:
+  - :uf: RO
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PPS
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 26/10/2011
+'141539':
+  :profissao: MÉDICO
+  :data_nascimento: 21/01/1958
+  :periodosExercicio:
+  - :uf: AP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PDT
+    :partido_posterior: SDD
+    :data_filiacao_partido_posterior: 01/10/2013
+'141542':
+  :profissao: COMERCIANTE
+  :data_nascimento: 27/04/1958
+  :periodosExercicio:
+  - :uf: RS
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141543':
+  :profissao: Professor de Ensino Médio
+  :data_nascimento: 27/11/1949
+  :periodosExercicio:
+  - :uf: MA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141548':
+  :profissao: Funcionário Público
+  :data_nascimento: 19/06/1955
+  :periodosExercicio:
+  - :uf: ES
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141551':
+  :profissao: MÉDICO
+  :data_nascimento: 28/05/1958
+  :periodosExercicio:
+  - :uf: RR
+    :situacao: Efetivado
+    :data_inicio: 03/01/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PSDB
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 24/09/2013
+'141552':
+  :profissao: Defensor Público e Professor Universitário
+  :data_nascimento: 24/11/1971
+  :periodosExercicio:
+  - :uf: MT
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: 02/12/2011
+    :causa_fim_exercicio: Licença Conjunta Consecutiva
+  - :uf: MT
+    :situacao: Titular
+    :data_inicio: 04/04/2012
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PSB
+    :partido_posterior: PROS
+    :data_filiacao_partido_posterior: 02/10/2013
+'141553':
+  :profissao: ! "\n    "
+  :data_nascimento: 20/05/1950
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Efetivado
+    :data_inicio: 03/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141557':
+  :profissao: ! "\n    "
+  :data_nascimento: 26/06/1942
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Efetivado
+    :data_inicio: 04/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141558':
+  :profissao: Médico Veterinário
+  :data_nascimento: 04/08/1955
+  :periodosExercicio:
+  - :uf: MA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141560':
+  :profissao: ! "\n    "
+  :data_nascimento: 17/07/1961
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Suplente
+    :data_inicio: 15/02/2011
+    :data_fim: 15/03/2011
+    :causa_fim_exercicio: Afastamento
+  - :uf: SP
+    :situacao: Suplente
+    :data_inicio: 16/03/2011
+    :data_fim: 03/01/2012
+    :causa_fim_exercicio: Afastamento
+  - :uf: SP
+    :situacao: Suplente
+    :data_inicio: 09/11/2012
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: DEM
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 26/10/2011
+'141561':
+  :profissao: ENGENHEIRO AGRÔNOMO
+  :data_nascimento: 17/04/1951
+  :periodosExercicio:
+  - :uf: PA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141562':
+  :profissao: MÉDICO
+  :data_nascimento: 21/06/1954
+  :periodosExercicio:
+  - :uf: ES
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141870':
+  :profissao: Advogado
+  :data_nascimento: 26/01/1957
+  :periodosExercicio:
+  - :uf: RS
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'145895':
+  :profissao: ! "\n    "
+  :data_nascimento: 10/03/1989
+  :periodosExercicio:
+  - :uf: CE
+    :situacao: Suplente
+    :data_inicio: 27/03/2012
+    :data_fim: 16/06/2012
+    :causa_fim_exercicio: Afastamento
+  - :uf: CE
+    :situacao: Suplente
+    :data_inicio: 19/03/2013
+    :data_fim: 05/04/2013
+    :causa_fim_exercicio: Licença Conjunta Consecutiva
+  - :uf: CE
+    :situacao: Suplente
+    :data_inicio: 27/08/2013
+    :data_fim: 12/09/2013
+    :causa_fim_exercicio: Afastamento
+  - :uf: CE
+    :situacao: Suplente
+    :data_inicio: 18/09/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'146613':
+  :profissao: Engenheiro Civi
+  :data_nascimento: 06/10/1966
+  :periodosExercicio:
+  - :uf: PR
+    :situacao: Suplente
+    :data_inicio: 20/02/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'146949':
+  :profissao: Funcionário Público Federal
+  :data_nascimento: 22/04/1973
+  :periodosExercicio:
+  - :uf: AL
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'147975':
+  :profissao: Médico
+  :data_nascimento: 18/06/1960
+  :periodosExercicio:
+  - :uf: RJ
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PR
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 26/10/2011
+  - :partido_anterior: PSD
+    :partido_posterior: PR
+    :data_filiacao_partido_posterior: 09/10/2013
+'149327':
+  :profissao: ! "\n    "
+  :data_nascimento: 04/11/1969
+  :periodosExercicio:
+  - :uf: PB
+    :situacao: Efetivado
+    :data_inicio: 03/07/2012
+    :data_fim: 31/10/2012
+    :causa_fim_exercicio: Afastamento
+  - :uf: PB
+    :situacao: Efetivado
+    :data_inicio: 02/01/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: DEM
+    :partido_posterior: PROS
+    :data_filiacao_partido_posterior: 02/10/2013
+'150418':
+  :profissao: Radialista
+  :data_nascimento: 12/12/1970
+  :periodosExercicio:
+  - :uf: BA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'151208':
+  :profissao: Administrador de Empresas
+  :data_nascimento: 15/04/1959
+  :periodosExercicio:
+  - :uf: SE
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PR
+    :partido_posterior: SDD
+    :data_filiacao_partido_posterior: 02/10/2013
+'152605':
+  :profissao: Bacharel em Direito
+  :data_nascimento: 26/06/1982
+  :periodosExercicio:
+  - :uf: RJ
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'152607':
+  :profissao: ! "\n    "
+  :data_nascimento: 30/07/1934
+  :periodosExercicio:
+  - :uf: MA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PR
+    :partido_posterior: PROS
+    :data_filiacao_partido_posterior: 09/10/2013
+'154919':
+  :profissao: ! "\n    "
+  :data_nascimento: 13/06/1953
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Suplente
+    :data_inicio: 04/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: DEM
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 26/10/2011
+'159237':
+  :profissao: Funcionário Público Federal
+  :data_nascimento: 09/09/1961
+  :periodosExercicio:
+  - :uf: PI
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'159238':
+  :profissao: Economista, Professor Universitário
+  :data_nascimento: 13/06/1960
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160396':
+  :profissao: Comerciante, Consultor, Engenheiro Mecânico
+  :data_nascimento: 29/10/1960
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PHS
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 16/10/2013
+'160508':
+  :profissao: Professor de História, Servidor Público
+  :data_nascimento: 15/10/1960
+  :periodosExercicio:
+  - :uf: BA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: 02/02/2011
+    :causa_fim_exercicio: Ministro de Estado
+  - :uf: BA
+    :situacao: Titular
+    :data_inicio: 14/03/2012
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160509':
+  :profissao: Advogado, Bancário
+  :data_nascimento: 15/07/1956
+  :periodosExercicio:
+  - :uf: SC
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PSDB
+    :partido_posterior: PR
+    :data_filiacao_partido_posterior: 08/11/2012
+'160510':
+  :profissao: ! "\n    "
+  :data_nascimento: 23/07/1971
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160511':
+  :profissao: Advogado, Professor Universitário
+  :data_nascimento: 28/10/1971
+  :periodosExercicio:
+  - :uf: RJ
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160512':
+  :profissao: Empresário
+  :data_nascimento: 17/02/1979
+  :periodosExercicio:
+  - :uf: RJ
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PRTB
+    :partido_posterior: SDD
+    :data_filiacao_partido_posterior: 02/10/2013
+'160514':
+  :profissao: Advogado
+  :data_nascimento: 26/07/1972
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PSL
+    :partido_posterior: SDD
+    :data_filiacao_partido_posterior: 04/10/2013
+'160515':
+  :profissao: Advogado
+  :data_nascimento: 09/03/1956
+  :periodosExercicio:
+  - :uf: SC
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160517':
+  :profissao: Médico
+  :data_nascimento: 30/04/1956
+  :periodosExercicio:
+  - :uf: ES
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160518':
+  :profissao: Bacharel em Filosofia
+  :data_nascimento: 24/08/1975
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160519':
+  :profissao: Empresário, Engenheiro Agrônomo
+  :data_nascimento: 11/12/1946
+  :periodosExercicio:
+  - :uf: MT
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160530':
+  :profissao: Engenheiro Eletricista
+  :data_nascimento: 12/03/1948
+  :periodosExercicio:
+  - :uf: BA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160531':
+  :profissao: Empresário
+  :data_nascimento: 03/09/1983
+  :periodosExercicio:
+  - :uf: RR
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160532':
+  :profissao: Radialista
+  :data_nascimento: 13/01/1976
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160533':
+  :profissao: Apresentador de Televisão, Estudante Universitário, Radialista
+  :data_nascimento: 22/04/1960
+  :periodosExercicio:
+  - :uf: RJ
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PR
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 27/10/2011
+  - :partido_anterior: PSD
+    :partido_posterior: PR
+    :data_filiacao_partido_posterior: 07/08/2013
+  - :partido_anterior: PR
+    :partido_posterior: PROS
+    :data_filiacao_partido_posterior: 09/10/2013
+'160534':
+  :profissao: Empresária
+  :data_nascimento: 23/02/1970
+  :periodosExercicio:
+  - :uf: ES
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160535':
+  :profissao: Agricultor
+  :data_nascimento: 21/09/1964
+  :periodosExercicio:
+  - :uf: RS
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160536':
+  :profissao: Engenheiro, Funcionário Público
+  :data_nascimento: 31/01/1958
+  :periodosExercicio:
+  - :uf: SC
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: 02/03/2011
+    :causa_fim_exercicio: Secretário de Estado
+  - :uf: SC
+    :situacao: Titular
+    :data_inicio: 01/03/2012
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160537':
+  :profissao: Escritor, Professor Universitário
+  :data_nascimento: 30/04/1969
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PSB
+    :partido_posterior: PMDB
+    :data_filiacao_partido_posterior: 08/06/2011
+'160538':
+  :profissao: Agricultor Familiar, Professor de História
+  :data_nascimento: 05/02/1962
+  :periodosExercicio:
+  - :uf: RS
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160539':
+  :profissao: Radialista
+  :data_nascimento: 18/04/1960
+  :periodosExercicio:
+  - :uf: RJ
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160540':
+  :profissao: ! "\n    "
+  :data_nascimento: 19/06/1969
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160541':
+  :profissao: Agropecuarista, Bacharel em Direito, Empresário
+  :data_nascimento: 25/06/1969
+  :periodosExercicio:
+  - :uf: AL
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160542':
+  :profissao: Biólogo, Professor
+  :data_nascimento: 18/09/1970
+  :periodosExercicio:
+  - :uf: SE
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160543':
+  :profissao: Político
+  :data_nascimento: 23/02/1972
+  :periodosExercicio:
+  - :uf: SE
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160544':
+  :profissao: Consultor, Empresário Rural
+  :data_nascimento: 15/12/1940
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: DEM
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 26/10/2011
+'160545':
+  :profissao: Empresário
+  :data_nascimento: 18/04/1989
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160546':
+  :profissao: Corretor de Seguros
+  :data_nascimento: 03/08/1965
+  :periodosExercicio:
+  - :uf: GO
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: 01/03/2011
+    :causa_fim_exercicio: Secretário de Estado
+  - :uf: GO
+    :situacao: Titular
+    :data_inicio: 01/08/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PMN
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 26/10/2011
+  - :partido_anterior: PSD
+    :partido_posterior: SDD
+    :data_filiacao_partido_posterior: 01/10/2013
+'160547':
+  :profissao: Administrador, Empresário, Pecuarista
+  :data_nascimento: 23/06/1980
+  :periodosExercicio:
+  - :uf: BA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PP
+    :partido_posterior: SDD
+    :data_filiacao_partido_posterior: 04/10/2013
+'160549':
+  :profissao: Economista
+  :data_nascimento: 31/12/1952
+  :periodosExercicio:
+  - :uf: PE
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160550':
+  :profissao: Empresário Industrial
+  :data_nascimento: 30/03/1962
+  :periodosExercicio:
+  - :uf: DF
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: 10/02/2011
+    :causa_fim_exercicio: Secretário de Estado
+  - :uf: DF
+    :situacao: Titular
+    :data_inicio: 29/07/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PMDB
+    :partido_posterior: PSDB
+    :data_filiacao_partido_posterior: 01/10/2013
+'160551':
+  :profissao: ! "\n    "
+  :data_nascimento: 10/12/1972
+  :periodosExercicio:
+  - :uf: PE
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160552':
+  :profissao: Atleta Profissional de Futebol
+  :data_nascimento: 18/04/1973
+  :periodosExercicio:
+  - :uf: RS
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PTB
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 26/10/2011
+'160553':
+  :profissao: Administrador de Empresas
+  :data_nascimento: 17/01/1969
+  :periodosExercicio:
+  - :uf: BA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160555':
+  :profissao: Delegado de Polícia de Classe Especial, Político
+  :data_nascimento: 27/03/1955
+  :periodosExercicio:
+  - :uf: MA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160556':
+  :profissao: Sacerdote Católico
+  :data_nascimento: 28/02/1967
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160557':
+  :profissao: Economista, Eletricitário, Professor Universitário
+  :data_nascimento: 02/08/1970
+  :periodosExercicio:
+  - :uf: PA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160558':
+  :profissao: Ministro do Evangelho
+  :data_nascimento: 14/02/1955
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160559':
+  :profissao: Comerciante
+  :data_nascimento: 04/06/1954
+  :periodosExercicio:
+  - :uf: RS
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160561':
+  :profissao: Comerciante
+  :data_nascimento: 11/12/1956
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160563':
+  :profissao: Serventuário da Justiça
+  :data_nascimento: 22/03/1940
+  :periodosExercicio:
+  - :uf: SC
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: DEM
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 26/10/2011
+'160564':
+  :profissao: ! "\n    "
+  :data_nascimento: 30/03/1946
+  :periodosExercicio:
+  - :uf: PB
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: 20/12/2011
+    :causa_fim_exercicio: Licença Conjunta Consecutiva
+  - :uf: PB
+    :situacao: Titular
+    :data_inicio: 19/04/2012
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160565':
+  :profissao: Político, Psicólogo, Publicitário
+  :data_nascimento: 28/09/1967
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160566':
+  :profissao: Empresário
+  :data_nascimento: 17/09/1948
+  :periodosExercicio:
+  - :uf: PR
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160567':
+  :profissao: Advogado
+  :data_nascimento: 30/11/1971
+  :periodosExercicio:
+  - :uf: RS
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160568':
+  :profissao: Médico
+  :data_nascimento: 02/08/1968
+  :periodosExercicio:
+  - :uf: SE
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160569':
+  :profissao: Economista
+  :data_nascimento: 08/03/1954
+  :periodosExercicio:
+  - :uf: BA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160570':
+  :profissao: Advogado
+  :data_nascimento: 20/01/1976
+  :periodosExercicio:
+  - :uf: RS
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160572':
+  :profissao: Engenheiro Civil
+  :data_nascimento: 09/05/1951
+  :periodosExercicio:
+  - :uf: PE
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160573':
+  :profissao: Bacharel em Ciências Físicas e Naturais
+  :data_nascimento: 22/05/1976
+  :periodosExercicio:
+  - :uf: PR
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160574':
+  :profissao: Doutor em Medicina
+  :data_nascimento: 23/04/1954
+  :periodosExercicio:
+  - :uf: CE
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160575':
+  :profissao: Bancário
+  :data_nascimento: 15/08/1957
+  :periodosExercicio:
+  - :uf: DF
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160576':
+  :profissao: Médico Veterinário
+  :data_nascimento: 10/03/1954
+  :periodosExercicio:
+  - :uf: TO
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PPS
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 26/10/2011
+  - :partido_anterior: PSD
+    :partido_posterior: PRB
+    :data_filiacao_partido_posterior: 07/10/2013
+'160577':
+  :profissao: ! "\n    "
+  :data_nascimento: 11/03/1967
+  :periodosExercicio:
+  - :uf: RJ
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160578':
+  :profissao: Economista
+  :data_nascimento: 26/09/1959
+  :periodosExercicio:
+  - :uf: PR
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: 07/03/2013
+    :causa_fim_exercicio: Licença Conjunta Consecutiva
+  - :uf: PR
+    :situacao: Titular
+    :data_inicio: 07/07/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160579':
+  :profissao: Médico
+  :data_nascimento: 12/11/1964
+  :periodosExercicio:
+  - :uf: RS
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160580':
+  :profissao: Empresária
+  :data_nascimento: 18/02/1965
+  :periodosExercicio:
+  - :uf: PR
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: 12/06/2013
+    :causa_fim_exercicio: Licença Conjunta Consecutiva
+  - :uf: PR
+    :situacao: Titular
+    :data_inicio: 14/10/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PP
+    :partido_posterior: PROS
+    :data_filiacao_partido_posterior: 09/10/2013
+'160581':
+  :profissao: Metalúrgico
+  :data_nascimento: 14/09/1962
+  :periodosExercicio:
+  - :uf: RS
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160582':
+  :profissao: Bacharel em Direito
+  :data_nascimento: 10/02/1987
+  :periodosExercicio:
+  - :uf: MA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: 05/06/2012
+    :causa_fim_exercicio: Licença Conjunta Consecutiva
+  - :uf: MA
+    :situacao: Titular
+    :data_inicio: 04/10/2012
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160586':
+  :profissao: Médico
+  :data_nascimento: 25/11/1946
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160587':
+  :profissao: Advogado
+  :data_nascimento: 18/08/1969
+  :periodosExercicio:
+  - :uf: MS
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160588':
+  :profissao: Administrador de Empresas
+  :data_nascimento: 08/08/1977
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PR
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 26/10/2011
+'160589':
+  :profissao: ! "\n    "
+  :data_nascimento: 28/04/1983
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160590':
+  :profissao: Agropecuarista
+  :data_nascimento: 01/12/1963
+  :periodosExercicio:
+  - :uf: MA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PSDB
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 26/10/2011
+  - :partido_anterior: PSD
+    :partido_posterior: PSDB
+    :data_filiacao_partido_posterior: 31/10/2013
+'160591':
+  :profissao: Contador
+  :data_nascimento: 31/07/1978
+  :periodosExercicio:
+  - :uf: AP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PRTB
+    :partido_posterior: S.PART.
+    :data_filiacao_partido_posterior: 30/08/2011
+  - :partido_anterior: S.PART.
+    :partido_posterior: PR
+    :data_filiacao_partido_posterior: 30/09/2011
+'160592':
+  :profissao: Empresário
+  :data_nascimento: 21/06/1978
+  :periodosExercicio:
+  - :uf: PR
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160593':
+  :profissao: Apresentador de Televisão
+  :data_nascimento: 19/07/1962
+  :periodosExercicio:
+  - :uf: RN
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160594':
+  :profissao: Professor
+  :data_nascimento: 16/10/1954
+  :periodosExercicio:
+  - :uf: RS
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160595':
+  :profissao: Agente Fiscal de Rendas
+  :data_nascimento: 29/11/1952
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160596':
+  :profissao: ! "\n    "
+  :data_nascimento: 06/02/1978
+  :periodosExercicio:
+  - :uf: GO
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: DEM
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 26/10/2011
+'160597':
+  :profissao: Empresário
+  :data_nascimento: 29/01/1966
+  :periodosExercicio:
+  - :uf: RJ
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PSB
+    :partido_posterior: S.PART.
+    :data_filiacao_partido_posterior: 20/08/2013
+  - :partido_anterior: S.PART.
+    :partido_posterior: PSB
+    :data_filiacao_partido_posterior: 02/10/2013
+'160598':
+  :profissao: Professora de Educação Física
+  :data_nascimento: 26/04/1969
+  :periodosExercicio:
+  - :uf: GO
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160599':
+  :profissao: ! "\n    "
+  :data_nascimento: 23/05/1973
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160600':
+  :profissao: Advogado
+  :data_nascimento: 17/08/1964
+  :periodosExercicio:
+  - :uf: BA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PMDB
+    :partido_posterior: SDD
+    :data_filiacao_partido_posterior: 04/10/2013
+'160601':
+  :profissao: Conferencista, Empresário, Pastor Evangélico
+  :data_nascimento: 12/10/1972
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160602':
+  :profissao: Político
+  :data_nascimento: 30/11/1958
+  :periodosExercicio:
+  - :uf: PA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160603':
+  :profissao: Auditor-fiscal
+  :data_nascimento: 01/12/1957
+  :periodosExercicio:
+  - :uf: BA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160604':
+  :profissao: Professor Universitário
+  :data_nascimento: 10/03/1963
+  :periodosExercicio:
+  - :uf: SC
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160605':
+  :profissao: Técnico em Agropecuária
+  :data_nascimento: 16/06/1958
+  :periodosExercicio:
+  - :uf: RO
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160606':
+  :profissao: Delegado de Polícia Federal
+  :data_nascimento: 20/05/1959
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160607':
+  :profissao: Administrador Público, Metalúrgico
+  :data_nascimento: 11/08/1957
+  :periodosExercicio:
+  - :uf: RS
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160609':
+  :profissao: Autônomo
+  :data_nascimento: 20/10/1958
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PMN
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 26/10/2011
+'160610':
+  :profissao: Agricultor
+  :data_nascimento: 17/12/1964
+  :periodosExercicio:
+  - :uf: BA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160611':
+  :profissao: Comerciante
+  :data_nascimento: 23/04/1960
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160612':
+  :profissao: Advogado
+  :data_nascimento: 18/05/1956
+  :periodosExercicio:
+  - :uf: RJ
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: 23/03/2011
+    :causa_fim_exercicio: Secretário de Estado
+  - :uf: RJ
+    :situacao: Titular
+    :data_inicio: 26/10/2011
+    :data_fim: 01/11/2011
+    :causa_fim_exercicio: Secretário de Estado
+  - :uf: RJ
+    :situacao: Titular
+    :data_inicio: 08/06/2012
+    :data_fim: 16/07/2012
+    :causa_fim_exercicio: Licença Conjunta Consecutiva
+  - :uf: RJ
+    :situacao: Titular
+    :data_inicio: 16/11/2012
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PDT
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 26/10/2011
+'160613':
+  :profissao: Geográfo
+  :data_nascimento: 24/01/1958
+  :periodosExercicio:
+  - :uf: AC
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160614':
+  :profissao: Enfermeira
+  :data_nascimento: 31/07/1963
+  :periodosExercicio:
+  - :uf: PR
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160615':
+  :profissao: Agropecuarista
+  :data_nascimento: 13/05/1963
+  :periodosExercicio:
+  - :uf: MS
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160618':
+  :profissao: Agricultor
+  :data_nascimento: 11/12/1963
+  :periodosExercicio:
+  - :uf: BA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PCdoB
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 26/10/2011
+'160619':
+  :profissao: Empresário
+  :data_nascimento: 18/12/1950
+  :periodosExercicio:
+  - :uf: BA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: DEM
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 26/10/2011
+'160620':
+  :profissao: ! "\n    "
+  :data_nascimento: 05/04/1967
+  :periodosExercicio:
+  - :uf: RJ
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160621':
+  :profissao: Advogado
+  :data_nascimento: 25/11/1972
+  :periodosExercicio:
+  - :uf: PR
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160622':
+  :profissao: Advogado, Comerciante
+  :data_nascimento: 17/11/1959
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160623':
+  :profissao: Economista
+  :data_nascimento: 08/10/1979
+  :periodosExercicio:
+  - :uf: AL
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160625':
+  :profissao: ! "\n    "
+  :data_nascimento: 15/12/1952
+  :periodosExercicio:
+  - :uf: RJ
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160626':
+  :profissao: Advogado, Professor de Direito
+  :data_nascimento: 28/09/1953
+  :periodosExercicio:
+  - :uf: SE
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PMDB
+    :partido_posterior: PPS
+    :data_filiacao_partido_posterior: 08/11/2011
+  - :partido_anterior: PPS
+    :partido_posterior: S.PART.
+    :data_filiacao_partido_posterior: 11/09/2013
+  - :partido_anterior: S.PART.
+    :partido_posterior: PMDB
+    :data_filiacao_partido_posterior: 01/10/2013
+'160627':
+  :profissao: Ator
+  :data_nascimento: 02/12/1953
+  :periodosExercicio:
+  - :uf: RJ
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160628':
+  :profissao: Engenheiro Elétrico
+  :data_nascimento: 29/12/1965
+  :periodosExercicio:
+  - :uf: PE
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160630':
+  :profissao: Médico
+  :data_nascimento: 11/04/1963
+  :periodosExercicio:
+  - :uf: MT
+    :situacao: Efetivado
+    :data_inicio: 01/02/2011
+    :data_fim: 12/07/2011
+    :causa_fim_exercicio: Afastamento
+  - :uf: MT
+    :situacao: Efetivado
+    :data_inicio: 07/10/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160631':
+  :profissao: Servidor Público Estadual
+  :data_nascimento: 19/04/1959
+  :periodosExercicio:
+  - :uf: RJ
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160633':
+  :profissao: Médico
+  :data_nascimento: 30/11/1964
+  :periodosExercicio:
+  - :uf: MS
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160634':
+  :profissao: Carpinteiro, Empresário, Motorista
+  :data_nascimento: 18/05/1950
+  :periodosExercicio:
+  - :uf: RR
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: 11/05/2011
+    :causa_fim_exercicio: Perda de Mandato
+  - :uf: RR
+    :situacao: Titular
+    :data_inicio: 13/12/2012
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160635':
+  :profissao: Administrador
+  :data_nascimento: 17/08/1970
+  :periodosExercicio:
+  - :uf: PB
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160636':
+  :profissao: ! "\n    "
+  :data_nascimento: 10/08/1989
+  :periodosExercicio:
+  - :uf: PB
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PMDB
+    :partido_posterior: PTB
+    :data_filiacao_partido_posterior: 08/10/2013
+'160637':
+  :profissao: Advogado
+  :data_nascimento: 04/04/1959
+  :periodosExercicio:
+  - :uf: DF
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PR
+    :partido_posterior: PROS
+    :data_filiacao_partido_posterior: 02/10/2013
+'160638':
+  :profissao: Empresário
+  :data_nascimento: 18/09/1954
+  :periodosExercicio:
+  - :uf: TO
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160639':
+  :profissao: Professora Universitária
+  :data_nascimento: 01/10/1964
+  :periodosExercicio:
+  - :uf: TO
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160642':
+  :profissao: Comerciário, Comunicador de Rádio
+  :data_nascimento: 12/09/1962
+  :periodosExercicio:
+  - :uf: PE
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160643':
+  :profissao: Médico
+  :data_nascimento: 03/06/1952
+  :periodosExercicio:
+  - :uf: ES
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PDT
+    :partido_posterior: PROS
+    :data_filiacao_partido_posterior: 02/10/2013
+'160644':
+  :profissao: Professor de Ensino Médio
+  :data_nascimento: 11/07/1952
+  :periodosExercicio:
+  - :uf: PA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160645':
+  :profissao: Advogado
+  :data_nascimento: 16/08/1979
+  :periodosExercicio:
+  - :uf: AP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160646':
+  :profissao: Delegado de Polícia Federal
+  :data_nascimento: 26/03/1970
+  :periodosExercicio:
+  - :uf: PR
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PSDB
+    :partido_posterior: PEN
+    :data_filiacao_partido_posterior: 17/07/2012
+  - :partido_anterior: PEN
+    :partido_posterior: SDD
+    :data_filiacao_partido_posterior: 03/10/2013
+'160647':
+  :profissao: Analista de Sistemas, Engenheiro Mecânico
+  :data_nascimento: 09/09/1948
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160648':
+  :profissao: Jornalista
+  :data_nascimento: 28/03/1965
+  :periodosExercicio:
+  - :uf: TO
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160649':
+  :profissao: Administrador, Advogado, Professor Universitário
+  :data_nascimento: 21/12/1947
+  :periodosExercicio:
+  - :uf: SC
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160650':
+  :profissao: Administrador, Agricultor
+  :data_nascimento: 23/03/1965
+  :periodosExercicio:
+  - :uf: BA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160651':
+  :profissao: Engenheiro Agrônomo
+  :data_nascimento: 27/01/1953
+  :periodosExercicio:
+  - :uf: SC
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160652':
+  :profissao: Odontólogo
+  :data_nascimento: 02/10/1961
+  :periodosExercicio:
+  - :uf: PE
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160653':
+  :profissao: Conferencista, Escritor, Pastor Evangélico
+  :data_nascimento: 18/04/1966
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160654':
+  :profissao: Administrador de Empresas
+  :data_nascimento: 11/04/1980
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160655':
+  :profissao: Economista, Empresário
+  :data_nascimento: 01/08/1968
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PV
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 27/10/2011
+'160656':
+  :profissao: Administrador
+  :data_nascimento: 02/12/1966
+  :periodosExercicio:
+  - :uf: RR
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PP
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 26/10/2011
+  - :partido_anterior: PSD
+    :partido_posterior: PP
+    :data_filiacao_partido_posterior: 03/10/2013
+'160657':
+  :profissao: Professor Universitário
+  :data_nascimento: 28/02/1953
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160659':
+  :profissao: Empresária, Escritor
+  :data_nascimento: 28/09/1956
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160660':
+  :profissao: Músico
+  :data_nascimento: 16/09/1973
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PSC
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 26/10/2011
+  - :partido_anterior: PSD
+    :partido_posterior: DEM
+    :data_filiacao_partido_posterior: 01/10/2013
+'160661':
+  :profissao: ! "\n    "
+  :data_nascimento: 20/01/1956
+  :periodosExercicio:
+  - :uf: PE
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PTB
+    :partido_posterior: PROS
+    :data_filiacao_partido_posterior: 08/10/2013
+'160662':
+  :profissao: ! "\n    "
+  :data_nascimento: 08/10/1977
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160663':
+  :profissao: Engenheiro Civil
+  :data_nascimento: 29/11/1949
+  :periodosExercicio:
+  - :uf: PR
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160664':
+  :profissao: Médico
+  :data_nascimento: 22/07/1958
+  :periodosExercicio:
+  - :uf: ES
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160665':
+  :profissao: Engenheiro Civil
+  :data_nascimento: 22/10/1962
+  :periodosExercicio:
+  - :uf: PE
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: DEM
+    :partido_posterior: SDD
+    :data_filiacao_partido_posterior: 01/10/2013
+'160666':
+  :profissao: ! "\n    "
+  :data_nascimento: 29/11/1963
+  :periodosExercicio:
+  - :uf: BA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160667':
+  :profissao: Administrador de Empresas
+  :data_nascimento: 14/10/1982
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PV
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 26/10/2011
+  - :partido_anterior: PSD
+    :partido_posterior: PP
+    :data_filiacao_partido_posterior: 06/08/2013
+'160668':
+  :profissao: Engenheiro Agrônomo
+  :data_nascimento: 16/07/1952
+  :periodosExercicio:
+  - :uf: RR
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160669':
+  :profissao: Empresário
+  :data_nascimento: 13/03/1963
+  :periodosExercicio:
+  - :uf: CE
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PMDB
+    :partido_posterior: SDD
+    :data_filiacao_partido_posterior: 02/10/2013
+'160670':
+  :profissao: ! "\n    "
+  :data_nascimento: 04/11/1968
+  :periodosExercicio:
+  - :uf: RO
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160671':
+  :profissao: Industrial
+  :data_nascimento: 09/04/1959
+  :periodosExercicio:
+  - :uf: PI
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160672':
+  :profissao: Comunicador, Escritor, Jornalista, Professor Universitário
+  :data_nascimento: 10/03/1974
+  :periodosExercicio:
+  - :uf: RJ
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160673':
+  :profissao: Tecnólogo em Cooperativismo
+  :data_nascimento: 23/06/1960
+  :periodosExercicio:
+  - :uf: RS
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160674':
+  :profissao: Estudante Universitário
+  :data_nascimento: 11/09/1989
+  :periodosExercicio:
+  - :uf: PB
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160675':
+  :profissao: Administrador
+  :data_nascimento: 25/12/1953
+  :periodosExercicio:
+  - :uf: BA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160676':
+  :profissao: Empresário
+  :data_nascimento: 28/12/1968
+  :periodosExercicio:
+  - :uf: BA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: DEM
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 26/10/2011
+'160677':
+  :profissao: Apresentador de Televisão, Locutor, Publicitário, Representante Comercial
+  :data_nascimento: 21/09/1959
+  :periodosExercicio:
+  - :uf: RJ
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160678':
+  :profissao: Educador
+  :data_nascimento: 04/08/1959
+  :periodosExercicio:
+  - :uf: CE
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160679':
+  :profissao: ! "\n    "
+  :data_nascimento: 11/07/1957
+  :periodosExercicio:
+  - :uf: AC
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160758':
+  :profissao: Médico Veterinário
+  :data_nascimento: 25/03/1957
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'160974':
+  :profissao: Advogado, Professor
+  :data_nascimento: 31/10/1943
+  :periodosExercicio:
+  - :uf: PI
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: DEM
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 26/10/2011
+'160976':
+  :profissao: Ator
+  :data_nascimento: 01/05/1965
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'161904':
+  :profissao: ! "\n    "
+  :data_nascimento: 07/03/1956
+  :periodosExercicio:
+  - :uf: PA
+    :situacao: Efetivado
+    :data_inicio: 02/02/2011
+    :data_fim: 01/09/2011
+    :causa_fim_exercicio: Afastamento
+  - :uf: PA
+    :situacao: Efetivado
+    :data_inicio: 12/12/2011
+    :data_fim: 28/12/2012
+    :causa_fim_exercicio: Afastamento
+  - :uf: PA
+    :situacao: Efetivado
+    :data_inicio: 02/01/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PSDB
+    :partido_posterior: PROS
+    :data_filiacao_partido_posterior: 02/10/2013
+'161907':
+  :profissao: ! "\n    "
+  :data_nascimento: 21/09/1975
+  :periodosExercicio:
+  - :uf: BA
+    :situacao: Suplente
+    :data_inicio: 03/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'162174':
+  :profissao: Servidor Público e Agrônomo
+  :data_nascimento: 22/02/1967
+  :periodosExercicio:
+  - :uf: DF
+    :situacao: Efetivado
+    :data_inicio: 07/02/2011
+    :data_fim: 05/06/2012
+    :causa_fim_exercicio: Afastamento
+  - :uf: DF
+    :situacao: Efetivado
+    :data_inicio: 25/07/2012
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'162332':
+  :profissao: ! "\n    "
+  :data_nascimento: 09/04/1949
+  :periodosExercicio:
+  - :uf: PR
+    :situacao: Suplente
+    :data_inicio: 08/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PSDB
+    :partido_posterior: PR
+    :data_filiacao_partido_posterior: 07/10/2013
+'162490':
+  :profissao: ! "\n    "
+  :data_nascimento: 11/01/1952
+  :periodosExercicio:
+  - :uf: GO
+    :situacao: Suplente
+    :data_inicio: 09/02/2011
+    :data_fim: 25/10/2011
+    :causa_fim_exercicio: Afastamento
+  - :uf: GO
+    :situacao: Suplente
+    :data_inicio: 31/10/2011
+    :data_fim: 21/11/2011
+    :causa_fim_exercicio: Afastamento
+  - :uf: GO
+    :situacao: Suplente
+    :data_inicio: 28/11/2011
+    :data_fim: 29/03/2012
+    :causa_fim_exercicio: Afastamento
+  - :uf: GO
+    :situacao: Suplente
+    :data_inicio: 31/10/2012
+    :data_fim: 26/11/2012
+    :causa_fim_exercicio: Afastamento
+  - :uf: GO
+    :situacao: Suplente
+    :data_inicio: 03/12/2012
+    :data_fim: 04/02/2013
+    :causa_fim_exercicio: Afastamento
+  - :uf: GO
+    :situacao: Suplente
+    :data_inicio: 06/02/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'163321':
+  :profissao: Administrador de Empresas
+  :data_nascimento: 25/04/1966
+  :periodosExercicio:
+  - :uf: RS
+    :situacao: Suplente
+    :data_inicio: 16/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'163322':
+  :profissao: ! "\n    "
+  :data_nascimento: 16/12/1961
+  :periodosExercicio:
+  - :uf: PE
+    :situacao: Efetivado
+    :data_inicio: 16/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PRB
+    :partido_posterior: PP
+    :data_filiacao_partido_posterior: 30/09/2013
+'163831':
+  :profissao: ! "\n    "
+  :data_nascimento: 23/06/1952
+  :periodosExercicio:
+  - :uf: RJ
+    :situacao: Suplente
+    :data_inicio: 21/02/2011
+    :data_fim: 22/02/2011
+    :causa_fim_exercicio: Afastamento
+  - :uf: RJ
+    :situacao: Suplente
+    :data_inicio: 01/03/2011
+    :data_fim: 18/06/2012
+    :causa_fim_exercicio: Afastamento
+  - :uf: RJ
+    :situacao: Suplente
+    :data_inicio: 25/10/2012
+    :data_fim: 31/10/2012
+    :causa_fim_exercicio: Afastamento
+  - :uf: RJ
+    :situacao: Suplente
+    :data_inicio: 07/11/2012
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'164361':
+  :profissao: ! "\n    "
+  :data_nascimento: 14/10/1958
+  :periodosExercicio:
+  - :uf: GO
+    :situacao: Suplente
+    :data_inicio: 02/03/2011
+    :data_fim: 24/10/2011
+    :causa_fim_exercicio: Afastamento
+  - :uf: GO
+    :situacao: Suplente
+    :data_inicio: 31/10/2011
+    :data_fim: 21/11/2011
+    :causa_fim_exercicio: Afastamento
+  - :uf: GO
+    :situacao: Suplente
+    :data_inicio: 28/11/2011
+    :data_fim: 26/11/2012
+    :causa_fim_exercicio: Afastamento
+  - :uf: GO
+    :situacao: Suplente
+    :data_inicio: 12/12/2012
+    :data_fim: 04/02/2013
+    :causa_fim_exercicio: Afastamento
+  - :uf: GO
+    :situacao: Suplente
+    :data_inicio: 07/02/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'165583':
+  :profissao: Industrial
+  :data_nascimento: 25/12/1955
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Suplente
+    :data_inicio: 03/05/2011
+    :data_fim: 18/11/2011
+    :causa_fim_exercicio: Afastamento
+  - :uf: SP
+    :situacao: Suplente
+    :data_inicio: 27/12/2012
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'166401':
+  :profissao: ! "\n    "
+  :data_nascimento: 25/02/1969
+  :periodosExercicio:
+  - :uf: MT
+    :situacao: Titular
+    :data_inicio: 13/07/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'166402':
+  :profissao: ! "\n    "
+  :data_nascimento: 26/10/1948
+  :periodosExercicio:
+  - :uf: GO
+    :situacao: Suplente
+    :data_inicio: 13/07/2011
+    :data_fim: 21/11/2011
+    :causa_fim_exercicio: Afastamento
+  - :uf: GO
+    :situacao: Suplente
+    :data_inicio: 28/11/2011
+    :data_fim: 26/11/2012
+    :causa_fim_exercicio: Afastamento
+  - :uf: GO
+    :situacao: Suplente
+    :data_inicio: 03/12/2012
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PTB
+    :partido_posterior: PR
+    :data_filiacao_partido_posterior: 25/09/2013
+'167493':
+  :profissao: ! "\n    "
+  :data_nascimento: 08/10/1979
+  :periodosExercicio:
+  - :uf: MA
+    :situacao: Efetivado
+    :data_inicio: 04/10/2011
+    :data_fim: 04/02/2012
+    :causa_fim_exercicio: Afastamento
+  - :uf: MA
+    :situacao: Efetivado
+    :data_inicio: 03/05/2012
+    :data_fim: 11/10/2012
+    :causa_fim_exercicio: Afastamento
+  - :uf: MA
+    :situacao: Efetivado
+    :data_inicio: 02/01/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'167614':
+  :profissao: ! "\n    "
+  :data_nascimento: 14/03/1952
+  :periodosExercicio:
+  - :uf: PE
+    :situacao: Suplente
+    :data_inicio: 20/10/2011
+    :data_fim: 22/06/2012
+    :causa_fim_exercicio: Afastamento
+  - :uf: PE
+    :situacao: Suplente
+    :data_inicio: 05/07/2012
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'167617':
+  :profissao: Advogado
+  :data_nascimento: 15/02/1960
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Efetivado
+    :data_inicio: 01/11/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'167722':
+  :profissao: ! "\n    "
+  :data_nascimento: 07/07/1978
+  :periodosExercicio:
+  - :uf: RO
+    :situacao: Titular
+    :data_inicio: 17/11/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'168175':
+  :profissao: ! "\n    "
+  :data_nascimento: 18/04/1969
+  :periodosExercicio:
+  - :uf: MA
+    :situacao: Efetivado
+    :data_inicio: 19/12/2011
+    :data_fim: 19/04/2012
+    :causa_fim_exercicio: Afastamento
+  - :uf: MA
+    :situacao: Efetivado
+    :data_inicio: 28/12/2012
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PPS
+    :partido_posterior: SDD
+    :data_filiacao_partido_posterior: 02/10/2013
+'168447':
+  :profissao: Agropecuarista, Administrador de Empresas e Empresário
+  :data_nascimento: 02/09/1953
+  :periodosExercicio:
+  - :uf: CE
+    :situacao: Efetivado
+    :data_inicio: 07/02/2012
+    :data_fim: 29/07/2012
+    :causa_fim_exercicio: Afastamento
+  - :uf: CE
+    :situacao: Efetivado
+    :data_inicio: 02/01/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'169712':
+  :profissao: ! "\n    "
+  :data_nascimento: 28/03/1956
+  :periodosExercicio:
+  - :uf: AL
+    :situacao: Efetivado
+    :data_inicio: 14/06/2012
+    :data_fim: 18/06/2012
+    :causa_fim_exercicio: Secretário de Estado
+  - :uf: AL
+    :situacao: Efetivado
+    :data_inicio: 28/01/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PSDB
+    :partido_posterior: S.PART.
+    :data_filiacao_partido_posterior: 25/09/2013
+  - :partido_anterior: S.PART.
+    :partido_posterior: PSB
+    :data_filiacao_partido_posterior: 02/10/2013
+'170673':
+  :profissao: ! "\n    "
+  :data_nascimento: 19/03/1963
+  :periodosExercicio:
+  - :uf: PR
+    :situacao: Suplente
+    :data_inicio: 08/08/2012
+    :data_fim: 06/12/2012
+    :causa_fim_exercicio: Afastamento
+  - :uf: PR
+    :situacao: Suplente
+    :data_inicio: 07/02/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'171617':
+  :profissao: ! "\n    "
+  :data_nascimento: 15/09/1957
+  :periodosExercicio:
+  - :uf: AL
+    :situacao: Efetivado
+    :data_inicio: 03/01/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'171618':
+  :profissao: ! "\n    "
+  :data_nascimento: 05/06/1938
+  :periodosExercicio:
+  - :uf: BA
+    :situacao: Efetivado
+    :data_inicio: 03/01/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'171619':
+  :profissao: ! "\n    "
+  :data_nascimento: 10/06/1950
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Efetivado
+    :data_inicio: 03/01/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'171621':
+  :profissao: ! "\n    "
+  :data_nascimento: 18/01/1959
+  :periodosExercicio:
+  - :uf: RJ
+    :situacao: Efetivado
+    :data_inicio: 03/01/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'171622':
+  :profissao: ! "\n    "
+  :data_nascimento: 04/03/1946
+  :periodosExercicio:
+  - :uf: RJ
+    :situacao: Efetivado
+    :data_inicio: 03/01/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'171623':
+  :profissao: ! "\n    "
+  :data_nascimento: 15/04/1977
+  :periodosExercicio:
+  - :uf: SE
+    :situacao: Efetivado
+    :data_inicio: 03/01/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'172029':
+  :profissao: ! "\n    "
+  :data_nascimento: 21/04/1956
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Suplente
+    :data_inicio: 23/01/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'172711':
+  :profissao: ! "\n    "
+  :data_nascimento: 31/01/1955
+  :periodosExercicio:
+  - :uf: AM
+    :situacao: Suplente
+    :data_inicio: 06/03/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: DEM
+    :partido_posterior: PSDB
+    :data_filiacao_partido_posterior: 07/03/2013
+'173269':
+  :profissao: ! "\n    "
+  :data_nascimento: 15/01/1938
+  :periodosExercicio:
+  - :uf: MS
+    :situacao: Suplente
+    :data_inicio: 10/04/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'174861':
+  :profissao: ! "\n    "
+  :data_nascimento: 25/04/1944
+  :periodosExercicio:
+  - :uf: RO
+    :situacao: Suplente
+    :data_inicio: 29/08/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'175212':
+  :profissao: ! "\n    "
+  :data_nascimento: 03/02/1962
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Suplente
+    :data_inicio: 09/10/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'3151':
+  :profissao: ! "\n    "
+  :data_nascimento: 18/09/1944
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Suplente
+    :data_inicio: 04/02/2011
+    :data_fim: 25/10/2011
+    :causa_fim_exercicio: Afastamento
+  - :uf: MG
+    :situacao: Suplente
+    :data_inicio: 03/11/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'4930':
+  :profissao: ! "\n    "
+  :data_nascimento: 23/12/1956
+  :periodosExercicio:
+  - :uf: PE
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PTB
+    :partido_posterior: PSC
+    :data_filiacao_partido_posterior: 08/10/2013
+'4931':
+  :profissao: Contador, Professor
+  :data_nascimento: 07/04/1956
+  :periodosExercicio:
+  - :uf: DF
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PR
+    :partido_posterior: PSDB
+    :data_filiacao_partido_posterior: 16/10/2012
+'62881':
+  :profissao: Advogado
+  :data_nascimento: 01/09/1958
+  :periodosExercicio:
+  - :uf: CE
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'67138':
+  :profissao: Empresária, Professor
+  :data_nascimento: 23/04/1966
+  :periodosExercicio:
+  - :uf: PI
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'68731':
+  :profissao: Apresentador de Televisão, Comunicador, Radialista
+  :data_nascimento: 16/10/1960
+  :periodosExercicio:
+  - :uf: AM
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PR
+    :partido_posterior: SDD
+    :data_filiacao_partido_posterior: 02/10/2013
+'73424':
+  :profissao: Professor e Advogado
+  :data_nascimento: 08/12/1935
+  :periodosExercicio:
+  - :uf: RJ
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'73433':
+  :profissao: Médico
+  :data_nascimento: 24/12/1949
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'73434':
+  :profissao: Contabilista, Radialista, Professor e Advogado
+  :data_nascimento: 30/12/1945
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'73437':
+  :profissao: Radialista, Empresário e Engenheiro Eletrônico
+  :data_nascimento: 07/07/1951
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PP
+    :partido_posterior: PRB
+    :data_filiacao_partido_posterior: 05/10/2013
+'73447':
+  :profissao: Advogado, Professor
+  :data_nascimento: 30/07/1949
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'73458':
+  :profissao: Registrador de Imóveis
+  :data_nascimento: 11/06/1964
+  :periodosExercicio:
+  - :uf: PR
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'73459':
+  :profissao: Médico e Servidor Público
+  :data_nascimento: 12/11/1950
+  :periodosExercicio:
+  - :uf: PR
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'73463':
+  :profissao: Advogado
+  :data_nascimento: 23/05/1948
+  :periodosExercicio:
+  - :uf: PR
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'73466':
+  :profissao: Professor
+  :data_nascimento: 23/05/1948
+  :periodosExercicio:
+  - :uf: PR
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'73474':
+  :profissao: Agricultora
+  :data_nascimento: 17/03/1954
+  :periodosExercicio:
+  - :uf: SC
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'73478':
+  :profissao: Advogado
+  :data_nascimento: 06/01/1963
+  :periodosExercicio:
+  - :uf: RS
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: 04/02/2011
+    :causa_fim_exercicio: Secretário de Estado
+  - :uf: RS
+    :situacao: Titular
+    :data_inicio: 22/11/2012
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'73481':
+  :profissao: ! "\n    "
+  :data_nascimento: 31/07/1956
+  :periodosExercicio:
+  - :uf: RS
+    :situacao: Suplente
+    :data_inicio: 03/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'73482':
+  :profissao: Médico e Administrador de Empresas
+  :data_nascimento: 18/01/1960
+  :periodosExercicio:
+  - :uf: RS
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'73483':
+  :profissao: Engenheiro Agrônomo e Produtor Rural
+  :data_nascimento: 14/09/1950
+  :periodosExercicio:
+  - :uf: RS
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'73507':
+  :profissao: Professora, Radialista, Jornalista , Desenhista - Projetista e Agrimensora.
+  :data_nascimento: 23/01/1949
+  :periodosExercicio:
+  - :uf: ES
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'73531':
+  :profissao: Matemático e Engenheiro.
+  :data_nascimento: 05/07/1946
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'73534':
+  :profissao: Metalúrgico
+  :data_nascimento: 06/06/1958
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'73535':
+  :profissao: Engenheiro Civil
+  :data_nascimento: 03/01/1955
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'73553':
+  :profissao: Empresário
+  :data_nascimento: 29/10/1941
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'73559':
+  :profissao: Servidor Público
+  :data_nascimento: 05/06/1955
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PDT
+    :partido_posterior: PROS
+    :data_filiacao_partido_posterior: 02/10/2013
+'73565':
+  :profissao: Administrador de Empresas
+  :data_nascimento: 11/08/1949
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'73568':
+  :profissao: ! "\n    "
+  :data_nascimento: 19/01/1957
+  :periodosExercicio:
+  - :uf: RJ
+    :situacao: Suplente
+    :data_inicio: 26/02/2013
+    :data_fim: 05/03/2013
+    :causa_fim_exercicio: Afastamento
+  - :uf: RJ
+    :situacao: Suplente
+    :data_inicio: 08/03/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'73584':
+  :profissao: Professor Universitário.
+  :data_nascimento: 13/06/1946
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'73586':
+  :profissao: CONSULTOR E ADVOGADO
+  :data_nascimento: 18/11/1966
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'73588':
+  :profissao: ! 'ADVOGADO, PROFESSOR, ADMINISTRADOR E
+
+    JORNALISTA'
+  :data_nascimento: 21/03/1930
+  :periodosExercicio:
+  - :uf: CE
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'73653':
+  :profissao: Médico Veterinário e Comerciante
+  :data_nascimento: 01/06/1957
+  :periodosExercicio:
+  - :uf: MT
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'73655':
+  :profissao: ! "\n    "
+  :data_nascimento: 27/07/1953
+  :periodosExercicio:
+  - :uf: DF
+    :situacao: Suplente
+    :data_inicio: 08/02/2011
+    :data_fim: 22/11/2011
+    :causa_fim_exercicio: Afastamento
+  - :uf: DF
+    :situacao: Suplente
+    :data_inicio: 25/11/2011
+    :data_fim: 05/06/2012
+    :causa_fim_exercicio: Afastamento
+  - :uf: DF
+    :situacao: Suplente
+    :data_inicio: 09/10/2012
+    :data_fim: 28/11/2012
+    :causa_fim_exercicio: Afastamento
+  - :uf: DF
+    :situacao: Suplente
+    :data_inicio: 26/12/2012
+    :data_fim: 15/04/2013
+    :causa_fim_exercicio: Afastamento
+  - :uf: DF
+    :situacao: Suplente
+    :data_inicio: 22/05/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PPS
+    :partido_posterior: SDD
+    :data_filiacao_partido_posterior: 01/10/2013
+'73666':
+  :profissao: Cirurgião-Dentista
+  :data_nascimento: 04/06/1951
+  :periodosExercicio:
+  - :uf: GO
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'73674':
+  :profissao: Agropecuarista, Técnico em Laticínios, Comerciante, Industrial e Advogado
+  :data_nascimento: 24/05/1944
+  :periodosExercicio:
+  - :uf: GO
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'73676':
+  :profissao: EMPRESARIO
+  :data_nascimento: 31/12/1958
+  :periodosExercicio:
+  - :uf: GO
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PR
+    :partido_posterior: PMDB
+    :data_filiacao_partido_posterior: 03/11/2011
+'73682':
+  :profissao: AGENTE FISCAL DE RENDAS
+  :data_nascimento: 16/12/1954
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PDT
+    :partido_posterior: SDD
+    :data_filiacao_partido_posterior: 01/10/2013
+'73692':
+  :profissao: Médico
+  :data_nascimento: 18/02/1950
+  :periodosExercicio:
+  - :uf: RS
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'73701':
+  :profissao: Assistente Social, Auxiliar de Enfermagem, Professor, Servidor Público
+  :data_nascimento: 26/04/1942
+  :periodosExercicio:
+  - :uf: RJ
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'73764':
+  :profissao: Agropecuarista e Empresário
+  :data_nascimento: 25/08/1952
+  :periodosExercicio:
+  - :uf: PR
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'73768':
+  :profissao: Industrial, Bacharel em Direito, Filósofo e Agropecuarista
+  :data_nascimento: 26/01/1948
+  :periodosExercicio:
+  - :uf: PR
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'73772':
+  :profissao: Contador
+  :data_nascimento: 25/04/1958
+  :periodosExercicio:
+  - :uf: PR
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'73778':
+  :profissao: Economista e Professor
+  :data_nascimento: 08/10/1950
+  :periodosExercicio:
+  - :uf: PR
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: 04/02/2011
+    :causa_fim_exercicio: Secretário de Estado
+  - :uf: PR
+    :situacao: Titular
+    :data_inicio: 08/10/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'73781':
+  :profissao: Agropecuarista
+  :data_nascimento: 23/07/1942
+  :periodosExercicio:
+  - :uf: PR
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'73782':
+  :profissao: Agropecuarista e Empresário
+  :data_nascimento: 08/06/1941
+  :periodosExercicio:
+  - :uf: PR
+    :situacao: Efetivado
+    :data_inicio: 07/02/2012
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'73793':
+  :profissao: Contador e Bancário
+  :data_nascimento: 06/03/1950
+  :periodosExercicio:
+  - :uf: SC
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'73805':
+  :profissao: Advogado
+  :data_nascimento: 20/04/1942
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'73808':
+  :profissao: ADMINISTRADOR DE EMPRESAS, BACHAREL EM DIREITO
+  :data_nascimento: 08/06/1961
+  :periodosExercicio:
+  - :uf: BA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PSC
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 26/10/2011
+'73874':
+  :profissao: Servidor Público e Engenheiro Civil
+  :data_nascimento: 31/10/1961
+  :periodosExercicio:
+  - :uf: SC
+    :situacao: Titular
+    :data_inicio: 13/07/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'73883':
+  :profissao: ADVOGADO
+  :data_nascimento: 19/09/1963
+  :periodosExercicio:
+  - :uf: SC
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: 01/03/2011
+    :causa_fim_exercicio: Secretário de Estado
+  - :uf: SC
+    :situacao: Titular
+    :data_inicio: 24/10/2011
+    :data_fim: 31/10/2011
+    :causa_fim_exercicio: Secretário de Estado
+  - :uf: SC
+    :situacao: Titular
+    :data_inicio: 22/10/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: DEM
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 26/10/2011
+  - :partido_anterior: PSD
+    :partido_posterior: PSB
+    :data_filiacao_partido_posterior: 04/11/2013
+'73891':
+  :profissao: Médico
+  :data_nascimento: 02/04/1947
+  :periodosExercicio:
+  - :uf: RS
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'73892':
+  :profissao: ADVOGADO
+  :data_nascimento: 23/12/1945
+  :periodosExercicio:
+  - :uf: RS
+    :situacao: Suplente
+    :data_inicio: 23/08/2011
+    :data_fim: 20/03/2013
+    :causa_fim_exercicio: Afastamento
+  - :uf: RS
+    :situacao: Suplente
+    :data_inicio: 12/08/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'73893':
+  :profissao: Advogado
+  :data_nascimento: 19/09/1958
+  :periodosExercicio:
+  - :uf: RS
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'73924':
+  :profissao: COMERCIANTE
+  :data_nascimento: 19/06/1977
+  :periodosExercicio:
+  - :uf: AP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'73926':
+  :profissao: ! "\n    "
+  :data_nascimento: 12/05/1949
+  :periodosExercicio:
+  - :uf: AP
+    :situacao: Titular
+    :data_inicio: 13/07/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'73930':
+  :profissao: LOCUTOR E COMENTARISTA DE RADIO E TELEVISAO E RADIALISTA
+  :data_nascimento: 16/01/1964
+  :periodosExercicio:
+  - :uf: PA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PMDB
+    :partido_posterior: SDD
+    :data_filiacao_partido_posterior: 01/10/2013
+'73931':
+  :profissao: Agricultor
+  :data_nascimento: 21/12/1961
+  :periodosExercicio:
+  - :uf: PA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'73933':
+  :profissao: Técnico em Contabilidade e Pedagogo
+  :data_nascimento: 18/09/1959
+  :periodosExercicio:
+  - :uf: PA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'73934':
+  :profissao: Biólogo, Professor, Radialista
+  :data_nascimento: 17/08/1952
+  :periodosExercicio:
+  - :uf: AM
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PP
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 26/10/2011
+'73937':
+  :profissao: AGRICULTOR
+  :data_nascimento: 25/12/1952
+  :periodosExercicio:
+  - :uf: RO
+    :situacao: Efetivado
+    :data_inicio: 03/01/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'73940':
+  :profissao: PROFESSOR DE ENSINO DE PRIMEIRO E SEGUNDO GRAUS
+  :data_nascimento: 03/12/1964
+  :periodosExercicio:
+  - :uf: AC
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'73943':
+  :profissao: Professora e Bancária
+  :data_nascimento: 28/12/1964
+  :periodosExercicio:
+  - :uf: AC
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'73945':
+  :profissao: SERVIDOR PUBLICO ESTADUAL
+  :data_nascimento: 28/04/1966
+  :periodosExercicio:
+  - :uf: TO
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: 07/03/2013
+    :causa_fim_exercicio: Secretário de Estado
+  - :uf: TO
+    :situacao: Titular
+    :data_inicio: 14/10/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PSDB
+    :partido_posterior: SDD
+    :data_filiacao_partido_posterior: 05/10/2013
+'73982':
+  :profissao: Administrador e Economista
+  :data_nascimento: 22/08/1949
+  :periodosExercicio:
+  - :uf: RR
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74010':
+  :profissao: Engenheiro Agrônomo
+  :data_nascimento: 15/10/1949
+  :periodosExercicio:
+  - :uf: SC
+    :situacao: Suplente
+    :data_inicio: 01/03/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74016':
+  :profissao: Advogado, Torneiro Mecânico e Professor
+  :data_nascimento: 28/07/1939
+  :periodosExercicio:
+  - :uf: MA
+    :situacao: Suplente
+    :data_inicio: 28/06/2011
+    :data_fim: 16/09/2011
+    :causa_fim_exercicio: Afastamento
+  - :uf: MA
+    :situacao: Suplente
+    :data_inicio: 16/09/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74017':
+  :profissao: Engenheiro Mecânico
+  :data_nascimento: 23/03/1956
+  :periodosExercicio:
+  - :uf: RJ
+    :situacao: Titular
+    :data_inicio: 12/08/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74037':
+  :profissao: Pedagoga.
+  :data_nascimento: 19/05/1955
+  :periodosExercicio:
+  - :uf: RN
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74039':
+  :profissao: ASSISTENTE SOCIAL E ADVOGADA
+  :data_nascimento: 23/05/1951
+  :periodosExercicio:
+  - :uf: RN
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74040':
+  :profissao: Cirurgião-Dentista
+  :data_nascimento: 30/11/1971
+  :periodosExercicio:
+  - :uf: PB
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: 05/07/2012
+    :causa_fim_exercicio: Licença Conjunta Consecutiva
+  - :uf: PB
+    :situacao: Titular
+    :data_inicio: 03/11/2012
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PMDB
+    :partido_posterior: SDD
+    :data_filiacao_partido_posterior: 01/10/2013
+'74041':
+  :profissao: Professor Adjunto
+  :data_nascimento: 13/02/1945
+  :periodosExercicio:
+  - :uf: PB
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74043':
+  :profissao: Não informada
+  :data_nascimento: 19/05/1959
+  :periodosExercicio:
+  - :uf: PB
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74047':
+  :profissao: PROFESSOR DE ENSINO SUPERIOR
+  :data_nascimento: 17/07/1955
+  :periodosExercicio:
+  - :uf: PE
+    :situacao: Efetivado
+    :data_inicio: 15/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74049':
+  :profissao: Advogado, Industrial
+  :data_nascimento: 17/06/1931
+  :periodosExercicio:
+  - :uf: AL
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PTB
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 26/10/2011
+'74050':
+  :profissao: Servidor Público
+  :data_nascimento: 28/03/1971
+  :periodosExercicio:
+  - :uf: AL
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74056':
+  :profissao: ADVOGADO
+  :data_nascimento: 14/10/1966
+  :periodosExercicio:
+  - :uf: SE
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74057':
+  :profissao: Química Industrial e Farmacêutica Bioquímica
+  :data_nascimento: 16/05/1959
+  :periodosExercicio:
+  - :uf: BA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74060':
+  :profissao: Industriário
+  :data_nascimento: 21/01/1955
+  :periodosExercicio:
+  - :uf: BA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74062':
+  :profissao: Economista
+  :data_nascimento: 18/01/1973
+  :periodosExercicio:
+  - :uf: BA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74065':
+  :profissao: SOCIÓLOGO
+  :data_nascimento: 13/02/1959
+  :periodosExercicio:
+  - :uf: AP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74075':
+  :profissao: Pedagoga
+  :data_nascimento: 05/10/1944
+  :periodosExercicio:
+  - :uf: PA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74077':
+  :profissao: Médico e Agropecuarista
+  :data_nascimento: 15/07/1946
+  :periodosExercicio:
+  - :uf: PA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74079':
+  :profissao: Advogado
+  :data_nascimento: 02/12/1963
+  :periodosExercicio:
+  - :uf: PA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74090':
+  :profissao: Bacharel em Direito, graduado pela Universidade Federal do Amazonas
+    em 1.976; Advogado com inscrição na OAB/AM nº 1.000 ; Bacharel em Economia, graduado
+    pela Universidade Federal do Amazonas em 1.986; Auditor Concursado do TCE/AM,
+    1.977
+  :data_nascimento: 22/11/1950
+  :periodosExercicio:
+  - :uf: AM
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PMDB
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 26/10/2011
+'74094':
+  :profissao: ! "\n    "
+  :data_nascimento: 30/09/1946
+  :periodosExercicio:
+  - :uf: AM
+    :situacao: Suplente
+    :data_inicio: 12/12/2012
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PMN
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 12/12/2012
+'74103':
+  :profissao: Professor Universitário e Engenheiro Civil
+  :data_nascimento: 11/10/1938
+  :periodosExercicio:
+  - :uf: CE
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PSB
+    :partido_posterior: PROS
+    :data_filiacao_partido_posterior: 03/10/2013
+'74108':
+  :profissao: Jornalista
+  :data_nascimento: 23/04/1959
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: 02/02/2011
+    :causa_fim_exercicio: Secretário de Estado
+  - :uf: MG
+    :situacao: Titular
+    :data_inicio: 01/11/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74111':
+  :profissao: Médico
+  :data_nascimento: 19/04/1957
+  :periodosExercicio:
+  - :uf: MT
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: 02/02/2011
+    :causa_fim_exercicio: Secretário de Estado
+  - :uf: MT
+    :situacao: Titular
+    :data_inicio: 16/11/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74119':
+  :profissao: Engenheiro Aeronáutico
+  :data_nascimento: 06/03/1956
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: 02/02/2011
+    :causa_fim_exercicio: Secretário de Estado
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 18/11/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74120':
+  :profissao: Pecuarista e Cafeicultor
+  :data_nascimento: 06/02/1960
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74124':
+  :profissao: ! "\n    "
+  :data_nascimento: 14/10/1964
+  :periodosExercicio:
+  - :uf: MS
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74133':
+  :profissao: Técnico Químico
+  :data_nascimento: 03/01/1953
+  :periodosExercicio:
+  - :uf: BA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74140':
+  :profissao: Administrador.
+  :data_nascimento: 21/12/1944
+  :periodosExercicio:
+  - :uf: BA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PDT
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 26/10/2011
+'74141':
+  :profissao: Agrônomo
+  :data_nascimento: 14/10/1956
+  :periodosExercicio:
+  - :uf: BA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74145':
+  :profissao: Arquiteto
+  :data_nascimento: 21/11/1949
+  :periodosExercicio:
+  - :uf: BA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: 02/02/2011
+    :causa_fim_exercicio: Secretário de Estado
+  - :uf: BA
+    :situacao: Titular
+    :data_inicio: 12/03/2012
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74151':
+  :profissao: ODONTOLOGO
+  :data_nascimento: 26/10/1945
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PPS
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 26/10/2011
+'74152':
+  :profissao: ! "\n    "
+  :data_nascimento: 18/03/1948
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Suplente
+    :data_inicio: 30/10/2012
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74156':
+  :profissao: Advogado
+  :data_nascimento: 09/10/1951
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74158':
+  :profissao: MEDICO
+  :data_nascimento: 30/09/1954
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Suplente
+    :data_inicio: 07/02/2013
+    :data_fim: 15/10/2013
+    :causa_fim_exercicio: Afastamento
+  - :uf: MG
+    :situacao: Suplente
+    :data_inicio: 22/10/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74159':
+  :profissao: ADVOGADO
+  :data_nascimento: 18/06/1976
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74161':
+  :profissao: ECONOMISTA
+  :data_nascimento: 02/04/1973
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74162':
+  :profissao: OUTROS
+  :data_nascimento: 12/02/1956
+  :periodosExercicio:
+  - :uf: ES
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: 02/02/2011
+    :causa_fim_exercicio: Ministro de Estado
+  - :uf: ES
+    :situacao: Titular
+    :data_inicio: 24/02/2012
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74163':
+  :profissao: MEDICO
+  :data_nascimento: 07/08/1957
+  :periodosExercicio:
+  - :uf: ES
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PDT
+    :partido_posterior: SDD
+    :data_filiacao_partido_posterior: 02/10/2013
+'74171':
+  :profissao: PROFESSOR DE ENSINO SUPERIOR
+  :data_nascimento: 19/10/1949
+  :periodosExercicio:
+  - :uf: RJ
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74172':
+  :profissao: ATLETA PROFISSIONAL E TECNICO EM DESPORTOS
+  :data_nascimento: 28/08/1959
+  :periodosExercicio:
+  - :uf: RJ
+    :situacao: Suplente
+    :data_inicio: 02/03/2011
+    :data_fim: 09/11/2011
+    :causa_fim_exercicio: Afastamento
+  - :uf: RJ
+    :situacao: Suplente
+    :data_inicio: 17/11/2011
+    :data_fim: 05/06/2012
+    :causa_fim_exercicio: Afastamento
+  - :uf: RJ
+    :situacao: Suplente
+    :data_inicio: 02/01/2013
+    :data_fim: 01/02/2013
+    :causa_fim_exercicio: Afastamento
+  - :uf: RJ
+    :situacao: Suplente
+    :data_inicio: 05/02/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PSC
+    :partido_posterior: PTB
+    :data_filiacao_partido_posterior: 07/10/2013
+'74173':
+  :profissao: ECONOMISTA
+  :data_nascimento: 29/09/1958
+  :periodosExercicio:
+  - :uf: RJ
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74177':
+  :profissao: Psicóloga, Técnica em Assuntos Educacionais, Professora e Servidora
+    Pública
+  :data_nascimento: 23/11/1960
+  :periodosExercicio:
+  - :uf: RO
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74191':
+  :profissao: Empresário
+  :data_nascimento: 30/12/1936
+  :periodosExercicio:
+  - :uf: TO
+    :situacao: Efetivado
+    :data_inicio: 03/01/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74197':
+  :profissao: ADVOGADO
+  :data_nascimento: 20/03/1956
+  :periodosExercicio:
+  - :uf: MA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PT
+    :partido_posterior: SDD
+    :data_filiacao_partido_posterior: 08/10/2013
+'74207':
+  :profissao: Advogado
+  :data_nascimento: 07/07/1930
+  :periodosExercicio:
+  - :uf: MA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: 02/02/2011
+    :causa_fim_exercicio: Ministro de Estado
+  - :uf: MA
+    :situacao: Titular
+    :data_inicio: 16/09/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74210':
+  :profissao: Advogado
+  :data_nascimento: 14/06/1957
+  :periodosExercicio:
+  - :uf: MA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74212':
+  :profissao: Cirurgião-Dentista e Agropecuarista
+  :data_nascimento: 07/06/1953
+  :periodosExercicio:
+  - :uf: CE
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74213':
+  :profissao: Engenheiro Mecânico
+  :data_nascimento: 22/08/1949
+  :periodosExercicio:
+  - :uf: CE
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PSB
+    :partido_posterior: S.PART.
+    :data_filiacao_partido_posterior: 03/10/2013
+  - :partido_anterior: S.PART.
+    :partido_posterior: PROS
+    :data_filiacao_partido_posterior: 04/10/2013
+'74216':
+  :profissao: Médico
+  :data_nascimento: 30/03/1951
+  :periodosExercicio:
+  - :uf: CE
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74222':
+  :profissao: Advogado e Servidor Público
+  :data_nascimento: 27/07/1939
+  :periodosExercicio:
+  - :uf: PA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: 03/02/2011
+    :causa_fim_exercicio: Secretário de Estado
+  - :uf: PA
+    :situacao: Titular
+    :data_inicio: 29/08/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74230':
+  :profissao: Médico
+  :data_nascimento: 02/10/1952
+  :periodosExercicio:
+  - :uf: BA
+    :situacao: Suplente
+    :data_inicio: 03/01/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74254':
+  :profissao: Agropecuarista e Bacharel de Direito.
+  :data_nascimento: 06/11/1979
+  :periodosExercicio:
+  - :uf: RJ
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: 18/02/2011
+    :causa_fim_exercicio: Secretário de Estado
+  - :uf: RJ
+    :situacao: Titular
+    :data_inicio: 08/11/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74262':
+  :profissao: Promotor de Justiça.
+  :data_nascimento: 31/03/1963
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74264':
+  :profissao: APOSENTADO (EXCETO SERVIDOR PUBLICO)
+  :data_nascimento: 02/02/1944
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74273':
+  :profissao: Ministro do Evangelho, Advogado, Tecnologo, Radialista, Bacharel em
+    Teologia
+  :data_nascimento: 26/10/1964
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PSB
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 01/11/2011
+'74275':
+  :profissao: ADVOGADO
+  :data_nascimento: 30/09/1948
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74283':
+  :profissao: Bacharel em Direito e Metalúrgico.
+  :data_nascimento: 08/04/1956
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74284':
+  :profissao: MEDICO
+  :data_nascimento: 29/01/1954
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Suplente
+    :data_inicio: 10/02/2011
+    :data_fim: 15/02/2011
+    :causa_fim_exercicio: Secretário de Prefeitura de Capital
+  - :uf: SP
+    :situacao: Suplente
+    :data_inicio: 15/03/2011
+    :data_fim: 16/03/2011
+    :causa_fim_exercicio: Secretário de Prefeitura de Capital
+  - :uf: SP
+    :situacao: Suplente
+    :data_inicio: 03/01/2012
+    :data_fim: 13/06/2012
+    :causa_fim_exercicio: Afastamento
+  - :uf: SP
+    :situacao: Suplente
+    :data_inicio: 19/07/2012
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PSDB
+    :partido_posterior: PSB
+    :data_filiacao_partido_posterior: 08/10/2013
+'74290':
+  :profissao: Radialista
+  :data_nascimento: 19/06/1961
+  :periodosExercicio:
+  - :uf: GO
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74291':
+  :profissao: Médico
+  :data_nascimento: 13/08/1951
+  :periodosExercicio:
+  - :uf: CE
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74297':
+  :profissao: Padre, Filósofo, Psicólogo, Professor, Pedagogo e Administrador
+  :data_nascimento: 21/10/1930
+  :periodosExercicio:
+  - :uf: CE
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74308':
+  :profissao: Advogado, Cientista Político e Jornalista
+  :data_nascimento: 17/05/1929
+  :periodosExercicio:
+  - :uf: CE
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PR
+    :partido_posterior: PROS
+    :data_filiacao_partido_posterior: 04/10/2013
+'74317':
+  :profissao: PROFESSOR, ADVOGADO E PRODUTOR RURAL
+  :data_nascimento: 25/08/1948
+  :periodosExercicio:
+  - :uf: PI
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: DEM
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 26/10/2011
+'74319':
+  :profissao: Professor e Advogado
+  :data_nascimento: 23/03/1937
+  :periodosExercicio:
+  - :uf: PI
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74321':
+  :profissao: Professor Universitário, Engenheiro Agrônomo e Economista
+  :data_nascimento: 23/12/1948
+  :periodosExercicio:
+  - :uf: RN
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: 08/02/2011
+    :causa_fim_exercicio: Secretário de Estado
+  - :uf: RN
+    :situacao: Titular
+    :data_inicio: 20/09/2011
+    :data_fim: 28/09/2011
+    :causa_fim_exercicio: Secretário de Prefeitura de Capital
+  - :uf: RN
+    :situacao: Titular
+    :data_inicio: 21/11/2011
+    :data_fim: 25/11/2011
+    :causa_fim_exercicio: Secretário de Estado
+  - :uf: RN
+    :situacao: Titular
+    :data_inicio: 07/11/2012
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: DEM
+    :partido_posterior: PP
+    :data_filiacao_partido_posterior: 26/09/2013
+'74324':
+  :profissao: Bacharel em Direito
+  :data_nascimento: 09/12/1948
+  :periodosExercicio:
+  - :uf: RN
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74345':
+  :profissao: Sociólogo
+  :data_nascimento: 21/04/1962
+  :periodosExercicio:
+  - :uf: AP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74351':
+  :profissao: Pastor Evangélico
+  :data_nascimento: 27/05/1944
+  :periodosExercicio:
+  - :uf: PA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74352':
+  :profissao: Professor
+  :data_nascimento: 25/03/1952
+  :periodosExercicio:
+  - :uf: PA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: 02/02/2011
+    :causa_fim_exercicio: Secretário de Estado
+  - :uf: PA
+    :situacao: Titular
+    :data_inicio: 28/12/2012
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74356':
+  :profissao: Empresário
+  :data_nascimento: 15/12/1962
+  :periodosExercicio:
+  - :uf: AM
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PSC
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 26/10/2011
+'74359':
+  :profissao: Empresário
+  :data_nascimento: 09/02/1960
+  :periodosExercicio:
+  - :uf: RO
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74363':
+  :profissao: Agropecuarista
+  :data_nascimento: 28/06/1963
+  :periodosExercicio:
+  - :uf: AC
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74366':
+  :profissao: Delegado de Polícia
+  :data_nascimento: 28/12/1962
+  :periodosExercicio:
+  - :uf: GO
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74367':
+  :profissao: COMERCIANTE
+  :data_nascimento: 07/11/1975
+  :periodosExercicio:
+  - :uf: GO
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74371':
+  :profissao: Professor Universitário, Consultor Jurídico e Consultor de Empresas.
+  :data_nascimento: 06/02/1956
+  :periodosExercicio:
+  - :uf: GO
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74372':
+  :profissao: ! ' Radialista e Advogado'
+  :data_nascimento: 28/04/1959
+  :periodosExercicio:
+  - :uf: GO
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74373':
+  :profissao: PROFESSOR DE ENSINO DE PRIMEIRO E SEGUNDO GRAUS
+  :data_nascimento: 09/03/1952
+  :periodosExercicio:
+  - :uf: MS
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74374':
+  :profissao: MEDICO
+  :data_nascimento: 20/04/1955
+  :periodosExercicio:
+  - :uf: MS
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74376':
+  :profissao: Bancário e Funcionário Público.
+  :data_nascimento: 22/01/1964
+  :periodosExercicio:
+  - :uf: MS
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74377':
+  :profissao: Advogado, Economista, Professor
+  :data_nascimento: 07/07/1939
+  :periodosExercicio:
+  - :uf: PR
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74378':
+  :profissao: AGRICULTOR
+  :data_nascimento: 17/10/1961
+  :periodosExercicio:
+  - :uf: PR
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74382':
+  :profissao: ENGENHEIRO
+  :data_nascimento: 05/10/1952
+  :periodosExercicio:
+  - :uf: PR
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: DEM
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 26/10/2011
+'74383':
+  :profissao: Empresário
+  :data_nascimento: 17/12/1970
+  :periodosExercicio:
+  - :uf: PR
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74385':
+  :profissao: Professor, Empresário e Ministro Evangélico
+  :data_nascimento: 20/04/1948
+  :periodosExercicio:
+  - :uf: PR
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74388':
+  :profissao: Engenheiro Mecânico.
+  :data_nascimento: 05/11/1955
+  :periodosExercicio:
+  - :uf: SC
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PT
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 09/11/2011
+  - :partido_anterior: PSD
+    :partido_posterior: S.PART.
+    :data_filiacao_partido_posterior: 16/05/2013
+  - :partido_anterior: S.PART.
+    :partido_posterior: PP
+    :data_filiacao_partido_posterior: 08/10/2013
+'74395':
+  :profissao: ADVOGADO
+  :data_nascimento: 21/04/1962
+  :periodosExercicio:
+  - :uf: RS
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74399':
+  :profissao: VETERINARIO
+  :data_nascimento: 03/10/1954
+  :periodosExercicio:
+  - :uf: RS
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74400':
+  :profissao: Técnico Agrícola e Jornalista
+  :data_nascimento: 19/03/1965
+  :periodosExercicio:
+  - :uf: RS
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74417':
+  :profissao: Engenheiro Elétrico
+  :data_nascimento: 05/09/1951
+  :periodosExercicio:
+  - :uf: PE
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74419':
+  :profissao: Advogado, Contador , Administrador de Empresas e Jornalista.
+  :data_nascimento: 26/04/1946
+  :periodosExercicio:
+  - :uf: PE
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74421':
+  :profissao: Médico
+  :data_nascimento: 21/10/1938
+  :periodosExercicio:
+  - :uf: PE
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74423':
+  :profissao: Engenheiro Civil e Empresário
+  :data_nascimento: 08/06/1942
+  :periodosExercicio:
+  - :uf: PE
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74428':
+  :profissao: Administrador de Empresas
+  :data_nascimento: 12/07/1966
+  :periodosExercicio:
+  - :uf: PE
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74435':
+  :profissao: Economista, Pecuarista, Professor
+  :data_nascimento: 09/11/1947
+  :periodosExercicio:
+  - :uf: PE
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74439':
+  :profissao: Empresário
+  :data_nascimento: 12/12/1972
+  :periodosExercicio:
+  - :uf: PE
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74447':
+  :profissao: Servidora Pública
+  :data_nascimento: 29/10/1936
+  :periodosExercicio:
+  - :uf: MA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: DEM
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 26/10/2011
+'74456':
+  :profissao: Médico e Industrial
+  :data_nascimento: 24/09/1939
+  :periodosExercicio:
+  - :uf: CE
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PSDB
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 26/10/2011
+'74460':
+  :profissao: Médico - Mestrado em Psiquiatria
+  :data_nascimento: 09/06/1950
+  :periodosExercicio:
+  - :uf: PI
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74467':
+  :profissao: Médico, Empresário e Radialista
+  :data_nascimento: 28/04/1952
+  :periodosExercicio:
+  - :uf: PB
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74474':
+  :profissao: Advogado
+  :data_nascimento: 23/04/1940
+  :periodosExercicio:
+  - :uf: PE
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PSC
+    :partido_posterior: PCdoB
+    :data_filiacao_partido_posterior: 08/10/2013
+'74491':
+  :profissao: Médico
+  :data_nascimento: 04/05/1954
+  :periodosExercicio:
+  - :uf: PI
+    :situacao: Suplente
+    :data_inicio: 03/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74537':
+  :profissao: Advogado
+  :data_nascimento: 01/12/1963
+  :periodosExercicio:
+  - :uf: BA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74550':
+  :profissao: Empresário
+  :data_nascimento: 27/02/1946
+  :periodosExercicio:
+  - :uf: BA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: 16/03/2011
+    :causa_fim_exercicio: Secretário de Prefeitura de Capital
+  - :uf: BA
+    :situacao: Titular
+    :data_inicio: 15/03/2012
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74554':
+  :profissao: Médico
+  :data_nascimento: 18/08/1948
+  :periodosExercicio:
+  - :uf: BA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74556':
+  :profissao: Economista e Professor Universitário
+  :data_nascimento: 29/03/1949
+  :periodosExercicio:
+  - :uf: PE
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74558':
+  :profissao: Comerciante e Gráfico
+  :data_nascimento: 14/10/1957
+  :periodosExercicio:
+  - :uf: AL
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PSB
+    :partido_posterior: PROS
+    :data_filiacao_partido_posterior: 30/09/2013
+'74566':
+  :profissao: Administrador de Empresas, Técnico Agrícola e Funcionário Público Federal
+  :data_nascimento: 13/11/1953
+  :periodosExercicio:
+  - :uf: BA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74570':
+  :profissao: Advogado
+  :data_nascimento: 14/10/1955
+  :periodosExercicio:
+  - :uf: BA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74571':
+  :profissao: Advogado
+  :data_nascimento: 27/12/1960
+  :periodosExercicio:
+  - :uf: BA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: 11/07/2012
+    :causa_fim_exercicio: Licença Conjunta Consecutiva
+  - :uf: BA
+    :situacao: Titular
+    :data_inicio: 09/11/2012
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74574':
+  :profissao: Administrador de Empresas
+  :data_nascimento: 28/11/1952
+  :periodosExercicio:
+  - :uf: BA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: DEM
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 26/10/2011
+'74585':
+  :profissao: Radialista e Comunicador.
+  :data_nascimento: 03/11/1953
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74634':
+  :profissao: Administrador de Empresa e Radialista
+  :data_nascimento: 30/06/1946
+  :periodosExercicio:
+  - :uf: BA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: 11/07/2012
+    :causa_fim_exercicio: Licença Conjunta Consecutiva
+  - :uf: BA
+    :situacao: Titular
+    :data_inicio: 10/11/2012
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PDT
+    :partido_posterior: SDD
+    :data_filiacao_partido_posterior: 01/10/2013
+'74635':
+  :profissao: Advogado
+  :data_nascimento: 06/07/1950
+  :periodosExercicio:
+  - :uf: BA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: 02/02/2011
+    :causa_fim_exercicio: Ministro de Estado
+  - :uf: BA
+    :situacao: Titular
+    :data_inicio: 03/02/2012
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74648':
+  :profissao: Advogado
+  :data_nascimento: 03/05/1941
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74650':
+  :profissao: ADVOGADO E PROFESSOR UNIVERSITÁRIO
+  :data_nascimento: 14/05/1930
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Efetivado
+    :data_inicio: 04/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74655':
+  :profissao: Médico
+  :data_nascimento: 25/08/1958
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74662':
+  :profissao: Contador e Advogado
+  :data_nascimento: 03/06/1934
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Suplente
+    :data_inicio: 19/12/2012
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74665':
+  :profissao: Empresário, Engenheiro e Advogado
+  :data_nascimento: 17/06/1953
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PR
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 31/10/2013
+'74686':
+  :profissao: Engenheiro Eletrônico
+  :data_nascimento: 25/10/1948
+  :periodosExercicio:
+  - :uf: RJ
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: 03/02/2011
+    :causa_fim_exercicio: Secretário de Prefeitura de Capital
+  - :uf: RJ
+    :situacao: Titular
+    :data_inicio: 22/11/2012
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74688':
+  :profissao: Delineador Naval
+  :data_nascimento: 09/04/1958
+  :periodosExercicio:
+  - :uf: RJ
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: 02/02/2011
+    :causa_fim_exercicio: Ministro de Estado
+  - :uf: RJ
+    :situacao: Titular
+    :data_inicio: 02/03/2012
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74693':
+  :profissao: Bancário
+  :data_nascimento: 12/06/1970
+  :periodosExercicio:
+  - :uf: RJ
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74742':
+  :profissao: Empresário
+  :data_nascimento: 19/02/1939
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74749':
+  :profissao: Empresário e Bacharel em Direito
+  :data_nascimento: 24/05/1936
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74750':
+  :profissao: Administrador, Advogado, Empresário, Sociólogo
+  :data_nascimento: 22/05/1938
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74751':
+  :profissao: ! "\n    "
+  :data_nascimento: 11/08/1947
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Efetivado
+    :data_inicio: 03/01/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74762':
+  :profissao: Professor Universitário e Médico
+  :data_nascimento: 26/03/1952
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74765':
+  :profissao: Empresário e Produtor Rural
+  :data_nascimento: 22/10/1943
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Suplente
+    :data_inicio: 19/03/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74780':
+  :profissao: Professora
+  :data_nascimento: 02/06/1952
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Suplente
+    :data_inicio: 03/01/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74784':
+  :profissao: Assistente Social
+  :data_nascimento: 30/11/1934
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74787':
+  :profissao: Economista
+  :data_nascimento: 11/06/1961
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74793':
+  :profissao: Bancário
+  :data_nascimento: 10/02/1960
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74812':
+  :profissao: Engenheiro Civil
+  :data_nascimento: 28/08/1958
+  :periodosExercicio:
+  - :uf: GO
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74813':
+  :profissao: Médico, Professor e Produtor Rural
+  :data_nascimento: 25/09/1949
+  :periodosExercicio:
+  - :uf: GO
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74830':
+  :profissao: Empresário
+  :data_nascimento: 04/09/1954
+  :periodosExercicio:
+  - :uf: RJ
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74833':
+  :profissao: Engenheiro, Economista e Professor
+  :data_nascimento: 11/03/1937
+  :periodosExercicio:
+  - :uf: RJ
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: DEM
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 26/10/2011
+'74838':
+  :profissao: Engenheiro e Professor  Universitário
+  :data_nascimento: 13/07/1945
+  :periodosExercicio:
+  - :uf: RJ
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74843':
+  :profissao: Professor e Economista
+  :data_nascimento: 03/12/1946
+  :periodosExercicio:
+  - :uf: RJ
+    :situacao: Suplente
+    :data_inicio: 03/01/2013
+    :data_fim: 01/02/2013
+    :causa_fim_exercicio: Afastamento
+  - :uf: RJ
+    :situacao: Suplente
+    :data_inicio: 07/02/2013
+    :data_fim: 05/03/2013
+    :causa_fim_exercicio: Afastamento
+  - :uf: RJ
+    :situacao: Suplente
+    :data_inicio: 08/03/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74847':
+  :profissao: Militar
+  :data_nascimento: 21/03/1955
+  :periodosExercicio:
+  - :uf: RJ
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74848':
+  :profissao: Médico, Músico
+  :data_nascimento: 17/05/1957
+  :periodosExercicio:
+  - :uf: RJ
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74862':
+  :profissao: Advogado
+  :data_nascimento: 27/05/1945
+  :periodosExercicio:
+  - :uf: RJ
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PDT
+    :partido_posterior: PROS
+    :data_filiacao_partido_posterior: 08/10/2013
+'76287':
+  :profissao: Empresário
+  :data_nascimento: 26/05/1968
+  :periodosExercicio:
+  - :uf: RJ
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'80920':
+  :profissao: Ator, Cantor, Compositor, Músico
+  :data_nascimento: 27/12/1945
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'81232':
+  :profissao: Empresário, Produtor Rural
+  :data_nascimento: 03/02/1983
+  :periodosExercicio:
+  - :uf: TO
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: 07/05/2013
+    :causa_fim_exercicio: Secretário de Estado
+  - :uf: TO
+    :situacao: Titular
+    :data_inicio: 04/10/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: DEM
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 26/10/2011
+'89282':
+  :profissao: Economista, Jornalista
+  :data_nascimento: 05/09/1972
+  :periodosExercicio:
+  - :uf: DF
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'92355':
+  :profissao: Jornalista, Radialista
+  :data_nascimento: 22/11/1964
+  :periodosExercicio:
+  - :uf: RJ
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'92776':
+  :profissao: ! "\n    "
+  :data_nascimento: 03/03/1976
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Efetivado
+    :data_inicio: 24/02/2011
+    :data_fim: 29/06/2011
+    :causa_fim_exercicio: Afastamento
+  - :uf: MG
+    :situacao: Efetivado
+    :data_inicio: 02/05/2012
+    :data_fim: 31/08/2012
+    :causa_fim_exercicio: Afastamento
+  - :uf: MG
+    :situacao: Efetivado
+    :data_inicio: 04/03/2013
+    :data_fim: 05/07/2013
+    :causa_fim_exercicio: Afastamento
+  - :uf: MG
+    :situacao: Efetivado
+    :data_inicio: 16/07/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PSC
+    :partido_posterior: PSB
+    :data_filiacao_partido_posterior: 09/10/2013
+'94931':
+  :profissao: Cacauicultor, Engenheiro Agrônomo, Pecuarista
+  :data_nascimento: 19/11/1962
+  :periodosExercicio:
+  - :uf: BA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'97822':
+  :profissao: Pedagogo
+  :data_nascimento: 18/08/1962
+  :periodosExercicio:
+  - :uf: DF
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'99654':
+  :profissao: Assessor Político, Auxiliar de Administração
+  :data_nascimento: 29/01/1965
+  :periodosExercicio:
+  - :uf: BA
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
