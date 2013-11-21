@@ -13,7 +13,7 @@ namespace :data do
   desc 'Mescla arquivos de dados de deputados federais.'
   task :merge do
     save_file 'db/deputados_detalhamento.yml', "Arquivo com detalhamento dos deputados salvo em '<file_name>'", merge_deputados.to_yaml
-    save_file 'db/proposicoes.csv', "Arquivo com proposições salvo em '<file_name>'", merge_proposicoes
+    save_file 'db/proposicoes_db.csv', "Arquivo com proposições salvo em '<file_name>'", merge_proposicoes
     
     puts 'Removendo arquivos temporários gerados na extração'
     `rm tmp/*`
@@ -47,7 +47,7 @@ namespace :data do
           id, doc.xpath('proposicao/nomeProposicao').text,
           e['tipo'].rstrip, e['numero'], e['ano'],
           doc.xpath('//proposicao/Autor').text,
-          doc.xpath('//proposicao/Indexacao').text.gsub("\n", '')
+          doc.xpath('//proposicao/Indexacao').text.gsub("\n", '').gsub(',', '')
         ]
       end
       
@@ -60,7 +60,7 @@ namespace :data do
     
     text = "id;nome;tipo;numero;ano;autor;tags\n"
     (1..9).each {|num| text << File.read("tmp/proposicoes_#{num}_db.csv") }
-    save_file 'db/proposicoes_db.csv', "Arquivo de dados de proposições salvo em '<file_name>'", text
+    text
   end
   
   def save_file(file, message, content)
