@@ -38,6 +38,7 @@
             <ul class="nav pull-right">
               <li<%= @organizacional_ativa ? ' class="active"' : '' %>><a href="<%= @organizacional_ativa ? 'javascript:void(0)' : url(:organizacional, :index) %>">Organizacional</a></li>
               <li<%= @estatistica_ativa ? ' class="active"' : '' %>><a href="<%= @estatistica_ativa ? 'javascript:void(0)' : url(:estatistica, :index) %>">Estatística</a></li>
+              <li<%= @proposicoes_ativa ? ' class="active"' : '' %>><a href="<%= @proposicoes_ativa ? 'javascript:void(0)' : url(:proposicao, :index) %>">Proposições</a></li>
               <li<%= @sobre_ativa ? ' class="active"' : '' %>><a href="<%= @sobre_ativa ? 'javascript:void(0)' : url(:sobre) %>">Sobre</a></li>
               <li class="divider-vertical"></li>
               <li<%= @changelog_ativa ? ' class="active"' : '' %>><%= link_to "Versão #{APP[:app_version]}", (@changelog_ativa) ? 'javascript:void(0)' : url(:changelog, :version => 'atual') %></li>

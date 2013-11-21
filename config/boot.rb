@@ -18,6 +18,8 @@ APP[:tipos_proposicoes] = { :MPV => 'Medida Provisória', :PEC => 'Proposta de E
 metadata = YAML.load_file 'metadata.yml'
 APP[:last_extraction_date] = (PADRINO_ENV == 'test') ? Time.now.strftime('%d/%m/%Y') : metadata['LAST_EXTRACTION_DATE']
 APP[:app_version] = metadata['APP_VERSION']
+APP[:date_init_prop] = metadata['ANO_INICIAL_EXTRACAO_PROPOSICOES']
+APP[:date_end_prop] = (metadata['ANO_FINAL_EXTRACAO_PROPOSICOES'].to_i == -1) ? Time.now.year : metadata['ANO_FINAL_EXTRACAO_PROPOSICOES']
 metadata = nil
 
 APP[:stopwords] = load_stop_words
