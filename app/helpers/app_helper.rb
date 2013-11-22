@@ -30,9 +30,19 @@ ResPublica::App.helpers do
   
   def get_tags_without_stopwords(text)
     return [] if text.nil?
+    text = replace_special_characters text
     tags = text.split(/\s/)
     tags.each {|tag| tag.downcase! }
     tags.delete_if {|t| APP[:stopwords].include? t }
+  end
+  
+  def replace_special_characters(text)
+    return text if text.nil?
+    
+    txt = text.dup
+    APP[:special_characters].each {|k, v| txt.gsub! /#{k}/, v }
+    txt.gsub! /[()]/, ''
+    txt
   end
 
 end
