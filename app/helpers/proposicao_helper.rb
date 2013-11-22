@@ -36,4 +36,9 @@ ResPublica::App.helpers do
     
     data
   end
+  
+  def perfil_autor_proposicao(nome_parlamentar)
+    deputado = Deputado.where(:nome_parlamentar => replace_special_characters(nome_parlamentar).upcase).first
+    deputado.nil? ? nome_parlamentar : link_to(nome_parlamentar, url(:organizacional, :deputado, :id => deputado.id))
+  end
 end
