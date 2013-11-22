@@ -1,0 +1,82 @@
+<% @page_title = 'Proposiçao' %>
+
+<div class="hero-unit">
+  <h3>Proposição - <%= @proposicao.nome %></h3>
+</div>
+
+<div class="container">
+  <% unless @dados_prop[:sucesso] %>
+  <div id="div_api_response" class="alert alert-block">
+    <button type="button" class="close" data-dismiss="div_api_response" onclick="hideApiResponse();">&times;</button>
+    <h4>Atenção!</h4>
+     Não foi possível carregar as informações complementares da proposição. Talvez a API de dados abertos da Câmara esteja indisponível no momento.
+  </div>
+  <% end %>
+
+  <h4>Dados da Proposição</h4>
+  <div name="nome">
+    <span><strong>Nome: </strong></span><span><%= @proposicao.nome %></span>
+  </div>
+  
+  <div name="tipo">
+    <span><strong>Tipo: </strong></span><span><%= "#{@proposicao.sigla} - #{APP[:tipos_proposicoes][@proposicao.sigla.to_sym]}" %></span>
+  </div>
+  
+  <div name="numero">
+    <span><strong>Número: </strong></span><span><%= @proposicao.numero %></span>
+  </div>
+  
+  <div name="ano">
+    <span><strong>Ano: </strong></span><span><%= @proposicao.ano %></span>
+  </div>
+  
+  <div name="ementa">
+    <span><strong>Ementa: </strong></span><span><%= @dados_prop[:ementa] %></span>
+  </div>
+  
+  <div name="explicacao_ementa">
+    <span><strong>Explicação da ementa: </strong></span><span><%= @dados_prop[:explicacao_ementa] %></span>
+  </div>
+  
+  <hr/>
+  
+  <h4>Dados Complementares</h4>
+  <div name="apreciacao">
+    <span><strong>Apreciação: </strong></span><span><%= @dados_prop[:apreciacao] %></span>
+  </div>
+  
+  <div name="situacao">
+    <span><strong>Situação: </strong></span><span><%= @dados_prop[:situacao] %></span>
+  </div>
+  
+  <div name="data_apresentacao">
+    <span><strong>Data da apresentação: </strong></span><span><%= @dados_prop[:data_apresentacao] %></span>
+  </div>
+  
+  <div name="regime_tramitacao">
+    <span><strong>Regime de tramitação: </strong></span><span><%= @dados_prop[:regime_tramitacao] %></span>
+  </div>
+  
+  <div name="autor">
+    <span><strong>Autor: </strong></span><span><%= @proposicao.autor %></span>
+  </div>
+  
+  <hr/>
+  
+  <h4>Último Despacho</h4>
+  <div name="data_despacho">
+    <span><strong>Data: </strong></span><span><%= @dados_prop[:data_despacho] %></span>
+  </div>
+  
+  <div name="texto_despacho">
+    <span><strong>Despacho: </strong></span><span><%= @dados_prop[:despacho] %></span>
+  </div>
+  
+  <hr/>
+  
+  <div>
+    <%= link_to 'Baixar Inteiro Teor', @dados_prop[:link_inteiro_teor], :class => 'btn btn-primary', :id => 'link_inteiro_teor' %>
+  </div>
+</div>
+
+<%= javascript_include_tag 'proposicao_data_load' %>

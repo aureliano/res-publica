@@ -7,6 +7,7 @@
 - Acrescenta na página inicial o número da Legislatura atual e o seu período.
 - Acrescenta nas páginas inicial e organizacional advertência sobre a assincronia entre os dados disponibilizados via API e os dados apresentados no portal da Câmara.
 - Cria página de consulta de proposições dos tipos MPV, PEC, PL e PLP que foram criadas entre os anos 2000 e 2013.
+- Ignora caracteres especiais (maçã = maca) no filtro de consulta de partidos, comissões e deputados.
 '0.1.0':
 - Extrai da API de dados abertos da Câmara dos Deputados dados de bancadas, comissões, deputados, e partidos.
 - Carrega dados pertinentes à API na base de dados do projeto.

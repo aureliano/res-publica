@@ -6,3 +6,7 @@ function cleanTextField(id) {
 function propSearchValidation() {
   return ($("#prop_tags").val() != '');
 }
+
+function hideApiResponse() {
+  document.getElementById('div_api_response').style.display = 'none';
+}
