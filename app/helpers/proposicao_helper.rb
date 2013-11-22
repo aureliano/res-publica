@@ -13,13 +13,17 @@ ResPublica::App.helpers do
   
   def proposicao_dados_complementares(proposicao_id)
     data = {}
+    url = "http://www.camara.gov.br/SitCamaraWS/Proposicoes.asmx/ObterProposicaoPorID?IdProp=#{proposicao_id}"
+    
     begin
-      doc = Nokogiri::XML(RestClient.get("http://www.camara.gov.br/SitCamaraWS/Proposicoes.asmx/ObterProposicaoPorID?IdProp=#{proposicao_id}"))
-      data[:sucesso] = true
-    rescue
-      data[:sucesso] = false
+      doc = Nokogiri::XML(RestClient.get(url))
+      data[:url] = (doc.nil?) ? url : nil
+    rescue Exception => ex
+      data[:url] = url
+      puts " >>> Erro na recuperação dos dados da proposição. #{ex}"
     end
     
+    return data if doc.nil?
     data[:ementa] = doc.xpath('proposicao/Ementa').text
     data[:explicacao_ementa] = doc.xpath('proposicao/ExplicacaoEmenta').text
     data[:data_apresentacao] = doc.xpath('proposicao/DataApresentacao').text

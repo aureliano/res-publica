@@ -5,11 +5,13 @@
 </div>
 
 <div class="container">
-  <% unless @dados_prop[:sucesso] %>
+  <% if @dados_prop[:url] %>
   <div id="div_api_response" class="alert alert-block">
     <button type="button" class="close" data-dismiss="div_api_response" onclick="hideApiResponse();">&times;</button>
     <h4>Atenção!</h4>
-     Não foi possível carregar as informações complementares da proposição. Talvez a API de dados abertos da Câmara esteja indisponível no momento.
+     Não foi possível carregar as informações complementares da proposição.
+     Talvez a API de dados abertos da Câmara esteja indisponível no momento.<br/>
+     URL do recurso: <%= link_to @dados_prop[:url], @dados_prop[:url] %>
   </div>
   <% end %>
 
@@ -78,5 +80,3 @@
     <%= link_to 'Baixar Inteiro Teor', @dados_prop[:link_inteiro_teor], :class => 'btn btn-primary', :id => 'link_inteiro_teor' %>
   </div>
 </div>
-
-<%= javascript_include_tag 'proposicao_data_load' %>
