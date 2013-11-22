@@ -202,6 +202,7 @@ if PADRINO_ENV == 'production'
     config.oauth_token_secret = ENV['OAUTH_TOKEN_SECRET']
   end
 
+  metadata = YAML.load_file 'metadata.yml'
   Twitter.update "Extração de dados abertos da Câmara dos Deputados do Brasil realizada em #{metadata['LAST_EXTRACTION_DATE']}. http://res-publica.herokuapp.com"
 
   shell.say ''
