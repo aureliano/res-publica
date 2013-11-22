@@ -9,9 +9,15 @@
 
 <a href="https://github.com/aureliano/res-publica/releases/tag/0.2.0">Versão 0.2.0</a>
 <ul>
-  <li>Extrai dados de detalhamento dos deputados federaisi.</li>
+  <li>Extrai da API de dados abertos da Câmara dos Deputados dados de detalhamento dos deputados federais.</li>
   <li>Exibe período de exercício na página de detalhamento do deputado federal.</li>
   <li>Exibe histórico de filiação partidária na página de detalhamento do deputado federal.</li>
+  <li>Extrai da API de dados abertos da Câmara dos Deputados dados de proposições.</li>
+  <li>Acrescenta na página inicial o número da Legislatura atual e o seu período.</li>
+  <li>Acrescenta nas páginas inicial e organizacional advertência sobre a assincronia entre os dados disponibilizados via API e os dados apresentados no portal da Câmara.</li>
+  <li>Cria página de consulta de proposições dos tipos MPV, PEC, PL e PLP que foram criadas entre os anos 2000 e 2013.</li>
+  <li>Cria página de detalhamento de proposição.</li>
+  <li>Ignora caracteres especiais (maçã = maca) no filtro de consulta de partidos, comissões e deputados.</li>
 </ul>
 <% if @show_full_log %>
 <hr/>
