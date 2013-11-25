@@ -14,7 +14,7 @@ ResPublica::App.helpers do
   def proposicao_dados_complementares(proposicao_id)
     data = {}
     url = "http://www.camara.gov.br/SitCamaraWS/Proposicoes.asmx/ObterProposicaoPorID?IdProp=#{proposicao_id}"
-    
+=begin
     begin
       doc = Nokogiri::XML(RestClient.get(url))
       data[:url] = (doc.nil?) ? url : nil
@@ -33,8 +33,48 @@ ResPublica::App.helpers do
     data[:apreciacao] = doc.xpath('proposicao/Apreciacao').text
     data[:situacao] = doc.xpath('proposicao/Situacao').text
     data[:link_inteiro_teor] = doc.xpath('proposicao/LinkInteiroTeor').text
-    
+=end
     data
+  end
+  
+  def votacoes_proposicao(proposicao)
+    dados = {}
+    url = "http://www.camara.gov.br/SitCamaraWS/Proposicoes.asmx/ObterVotacaoProposicao?tipo=#{proposicao.sigla}&numero=#{proposicao.numero}&ano=#{proposicao.ano}"
+    
+    begin
+      doc = Nokogiri::XML(RestClient.get(url))
+      dados[:url] = (doc.nil?) ? url : nil
+    rescue Exception => ex
+      dados[:url] = url
+      puts " >>> Erro na recuperação das votações da proposição. #{ex}"
+    end
+    
+    return dados if doc.nil?
+    data = []
+    doc.xpath('proposicao/Votacoes/Votacao').each do |votacao|
+      hash = {}
+      hash[:resumo] = votacao['Resumo']
+      hash[:data] = votacao ['Data']
+      hash[:hora] = votacao ['Hora']
+      hash[:objeto_votacao] = votacao ['ObjVotacao']
+      
+      bancadas = []
+      votacao.at_xpath('//orientacaoBancada').children.each do |bancada|
+        bancadas << {:sigla => bancada['Sigla'], :orientacao => bancada['orientacao'].rstrip} unless bancada['Sigla'].nil?
+      end
+      hash[:orientacao_bancada] = bancadas
+      
+      votos = []
+      votacao.at_xpath('//votos').children.each do |voto|
+        votos << {:deputado => voto['Nome'], :ide_cadastro => voto['ideCadastro'],
+                  :partido => voto['Partido'], :uf => voto['UF'], :voto => voto['Voto']} unless voto['Nome'].nil?
+      end
+      hash[:votos] = votos
+      data << hash
+    end
+    
+    dados[:votacoes] = data
+    dados
   end
   
   def perfil_autor_proposicao(nome_parlamentar)

@@ -11,6 +11,8 @@ ResPublica::App.controllers :proposicao do
     @proposicao = Proposicao.where(:_id => params[:id]).first
     redirect '/404' unless @proposicao
     @dados_prop = proposicao_dados_complementares @proposicao.id_cadastro
+    @dados_votacoes = votacoes_proposicao @proposicao
+    puts @dados_votacoes
     
     render 'proposicao/dados_proposicao'
   end

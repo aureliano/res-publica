@@ -67,5 +67,9 @@ ResPublica::App.helpers do
       :CreationDate => Time.now
     }
   end
+  
+  def deputados_suplentes_block
+    
+  end
 
 end
