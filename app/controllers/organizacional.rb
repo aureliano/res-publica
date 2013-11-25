@@ -1,5 +1,3 @@
-require 'prawn'
-
 ResPublica::App.controllers :organizacional do
   
   get :index do
@@ -77,9 +75,9 @@ ResPublica::App.controllers :organizacional do
     @comissao = Comissao.where(:_id => params[:id]).first
     redirect '/404' unless @comissao
     
-    content = generate_comissao_contacts_report(@comissao)
+    data = generate_comissao_contacts_report(@comissao)
     file = "tmp/Comissao_#{@comissao.sigla}_Contatos.pdf"
-    Prawn::Document.generate(file) { text content }
+    generate_committee_pdf file, data
     
     send_file file, :filename => file, :type => 'Application/octet-stream'
   end
