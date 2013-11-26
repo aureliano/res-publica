@@ -21,7 +21,8 @@ namespace :data do
       begin
         Rake::Task[task_name].invoke
       rescue Exception => ex
-        puts "Encerrando processo devido a um erro.\nExceção: #{ex}"
+        puts "Encerrando processo devido a um erro.\nExceção: #{ex}\n"
+        puts ex.backtrace
         Process.exit -1
       end
     end

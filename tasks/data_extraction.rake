@@ -17,7 +17,7 @@ namespace :data do
       :deputados => 'http://www.camara.gov.br/SitCamaraWS/Deputados.asmx/ObterDeputados',
       :bancadas => 'http://www.camara.gov.br/SitCamaraWS/Deputados.asmx/ObterLideresBancadas',
       :deputados_detail => 'http://www.camara.gov.br/SitCamaraWS/Deputados.asmx/ObterDetalhesDeputado?ideCadastro=<ide_cadastro>&numLegislatura=<numero_legislatura>',
-      :proposicoes_intervalo => 'http://www.camara.gov.br/SitCamaraWS/Proposicoes.asmx/ListarProposicoes?sigla=<sigla>&numero=&ano=<ano>&datApresentacaoIni=<data_inicial>&datApresentacaoFim=&autor=&parteNomeAutor=&siglaPartidoAutor=&siglaUFAutor=&generoAutor=&codEstado=&codOrgaoEstado=&emTramitacao=',
+      :proposicoes_intervalo => 'http://www.camara.gov.br/SitCamaraWS/Proposicoes.asmx/ListarProposicoes?sigla=<sigla>&numero=&ano=<ano>&datApresentacaoIni=<data_inicial>&datApresentacaoFim=&IdTipoAutor=&autor=&parteNomeAutor=&siglaPartidoAutor=&siglaUFAutor=&generoAutor=&codEstado=&codOrgaoEstado=&emTramitacao=',
       :proposicoes_intervalo_detail => 'http://www.camara.gov.br/SitCamaraWS/Proposicoes.asmx/ObterProposicaoPorID?IdProp=<id>'
     }, :prop => {
       :proposicoes => 'http://www.camara.gov.br/SitCamaraWS/Proposicoes.asmx/ListarProposicoes?sigla=<sigla>&numero=&ano=<ano>&datApresentacaoIni=&datApresentacaoFim=&autor=&parteNomeAutor=&siglaPartidoAutor=&siglaUFAutor=&generoAutor=&codEstado=&codOrgaoEstado=&emTramitacao=',
@@ -104,8 +104,9 @@ namespace :data do
     date_init = (Time.new(tokens[2], tokens[1], tokens[0]) + (60 * 60 * 24)).strftime '%d/%m/%Y'
     
     %w(MPV PEC PL PLP).each do |type|
-      resource_url = url.sub(/<sigla>/, type).sub(/<ano>/, Time.now.year.to_s).sub(/<data_inicial>/, date_init)
-      download_data_files("proposicoes_#{type}_#{year}", resource_url, true)
+      year = Time.now.year.to_s
+      resource_url = url.sub(/<sigla>/, type).sub(/<ano>/, year).sub(/<data_inicial>/, date_init)
+      download_data_files("proposicoes_#{type}_#{year}", resource_url, true, false, 1)
     end
   end
   
@@ -127,7 +128,7 @@ namespace :data do
       begin
         puts "Baixando recurso #{url}"
         response = RestClient.get url
-        File.open("#{object_path}_data.xml", 'w') {|f| f.write response}
+        File.open("#{object_path}_data.xml", 'w:UTF-8') {|f| f.write response.encode("UTF-8", "ISO-8859-15")}
         break
       rescue Exception => ex
         sleep 3
