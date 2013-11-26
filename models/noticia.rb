@@ -2,7 +2,6 @@ class Noticia
   include Mongoid::Document
 
   field :texto, :type => String
-  field :data, :type => Date
   field :tipo, :type => String
   
   def url

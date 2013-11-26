@@ -181,6 +181,9 @@ data.each do |row|
                     :autor => row['autor'], :tags => tags
 end
 
+shell.say 'Apagando coleção de dados de Votações'
+Votacoes.delete_all
+
 shell.say ''
 
 shell.say 'Criando dados agregados de Deputados'
@@ -189,31 +192,5 @@ load('db/stat_deputados.rb')
 shell.say ''
 
 shell.say 'Povoamento da base de dados concluído'
-
-if PADRINO_ENV == 'production'
-  shell.say ''
-  shell.say 'Publicando notícia no Twitter'
-
-  # https://github.com/sferik/twitter
-  Twitter.configure do |config|
-    config.consumer_key = ENV['CONSUMER_KEY']
-    config.consumer_secret = ENV['CONSUMER_SECRET']
-    config.oauth_token = ENV['OAUTH_TOKEN']
-    config.oauth_token_secret = ENV['OAUTH_TOKEN_SECRET']
-  end
-
-  metadata = YAML.load_file 'metadata.yml'
-  Twitter.update "Extração de dados abertos da Câmara dos Deputados do Brasil realizada em #{metadata['LAST_EXTRACTION_DATE']}. http://res-publica.herokuapp.com"
-
-  shell.say ''
-  shell.say 'Publicação de programas no Twitter concluída'
-  
-  shell.say ''
-  shell.say 'Salva nota de extração na base de dados'
-  Noticia.create :texto => "#{metadata['LAST_EXTRACTION_DATE']} - Nova extração de dados.", :data => Time.now, :tipo => 'extracao'
-
-  shell.say 'Remove notícias antigas.'
-  Noticia.all.sort {|x, y| x <=> y}.drop(15).each {|doc| doc.delete }
-end
 
 shell.say 'Tempo gasto: ' + elapsed_time(start_time, Time.now)

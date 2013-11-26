@@ -32,7 +32,7 @@ module ResPublica
     end
     
     get :feed, :provides => [:rss, :atom] do
-      @noticias = Noticia.all
+      @noticias = Noticia.all.desc(:_id)
       render 'feed'
     end
   

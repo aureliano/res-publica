@@ -12,7 +12,6 @@ describe Noticia do
   it 'permite acesso a todos os atributos' do
     noticia.should respond_to :_id
     noticia.should respond_to :texto
-    noticia.should respond_to :data
     noticia.should respond_to :tipo
   end
   
