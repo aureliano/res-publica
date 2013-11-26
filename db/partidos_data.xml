@@ -3,7 +3,7 @@
   <partido>
     <idPartido>PEN</idPartido>
     <siglaPartido>PEN</siglaPartido>
-    <nomePartido>Partido EcolÃ³gico Nacional</nomePartido>
+    <nomePartido>Partido Ecológico Nacional</nomePartido>
     <dataCriacao>
     </dataCriacao>
     <dataExtincao>
@@ -12,7 +12,7 @@
   <partido>
     <idPartido>PPL</idPartido>
     <siglaPartido>PPL</siglaPartido>
-    <nomePartido>Partido PÃ¡tria Livre</nomePartido>
+    <nomePartido>Partido Pátria Livre</nomePartido>
     <dataCriacao>
     </dataCriacao>
     <dataExtincao>
@@ -47,7 +47,7 @@
   <partido>
     <idPartido>AL</idPartido>
     <siglaPartido>AL</siglaPartido>
-    <nomePartido>AlianÃ§a Libertadora</nomePartido>
+    <nomePartido>Aliança Libertadora</nomePartido>
     <dataCriacao>
     </dataCriacao>
     <dataExtincao>01/01/1950</dataExtincao>
@@ -55,7 +55,7 @@
   <partido>
     <idPartido>ARENA</idPartido>
     <siglaPartido>ARENA</siglaPartido>
-    <nomePartido>AlianÃ§a Renovadora Nacional</nomePartido>
+    <nomePartido>Aliança Renovadora Nacional</nomePartido>
     <dataCriacao>
     </dataCriacao>
     <dataExtincao>01/01/1950</dataExtincao>
@@ -72,7 +72,7 @@
   <partido>
     <idPartido>ED</idPartido>
     <siglaPartido>ED</siglaPartido>
-    <nomePartido>Esquerda DemocrÃ¡tica</nomePartido>
+    <nomePartido>Esquerda Democrática</nomePartido>
     <dataCriacao>
     </dataCriacao>
     <dataExtincao>25/08/1947</dataExtincao>
@@ -80,7 +80,7 @@
   <partido>
     <idPartido>FUG</idPartido>
     <siglaPartido>FUG</siglaPartido>
-    <nomePartido>Frente Ãnica GaÃºcha</nomePartido>
+    <nomePartido>Frente Única Gaúcha</nomePartido>
     <dataCriacao>
     </dataCriacao>
     <dataExtincao>01/01/1950</dataExtincao>
@@ -88,7 +88,7 @@
   <partido>
     <idPartido>LASP</idPartido>
     <siglaPartido>LASP</siglaPartido>
-    <nomePartido>Liga de AÃ§Ã£o Social e PolÃ­tica</nomePartido>
+    <nomePartido>Liga de Ação Social e Política</nomePartido>
     <dataCriacao>
     </dataCriacao>
     <dataExtincao>01/01/1950</dataExtincao>
@@ -96,7 +96,7 @@
   <partido>
     <idPartido>LEC</idPartido>
     <siglaPartido>LEC</siglaPartido>
-    <nomePartido>Liga Eleitoral CatÃ³lica</nomePartido>
+    <nomePartido>Liga Eleitoral Católica</nomePartido>
     <dataCriacao>
     </dataCriacao>
     <dataExtincao>01/01/1950</dataExtincao>
@@ -120,7 +120,7 @@
   <partido>
     <idPartido>PAN</idPartido>
     <siglaPartido>PAN</siglaPartido>
-    <nomePartido>Partido dos Aposentados da NaÃ§Ã£o</nomePartido>
+    <nomePartido>Partido dos Aposentados da Nação</nomePartido>
     <dataCriacao>
     </dataCriacao>
     <dataExtincao>11/06/2007</dataExtincao>
@@ -153,7 +153,7 @@
   <partido>
     <idPartido>PCN</idPartido>
     <siglaPartido>PCN</siglaPartido>
-    <nomePartido>Partido ComunitÃ¡rio  Nacional</nomePartido>
+    <nomePartido>Partido Comunitário  Nacional</nomePartido>
     <dataCriacao>
     </dataCriacao>
     <dataExtincao>01/01/1950</dataExtincao>
@@ -161,7 +161,7 @@
   <partido>
     <idPartido>PCO</idPartido>
     <siglaPartido>PCO</siglaPartido>
-    <nomePartido>Partido da Causa OperÃ¡ria</nomePartido>
+    <nomePartido>Partido da Causa Operária</nomePartido>
     <dataCriacao>
     </dataCriacao>
     <dataExtincao>
@@ -170,7 +170,7 @@
   <partido>
     <idPartido>PD</idPartido>
     <siglaPartido>PD</siglaPartido>
-    <nomePartido>Partido DemocrÃ¡tico</nomePartido>
+    <nomePartido>Partido Democrático</nomePartido>
     <dataCriacao>
     </dataCriacao>
     <dataExtincao>01/01/1950</dataExtincao>
@@ -178,7 +178,7 @@
   <partido>
     <idPartido>PDC</idPartido>
     <siglaPartido>PDC</siglaPartido>
-    <nomePartido>Partido DemocrÃ¡tico CristÃ£o</nomePartido>
+    <nomePartido>Partido Democrático Cristão</nomePartido>
     <dataCriacao>
     </dataCriacao>
     <dataExtincao>01/01/1950</dataExtincao>
@@ -194,7 +194,7 @@
   <partido>
     <idPartido>PDS</idPartido>
     <siglaPartido>PDS</siglaPartido>
-    <nomePartido>Partido DemocrÃ¡tico Social</nomePartido>
+    <nomePartido>Partido Democrático Social</nomePartido>
     <dataCriacao>
     </dataCriacao>
     <dataExtincao>01/01/1950</dataExtincao>
@@ -202,7 +202,7 @@
   <partido>
     <idPartido>PDT</idPartido>
     <siglaPartido>PDT</siglaPartido>
-    <nomePartido>Partido DemocrÃ¡tico Trabalhista</nomePartido>
+    <nomePartido>Partido Democrático Trabalhista</nomePartido>
     <dataCriacao>
     </dataCriacao>
     <dataExtincao>
@@ -219,7 +219,7 @@
   <partido>
     <idPartido>PED</idPartido>
     <siglaPartido>PED</siglaPartido>
-    <nomePartido>Partido Economista DemocrÃ¡tico</nomePartido>
+    <nomePartido>Partido Economista Democrático</nomePartido>
     <dataCriacao>
     </dataCriacao>
     <dataExtincao>01/01/1950</dataExtincao>
@@ -251,7 +251,7 @@
   <partido>
     <idPartido>PHDBS</idPartido>
     <siglaPartido>PHDBS</siglaPartido>
-    <nomePartido>Partido Humanista DemocrÃ¡tico Brasil Solidariedade</nomePartido>
+    <nomePartido>Partido Humanista Democrático Brasil Solidariedade</nomePartido>
     <dataCriacao>
     </dataCriacao>
     <dataExtincao>01/01/1950</dataExtincao>
@@ -316,7 +316,7 @@
   <partido>
     <idPartido>PMDB</idPartido>
     <siglaPartido>PMDB</siglaPartido>
-    <nomePartido>Partido do Movimento DemocrÃ¡tico Brasileiro</nomePartido>
+    <nomePartido>Partido do Movimento Democrático Brasileiro</nomePartido>
     <dataCriacao>
     </dataCriacao>
     <dataExtincao>
@@ -325,7 +325,7 @@
   <partido>
     <idPartido>PMN</idPartido>
     <siglaPartido>PMN</siglaPartido>
-    <nomePartido>Partido da MobilizaÃ§Ã£o Nacional</nomePartido>
+    <nomePartido>Partido da Mobilização Nacional</nomePartido>
     <dataCriacao>
     </dataCriacao>
     <dataExtincao>
@@ -366,7 +366,7 @@
   <partido>
     <idPartido>PNE</idPartido>
     <siglaPartido>PNE</siglaPartido>
-    <nomePartido>Partido Nacional EvangÃ©lico</nomePartido>
+    <nomePartido>Partido Nacional Evangélico</nomePartido>
     <dataCriacao>
     </dataCriacao>
     <dataExtincao>01/01/1950</dataExtincao>
@@ -374,7 +374,7 @@
   <partido>
     <idPartido>PNI</idPartido>
     <siglaPartido>PNI</siglaPartido>
-    <nomePartido>NÃ£o Informado</nomePartido>
+    <nomePartido>Não Informado</nomePartido>
     <dataCriacao>
     </dataCriacao>
     <dataExtincao>01/01/1950</dataExtincao>
@@ -432,7 +432,7 @@
   <partido>
     <idPartido>PR</idPartido>
     <siglaPartido>PR</siglaPartido>
-    <nomePartido>Partido da RepÃºblica</nomePartido>
+    <nomePartido>Partido da República</nomePartido>
     <dataCriacao>
     </dataCriacao>
     <dataExtincao>
@@ -498,7 +498,7 @@
   <partido>
     <idPartido>PRN</idPartido>
     <siglaPartido>PRN</siglaPartido>
-    <nomePartido>Partido da ReconstruÃ§Ã£o Nacional</nomePartido>
+    <nomePartido>Partido da Reconstrução Nacional</nomePartido>
     <dataCriacao>
     </dataCriacao>
     <dataExtincao>01/01/1950</dataExtincao>
@@ -506,7 +506,7 @@
   <partido>
     <idPartido>PRONA</idPartido>
     <siglaPartido>PRONA</siglaPartido>
-    <nomePartido>Partido de ReedificaÃ§Ã£o da Ordem Nacional</nomePartido>
+    <nomePartido>Partido de Reedificação da Ordem Nacional</nomePartido>
     <dataCriacao>
     </dataCriacao>
     <dataExtincao>25/01/2007</dataExtincao>
@@ -564,7 +564,7 @@
   <partido>
     <idPartido>PRVP</idPartido>
     <siglaPartido>PRVP</siglaPartido>
-    <nomePartido>Partido de RepresentaÃ§Ã£o da Vontade Popular</nomePartido>
+    <nomePartido>Partido de Representação da Vontade Popular</nomePartido>
     <dataCriacao>
     </dataCriacao>
     <dataExtincao>01/01/1950</dataExtincao>
@@ -589,7 +589,7 @@
   <partido>
     <idPartido>PSC</idPartido>
     <siglaPartido>PSC</siglaPartido>
-    <nomePartido>Partido Social CristÃ£o</nomePartido>
+    <nomePartido>Partido Social Cristão</nomePartido>
     <dataCriacao>
     </dataCriacao>
     <dataExtincao>
@@ -598,7 +598,7 @@
   <partido>
     <idPartido>PSD</idPartido>
     <siglaPartido>PSD</siglaPartido>
-    <nomePartido>Partido Social DemocrÃ¡tico</nomePartido>
+    <nomePartido>Partido Social Democrático</nomePartido>
     <dataCriacao>
     </dataCriacao>
     <dataExtincao>
@@ -616,7 +616,7 @@
   <partido>
     <idPartido>PSDC</idPartido>
     <siglaPartido>PSDC</siglaPartido>
-    <nomePartido>Partido Social Democrata CristÃ£o</nomePartido>
+    <nomePartido>Partido Social Democrata Cristão</nomePartido>
     <dataCriacao>
     </dataCriacao>
     <dataExtincao>
@@ -702,7 +702,7 @@
   <partido>
     <idPartido>PTC</idPartido>
     <siglaPartido>PTC</siglaPartido>
-    <nomePartido>Partido Trabalhista CristÃ£o</nomePartido>
+    <nomePartido>Partido Trabalhista Cristão</nomePartido>
     <dataCriacao>
     </dataCriacao>
     <dataExtincao>
@@ -763,7 +763,7 @@
   <partido>
     <idPartido>UDB</idPartido>
     <siglaPartido>UDB</siglaPartido>
-    <nomePartido>UniÃ£o DemocrÃ¡tica Brasileira</nomePartido>
+    <nomePartido>União Democrática Brasileira</nomePartido>
     <dataCriacao>
     </dataCriacao>
     <dataExtincao>01/01/1950</dataExtincao>
@@ -779,7 +779,7 @@
   <partido>
     <idPartido>UPF</idPartido>
     <siglaPartido>UPF</siglaPartido>
-    <nomePartido>UniÃ£o Progressista Fluminense</nomePartido>
+    <nomePartido>União Progressista Fluminense</nomePartido>
     <dataCriacao>
     </dataCriacao>
     <dataExtincao>01/01/1950</dataExtincao>

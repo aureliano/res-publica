@@ -2,17 +2,17 @@
 <bancadas>
   <bancada sigla="PT" nome="Partido dos Trabalhadores">
     <lider>
-      <nome>JOSÃ GUIMARÃES</nome>
+      <nome>JOSÉ GUIMARÃES</nome>
       <partido>PT</partido>
       <uf>CE</uf>
     </lider>
     <vice_lider>
-      <nome>VALMIR ASSUNÃÃO</nome>
+      <nome>VALMIR ASSUNÇÃO</nome>
       <partido>PT</partido>
       <uf>BA</uf>
     </vice_lider>
     <vice_lider>
-      <nome>SIBÃ MACHADO</nome>
+      <nome>SIBÁ MACHADO</nome>
       <partido>PT</partido>
       <uf>AC</uf>
     </vice_lider>
@@ -62,7 +62,7 @@
       <uf>CE</uf>
     </vice_lider>
     <vice_lider>
-      <nome>FÃTIMA BEZERRA</nome>
+      <nome>FÁTIMA BEZERRA</nome>
       <partido>PT</partido>
       <uf>RN</uf>
     </vice_lider>
@@ -82,7 +82,7 @@
       <uf>RS</uf>
     </vice_lider>
     <vice_lider>
-      <nome>MARGARIDA SALOMÃO</nome>
+      <nome>MARGARIDA SALOMÃO</nome>
       <partido>PT</partido>
       <uf>MG</uf>
     </vice_lider>
@@ -102,7 +102,7 @@
       <uf>SP</uf>
     </vice_lider>
     <vice_lider>
-      <nome>ZÃ GERALDO</nome>
+      <nome>ZÉ GERALDO</nome>
       <partido>PT</partido>
       <uf>PA</uf>
     </vice_lider>
@@ -112,17 +112,17 @@
       <uf>PR</uf>
     </vice_lider>
     <vice_lider>
-      <nome>MÃRCIO MACÃDO</nome>
+      <nome>MÁRCIO MACÊDO</nome>
       <partido>PT</partido>
       <uf>SE</uf>
     </vice_lider>
     <vice_lider>
-      <nome>PADRE JOÃO</nome>
+      <nome>PADRE JOÃO</nome>
       <partido>PT</partido>
       <uf>MG</uf>
     </vice_lider>
   </bancada>
-  <bancada sigla="PMDB" nome="Partido do Movimento DemocrÃ¡tico Brasileiro">
+  <bancada sigla="PMDB" nome="Partido do Movimento Democrático Brasileiro">
     <lider>
       <nome>EDUARDO CUNHA</nome>
       <partido>PMDB</partido>
@@ -134,12 +134,12 @@
       <uf>PI</uf>
     </vice_lider>
     <vice_lider>
-      <nome>DARCÃSIO PERONDI</nome>
+      <nome>DARCÍSIO PERONDI</nome>
       <partido>PMDB</partido>
       <uf>RS</uf>
     </vice_lider>
     <vice_lider>
-      <nome>EDINHO ARAÃJO</nome>
+      <nome>EDINHO ARAÚJO</nome>
       <partido>PMDB</partido>
       <uf>SP</uf>
     </vice_lider>
@@ -159,7 +159,7 @@
       <uf>BA</uf>
     </vice_lider>
     <vice_lider>
-      <nome>FRANCISCO ESCÃRCIO</nome>
+      <nome>FRANCISCO ESCÓRCIO</nome>
       <partido>PMDB</partido>
       <uf>MA</uf>
     </vice_lider>
@@ -169,7 +169,7 @@
       <uf>RS</uf>
     </vice_lider>
     <vice_lider>
-      <nome>FÃBIO TRAD</nome>
+      <nome>FÁBIO TRAD</nome>
       <partido>PMDB</partido>
       <uf>MS</uf>
     </vice_lider>
@@ -189,7 +189,7 @@
       <uf>CE</uf>
     </vice_lider>
     <vice_lider>
-      <nome>JÃNIOR COIMBRA</nome>
+      <nome>JÚNIOR COIMBRA</nome>
       <partido>PMDB</partido>
       <uf>TO</uf>
     </vice_lider>
@@ -209,17 +209,17 @@
       <uf>RJ</uf>
     </vice_lider>
     <vice_lider>
-      <nome>ANDRÃ ZACHAROW</nome>
+      <nome>ANDRÉ ZACHAROW</nome>
       <partido>PMDB</partido>
       <uf>PR</uf>
     </vice_lider>
     <vice_lider>
-      <nome>FÃTIMA PELAES</nome>
+      <nome>FÁTIMA PELAES</nome>
       <partido>PMDB</partido>
       <uf>AP</uf>
     </vice_lider>
     <vice_lider>
-      <nome>ROGÃRIO PENINHA MENDONÃA</nome>
+      <nome>ROGÉRIO PENINHA MENDONÇA</nome>
       <partido>PMDB</partido>
       <uf>SC</uf>
     </vice_lider>
@@ -231,12 +231,12 @@
       <uf>PE</uf>
     </lider>
     <vice_lider>
-      <nome>GIVALDO CARIMBÃO</nome>
+      <nome>GIVALDO CARIMBÃO</nome>
       <partido>PROS</partido>
       <uf>AL</uf>
     </vice_lider>
     <vice_lider>
-      <nome>WALDIR MARANHÃO</nome>
+      <nome>WALDIR MARANHÃO</nome>
       <partido>PP</partido>
       <uf>MA</uf>
     </vice_lider>
@@ -251,7 +251,7 @@
       <uf>RS</uf>
     </vice_lider>
     <vice_lider>
-      <nome>ESPERIDIÃO AMIN</nome>
+      <nome>ESPERIDIÃO AMIN</nome>
       <partido>PP</partido>
       <uf>SC</uf>
     </vice_lider>
@@ -266,12 +266,12 @@
       <uf>RN</uf>
     </vice_lider>
     <vice_lider>
-      <nome>MISSIONÃRIO JOSÃ OLIMPIO</nome>
+      <nome>MISSIONÁRIO JOSÉ OLIMPIO</nome>
       <partido>PP</partido>
       <uf>SP</uf>
     </vice_lider>
     <vice_lider>
-      <nome>SANDES JÃNIOR</nome>
+      <nome>SANDES JÚNIOR</nome>
       <partido>PP</partido>
       <uf>GO</uf>
     </vice_lider>
@@ -313,12 +313,12 @@
       <uf>SP</uf>
     </lider>
     <vice_lider>
-      <nome>JOÃO CAMPOS</nome>
+      <nome>JOÃO CAMPOS</nome>
       <partido>PSDB</partido>
       <uf>GO</uf>
     </vice_lider>
     <vice_lider>
-      <nome>DOMINGOS SÃVIO</nome>
+      <nome>DOMINGOS SÁVIO</nome>
       <partido>PSDB</partido>
       <uf>MG</uf>
     </vice_lider>
@@ -383,7 +383,7 @@
       <uf>PR</uf>
     </vice_lider>
   </bancada>
-  <bancada sigla="PSD" nome="Partido Social DemocrÃ¡tico">
+  <bancada sigla="PSD" nome="Partido Social Democrático">
     <lider>
       <nome>EDUARDO SCIARRA</nome>
       <partido>PSD</partido>
@@ -405,7 +405,7 @@
       <uf>GO</uf>
     </vice_lider>
     <vice_lider>
-      <nome>HUGO NAPOLEÃO</nome>
+      <nome>HUGO NAPOLEÃO</nome>
       <partido>PSD</partido>
       <uf>PI</uf>
     </vice_lider>
@@ -430,7 +430,7 @@
       <uf>MG</uf>
     </vice_lider>
     <vice_lider>
-      <nome>SILAS CÃMARA</nome>
+      <nome>SILAS CÂMARA</nome>
       <partido>PSD</partido>
       <uf>AM</uf>
     </vice_lider>
@@ -445,7 +445,7 @@
       <uf>SP</uf>
     </vice_lider>
     <vice_lider>
-      <nome>IRAJÃ ABREU</nome>
+      <nome>IRAJÁ ABREU</nome>
       <partido>PSD</partido>
       <uf>TO</uf>
     </vice_lider>
@@ -492,7 +492,7 @@
       <uf>MG</uf>
     </vice_lider>
     <vice_lider>
-      <nome>PAULO FEIJÃ</nome>
+      <nome>PAULO FEIJÓ</nome>
       <partido>PR</partido>
       <uf>RJ</uf>
     </vice_lider>
@@ -539,7 +539,7 @@
       <uf>RN</uf>
     </vice_lider>
     <vice_lider>
-      <nome>JÃLIO DELGADO</nome>
+      <nome>JÚLIO DELGADO</nome>
       <partido>PSB</partido>
       <uf>MG</uf>
     </vice_lider>
@@ -551,7 +551,7 @@
       <uf>GO</uf>
     </lider>
     <vice_lider>
-      <nome>MENDONÃA FILHO</nome>
+      <nome>MENDONÇA FILHO</nome>
       <partido>DEM</partido>
       <uf>PE</uf>
     </vice_lider>
@@ -571,7 +571,7 @@
       <uf>TO</uf>
     </vice_lider>
     <vice_lider>
-      <nome>MENDONÃA PRADO</nome>
+      <nome>MENDONÇA PRADO</nome>
       <partido>DEM</partido>
       <uf>SE</uf>
     </vice_lider>
@@ -601,7 +601,7 @@
       <uf>MS</uf>
     </vice_lider>
     <vice_lider>
-      <nome>FÃBIO SOUTO</nome>
+      <nome>FÁBIO SOUTO</nome>
       <partido>DEM</partido>
       <uf>BA</uf>
     </vice_lider>
@@ -618,22 +618,22 @@
       <uf>BA</uf>
     </vice_lider>
     <vice_lider>
-      <nome>JOÃO DADO</nome>
+      <nome>JOÃO DADO</nome>
       <partido>SDD</partido>
       <uf>SP</uf>
     </vice_lider>
     <vice_lider>
-      <nome>LUIZ ARGÃLO</nome>
+      <nome>LUIZ ARGÔLO</nome>
       <partido>SDD</partido>
       <uf>BA</uf>
     </vice_lider>
     <vice_lider>
-      <nome>SEBASTIÃO BALA ROCHA</nome>
+      <nome>SEBASTIÃO BALA ROCHA</nome>
       <partido>SDD</partido>
       <uf>AP</uf>
     </vice_lider>
     <vice_lider>
-      <nome>ARMANDO VERGÃLIO</nome>
+      <nome>ARMANDO VERGÍLIO</nome>
       <partido>SDD</partido>
       <uf>GO</uf>
     </vice_lider>
@@ -655,12 +655,12 @@
       <uf>BA</uf>
     </vice_lider>
     <vice_lider>
-      <nome>ARNALDO FARIA DE SÃ</nome>
+      <nome>ARNALDO FARIA DE SÁ</nome>
       <partido>PTB</partido>
       <uf>SP</uf>
     </vice_lider>
     <vice_lider>
-      <nome>JOSUÃ BENGTSON</nome>
+      <nome>JOSUÉ BENGTSON</nome>
       <partido>PTB</partido>
       <uf>PA</uf>
     </vice_lider>
@@ -675,14 +675,14 @@
       <uf>RJ</uf>
     </vice_lider>
   </bancada>
-  <bancada sigla="PDT" nome="Partido DemocrÃ¡tico Trabalhista">
+  <bancada sigla="PDT" nome="Partido Democrático Trabalhista">
     <lider>
-      <nome>ANDRÃ FIGUEIREDO</nome>
+      <nome>ANDRÉ FIGUEIREDO</nome>
       <partido>PDT</partido>
       <uf>CE</uf>
     </lider>
     <vice_lider>
-      <nome>FÃLIX MENDONÃA JÃNIOR</nome>
+      <nome>FÉLIX MENDONÇA JÚNIOR</nome>
       <partido>PDT</partido>
       <uf>BA</uf>
     </vice_lider>
@@ -697,19 +697,19 @@
       <uf>RS</uf>
     </vice_lider>
     <vice_lider>
-      <nome>FLÃVIA MORAIS</nome>
+      <nome>FLÁVIA MORAIS</nome>
       <partido>PDT</partido>
       <uf>GO</uf>
     </vice_lider>
     <vice_lider>
-      <nome>MARCOS ROGÃRIO</nome>
+      <nome>MARCOS ROGÉRIO</nome>
       <partido>PDT</partido>
       <uf>RO</uf>
     </vice_lider>
   </bancada>
   <bancada sigla="PCdoB" nome="Partido Comunista do Brasil">
     <lider>
-      <nome>MANUELA D'ÃVILA</nome>
+      <nome>MANUELA D'ÁVILA</nome>
       <partido>PCdoB</partido>
       <uf>RS</uf>
     </lider>
@@ -719,7 +719,7 @@
       <uf>BA</uf>
     </vice_lider>
     <vice_lider>
-      <nome>OSMAR JÃNIOR</nome>
+      <nome>OSMAR JÚNIOR</nome>
       <partido>PCdoB</partido>
       <uf>PI</uf>
     </vice_lider>
@@ -734,7 +734,7 @@
       <uf>PE</uf>
     </vice_lider>
   </bancada>
-  <bancada sigla="PSC" nome="Partido Social CristÃ£o">
+  <bancada sigla="PSC" nome="Partido Social Cristão">
     <lider>
       <nome>ANDRE MOURA</nome>
       <partido>PSC</partido>
@@ -768,7 +768,7 @@
       <uf>MA</uf>
     </vice_lider>
     <vice_lider>
-      <nome>MÃRCIO MARINHO</nome>
+      <nome>MÁRCIO MARINHO</nome>
       <partido>PRB</partido>
       <uf>BA</uf>
     </vice_lider>
@@ -785,7 +785,7 @@
       <uf>PR</uf>
     </vice_lider>
     <vice_lider>
-      <nome>ANTÃNIO ROBERTO</nome>
+      <nome>ANTÔNIO ROBERTO</nome>
       <partido>PV</partido>
       <uf>MG</uf>
     </vice_lider>
@@ -829,14 +829,14 @@
       <uf>RJ</uf>
     </vice_lider>
   </bancada>
-  <bancada sigla="PMN" nome="Partido da MobilizaÃ§Ã£o Nacional">
+  <bancada sigla="PMN" nome="Partido da Mobilização Nacional">
     <representante>
-      <nome>FRANCISCO TENÃRIO</nome>
+      <nome>FRANCISCO TENÓRIO</nome>
       <partido>PMN</partido>
       <uf>AL</uf>
     </representante>
   </bancada>
-  <bancada sigla="Governo" nome="LideranÃ§a do Governo">
+  <bancada sigla="Governo" nome="Liderança do Governo">
     <lider>
       <nome>ARLINDO CHINAGLIA</nome>
       <partido>PT</partido>
@@ -858,12 +858,12 @@
       <uf>PR</uf>
     </vice_lider>
     <vice_lider>
-      <nome>JOSÃ GUIMARÃES</nome>
+      <nome>JOSÉ GUIMARÃES</nome>
       <partido>PT</partido>
       <uf>CE</uf>
     </vice_lider>
     <vice_lider>
-      <nome>WALDIR MARANHÃO</nome>
+      <nome>WALDIR MARANHÃO</nome>
       <partido>PP</partido>
       <uf>MA</uf>
     </vice_lider>
@@ -883,9 +883,9 @@
       <uf>RS</uf>
     </vice_lider>
   </bancada>
-  <bancada sigla="Minoria" nome="LideranÃ§a da Minoria">
+  <bancada sigla="Minoria" nome="Liderança da Minoria">
     <lider>
-      <nome>NILSON LEITÃO</nome>
+      <nome>NILSON LEITÃO</nome>
       <partido>PSDB</partido>
       <uf>MT</uf>
     </lider>
@@ -900,7 +900,7 @@
       <uf>RN</uf>
     </vice_lider>
     <vice_lider>
-      <nome>PLÃNIO VALÃRIO</nome>
+      <nome>PLÍNIO VALÉRIO</nome>
       <partido>PSDB</partido>
       <uf>AM</uf>
     </vice_lider>
@@ -927,7 +927,7 @@
       <uf>PE</uf>
     </lider>
     <vice_lider>
-      <nome>WALDIR MARANHÃO</nome>
+      <nome>WALDIR MARANHÃO</nome>
       <partido>PP</partido>
       <uf>MA</uf>
     </vice_lider>
@@ -937,7 +937,7 @@
       <uf>RS</uf>
     </vice_lider>
     <vice_lider>
-      <nome>ESPERIDIÃO AMIN</nome>
+      <nome>ESPERIDIÃO AMIN</nome>
       <partido>PP</partido>
       <uf>SC</uf>
     </vice_lider>
@@ -952,12 +952,12 @@
       <uf>RN</uf>
     </vice_lider>
     <vice_lider>
-      <nome>MISSIONÃRIO JOSÃ OLIMPIO</nome>
+      <nome>MISSIONÁRIO JOSÉ OLIMPIO</nome>
       <partido>PP</partido>
       <uf>SP</uf>
     </vice_lider>
     <vice_lider>
-      <nome>SANDES JÃNIOR</nome>
+      <nome>SANDES JÚNIOR</nome>
       <partido>PP</partido>
       <uf>GO</uf>
     </vice_lider>
@@ -982,7 +982,7 @@
       <uf>RS</uf>
     </vice_lider>
   </bancada>
-  <bancada sigla="PR" nome="Partido da RepÃºblica">
+  <bancada sigla="PR" nome="Partido da República">
     <lider>
       <nome>ANTHONY GAROTINHO</nome>
       <partido>PR</partido>
@@ -991,7 +991,7 @@
   </bancada>
   <bancada sigla="PROS" nome="Partido Republicano da Ordem Social">
     <lider>
-      <nome>GIVALDO CARIMBÃO</nome>
+      <nome>GIVALDO CARIMBÃO</nome>
       <partido>PROS</partido>
       <uf>AL</uf>
     </lider>
