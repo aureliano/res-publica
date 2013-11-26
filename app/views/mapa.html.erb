@@ -26,6 +26,12 @@
       </ul>
     </li>
     <li>
+      <%= link_to 'Proposições', url(:proposicao, :index) %>
+      <ul>
+        <li><%= link_to 'Consulta de Proposições', url(:proposicao, :index) %></li>
+      </ul>
+    </li>
+    <li>
       Ajuda
       <ul>
         <li><%= link_to 'Log de versão', url(:changelog, :version => 'atual') %></li>
