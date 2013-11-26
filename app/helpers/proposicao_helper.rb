@@ -40,10 +40,20 @@ ResPublica::App.helpers do
   def votacoes_proposicao(proposicao)
     dados = {}
     dados[:proposicao] = proposicao
+    
+    votacoes = Votacoes.where(:_id => {:sigla => proposicao.sigla, :numero => proposicao.numero, :ano => proposicao.ano}).first    
     url = "http://www.camara.gov.br/SitCamaraWS/Proposicoes.asmx/ObterVotacaoProposicao?tipo=#{proposicao.sigla}&numero=#{proposicao.numero}&ano=#{proposicao.ano}"
 
     begin
-      doc = Nokogiri::XML(RestClient.get(url))
+      if votacoes.nil?
+        puts 'BAIXAR XML'
+        xml = RestClient.get(url)
+        Votacoes.create :_id => {:sigla => proposicao.sigla, :numero => proposicao.numero, :ano => proposicao.ano}, :xml => xml
+      else
+        xml = votacoes.xml
+      end
+      
+      doc = Nokogiri::XML(xml)
       dados[:url] = (doc.nil?) ? url : nil
     rescue Exception => ex
       dados[:url] = url
@@ -68,9 +78,9 @@ ResPublica::App.helpers do
       bancada_sim, bancada_nao, bancada_liberado = [], [], []
       votacao.at_xpath('//orientacaoBancada').children.each do |bancada|
         case bancada['orientacao'].to_s.strip
-          when 'Sim'; then bancada_sim << bancada['Sigla']
-          when 'Não'; then bancada_nao << bancada['Sigla']
-          when 'Liberado'; then bancada_liberado << bancada['Sigla']
+          when 'Sim'; then bancada_sim << format_partidos(bancada['Sigla'])
+          when 'Não'; then bancada_nao << format_partidos(bancada['Sigla'])
+          when 'Liberado'; then bancada_liberado << format_partidos(bancada['Sigla'])
         end
       end
       hash[:orientacao_bancada] = {:sim => bancada_sim.join(', '), :nao => bancada_nao.join(', '), :liberado => bancada_liberado.join(', ')}
@@ -91,5 +101,28 @@ ResPublica::App.helpers do
   def perfil_autor_proposicao(nome_parlamentar)
     deputado = Deputado.where(:nome_parlamentar => replace_special_characters(nome_parlamentar).upcase).first
     deputado.nil? ? nome_parlamentar : link_to(nome_parlamentar, url(:organizacional, :deputado, :id => deputado.id))
+  end
+  
+  def format_partidos(txt)
+    output = []
+    
+    txt.split(',').each do |token|
+      formatted = ''
+      if /[a-z]/.match(token)
+        token.chars.each do |e|
+          formatted << if /[A-Z]/.match(e)
+            ' ' + e
+          else
+            e
+          end
+        end
+
+        formatted = formatted.split(' ').join(', ').upcase.sub(/PTDOB/, 'PTdoB').sub(/PCDOB/, 'PCdoB').sub(/MINORIA/, 'Minoria')
+      end
+      
+      output << ((formatted.empty?) ? token : formatted)
+    end
+    
+    output.join(', ')
   end
 end

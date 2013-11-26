@@ -1,0 +1,83 @@
+<% @page_title = 'Votações da Proposição' %>
+
+<div class="hero-unit">
+  <h3>Votações da Proposição - <%= @proposicao.nome %></h3>
+</div>
+
+<div class="container">
+  Dentro de cada relatório de votação há um botão para baixar um extrato da votação.
+  <% if @dados_votacoes[:url] %>
+  <div id="div_api_response" class="alert alert-block">
+    <button type="button" class="close" data-dismiss="div_api_response" onclick="hideApiResponse();">&times;</button>
+    <h4>Atenção!</h4>    
+    Não foi possível carregar as votações da proposição. Ou a Câmara não disponibilizou as votações ou
+    talvez a API de dados abertos da Câmara esteja indisponível no momento.<br/>
+    URL do recurso: <%= link_to @dados_votacoes[:url], @dados_votacoes[:url].html_safe %>
+  </div>
+  <% end %>
+
+  <h4>Votações</h4>
+  
+  <% unless @dados_votacoes[:url] %>
+  <% count = 0 %>
+  <div class="accordion" id="accordion_votacoes">
+  <% @dados_votacoes[:votacoes].each do |votacao| %>
+    <div class="accordion-group">
+      <div class="accordion-heading">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion_votacoes" href="#collapse<%= count += 1 %>">
+          <%= count %>ª Votação [+/-]
+        </a>
+      </div>
+      <div id="collapse<%= count %>" class="accordion-body collapse">
+        <div class="accordion-inner">
+          <h5>Sumário da Votação</h5>
+          <div id="sumario_votacao">
+            <span><strong>Resumo: </strong></span><span><%= votacao[:resumo] %></span><br/>
+            <span><strong>Votos - Sim: </strong></span><span><%= votacao[:votos_sim].sub(/Sim:/, '') %></span><br/>
+            <span><strong>Votos - Não: </strong></span><span><%= votacao[:votos_nao].sub(/Não:/, '') %></span><br/>
+            <span><strong>Votos - Abstenção: </strong></span><span><%= votacao[:votos_abstencao].sub(/Abstenção:/, '') %></span><br/>
+            <span><strong>Votos - Total: </strong></span><span><%= votacao[:votos_total].sub(/Total:/, '') %></span><br/>
+            <span><strong>Data: </strong></span><span><%= "#{votacao[:data]} #{votacao[:hora]}" %></span><br/>
+            <span><strong>Objeto de votação: </strong></span><span><%= votacao[:objeto_votacao] %></span>
+          </div>
+          
+          <h5>Orientação da Bancada</h5>
+          <div id="orientacao_bancada">
+            <span><strong>Sim: </strong></span><span><%= votacao[:orientacao_bancada][:sim] %></span><br/>
+            <span><strong>Não: </strong></span><span><%= votacao[:orientacao_bancada][:nao] %></span><br/>
+            <span><strong>Liberado: </strong></span><span><%= votacao[:orientacao_bancada][:liberado] %></span><br/>
+          </div>
+          <h5>Votação</h5>
+          <div id="votacao">
+            <table id="dt_votacao_<%= count %>" border="1">
+            <thead>
+            <tr>
+              <th>Deputado</th><th>Partido</th><th>Voto</th>
+            </tr>
+            </thead>
+            <tbody>
+            <% votacao[:votos].each do |voto| %>
+              <tr>
+                <td width="500"><%= voto[:deputado] %></td><td width="100" align="center"><%= voto[:partido] %></td><td width="100" align="center"><%= voto[:voto] %></td>
+              </tr>
+            <% end %>
+            </tbody>
+            </table>
+          </div>
+          <br/>
+          <%= link_to 'Baixar Votação', url(:proposicao, :relatorio_votacao, :proposicao => @proposicao.id, :votacao => count), :class => 'btn btn-primary' %>
+        </div>
+      </div>
+    </div>
+  <% end %>
+  </div>
+  <% end %>
+  
+  <hr/>
+  
+  <div>
+    <%= link_to 'Voltar para Proposição', url(:proposicao, :index, :id => @proposicao.id), :class => 'btn btn-primary' %>
+  </div>
+</div>
+
+<script src="http://getbootstrap.com/2.3.2/assets/js/bootstrap-collapse.js" type="text/javascript"></script>

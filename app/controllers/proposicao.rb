@@ -15,17 +15,24 @@ ResPublica::App.controllers :proposicao do
     render 'proposicao/dados_proposicao'
   end
   
-  get :proposicao_votacoes, :with => :id do
-    @proposicao = Proposicao.where(:_id => params[:id]).first
+  get :votacoes, :map => '/proposicao/:proposicao/votacoes' do
+    @proposicao = Proposicao.where(:_id => params[:proposicao]).first
+    redirect '/404' unless @proposicao
+    
+    @dados_votacoes = votacoes_proposicao(@proposicao)
+    
+    render 'proposicao/votacoes'
+  end
+  
+  get :relatorio_votacao, :with => [:proposicao, :votacao] do
+    @proposicao = Proposicao.where(:_id => params[:proposicao]).first
     redirect '/404' unless @proposicao
 
     @dados_votacoes = votacoes_proposicao(@proposicao)
     file = "tmp/Votacoes_Proposicao_#{@proposicao.sigla}-#{@proposicao.numero}-#{@proposicao.ano}.pdf"
     
-    if @dados_votacoes[:url]
-      redirect url(:proposicao, :index, :id => @proposicao.id, :url_votacoes => @dados_votacoes[:url])
-    else
-      generate_votting_pdf file, @dados_votacoes
+    unless @dados_votacoes[:url]
+      generate_votting_pdf file, @dados_votacoes, params[:votacao]
       send_file file, :filename => file, :type => 'Application/octet-stream'
     end
   end

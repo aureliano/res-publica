@@ -5,21 +5,13 @@
 </div>
 
 <div class="container">
-  <% if @dados_prop[:url] || params[:url_votacoes] %>
+  <% if @dados_prop[:url] %>
   <div id="div_api_response" class="alert alert-block">
     <button type="button" class="close" data-dismiss="div_api_response" onclick="hideApiResponse();">&times;</button>
     <h4>Atenção!</h4>
-    <% if @dados_prop[:url] %>
     Não foi possível carregar as informações complementares da proposição.
     Talvez a API de dados abertos da Câmara esteja indisponível no momento.<br/>
-    URL do recurso: <%= link_to @dados_prop[:url], @dados_prop[:url] %>
-    <% end %>
-    
-    <% if params[:url_votacoes] %>
-    Não foi possível carregar as votações da proposição.
-    Talvez a API de dados abertos da Câmara esteja indisponível no momento.<br/>
-    URL do recurso: <%= link_to params[:url_votacoes], params[:url_votacoes].html_safe %>
-    <% end %>
+    URL do recurso: <%= link_to @dados_prop[:url], @dados_prop[:url].html_safe %>
   </div>
   <% end %>
 
@@ -86,7 +78,7 @@
   
   <div>
     <%= link_to 'Baixar Inteiro Teor', @dados_prop[:link_inteiro_teor], :class => 'btn btn-primary', :id => 'link_inteiro_teor' %>
-    <%= link_to 'Baixar Votações', url(:proposicao, :proposicao_votacoes, :id => @proposicao.id), :class => 'btn btn-primary' %>
+    <%= link_to 'Carregar Votações', url(:proposicao, :votacoes, :proposicao => @proposicao.id), :class => 'btn btn-primary' %>
   </div>
 </div>
 
