@@ -128,7 +128,7 @@ namespace :data do
       begin
         puts "Baixando recurso #{url}"
         response = RestClient.get url
-        File.open("#{object_path}_data.xml", 'w:UTF-8') {|f| f.write response.encode("UTF-8", "ISO-8859-15")}
+        File.open("#{object_path}_data.xml", 'w:UTF-8') {|f| f.write response.force_encoding("UTF-8")}
         break
       rescue Exception => ex
         sleep 3
