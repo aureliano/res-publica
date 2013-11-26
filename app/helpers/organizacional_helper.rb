@@ -13,7 +13,7 @@ ResPublica::App.helpers do
     link_to nome_parlamentar, url_deputado_by_nome_parlamentar(nome_parlamentar)
   end
   
-  def generate_comissao_contacts_report(comissao)
+  def generate_committee_contacts_report(comissao)
     titulares = Deputado.where(:comissoes_titular => {:$in => [comissao.sigla]})
     suplentes = Deputado.where(:comissoes_suplente => {:$in => [comissao.sigla]})
     

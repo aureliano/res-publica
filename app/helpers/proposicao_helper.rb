@@ -14,7 +14,7 @@ ResPublica::App.helpers do
   def proposicao_dados_complementares(proposicao_id)
     data = {}
     url = "http://www.camara.gov.br/SitCamaraWS/Proposicoes.asmx/ObterProposicaoPorID?IdProp=#{proposicao_id}"
-=begin
+
     begin
       doc = Nokogiri::XML(RestClient.get(url))
       data[:url] = (doc.nil?) ? url : nil
@@ -33,14 +33,15 @@ ResPublica::App.helpers do
     data[:apreciacao] = doc.xpath('proposicao/Apreciacao').text
     data[:situacao] = doc.xpath('proposicao/Situacao').text
     data[:link_inteiro_teor] = doc.xpath('proposicao/LinkInteiroTeor').text
-=end
+
     data
   end
   
   def votacoes_proposicao(proposicao)
     dados = {}
+    dados[:proposicao] = proposicao
     url = "http://www.camara.gov.br/SitCamaraWS/Proposicoes.asmx/ObterVotacaoProposicao?tipo=#{proposicao.sigla}&numero=#{proposicao.numero}&ano=#{proposicao.ano}"
-    
+
     begin
       doc = Nokogiri::XML(RestClient.get(url))
       dados[:url] = (doc.nil?) ? url : nil
@@ -53,16 +54,26 @@ ResPublica::App.helpers do
     data = []
     doc.xpath('proposicao/Votacoes/Votacao').each do |votacao|
       hash = {}
-      hash[:resumo] = votacao['Resumo']
+      hash[:resumo] = votacao['Resumo'].sub(/[Ss]im:\s?\d+;\s?[Nn]ão:\s?\d+;\s?[Aa]bstenção:\s?\d+;\s?[Tt]otal:\s?\d+./, '').rstrip
+      tokens = /[Ss]im:\s?\d+;\s?[Nn]ão:\s?\d+;\s?[Aa]bstenção:\s?\d+;\s?[Tt]otal:\s?\d+/.match(votacao['Resumo']).to_s.split ";"
+      hash[:votos_sim] = tokens[0].capitalize
+      hash[:votos_nao] = tokens[1].lstrip.capitalize
+      hash[:votos_abstencao] = tokens[2].lstrip.capitalize
+      hash[:votos_total] = tokens[3].lstrip.capitalize
+
       hash[:data] = votacao ['Data']
       hash[:hora] = votacao ['Hora']
       hash[:objeto_votacao] = votacao ['ObjVotacao']
       
-      bancadas = []
+      bancada_sim, bancada_nao, bancada_liberado = [], [], []
       votacao.at_xpath('//orientacaoBancada').children.each do |bancada|
-        bancadas << {:sigla => bancada['Sigla'], :orientacao => bancada['orientacao'].rstrip} unless bancada['Sigla'].nil?
+        case bancada['orientacao'].to_s.strip
+          when 'Sim'; then bancada_sim << bancada['Sigla']
+          when 'Não'; then bancada_nao << bancada['Sigla']
+          when 'Liberado'; then bancada_liberado << bancada['Sigla']
+        end
       end
-      hash[:orientacao_bancada] = bancadas
+      hash[:orientacao_bancada] = {:sim => bancada_sim.join(', '), :nao => bancada_nao.join(', '), :liberado => bancada_liberado.join(', ')}
       
       votos = []
       votacao.at_xpath('//votos').children.each do |voto|

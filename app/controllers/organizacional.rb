@@ -75,7 +75,7 @@ ResPublica::App.controllers :organizacional do
     @comissao = Comissao.where(:_id => params[:id]).first
     redirect '/404' unless @comissao
     
-    data = generate_comissao_contacts_report(@comissao)
+    data = generate_committee_contacts_report(@comissao)
     file = "tmp/Comissao_#{@comissao.sigla}_Contatos.pdf"
     generate_committee_pdf file, data
     
