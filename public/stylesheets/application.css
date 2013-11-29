@@ -18,6 +18,12 @@
   float: left;
 }
 
+.medium-label {
+  display: block;
+  width: 200px;
+  float: left;
+}
+
 .filter-component {
   width: 400px;
   height: 28px;  

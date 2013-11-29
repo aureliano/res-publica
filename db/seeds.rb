@@ -189,6 +189,9 @@ shell.say ''
 shell.say 'Criando dados agregados de Deputados'
 load('db/stat_deputados.rb')
 
+shell.say 'Criando dados agregados de Proposições'
+load('db/stat_proposicoes.rb')
+
 shell.say ''
 
 shell.say 'Povoamento da base de dados concluído'

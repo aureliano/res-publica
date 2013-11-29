@@ -23,5 +23,13 @@ ResPublica::App.controllers :estatistica do
     @chart_data = deputado_uf_partido_chart_data params[:partido]
     render 'estatistica/deputado_partido_uf'
   end
+  
+  get :proposicoes_projecao, :map => '/estatistica/proposicoes' do
+    render 'estatistica/proposicoes_projecao'
+  end
+  
+  get :proposicoes_ano, :map => '/estatistica/proposicoes/ano' do
+    render 'estatistica/proposicoes_ano'
+  end
 
 end
