@@ -53,22 +53,15 @@
   <br/>
   
   <div class="row">
+    <% APP[:tipos_proposicoes].each do |k, v| %>
     <div class="span3">
-      <a href="<%= url :estatistica, :proposicoes_projecao %>" class="btn subject-block">
-        <h4>Proposições/Projeção</h4>
-        <p align="justify">Gráfico com a projeção das proposições por ano. Permite filtrar por tipo de proposição.</p>
-        <br/><br/><br/>
-        <p align="right"><b>>> Ver mais</b></p>
-      </a>
-    </div>
-    
-    <div class="span3">
-      <a href="<%= url :estatistica, :proposicoes_ano %>" class="btn subject-block">
-        <h4>Proposições/Ano</h4>
-        <p align="justify">Gráfico com o total de proposições criadas no ano agregadas por mês.</p>
+      <a href="<%= url :estatistica, :proposicoes, :sigla => k %>" class="btn subject-block">
+        <h4>Proposições/<%= k %></h4>
+        <p align="justify">Gráfico com a projeção das proposições do tipo <%= k %> por ano.</p>
         <br/><br/><br/><br/>
         <p align="right"><b>>> Ver mais</b></p>
       </a>
     </div>
+    <% end %>
   </div>
 </div>

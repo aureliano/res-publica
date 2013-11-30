@@ -33,5 +33,17 @@ ResPublica::App.helpers do
         .where(:partido => partido)
         .only(:uf, :total).map {|stat| [APP[:estados][stat.uf], stat.total.to_i] })
   end
+  
+  def proposicoes_chart_data(sigla)
+    return nil unless APP[:tipos_proposicoes][sigla.to_sym]
+    proposicoes_data sigla
+  end
+  
+  def proposicoes_data(sigla)
+    [['Ano','Proposições']]
+      .concat(ProposicaoStat
+        .where(:sigla => sigla)
+        .only(:ano, :total).map {|stat| [stat.ano.to_i, stat.total.to_i] })
+  end
 
 end

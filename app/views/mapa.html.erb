@@ -23,6 +23,9 @@
         <li><%= link_to 'Deputados/Sexo', url(:estatistica, :deputado_sexo) %></li>
         <li><%= link_to 'Deputados/UF/Sexo', url(:estatistica, :deputado_uf_sexo) %></li>
         <li><%= link_to 'Deputados/Partido/UF', url(:estatistica, :deputado_partido_uf) %></li>
+        <% APP[:tipos_proposicoes].each_key do |tipo| %>
+        <li><%= link_to "Proposicoes/#{tipo}", url(:estatistica, :proposicoes, :sigla => tipo) %></li>
+        <% end %>
       </ul>
     </li>
     <li>

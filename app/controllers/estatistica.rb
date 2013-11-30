@@ -24,12 +24,11 @@ ResPublica::App.controllers :estatistica do
     render 'estatistica/deputado_partido_uf'
   end
   
-  get :proposicoes_projecao, :map => '/estatistica/proposicoes' do
-    render 'estatistica/proposicoes_projecao'
-  end
-  
-  get :proposicoes_ano, :map => '/estatistica/proposicoes/ano' do
-    render 'estatistica/proposicoes_ano'
+  get :proposicoes, :with => :sigla do
+    @chart_data = proposicoes_chart_data params[:sigla]
+    redirect '/404' if @chart_data.nil?
+    
+    render 'estatistica/proposicoes'
   end
 
 end
