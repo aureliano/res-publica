@@ -21,6 +21,21 @@ describe "AppController" do
     last_response.body.should include '<h4>A Câmara</h4>'
   end
   
+  it 'carrega página com o mapa do sítio' do
+    get '/mapa'
+    
+    last_response.body.should include '<title>Res Publica: Mapa do sítio</title>'
+    last_response.body.should include '<h3>Mapa do sítio</h3>'
+  end
+  
+  it 'carrega página RSS Feed' do
+    get '/feed'
+    
+    last_response.body.should include '<title>Res Publica</title>'
+    last_response.body.should include '<description>Sistema de consulta dos dados abertos da Câmara dos Deputados do Brasil.</description>'
+    last_response.body.should include '<link>http://res-publica.herokuapp.com//feed</link>'
+  end
+  
   it 'carrega página com o log da versão atual' do
     get '/log/versao/atual'
     
@@ -33,6 +48,14 @@ describe "AppController" do
     
     last_response.body.should include '<title>Res Publica: Log de versão</title>'
     last_response.body.should_not include '<a href="/log/versao/todas">Ver log completo...</a>'
+  end
+  
+  it 'carrega página de erro' do
+    get '/404'
+    
+    last_response.body.should include '<title>Página não encontrada</title>'
+    last_response.body.should include '<img src="images/chuck-norris.jpg" alt="Chuck Norris"/>'
+    last_response.body.should include '<b>Chuck Norris disse que a página que você procura não existe. E se ele disse é melhor você acreditar!</b>'
   end
 
 end
