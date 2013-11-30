@@ -14,6 +14,11 @@ ResPublica::App.helpers do
   def proposicao_dados_complementares(proposicao_id)
     data = {}
     url = "http://www.camara.gov.br/SitCamaraWS/Proposicoes.asmx/ObterProposicaoPorID?IdProp=#{proposicao_id}"
+    
+    if PADRINO_ENV == 'test'
+      data[:url] = url
+      return data
+    end
 
     begin
       doc = Nokogiri::XML(RestClient.get(url))
