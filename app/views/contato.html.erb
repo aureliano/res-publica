@@ -1,0 +1,41 @@
+<% @page_title = 'Contato' %>
+
+
+<div class="hero-unit">
+  <h3>Fale conosco</h3>
+</div>
+
+<% if @message && !@message.valid? %>
+<div id="error_messages">
+  <p class="text-error">
+    <%= @message.errors.join '<br/>' %>
+  </p>
+</div>
+<% end %>
+
+<% if params[:msg_sent] %>
+<div id="success_message">
+  <p class="text-success">
+    Mensagem enviada com sucesso!
+  </p>
+</div>
+<% end %>
+
+<form method="post" action="/send_email" accept-charset="UTF-8">
+  <div name="name">
+    <label for="name" class="short-label">Nome: </label><input type="text" id="name" name="name" style="width: 350px; height: 28px;" value="<%= params[:name] %>" required autofocus/>
+  </div>
+  <div name="email">
+    <label for="email" class="short-label">e-mail: </label><input type="email" id="email" name="email" style="width: 350px; height: 28px;" value="<%= params[:email] %>" required/>
+  </div>
+  <div name="subject">
+    <label for="subject" class="short-label">Assunto: </label><input type="text" id="subject" name="subject" style="width: 350px; height: 28px;" value="<%= params[:subject] %>" required/>
+  </div>
+  <div name="message">
+    <label for="message" class="short-label">Texto: </label><textarea id="message" name="message" style="width: 350px; height: 300px;" required><%= params[:message] %></textarea>
+  </div>
+  <div align="right" style="width: 450px">
+    <input type="submit" value="Enviar" class="btn btn-primary"/>
+    <input type="reset" value="Apagar" class="btn btn-primary"/>
+  </div>
+</form>

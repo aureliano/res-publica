@@ -44,5 +44,16 @@ ResPublica::App.helpers do
     txt.gsub! /[()]/, ''
     txt
   end
+  
+  def send_email
+    @message = Message.new :name => params[:name], :email => params[:email],
+      :subject => params[:subject], :body => params[:message]
+    
+    if @message.valid? && PADRINO_ENV != 'test'
+      deliver :contato, :email, @message
+    end
+    
+    @message.valid?
+  end
 
 end

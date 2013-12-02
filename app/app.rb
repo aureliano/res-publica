@@ -4,6 +4,17 @@ module ResPublica
   class App < Padrino::Application
     register Padrino::Rendering
     register Padrino::Helpers
+    register Padrino::Mailer
+    
+    # Configure SMTP mailer
+    set :delivery_method, :smtp => { 
+      :address              => ENV['EMAIL_SMTP_ADDRESS'],
+      :port                 => 587,
+      :user_name            => ENV['EMAIL_USER_NAME'],
+      :password             => ENV['EMAIL_PASSWORD'],
+      :authentication       => :plain,
+      :enable_starttls_auto => true
+    }
 
     get :index do
       render :index
@@ -15,6 +26,18 @@ module ResPublica
     
     get :mapa do
       render :mapa
+    end
+  
+    get :contato do
+      render :contato
+    end
+    
+    post '/send_email' do
+      if send_email
+        redirect '/contato?msg_sent=true'
+      else
+        render :contato
+      end
     end
   
     get :changelog, :map => '/log/versao/:version' do
