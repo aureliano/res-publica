@@ -1,4 +1,10 @@
 ---
+'0.3.0':
+- Cria página com dados estatísticos de proposições.
+- Cria página de contato.
+- Atualiza URL de logomarca de partido.
+- Atualiza campos de identificação das entidades.
+- Atualiza testes da aplicação.
 '0.2.0':
 - Extrai da API de dados abertos da Câmara dos Deputados dados de detalhamento dos deputados federais.
 - Exibe período de exercício na página de detalhamento do deputado federal.
