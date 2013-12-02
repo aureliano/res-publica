@@ -19,7 +19,7 @@ describe "OrganizacionalController" do
   
   it 'carrega página de detalhamento de partido' do
     Partido.delete_all
-    Partido.create :numero => 171, :sigla => 'PCREU', :nome => 'Partido Créu'
+    Partido.create :numero => 171, :_id => 'PCREU', :nome => 'Partido Créu'
     
     get '/organizacional/partido/PCREU'
     

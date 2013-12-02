@@ -27,10 +27,10 @@
 
 
   <%
-    fields = [{:title => 'Legenda', :name => 'sigla'}, {:title => 'Nome', :name => 'nome'}]
+    fields = [{:title => 'Legenda', :name => '_id'}, {:title => 'Nome', :name => 'nome'}]
     fields << {:title => 'Situação', :name => 'situacao'} if params[:situacao_partido] == 'Todos'
   %>
 
   <%= data_table(:data => @partidos, :total => @total, :seed => 'partido',
-      :fields => fields, :detail_path => 'partido/', :field_id => 'sigla').html_safe %>
+      :fields => fields, :detail_path => 'partido/', :field_id => '_id').html_safe %>
 </div>

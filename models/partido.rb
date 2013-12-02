@@ -1,7 +1,7 @@
 class Partido
   include Mongoid::Document
 
-  field :sigla, :type => String
+  field :_id, :type => String
   field :numero, :type => Integer
   field :nome, :type => String
   field :data_registro_tse, :type => String
@@ -19,15 +19,15 @@ class Partido
   end
   
   def self.todos(options)
-    _search options, {:sigla => {:$nin => ['S.PART.']}}
+    _search options, {:_id => {:$nin => ['S.PART.']}}
   end
   
   def self.partidos_ativos(options)
-    _search options, {:data_extincao => '', :sigla => {:$nin => ['S.PART.']}}
+    _search options, {:data_extincao => '', :_id => {:$nin => ['S.PART.']}}
   end
   
   def self.partidos_extintos(options)
-    _search options, {:data_extincao => {:$nin => ['']}, :sigla => {:$nin => ['S.PART.']}}
+    _search options, {:data_extincao => {:$nin => ['']}, :_id => {:$nin => ['S.PART.']}}
   end
   
   private
@@ -40,7 +40,7 @@ class Partido
     where(criteria)
       .skip(options[:skip])
       .limit(options[:limit])
-      .asc(:sigla)
+      .asc(:_id)
       .each {|document| partidos << document }
     
     count = where(criteria).count

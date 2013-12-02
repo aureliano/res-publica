@@ -77,7 +77,7 @@ doc.xpath('//partidos/partido').each do |e|
   nodes = e.children
   sigla = nodes[3].content
   p = partidos[sigla]
-  partido = Partido.new :sigla => sigla, :nome => nodes[5].content, :data_extincao => nodes[9].content.strip
+  partido = Partido.new :_id => sigla, :nome => nodes[5].content, :data_extincao => nodes[9].content.strip
   
   unless p.nil?
     partido.numero = p['numero']
@@ -86,7 +86,7 @@ doc.xpath('//partidos/partido').each do |e|
     partido.logo = p['logo']
   end
   
-  partido.tags = create_tags [partido.numero.to_s, partido.sigla, partido.nome]
+  partido.tags = create_tags [partido.numero.to_s, partido._id, partido.nome]
   partido.save
 end
 

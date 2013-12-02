@@ -11,7 +11,6 @@ describe Partido do
   
   it 'permite acesso a todos os atributos' do
     partido.should respond_to :_id
-    partido.should respond_to :sigla
     partido.should respond_to :nome
     partido.should respond_to :data_extincao
     partido.should respond_to :numero

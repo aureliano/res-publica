@@ -16,7 +16,7 @@ ResPublica::App.controllers :organizacional do
   end
   
   get :partido, :with => :sigla do
-    @partido = Partido.where(:sigla => params[:sigla]).first
+    @partido = Partido.where(:_id => params[:sigla]).first
     redirect '/404' unless @partido
 
     render 'organizacional/dados_partido'
