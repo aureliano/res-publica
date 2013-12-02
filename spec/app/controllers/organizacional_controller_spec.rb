@@ -46,7 +46,7 @@ describe "OrganizacionalController" do
   
   it 'carrega página de detalhamento de bancada' do
     Bancada.delete_all
-    bancada = Bancada.create(:sigla => 'CREU', :nome => 'C R E U', :vice_lideres => [])
+    bancada = Bancada.create(:_id => 'CREU', :nome => 'C R E U', :vice_lideres => [])
 
     get "/organizacional/bancada/#{bancada.id}"
     

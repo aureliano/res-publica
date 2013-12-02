@@ -6,6 +6,6 @@
 
 <div class="container">
   <%= data_table(:data => @bancadas, :total => @total, :seed => 'bancada',
-      :fields => [{:title => 'Sigla', :name => 'sigla'}, {:title => 'Nome', :name => 'nome'}],
+      :fields => [{:title => 'Sigla', :name => '_id'}, {:title => 'Nome', :name => 'nome'}],
       :detail_path => '/organizacional/bancada/', :field_id => 'id').html_safe %>
 </div>

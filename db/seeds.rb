@@ -149,7 +149,7 @@ doc = Nokogiri::XML(text)
 text.scan(/sigla="[\w\d]+"/).each do |b|
   b = /"[\w\d]+"/.match(b).to_s.gsub(/"/, '')
   bancada = Bancada.new
-  bancada.sigla = b
+  bancada._id = b
   bancada.nome = doc.xpath("//bancada[@sigla=\"#{b}\"]")[0][:nome]
   bancada.lider = doc.xpath("//bancada[@sigla=\"#{b}\"]/lider/nome").to_s.gsub /(<nome>|<\/nome>)/, ''
 

@@ -1,7 +1,7 @@
 class Bancada
   include Mongoid::Document
   
-  field :sigla, :type => String
+  field :_id, :type => String
   field :nome, :type => String
   field :representante, :type => String
   field :lider, :type => String
@@ -15,7 +15,7 @@ class Bancada
     all
       .skip(options[:skip])
       .limit(options[:limit])
-      .asc(:sigla)
+      .asc(:_id)
       .each {|document| bancadas << document }
     
     count = all.count
