@@ -65,7 +65,7 @@ describe "OrganizacionalController" do
   
   it 'carrega página de detalhamento de comissão' do
     Comissao.delete_all
-    comissao = Comissao.create(:sigla => 'CREU', :nome => 'C R E U')
+    comissao = Comissao.create(:_id => 'CREU', :nome => 'C R E U')
 
     get "/organizacional/comissao/#{comissao.id}"
     

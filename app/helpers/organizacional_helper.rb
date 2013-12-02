@@ -14,8 +14,8 @@ ResPublica::App.helpers do
   end
   
   def generate_committee_contacts_report(comissao)
-    titulares = Deputado.where(:comissoes_titular => {:$in => [comissao.sigla]})
-    suplentes = Deputado.where(:comissoes_suplente => {:$in => [comissao.sigla]})
+    titulares = Deputado.where(:comissoes_titular => {:$in => [comissao._id]})
+    suplentes = Deputado.where(:comissoes_suplente => {:$in => [comissao._id]})
     
     { :comissao => comissao, :titulares => titulares, :suplentes => suplentes }
   end

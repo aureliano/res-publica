@@ -99,7 +99,7 @@ doc.xpath('//comissao').each do |e|
   comissoes[e['sigla']] = e['nome']
 end
 
-comissoes.each {|sigla, nome| Comissao.create :sigla => sigla, :nome => nome, :tags => create_tags([sigla, nome]) }
+comissoes.each {|sigla, nome| Comissao.create :_id => sigla, :nome => nome, :tags => create_tags([sigla, nome]) }
 comissoes = nil
 
 shell.say "Carregando dados de 'deputado' do arquivo 'db/deputados_data.xml'"

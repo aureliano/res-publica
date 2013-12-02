@@ -11,18 +11,17 @@ describe Comissao do
   
   it 'permite acesso a todos os atributos' do
     comissao.should respond_to :_id
-    comissao.should respond_to :sigla
     comissao.should respond_to :nome
     comissao.should respond_to :tags
   end
   
   it 'encontra Comissão pela sigla' do
-    Comissao.create :sigla => 'TESTE'
-    Comissao.create :sigla => 'OK'
+    Comissao.create :_id => 'TESTE'
+    Comissao.create :_id => 'OK'
     
-    Comissao.by_sigla('ABC').should be nil
-    Comissao.by_sigla('TESTE').sigla.should eq 'TESTE'
-    Comissao.by_sigla('OK').sigla.should eq 'OK'
+    Comissao.by_id('ABC').should be nil
+    Comissao.by_id('TESTE')._id.should eq 'TESTE'
+    Comissao.by_id('OK')._id.should eq 'OK'
   end
   
 end

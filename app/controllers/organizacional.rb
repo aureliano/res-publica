@@ -62,10 +62,10 @@ ResPublica::App.controllers :organizacional do
     redirect '/404' unless @comissao
 
     options = {:skip => 0, :limit => Deputado.all.size}
-    options[:comissoes_titular] = @comissao.sigla
+    options[:comissoes_titular] = @comissao._id
     @deputados_titulares, @total_titulares = Deputado.search options
     options[:comissoes_titular] = nil
-    options[:comissoes_suplente] = @comissao.sigla
+    options[:comissoes_suplente] = @comissao._id
     @deputados_suplentes, @total_suplentes = Deputado.search options
 
     render 'organizacional/dados_comissao'
@@ -76,7 +76,7 @@ ResPublica::App.controllers :organizacional do
     redirect '/404' unless @comissao
     
     data = generate_committee_contacts_report(@comissao)
-    file = "tmp/Comissao_#{@comissao.sigla}_Contatos.pdf"
+    file = "tmp/Comissao_#{@comissao._id}_Contatos.pdf"
     generate_committee_pdf file, data
     
     send_file file, :filename => file, :type => 'Application/octet-stream'

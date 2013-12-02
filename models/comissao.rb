@@ -1,12 +1,12 @@
 class Comissao
   include Mongoid::Document
   
-  field :sigla, :type => String
+  field :_id, :type => String
   field :nome, :type => String
   field :tags, :type => Array
   
-  def self.by_sigla(s)
-    where(:sigla => s).first
+  def self.by_id(s)
+    where(:_id => s).first
   end
   
   def self.search(options)
@@ -16,7 +16,7 @@ class Comissao
 
     criteria = if (options[:comissoes] || options[:tags])
       params = {}
-      params[:sigla] = {:$in => options[:comissoes]} if options[:comissoes]
+      params[:_id] = {:$in => options[:comissoes]} if options[:comissoes]
       params[:tags] = {:$all => options[:tags]} if (options[:tags] && !options[:tags].empty?)
       where params
     else

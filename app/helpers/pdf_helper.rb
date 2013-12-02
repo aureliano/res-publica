@@ -8,7 +8,7 @@ ResPublica::App.helpers do
     Prawn::Document.generate(file, :info => committee_metadata(data[:comissao])) do
       repeat :all do
         stroke { horizontal_line 0, 540, :at => 715 }
-        txt = "Lista de Contatos da #{data[:comissao].sigla} - #{data[:comissao].nome}"
+        txt = "Lista de Contatos da #{data[:comissao]._id} - #{data[:comissao].nome}"
         text_box txt, :at => [0, 700], :size => 15, :align => :center
         stroke { horizontal_line 0, 540, :at => (txt.size <= 77) ? 680 : 665 }
       end
@@ -100,9 +100,9 @@ ResPublica::App.helpers do
   private
   def committee_metadata(committee)
     {
-      :Title => "Lista de contatos da comissão #{committee.sigla}",
+      :Title => "Lista de contatos da comissão #{committee._id}",
       :Author => 'Res Publica',
-      :Subject => "Lista de contatos da comissão #{committee.sigla}",
+      :Subject => "Lista de contatos da comissão #{committee._id}",
       :CreationDate => Time.now
     }
   end

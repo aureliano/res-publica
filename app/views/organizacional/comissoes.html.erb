@@ -16,6 +16,6 @@
   <% end %>
   
   <%= data_table(:data => @comissoes, :total => @total, :seed => 'comissao',
-      :fields => [{:title => 'Sigla', :name => 'sigla'}],
+      :fields => [{:title => 'Sigla', :name => '_id'}],
       :detail_path => '/organizacional/comissao/', :field_id => 'id').html_safe %>
 </div>
