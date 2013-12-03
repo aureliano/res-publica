@@ -29,7 +29,7 @@ class Message
   end
   
   def format_message
-    text = 'Consumidor online => dados Procon'
+    text = 'Res Publica'
     text << "\n\nRemetente: #{@name}\ne-mail: #{@email}\n"
     text << "Assunto: #{@subject}\nMensagem: #{@body}"
   end
