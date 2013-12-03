@@ -23,7 +23,7 @@ APP[:date_end_prop] = (metadata['ANO_FINAL_EXTRACAO_PROPOSICOES'].to_i == -1) ? 
 metadata = nil
 
 # load project environment variables
-YAML.load_file('.env').each {|k, v| ENV[k] = v }
+YAML.load_file('.env').each {|k, v| ENV[k] = v } unless PADRINO_ENV == 'production'
 
 APP[:stopwords] = load_stop_words
 APP[:special_characters] = load_special_characters
