@@ -6,6 +6,7 @@ class Message
   attr_reader :errors
   
   def initialize(properties = nil)
+    @errors = []
     return if properties.nil?
     @name     = properties[:name]
     @email    = properties[:email]

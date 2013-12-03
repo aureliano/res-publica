@@ -19,6 +19,7 @@ gem 'mongoid', '2.4.12'
 gem 'bson_ext', :require => "mongo"
 gem 'prawn'
 gem 'twitter', '~> 4.4.0'
+gem 'rack-recaptcha', :require => 'rack/recaptcha'
 
 # Test requirements
 gem 'rspec', '2.12.0'

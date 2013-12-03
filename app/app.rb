@@ -5,6 +5,9 @@ module ResPublica
     register Padrino::Rendering
     register Padrino::Helpers
     register Padrino::Mailer
+
+    use Rack::Recaptcha, :public_key => '6Lf9NOsSAAAAAJH9B_TD12QhRGjid-wr2FvXMgFu', :private_key => '6Lf9NOsSAAAAALhnWec6fBpumnxK2UKWSV13DSuF'
+    helpers Rack::Recaptcha::Helpers
     
     # Configure SMTP mailer
     set :delivery_method, :smtp => { 

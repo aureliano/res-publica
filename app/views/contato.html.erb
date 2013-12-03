@@ -22,16 +22,19 @@
 
 <form method="post" action="/send_email" accept-charset="UTF-8">
   <div name="name">
-    <label for="name" class="short-label">Nome: </label><input type="text" id="name" name="name" style="width: 350px; height: 28px;" value="<%= params[:name] %>" required autofocus/>
+    <label for="name" class="short-label">Nome: </label><input type="text" id="name" name="name" style="width: 350px; height: 28px;" value="<%= params[:name] %>" required autofocus maxlength="50"/>
   </div>
   <div name="email">
-    <label for="email" class="short-label">e-mail: </label><input type="email" id="email" name="email" style="width: 350px; height: 28px;" value="<%= params[:email] %>" required/>
+    <label for="email" class="short-label">e-mail: </label><input type="email" id="email" name="email" style="width: 350px; height: 28px;" value="<%= params[:email] %>" required maxlength="70"/>
   </div>
   <div name="subject">
-    <label for="subject" class="short-label">Assunto: </label><input type="text" id="subject" name="subject" style="width: 350px; height: 28px;" value="<%= params[:subject] %>" required/>
+    <label for="subject" class="short-label">Assunto: </label><input type="text" id="subject" name="subject" style="width: 350px; height: 28px;" value="<%= params[:subject] %>" required maxlength="50"/>
   </div>
   <div name="message">
-    <label for="message" class="short-label">Texto: </label><textarea id="message" name="message" style="width: 350px; height: 300px;" required><%= params[:message] %></textarea>
+    <label for="message" class="short-label">Texto: </label><textarea id="message" name="message" style="width: 350px; height: 300px;" required maxlength="700"><%= params[:message] %></textarea>
+  </div>
+  <div align="right" style="width: 450px" name="captcha">
+    <%= recaptcha_tag(:challenge).html_safe %>
   </div>
   <div align="right" style="width: 450px">
     <input type="submit" value="Enviar" class="btn btn-primary"/>

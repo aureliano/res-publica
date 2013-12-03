@@ -49,6 +49,10 @@ ResPublica::App.helpers do
     @message = Message.new :name => params[:name], :email => params[:email],
       :subject => params[:subject], :body => params[:message]
     
+    unless recaptcha_valid?
+      @message.errors << 'Caracteres da imagem digitados incorretamente!'
+    end
+    
     if @message.valid? && PADRINO_ENV != 'test'
       deliver :contato, :email, @message
     end
