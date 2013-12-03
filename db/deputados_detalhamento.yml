@@ -679,6 +679,11 @@
   - :uf: MG
     :situacao: Suplente
     :data_inicio: 04/02/2011
+    :data_fim: 27/11/2013
+    :causa_fim_exercicio: Afastamento
+  - :uf: MG
+    :situacao: Suplente
+    :data_inicio: 29/11/2013
     :data_fim: ''
     :causa_fim_exercicio: ''
   :filiacoesPartidarias: []
@@ -1093,6 +1098,21 @@
   - :uf: PE
     :situacao: Titular
     :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'141525':
+  :profissao: ECONOMISTA
+  :data_nascimento: 28/04/1973
+  :periodosExercicio:
+  - :uf: AM
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: 12/12/2012
+    :causa_fim_exercicio: Secretário de Estado
+  - :uf: AM
+    :situacao: Titular
+    :data_inicio: 27/11/2013
     :data_fim: ''
     :causa_fim_exercicio: ''
   :filiacoesPartidarias: []
@@ -2005,6 +2025,34 @@
     :data_fim: ''
     :causa_fim_exercicio: ''
   :filiacoesPartidarias: []
+'160571':
+  :profissao: Empresário, Radialista
+  :data_nascimento: 23/03/1967
+  :periodosExercicio:
+  - :uf: SC
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: 01/03/2011
+    :causa_fim_exercicio: Secretário de Estado
+  - :uf: SC
+    :situacao: Titular
+    :data_inicio: 25/10/2011
+    :data_fim: 27/10/2011
+    :causa_fim_exercicio: Secretário de Estado
+  - :uf: SC
+    :situacao: Titular
+    :data_inicio: 27/11/2012
+    :data_fim: 30/11/2012
+    :causa_fim_exercicio: Secretário de Estado
+  - :uf: SC
+    :situacao: Titular
+    :data_inicio: 27/11/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: DEM
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 26/10/2011
 '160572':
   :profissao: Engenheiro Civil
   :data_nascimento: 09/05/1951
@@ -3280,41 +3328,6 @@
   - :partido_anterior: PSDB
     :partido_posterior: PR
     :data_filiacao_partido_posterior: 07/10/2013
-'162490':
-  :profissao: ! "\n    "
-  :data_nascimento: 11/01/1952
-  :periodosExercicio:
-  - :uf: GO
-    :situacao: Suplente
-    :data_inicio: 09/02/2011
-    :data_fim: 25/10/2011
-    :causa_fim_exercicio: Afastamento
-  - :uf: GO
-    :situacao: Suplente
-    :data_inicio: 31/10/2011
-    :data_fim: 21/11/2011
-    :causa_fim_exercicio: Afastamento
-  - :uf: GO
-    :situacao: Suplente
-    :data_inicio: 28/11/2011
-    :data_fim: 29/03/2012
-    :causa_fim_exercicio: Afastamento
-  - :uf: GO
-    :situacao: Suplente
-    :data_inicio: 31/10/2012
-    :data_fim: 26/11/2012
-    :causa_fim_exercicio: Afastamento
-  - :uf: GO
-    :situacao: Suplente
-    :data_inicio: 03/12/2012
-    :data_fim: 04/02/2013
-    :causa_fim_exercicio: Afastamento
-  - :uf: GO
-    :situacao: Suplente
-    :data_inicio: 06/02/2013
-    :data_fim: ''
-    :causa_fim_exercicio: ''
-  :filiacoesPartidarias: []
 '163322':
   :profissao: ! "\n    "
   :data_nascimento: 16/12/1961
@@ -3378,29 +3391,6 @@
     :data_fim: ''
     :causa_fim_exercicio: ''
   :filiacoesPartidarias: []
-'166402':
-  :profissao: ! "\n    "
-  :data_nascimento: 26/10/1948
-  :periodosExercicio:
-  - :uf: GO
-    :situacao: Suplente
-    :data_inicio: 13/07/2011
-    :data_fim: 21/11/2011
-    :causa_fim_exercicio: Afastamento
-  - :uf: GO
-    :situacao: Suplente
-    :data_inicio: 28/11/2011
-    :data_fim: 26/11/2012
-    :causa_fim_exercicio: Afastamento
-  - :uf: GO
-    :situacao: Suplente
-    :data_inicio: 03/12/2012
-    :data_fim: ''
-    :causa_fim_exercicio: ''
-  :filiacoesPartidarias:
-  - :partido_anterior: PTB
-    :partido_posterior: PR
-    :data_filiacao_partido_posterior: 25/09/2013
 '167493':
   :profissao: ! "\n    "
   :data_nascimento: 08/10/1979
@@ -3595,19 +3585,6 @@
     :data_fim: ''
     :causa_fim_exercicio: ''
   :filiacoesPartidarias: []
-'172711':
-  :profissao: ! "\n    "
-  :data_nascimento: 31/01/1955
-  :periodosExercicio:
-  - :uf: AM
-    :situacao: Suplente
-    :data_inicio: 06/03/2013
-    :data_fim: ''
-    :causa_fim_exercicio: ''
-  :filiacoesPartidarias:
-  - :partido_anterior: DEM
-    :partido_posterior: PSDB
-    :data_filiacao_partido_posterior: 07/03/2013
 '173269':
   :profissao: ! "\n    "
   :data_nascimento: 15/01/1938
@@ -4041,6 +4018,44 @@
   - :partido_anterior: PR
     :partido_posterior: PMDB
     :data_filiacao_partido_posterior: 03/11/2011
+'73677':
+  :profissao: Advogado, Professor Universitário
+  :data_nascimento: 14/02/1951
+  :periodosExercicio:
+  - :uf: GO
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: 09/02/2011
+    :causa_fim_exercicio: Secretário de Estado
+  - :uf: GO
+    :situacao: Titular
+    :data_inicio: 25/10/2011
+    :data_fim: 31/10/2011
+    :causa_fim_exercicio: Secretário de Estado
+  - :uf: GO
+    :situacao: Titular
+    :data_inicio: 21/11/2011
+    :data_fim: 28/11/2011
+    :causa_fim_exercicio: Secretário de Estado
+  - :uf: GO
+    :situacao: Titular
+    :data_inicio: 26/11/2012
+    :data_fim: 03/12/2012
+    :causa_fim_exercicio: Secretário de Estado
+  - :uf: GO
+    :situacao: Titular
+    :data_inicio: 04/02/2013
+    :data_fim: 06/02/2013
+    :causa_fim_exercicio: Secretário de Estado
+  - :uf: GO
+    :situacao: Titular
+    :data_inicio: 26/11/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: DEM
+    :partido_posterior: PSD
+    :data_filiacao_partido_posterior: 26/10/2011
 '73682':
   :profissao: AGENTE FISCAL DE RENDAS
   :data_nascimento: 16/12/1954
@@ -4364,16 +4379,6 @@
   - :uf: RR
     :situacao: Titular
     :data_inicio: 01/02/2011
-    :data_fim: ''
-    :causa_fim_exercicio: ''
-  :filiacoesPartidarias: []
-'74010':
-  :profissao: Engenheiro Agrônomo
-  :data_nascimento: 15/10/1949
-  :periodosExercicio:
-  - :uf: SC
-    :situacao: Suplente
-    :data_inicio: 01/03/2011
     :data_fim: ''
     :causa_fim_exercicio: ''
   :filiacoesPartidarias: []
@@ -5253,6 +5258,36 @@
   - :uf: GO
     :situacao: Titular
     :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74368':
+  :profissao: MEDICO
+  :data_nascimento: 22/12/1963
+  :periodosExercicio:
+  - :uf: GO
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: 09/02/2011
+    :causa_fim_exercicio: Secretário de Estado
+  - :uf: GO
+    :situacao: Titular
+    :data_inicio: 21/11/2011
+    :data_fim: 28/11/2011
+    :causa_fim_exercicio: Secretário de Estado
+  - :uf: GO
+    :situacao: Titular
+    :data_inicio: 29/03/2012
+    :data_fim: 31/10/2012
+    :causa_fim_exercicio: Secretário de Estado
+  - :uf: GO
+    :situacao: Titular
+    :data_inicio: 26/11/2012
+    :data_fim: 03/12/2012
+    :causa_fim_exercicio: Secretário de Estado
+  - :uf: GO
+    :situacao: Titular
+    :data_inicio: 26/11/2013
     :data_fim: ''
     :causa_fim_exercicio: ''
   :filiacoesPartidarias: []
