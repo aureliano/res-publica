@@ -1,4 +1,7 @@
 ---
+'0.3.1':
+- Correção na funcionalidade de envio de e-mail na página de contato.
+- Correção na funcionalidade de geração de relatório de comissões. Formatação de título grande no cabeçalho.
 '0.3.0':
 - Cria página com dados estatísticos de proposições.
 - Cria página de contato.
