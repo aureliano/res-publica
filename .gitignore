@@ -6,5 +6,6 @@ vendor/gems/*
 .sass-cache/*
 db/*.db
 log/*
+.env
 .bundle/
 tmp
