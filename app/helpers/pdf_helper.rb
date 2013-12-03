@@ -8,7 +8,8 @@ ResPublica::App.helpers do
     Prawn::Document.generate(file, :info => committee_metadata(data[:comissao])) do
       repeat :all do
         stroke { horizontal_line 0, 540, :at => 715 }
-        txt = "Lista de Contatos da #{data[:comissao]._id} - #{data[:comissao].nome}"
+        name = (data[:comissao].nome.length > 100) ? "#{data[:comissao].nome[0, 100]}..." : data[:comissao].nome
+        txt = "Lista de Contatos da #{data[:comissao]._id} - #{name}"
         text_box txt, :at => [0, 700], :size => 15, :align => :center
         stroke { horizontal_line 0, 540, :at => (txt.size <= 77) ? 680 : 665 }
       end
