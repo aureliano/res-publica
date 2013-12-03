@@ -7,5 +7,4 @@ vendor/gems/*
 db/*.db
 log/*
 .bundle/
-.env
 tmp
