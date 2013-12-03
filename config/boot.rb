@@ -22,6 +22,9 @@ APP[:date_init_prop] = metadata['ANO_INICIAL_EXTRACAO_PROPOSICOES']
 APP[:date_end_prop] = (metadata['ANO_FINAL_EXTRACAO_PROPOSICOES'].to_i == -1) ? Time.now.year : metadata['ANO_FINAL_EXTRACAO_PROPOSICOES']
 metadata = nil
 
+# load project environment variables
+YAML.load_file('.env').each {|k, v| ENV[k] = v }
+
 APP[:stopwords] = load_stop_words
 APP[:special_characters] = load_special_characters
 APP[:estados] = load_states
