@@ -59,5 +59,17 @@ ResPublica::App.helpers do
     
     @message.valid?
   end
+  
+  def css_inline(resource)
+    path = 'public/stylesheets/'
+    css_file = Dir.entries(path).select {|f| /#{resource}\.css/.match(f) }.first
+    "<style>#{File.read(path + css_file).gsub("\n", '').gsub(/\s/, '')}</style>".html_safe
+  end
+  
+  def javascript_inline(resource)
+    path = 'public/javascripts/'
+    js_file = Dir.entries(path).select {|f| /#{resource}\.js/.match(f) }.first
+    "<script>#{File.read(path + js_file).gsub("\n", '')}</script>".html_safe
+  end
 
 end
