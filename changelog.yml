@@ -1,4 +1,7 @@
 ---
+'0.3.2':
+- Otimização de carregamento de Javascript e CSS.
+- Otimização no carregamento de imagens de partidos políticos.
 '0.3.1':
 - Correção na funcionalidade de envio de e-mail na página de contato.
 - Correção na funcionalidade de geração de relatório de comissões. Formatação de título grande no cabeçalho.
