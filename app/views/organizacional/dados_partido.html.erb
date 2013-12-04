@@ -44,7 +44,7 @@
     <% unless @partido.extinto? %>
     <div class="span4">
       <a href="<%= @partido.sitio %>">
-        <img src="<%= @partido.logo %>" alt="Logo do Partido" class="party-logo">
+        <%= partido_img @partido %>
       </a>
     </div>
     <% end %>
