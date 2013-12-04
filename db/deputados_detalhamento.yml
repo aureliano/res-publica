@@ -841,21 +841,6 @@
     :data_fim: ''
     :causa_fim_exercicio: ''
   :filiacoesPartidarias: []
-'141485':
-  :profissao: ARQUITETO, CORRETOR DE IMÓVEIS
-  :data_nascimento: 06/11/1948
-  :periodosExercicio:
-  - :uf: RS
-    :situacao: Titular
-    :data_inicio: 01/02/2011
-    :data_fim: 07/02/2011
-    :causa_fim_exercicio: Secretário de Estado
-  - :uf: RS
-    :situacao: Titular
-    :data_inicio: 26/11/2013
-    :data_fim: ''
-    :causa_fim_exercicio: ''
-  :filiacoesPartidarias: []
 '141487':
   :profissao: ENGENHEIRO MECÂNICO, AGROPECUARISTA, EMPRESÁRIO - ADMINISTRAÇÃO
   :data_nascimento: 12/09/1957
@@ -2525,44 +2510,6 @@
     :data_fim: ''
     :causa_fim_exercicio: ''
   :filiacoesPartidarias: []
-'160617':
-  :profissao: Economista
-  :data_nascimento: 22/07/1974
-  :periodosExercicio:
-  - :uf: GO
-    :situacao: Titular
-    :data_inicio: 01/02/2011
-    :data_fim: 02/03/2011
-    :causa_fim_exercicio: Secretário de Estado
-  - :uf: GO
-    :situacao: Titular
-    :data_inicio: 24/10/2011
-    :data_fim: 31/10/2011
-    :causa_fim_exercicio: Secretário de Estado
-  - :uf: GO
-    :situacao: Titular
-    :data_inicio: 21/11/2011
-    :data_fim: 25/11/2011
-    :causa_fim_exercicio: Secretário de Estado
-  - :uf: GO
-    :situacao: Titular
-    :data_inicio: 26/11/2012
-    :data_fim: 12/12/2012
-    :causa_fim_exercicio: Secretário de Estado
-  - :uf: GO
-    :situacao: Titular
-    :data_inicio: 04/02/2013
-    :data_fim: 07/02/2013
-    :causa_fim_exercicio: Secretário de Estado
-  - :uf: GO
-    :situacao: Titular
-    :data_inicio: 26/11/2013
-    :data_fim: ''
-    :causa_fim_exercicio: ''
-  :filiacoesPartidarias:
-  - :partido_anterior: PMDB
-    :partido_posterior: PSD
-    :data_filiacao_partido_posterior: 26/10/2011
 '160618':
   :profissao: Agricultor
   :data_nascimento: 11/12/1963
@@ -3328,6 +3275,61 @@
   - :partido_anterior: PSDB
     :partido_posterior: PR
     :data_filiacao_partido_posterior: 07/10/2013
+'162490':
+  :profissao: ! "\n    "
+  :data_nascimento: 11/01/1952
+  :periodosExercicio:
+  - :uf: GO
+    :situacao: Suplente
+    :data_inicio: 09/02/2011
+    :data_fim: 25/10/2011
+    :causa_fim_exercicio: Afastamento
+  - :uf: GO
+    :situacao: Suplente
+    :data_inicio: 31/10/2011
+    :data_fim: 21/11/2011
+    :causa_fim_exercicio: Afastamento
+  - :uf: GO
+    :situacao: Suplente
+    :data_inicio: 28/11/2011
+    :data_fim: 29/03/2012
+    :causa_fim_exercicio: Afastamento
+  - :uf: GO
+    :situacao: Suplente
+    :data_inicio: 31/10/2012
+    :data_fim: 26/11/2012
+    :causa_fim_exercicio: Afastamento
+  - :uf: GO
+    :situacao: Suplente
+    :data_inicio: 03/12/2012
+    :data_fim: 04/02/2013
+    :causa_fim_exercicio: Afastamento
+  - :uf: GO
+    :situacao: Suplente
+    :data_inicio: 06/02/2013
+    :data_fim: 26/11/2013
+    :causa_fim_exercicio: Afastamento
+  - :uf: GO
+    :situacao: Suplente
+    :data_inicio: 03/12/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'163321':
+  :profissao: Administrador de Empresas
+  :data_nascimento: 25/04/1966
+  :periodosExercicio:
+  - :uf: RS
+    :situacao: Suplente
+    :data_inicio: 16/02/2011
+    :data_fim: 26/11/2013
+    :causa_fim_exercicio: Afastamento
+  - :uf: RS
+    :situacao: Suplente
+    :data_inicio: 04/12/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
 '163322':
   :profissao: ! "\n    "
   :data_nascimento: 16/12/1961
@@ -3366,18 +3368,38 @@
     :data_fim: ''
     :causa_fim_exercicio: ''
   :filiacoesPartidarias: []
-'165583':
-  :profissao: Industrial
-  :data_nascimento: 25/12/1955
+'164361':
+  :profissao: ! "\n    "
+  :data_nascimento: 14/10/1958
   :periodosExercicio:
-  - :uf: SP
+  - :uf: GO
     :situacao: Suplente
-    :data_inicio: 03/05/2011
-    :data_fim: 18/11/2011
+    :data_inicio: 02/03/2011
+    :data_fim: 24/10/2011
     :causa_fim_exercicio: Afastamento
-  - :uf: SP
+  - :uf: GO
     :situacao: Suplente
-    :data_inicio: 27/12/2012
+    :data_inicio: 31/10/2011
+    :data_fim: 21/11/2011
+    :causa_fim_exercicio: Afastamento
+  - :uf: GO
+    :situacao: Suplente
+    :data_inicio: 28/11/2011
+    :data_fim: 26/11/2012
+    :causa_fim_exercicio: Afastamento
+  - :uf: GO
+    :situacao: Suplente
+    :data_inicio: 12/12/2012
+    :data_fim: 04/02/2013
+    :causa_fim_exercicio: Afastamento
+  - :uf: GO
+    :situacao: Suplente
+    :data_inicio: 07/02/2013
+    :data_fim: 26/11/2013
+    :causa_fim_exercicio: Afastamento
+  - :uf: GO
+    :situacao: Suplente
+    :data_inicio: 03/12/2013
     :data_fim: ''
     :causa_fim_exercicio: ''
   :filiacoesPartidarias: []
@@ -3391,6 +3413,34 @@
     :data_fim: ''
     :causa_fim_exercicio: ''
   :filiacoesPartidarias: []
+'166402':
+  :profissao: ! "\n    "
+  :data_nascimento: 26/10/1948
+  :periodosExercicio:
+  - :uf: GO
+    :situacao: Suplente
+    :data_inicio: 13/07/2011
+    :data_fim: 21/11/2011
+    :causa_fim_exercicio: Afastamento
+  - :uf: GO
+    :situacao: Suplente
+    :data_inicio: 28/11/2011
+    :data_fim: 26/11/2012
+    :causa_fim_exercicio: Afastamento
+  - :uf: GO
+    :situacao: Suplente
+    :data_inicio: 03/12/2012
+    :data_fim: 26/11/2013
+    :causa_fim_exercicio: Afastamento
+  - :uf: GO
+    :situacao: Suplente
+    :data_inicio: 03/12/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PTB
+    :partido_posterior: PR
+    :data_filiacao_partido_posterior: 25/09/2013
 '167493':
   :profissao: ! "\n    "
   :data_nascimento: 08/10/1979
@@ -3862,6 +3912,21 @@
     :data_fim: ''
     :causa_fim_exercicio: ''
   :filiacoesPartidarias: []
+'73536':
+  :profissao: Economista, Professor e Empresário
+  :data_nascimento: 09/08/1947
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 01/02/2011
+    :data_fim: 03/02/2011
+    :causa_fim_exercicio: Secretário de Estado
+  - :uf: SP
+    :situacao: Titular
+    :data_inicio: 04/12/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
 '73553':
   :profissao: Empresário
   :data_nascimento: 29/10/1941
@@ -4018,44 +4083,6 @@
   - :partido_anterior: PR
     :partido_posterior: PMDB
     :data_filiacao_partido_posterior: 03/11/2011
-'73677':
-  :profissao: Advogado, Professor Universitário
-  :data_nascimento: 14/02/1951
-  :periodosExercicio:
-  - :uf: GO
-    :situacao: Titular
-    :data_inicio: 01/02/2011
-    :data_fim: 09/02/2011
-    :causa_fim_exercicio: Secretário de Estado
-  - :uf: GO
-    :situacao: Titular
-    :data_inicio: 25/10/2011
-    :data_fim: 31/10/2011
-    :causa_fim_exercicio: Secretário de Estado
-  - :uf: GO
-    :situacao: Titular
-    :data_inicio: 21/11/2011
-    :data_fim: 28/11/2011
-    :causa_fim_exercicio: Secretário de Estado
-  - :uf: GO
-    :situacao: Titular
-    :data_inicio: 26/11/2012
-    :data_fim: 03/12/2012
-    :causa_fim_exercicio: Secretário de Estado
-  - :uf: GO
-    :situacao: Titular
-    :data_inicio: 04/02/2013
-    :data_fim: 06/02/2013
-    :causa_fim_exercicio: Secretário de Estado
-  - :uf: GO
-    :situacao: Titular
-    :data_inicio: 26/11/2013
-    :data_fim: ''
-    :causa_fim_exercicio: ''
-  :filiacoesPartidarias:
-  - :partido_anterior: DEM
-    :partido_posterior: PSD
-    :data_filiacao_partido_posterior: 26/10/2011
 '73682':
   :profissao: AGENTE FISCAL DE RENDAS
   :data_nascimento: 16/12/1954
@@ -5258,36 +5285,6 @@
   - :uf: GO
     :situacao: Titular
     :data_inicio: 01/02/2011
-    :data_fim: ''
-    :causa_fim_exercicio: ''
-  :filiacoesPartidarias: []
-'74368':
-  :profissao: MEDICO
-  :data_nascimento: 22/12/1963
-  :periodosExercicio:
-  - :uf: GO
-    :situacao: Titular
-    :data_inicio: 01/02/2011
-    :data_fim: 09/02/2011
-    :causa_fim_exercicio: Secretário de Estado
-  - :uf: GO
-    :situacao: Titular
-    :data_inicio: 21/11/2011
-    :data_fim: 28/11/2011
-    :causa_fim_exercicio: Secretário de Estado
-  - :uf: GO
-    :situacao: Titular
-    :data_inicio: 29/03/2012
-    :data_fim: 31/10/2012
-    :causa_fim_exercicio: Secretário de Estado
-  - :uf: GO
-    :situacao: Titular
-    :data_inicio: 26/11/2012
-    :data_fim: 03/12/2012
-    :causa_fim_exercicio: Secretário de Estado
-  - :uf: GO
-    :situacao: Titular
-    :data_inicio: 26/11/2013
     :data_fim: ''
     :causa_fim_exercicio: ''
   :filiacoesPartidarias: []
