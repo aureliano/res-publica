@@ -4,6 +4,7 @@
 - Acrescenta campo 'profissão' na página de detalhamento do deputado.
 - Acrescenta botão 'Listar Proposições' na página de detalhamento do deputado.
 - Cria tarefa para extração de despesas do ano corrente.
+- Cria tarefa para extração de despesas do ano anterior.
 '0.3.3':
 - Esconde os campos "Data fim" e "Causa fim exercício" do período de exercício quando o deputado ainda estiver em exercício.
 - Corrige layout do menu principal que cortava o menu dependendo do tamanho da tela do usuário.
