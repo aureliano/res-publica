@@ -184,17 +184,20 @@ end
 shell.say "Carregando dados de 'despesas' do arquivo 'db/despesas_ano_corrente_db.csv'"
 Despesa.delete_all
 
-documents = []
-load_data_from_csv('db/despesas_ano_corrente_db.csv').each do |row|
-  documents << { :descricao_despesa => row['descricao_despesa'], :nome_beneficiario => row['nome_beneficiario'],
-                 :identificador_beneficiario => row['identificador_beneficiario'], :data_emissao => row['data_emissao'],
-                 :valor_documento => row['valor_documento'], :valor_glosa => row['valor_glosa'],
-                 :valor_liquido => row['valor_liquido'], :mes => row['mes'], :ano => row['ano'], :id_deputado => row['id_deputado'] }
-end
+['db/despesas_ano_corrente_db.csv'].each do |f|
+  documents = []
+  load_data_from_csv(f).each do |row|
+    documents << { :descricao_despesa => row['descricao_despesa'], :nome_beneficiario => row['nome_beneficiario'],
+                   :identificador_beneficiario => row['identificador_beneficiario'], :data_emissao => row['data_emissao'].sub(/T00:00:00/, ''),
+                   :valor_documento => row['valor_documento'].to_f, :valor_glosa => row['valor_glosa'].to_f,
+                   :valor_liquido => row['valor_liquido'].to_f, :mes => row['mes'].to_i,
+                   :ano => row['ano'].to_i, :id_deputado => row['id_deputado'].to_i }
+  end
 
-while !documents.empty? do
-  data = documents.slice! 0, BUCKET_SIZE
-  Despesa.collection.insert data
+  while !documents.empty? do
+    data = documents.slice! 0, BUCKET_SIZE
+    Despesa.collection.insert data
+  end
 end
 
 shell.say 'Apagando coleção de dados de Votações'
