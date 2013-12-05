@@ -36,7 +36,7 @@ namespace :data do
         
         data.concat(doc.xpath('orgao/DESPESAS/DESPESA').map do |despesa|
           nodes = despesa.children
-          [7, 10, 11, 14, 15, 16, 17, 18, 19, 23].map {|i| nodes[i] }
+          [7, 10, 11, 14, 15, 16, 17, 18, 19, 23].map {|i| (i == 10) ? "\"#{nodes[i].to_s.gsub(/"/, '""')}\"" : nodes[i] }
         end)
         
         file = 'db/despesas_ano_corrente_db.csv'
@@ -71,7 +71,7 @@ namespace :data do
         
         data.concat(doc.xpath('orgao/DESPESAS/DESPESA').map do |despesa|
           nodes = despesa.children
-          [7, 10, 11, 14, 15, 16, 17, 18, 19, 23].map {|i| nodes[i] }
+          [7, 10, 11, 14, 15, 16, 17, 18, 19, 23].map {|i| (i == 10) ? "\"#{nodes[i].to_s.gsub(/"/, '""')}\"" : nodes[i] }
         end)
         
         file = 'db/despesas_ano_anterior_db.csv'

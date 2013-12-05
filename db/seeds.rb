@@ -181,6 +181,22 @@ data.each do |row|
                     :autor => row['autor'], :tags => tags
 end
 
+shell.say "Carregando dados de 'despesas' do arquivo 'db/despesas_ano_corrente_db.csv'"
+Despesa.delete_all
+
+documents = []
+load_data_from_csv('db/despesas_ano_corrente_db.csv').each do |row|
+  documents << { :descricao_despesa => row['descricao_despesa'], :nome_beneficiario => row['nome_beneficiario'],
+                 :identificador_beneficiario => row['identificador_beneficiario'], :data_emissao => row['data_emissao'],
+                 :valor_documento => row['valor_documento'], :valor_glosa => row['valor_glosa'],
+                 :valor_liquido => row['valor_liquido'], :mes => row['mes'], :ano => row['ano'], :id_deputado => row['id_deputado'] }
+end
+
+while !documents.empty? do
+  data = documents.slice! 0, BUCKET_SIZE
+  Despesa.collection.insert data
+end
+
 shell.say 'Apagando coleção de dados de Votações'
 Votacoes.delete_all
 
