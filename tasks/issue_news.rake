@@ -32,7 +32,7 @@ namespace :issue do
     desc 'Publica nova versão do sistema na base para alimentação do RSS e Twitter'
     task :version do
       puts 'Salva nota de nova versão do sistema na base de dados'   
-      msg = "#{Time.now.strftime('%d/%m/%Y')} - Nova versão do sistema disponibilizada."     
+      msg = "#{Time.now.strftime('%d/%m/%Y')} - Nova versão do sistema disponibilizada: #{metadata['APP_VERSION']}"
       save_note_in_database msg, 'versao'
       
       if PADRINO_ENV == 'production'
