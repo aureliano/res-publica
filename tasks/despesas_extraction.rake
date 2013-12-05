@@ -20,12 +20,15 @@ namespace :data do
         url = 'http://www.camara.gov.br/cotas/AnoAtual.zip'
         puts 'Extraindo arquivo de despesas de ' + url
         
+        Dir.mkdir 'tmp' unless File.exist? 'tmp'
+        
         file = 'despesas_ano_atual.zip'
-        #download url, "tmp/#{file}"
-        #`unzip tmp/#{file} -d tmp`
-
+        download url, "tmp/#{file}"
+        `unzip tmp/#{file} -d tmp`
+        
         ic = Iconv.new('UTF-8//IGNORE', 'UTF-8')
         s = ic.iconv(File.read 'tmp/AnoAtual.xml')[0..-2]
+
         doc = Nokogiri::XML(s)
         data = [['descricao_despesa', 'nome_beneficiario', 'identificador_beneficiario', 'data_emissao', 'valor_documento', 'valor_glosa', 'valor_liquido', 'mes', 'ano', 'id_deputado']]
         
@@ -41,7 +44,10 @@ namespace :data do
         data.each {|line| text << line.join(';') + "\n" }
         
         puts 'Escrevendo arquivo de dados ' + file
-        File.open(file, 'w') {|file| file.write text.encode('utf-8') }
+        File.open(file, 'w') {|file| file.write text }
+        
+        File.delete 'tmp/AnoAtual.xml'
+        File.delete 'tmp/despesas_ano_atual.zip'
       end
       
       desc 'Extrai arquivo de despesas do ano anterior e atualiza arquivo de despesas do ano anterior'
