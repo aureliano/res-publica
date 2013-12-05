@@ -64,12 +64,14 @@
         <div>
           <span><strong>Data início: </strong></span><span><%= pe['data_inicio'] %></span>
         </div>
+        <% unless pe['data_fim'].empty? %>
         <div>
           <span><strong>Data fim: </strong></span><span><%= pe['data_fim'] %></span>
         </div>
         <div>
           <span><strong>Causa fim exercício: </strong></span><span><%= pe['causa_fim_exercicio'] %></span>
         </div>
+        <% end %>
         <br/>
         <% end %>
       </div>
