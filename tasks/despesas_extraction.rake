@@ -97,4 +97,15 @@ namespace :data do
     end
  
   end
+  
+  namespace :clean do
+    
+    desc 'Exclui despesas de dois anos atrás da base de dados.'
+    task :despesas do
+      year = Time.now.year - 2
+      puts "Excluindo despesas do ano #{year} e mais antigas."
+      
+      Despesa.delete_all :conditions => {:ano => {:$lte => year}}
+    end
+  end
 end
