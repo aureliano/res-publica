@@ -1,6 +1,7 @@
 ---
 'x':
 - Acrescenta o número da versão disponibilizada no feed de nova versão do sistema.
+- Acrescentar campo 'profissão' no detalhamento de deputado.
 '0.3.3':
 - Esconde os campos "Data fim" e "Causa fim exercício" do período de exercício quando o deputado ainda estiver em exercício.
 - Corrige layout do menu principal que cortava o menu dependendo do tamanho da tela do usuário.
