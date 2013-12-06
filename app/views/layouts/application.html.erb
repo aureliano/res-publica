@@ -81,6 +81,9 @@
                 <a href="http://www.facebook.com/opendata.convenios"><%= image_tag 'facebook.png', :alt => 'Facebook' %></a>
               </div>
             </li>
+            <li>
+              <div class="g-plusone" data-annotation="inline" data-width="300"></div>
+            </li>
           </ul>
         </nav>
       </div>
@@ -91,5 +94,13 @@
     <%= javascript_inline 'application' %>
     <%= javascript_inline 'respond.min' %>
     <%= javascript_inline 'html5shiv' %>
+    <!-- Place this tag after the last +1 button tag. -->
+    <script type="text/javascript">
+      (function() {
+        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        po.src = 'https://apis.google.com/js/platform.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+      })();
+    </script>
   </body>
 </html>
