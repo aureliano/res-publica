@@ -18,20 +18,16 @@ namespace :db do
 
       ['db/despesas_ano_corrente_db.csv'].each do |f|
         documents = []
-        data = load_data_from_file(f)
-        
-        data.each do |row|
-          if row && row.size > 0
+        load_data_from_file(f).each do |row|
           documents << { :descricao_despesa => row[0], :nome_beneficiario => row[1],
-                         :identificador_beneficiario => row[2], :data_emissao => row[3].sub(/T00:00:00/, ''),
+                         :identificador_beneficiario => row[2], :data_emissao => row[3].to_s.sub(/T00:00:00/, ''),
                          :valor_documento => row[4].to_f, :valor_glosa => row[5].to_f,
                          :valor_liquido => row[6].to_f, :mes => row[7].to_i,
                          :ano => row[8].to_i, :id_deputado => row[9].to_i }
-          end
         end
 
         while !documents.empty? do
-          data = documents.slice! 0, 100
+          data = documents.slice! 0, BUCKET_SIZE
           Despesa.collection.insert data
         end
       end

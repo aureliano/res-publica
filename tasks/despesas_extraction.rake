@@ -30,13 +30,15 @@ namespace :data do
         s = ic.iconv(File.read 'tmp/AnoAtual.xml')[0..-2]
 
         doc = Nokogiri::XML(s)
-        data = [[]]
+        data = []
         
         puts 'Preparando arquivo de dados.'
         
         data.concat(doc.xpath('orgao/DESPESAS/DESPESA').map do |despesa|
-          nodes = despesa.children
-          [7, 10, 11, 14, 15, 16, 17, 18, 19, 23].map {|i| nodes[i] }
+          ['txtDescricao', 'txtBeneficiario', 'txtCNPJCPF', 'datEmissao', 'vlrDocumento', 'vlrGlosa', 'vlrLiquido', 'numMes', 'numAno', 'ideCadastro'].map do |field|
+            tag = despesa.at_xpath(field)
+            ((tag.nil?) ? '' : tag.text)
+          end
         end)
         
         file = 'db/despesas_ano_corrente_db.csv'
@@ -65,13 +67,15 @@ namespace :data do
         s = ic.iconv(File.read 'tmp/AnoAnterior.xml')[0..-2]
 
         doc = Nokogiri::XML(s)
-        data = [[]]
+        data = []
         
         puts 'Preparando arquivo de dados.'
         
         data.concat(doc.xpath('orgao/DESPESAS/DESPESA').map do |despesa|
-          nodes = despesa.children
-          [7, 10, 11, 14, 15, 16, 17, 18, 19, 23].map {|i| nodes[i] }
+          ['txtDescricao', 'txtBeneficiario', 'txtCNPJCPF', 'datEmissao', 'vlrDocumento', 'vlrGlosa', 'vlrLiquido', 'numMes', 'numAno', 'ideCadastro'].map do |field|
+            tag = despesa.at_xpath(field)
+            ((tag.nil?) ? '' : tag.text)
+          end
         end)
         
         file = 'db/despesas_ano_anterior_db.csv'
