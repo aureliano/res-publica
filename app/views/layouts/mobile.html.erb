@@ -23,42 +23,33 @@
   </head>
   
   <body>
-    <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-
-          <a class="brand" href="<%= url :index %>">Res Publica</a>
-          <div class="nav-collapse collapse navbar-responsive-collapse">
-            <ul class="nav pull-right">
-              <li<%= @organizacional_ativa ? ' class="active"' : '' %>><a href="<%= @organizacional_ativa ? 'javascript:void(0)' : url(:organizacional, :index) %>">Organizacional</a></li>
-              <li<%= @estatistica_ativa ? ' class="active"' : '' %>><a href="<%= @estatistica_ativa ? 'javascript:void(0)' : url(:estatistica, :index) %>">Estatística</a></li>
-              <li<%= @proposicoes_ativa ? ' class="active"' : '' %>><a href="<%= @proposicoes_ativa ? 'javascript:void(0)' : url(:proposicao, :index) %>">Proposições</a></li>
-              <li<%= @sobre_ativa ? ' class="active"' : '' %>><a href="<%= @sobre_ativa ? 'javascript:void(0)' : url(:sobre) %>">Sobre</a></li>
-              <li class="divider-vertical"></li>
-              <li<%= @changelog_ativa ? ' class="active"' : '' %>><%= link_to "Versão #{APP[:app_version]}", (@changelog_ativa) ? 'javascript:void(0)' : url(:changelog, :version => 'atual') %></li>
-            </ul>
-          </div><!-- /.nav-collapse -->
-        </div>
-      </div><!-- /navbar-inner -->
-    </div><!-- /navbar -->
-
     <div name="body-container" class="container">
-      <br/><br/><br/>
+      <div>
+        <div>
+          <div class="lead">
+            <a class="brand" href="<%= url :index %>">Res Publica</a>
+            <div>
+              <ul>
+                <li<%= @organizacional_ativa ? ' class="active"' : '' %>><a href="<%= @organizacional_ativa ? 'javascript:void(0)' : url(:organizacional, :index) %>">Organizacional</a></li>
+                <li<%= @estatistica_ativa ? ' class="active"' : '' %>><a href="<%= @estatistica_ativa ? 'javascript:void(0)' : url(:estatistica, :index) %>">Estatística</a></li>
+                <li<%= @proposicoes_ativa ? ' class="active"' : '' %>><a href="<%= @proposicoes_ativa ? 'javascript:void(0)' : url(:proposicao, :index) %>">Proposições</a></li>
+                <li<%= @sobre_ativa ? ' class="active"' : '' %>><a href="<%= @sobre_ativa ? 'javascript:void(0)' : url(:sobre) %>">Sobre</a></li>
+                <li<%= @changelog_ativa ? ' class="active"' : '' %>><%= link_to "Versão #{APP[:app_version]}", (@changelog_ativa) ? 'javascript:void(0)' : url(:changelog, :version => 'atual') %></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    
       <%= yield %>
       
       <hr/>
       
-      <div class="page-footer">
+      <div class="page-footer lead">
         <p align="right">
           Dados extraídos do sítio <a href="http://www2.camara.leg.br/transparencia/dados-abertos/dados-abertos-legislativo">http://www.camara.leg.br/transparencia/dados-abertos</a> em <%= APP[:last_extraction_date] %>.
         </p>
-        <nav id="menu-rodape">
-          <ul class="nav nav-pills">
+          <ul>
             <li>
               <%= link_to 'Mapa do sítio', url(:mapa) %>
             </li>
@@ -74,15 +65,12 @@
             <li>
               <a href="/sobre#licenca">Copyright (C) 2013 Res Publica</a>
             </li>
-            <li>
-              <div name="div-feeds-footer">
-                <a href="<%= url(:feed) %>"><%= image_tag 'rss.png', :alt => 'Feed' %></a>
-                <a href="https://twitter.com/opendataconv"><%= image_tag 'twitter.png', :alt => 'Twitter' %></a>
-                <a href="http://www.facebook.com/opendata.convenios"><%= image_tag 'facebook.png', :alt => 'Facebook' %></a>
-              </div>
-            </li>
           </ul>
-        </nav>
+      </div>
+      <div name="div-feeds-footer">
+        <a href="<%= url(:feed) %>"><%= image_tag 'rss_mobile.png', :alt => 'Feed' %></a>
+        <a href="https://twitter.com/opendataconv"><%= image_tag 'twitter_mobile.png', :alt => 'Twitter' %></a>
+        <a href="http://www.facebook.com/opendata.convenios"><%= image_tag 'facebook_mobile.png', :alt => 'Facebook' %></a>
       </div>
     </div>
     

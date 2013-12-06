@@ -2,6 +2,13 @@
 
 ResPublica::App.helpers do
 
+  def get_layout
+    case request.env['X_MOBILE_DEVICE']
+      when /iPhone|iPod|Android/ then 'mobile.html'
+      else 'application.html'
+    end
+  end
+
   def format_get_params(params)
     params.sub /\s/, '+'
   end

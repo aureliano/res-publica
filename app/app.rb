@@ -20,26 +20,26 @@ module ResPublica
     }
 
     get :index do
-      render :index
+      render :index, :layout => get_layout
     end
 
     get :sobre do
-      render :sobre
+      render :sobre, :layout => get_layout
     end
     
     get :mapa do
-      render :mapa
+      render :mapa, :layout => get_layout
     end
   
     get :contato do
-      render :contato
+      render :contato, :layout => get_layout
     end
     
     post '/send_email' do
       if send_email
         redirect '/contato?msg_sent=true'
       else
-        render :contato
+        render :contato, :layout => get_layout
       end
     end
   
@@ -50,16 +50,16 @@ module ResPublica
         else redirect '/404'
       end
       
-      render :changelog
+      render :changelog, :layout => get_layout
     end
     
     get :changelog, :map => '/log/versao/todas' do
-      render :changelog
+      render :changelog, :layout => get_layout
     end
     
     get :feed, :provides => [:rss, :atom] do
       @noticias = Noticia.all.desc(:_id)
-      render 'feed'
+      render 'feed', :layout => get_layout
     end
   
     error 404 do

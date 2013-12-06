@@ -4,7 +4,7 @@ ResPublica::App.controllers :proposicao do
     options = {:skip => skip_value, :limit => DataPage.default_page_size, :tags => get_tags_without_stopwords(params[:prop_tags])}
     @proposicoes, @total = Proposicao.search options
     
-    render 'proposicao/index'
+    render 'proposicao/index', :layout => get_layout
   end
   
   get :index, :with => :id do
@@ -12,7 +12,7 @@ ResPublica::App.controllers :proposicao do
     redirect '/404' unless @proposicao
     @dados_prop = proposicao_dados_complementares @proposicao.id_cadastro
 
-    render 'proposicao/dados_proposicao'
+    render 'proposicao/dados_proposicao', :layout => get_layout
   end
   
   get :votacoes, :map => '/proposicao/:proposicao/votacoes' do
@@ -21,7 +21,7 @@ ResPublica::App.controllers :proposicao do
     
     @dados_votacoes = votacoes_proposicao(@proposicao)
     
-    render 'proposicao/votacoes'
+    render 'proposicao/votacoes', :layout => get_layout
   end
   
   get :relatorio_votacao, :with => [:proposicao, :votacao] do
