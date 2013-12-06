@@ -17,7 +17,7 @@ namespace :data do
       Process.exit 0
     end
     
-    ['data:extraction:geral', 'data:merge', 'db:seed'].each do |task_name|
+    ['data:extraction:geral', 'data:merge', 'data:extraction:despesas:ano_corrente', 'db:seed'].each do |task_name|
       begin
         Rake::Task[task_name].invoke
       rescue Exception => ex
