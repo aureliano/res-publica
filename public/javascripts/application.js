@@ -40,6 +40,6 @@ function loadDespesas(deputado, year, month) {
       }
       
       $(field_id).val('true');
-    }).error(function(jqXHR, textStatus, errorThrown) { alert('Não foi possível carregar as despesas. Tente acessar esta página novamente mais tarde.' + errorThrown) });
+    }).error(function(jqXHR, textStatus, errorThrown) { alert('Não foi possível carregar as despesas. Tente acessar esta página novamente mais tarde. ' + errorThrown) });
   }
 }

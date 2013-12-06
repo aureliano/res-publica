@@ -113,7 +113,7 @@ ResPublica::App.controllers :organizacional do
   get :despesas_service, :map => '/organizacional/deputado/:deputado/despesas/:ano/:mes', :provides => [:json] do
     @despesas_mes = Despesa.where(:id_deputado => params[:deputado].to_i, :ano => params[:ano].to_i, :mes => params[:mes].to_i)
     
-    render 'organizacional/despesas_service', :layout => get_layout
+    render 'organizacional/despesas_service'
   end
 
 end
