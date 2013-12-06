@@ -98,6 +98,8 @@ GEM
       pdf-reader (>= 0.9.0)
       ttfunk (~> 1.0.2)
     rack (1.5.2)
+    rack-mobile-detect (0.4.0)
+      rack
     rack-protection (1.5.1)
       rack
     rack-recaptcha (0.6.6)
@@ -156,6 +158,7 @@ DEPENDENCIES
   newrelic_rpm
   padrino (= 0.11.3)
   prawn
+  rack-mobile-detect
   rack-recaptcha
   rack-test
   rake
