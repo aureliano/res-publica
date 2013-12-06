@@ -110,5 +110,6 @@
     <%= link_to 'Comissões Titular', '/organizacional/comissoes/' + @deputado.id.to_s + '/titular', :class => 'btn btn-primary' %>
     <%= link_to 'Comissões Suplente', '/organizacional/comissoes/' + @deputado.id.to_s + '/suplente', :class => 'btn btn-primary' %>
     <%= link_to 'Listar Proposições', url(:proposicao, :index, :prop_tags => @deputado.nome_parlamentar), :class => 'btn btn-primary' %>
+    <%= link_to 'Listar Despesas', url(:organizacional, :despesas, :deputado => @deputado.id), :class => 'btn btn-primary' %>
   </div>
 </div>

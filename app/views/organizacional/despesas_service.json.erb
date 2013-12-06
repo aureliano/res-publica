@@ -1,0 +1,9 @@
+{
+  "total_documentos": "<%= @despesas_mes.size %>",
+  "total_glosa": "<%= format_money total_glosa_despesas @despesas_mes %>",
+  "total_liquido": "<%= format_money total_liquido_despesas @despesas_mes %>",
+  "total_bruto": "<%= format_money total_bruto_despesas @despesas_mes %>",
+  "despesas": [
+    <%= @despesas_mes.map {|despesa| "{\"descricao\": \"#{despesa.descricao_despesa}\", \"beneficiario\": \"#{despesa.nome_beneficiario}\", \"identificacao\": \"#{format_identifier despesa.identificador_beneficiario}\", \"data_emissao\": \"#{format_date despesa.data_emissao}\", \"valor_glosa\": \"#{format_money despesa.valor_glosa}\", \"valor_liquido\": \"#{format_money despesa.valor_liquido}\", \"valor_bruto\": \"#{format_money despesa.valor_documento}\"}"}.join(",\n    ").html_safe %>
+  ]
+}

@@ -25,5 +25,40 @@ ResPublica::App.helpers do
     img_file = Dir.entries(path).select {|f| /#{partido.id.downcase}\./.match(f) }.first
     "<img src=\"/images/partidos/#{img_file}\" alt=\"Logo do Partido\" class=\"party-logo\">".html_safe
   end
+  
+  def mes_local(mes)
+    case mes
+      when 1; then 'janeiro'
+      when 2; then 'fevereiro'
+      when 3; then 'março'
+      when 4; then 'abril'
+      when 5; then 'maio'
+      when 6; then 'junho'
+      when 7; then 'julho'
+      when 8; then 'agosto'
+      when 9; then 'setembro'
+      when 10; then 'outubro'
+      when 11; then 'novembro'
+      when 12; then 'dezembro'
+    end
+  end
+  
+  def total_liquido_despesas(despesas)
+    despesas.reduce(0) do |sum, despesa|
+      sum + despesa.valor_liquido
+    end
+  end
+  
+  def total_bruto_despesas(despesas)
+    despesas.reduce(0) do |sum, despesa|
+      sum + despesa.valor_documento
+    end
+  end
+  
+  def total_glosa_despesas(despesas)
+    despesas.reduce(0) do |sum, despesa|
+      sum + despesa.valor_glosa
+    end
+  end
 
 end

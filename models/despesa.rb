@@ -11,4 +11,5 @@ class Despesa
   field :mes, :type => Integer
   field :ano, :type => Integer
   field :id_deputado, :type => Integer
+  index :id_deputado
 end

@@ -199,6 +199,7 @@ Despesa.delete_all
     Despesa.collection.insert data
   end
 end
+Despesa.delete_all :conditions => { :id_deputado => 0 }
 
 shell.say 'Apagando coleção de dados de Votações'
 Votacoes.delete_all

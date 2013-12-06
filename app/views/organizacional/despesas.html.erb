@@ -1,0 +1,45 @@
+<% @page_title = 'Despesas do Deputado'
+  year = Time.now.year %>
+
+<div class="hero-unit">
+  <h3>Despesas do Deputado - <%= @deputado.nome_parlamentar %></h3>
+</div>
+
+<p style="color: red;">
+  Algumas palavras podem conter mal formação de caractere devido a imcompatibilidades na extração dos dados de despesas.
+</p>
+  
+<div class="container">
+  <h4>Despesas - <%= Time.now.year %></h4>
+  
+  <% (1..Time.now.month).each do |month| %>
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion_despesas" href="#collapse<%= month %>" onclick="loadDespesas(<%= @deputado.ide_cadastro %>, <%= year %>, <%= month %>);">
+        <%= mes_local(month).capitalize %> [+/-]
+      </a>
+      <input type="hidden" id="mes_<%= month %>_carregado" value="false"/>
+    </div>
+    <div id="collapse<%= month %>" class="accordion-body collapse">
+      <div class="accordion-inner">
+        <h5>Sumário das despesas</h5>
+        <div id="sumario_despesas_<%= month %>">
+          
+        </div>
+
+        <h5>Extrato</h5>
+        <div id="extrato_<%= month %>">
+          
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <% end %>
+  
+  <hr/>
+  
+  <div>
+    <%= link_to 'Voltar para Deputado', url(:organizacional, :deputado, :id => @deputado.id), :class => 'btn btn-primary' %>
+  </div>
+</div>

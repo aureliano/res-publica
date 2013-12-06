@@ -71,5 +71,53 @@ ResPublica::App.helpers do
     js_file = Dir.entries(path).select {|f| /#{resource}\.js/.match(f) }.first
     "<script>#{File.read(path + js_file).gsub("\n", '')}</script>".html_safe
   end
+  
+  def format_date(date)
+    tokens = date.split '-'
+    "#{tokens[2]}/#{tokens[1]}/#{tokens[0]}"
+  end
+  
+  def format_identifier(identifier)
+    case identifier.size
+      when 11; then format_cpf identifier
+      when 14; then format_cnpj identifier
+      else identifier
+    end
+  end
+  
+  def format_cpf(v)
+    "#{v[0, 3]}.#{v[3, 3]}.#{v[6, 3]}-#{v[9, 2]}"
+  end
+  
+  def format_cnpj(v)
+    "#{v[0, 2]}.#{v[2, 3]}.#{v[5, 3]}/#{v[8, 4]}-#{v[12, 2]}"
+  end
+  
+  def format_money(value)
+    tokens = value.to_s.split '.'
+    seed = tokens[0].size / 3
+    l = []
+    
+    count = 0
+    tokens[0].reverse.chars.each do |c|
+      if (count > 0) && (count % 3 == 0)
+        l << '.'
+      end
+      
+      l << c
+      count += 1
+    end
+    
+    tokens[1] = '0' if tokens[1].nil?
+    r = if tokens[1].size == 1
+      "#{tokens[1]}0"
+    elsif tokens[1].size > 2
+      tokens[1][0, 2]
+    else
+      tokens[1]
+    end
+    
+    "R$ #{l.reverse.join},#{r}"
+  end
 
 end
