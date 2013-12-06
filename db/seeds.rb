@@ -18,6 +18,15 @@ def elapsed_time(t1, t2)
   end
 end
 
+def load_data_from_file(file)
+  data = [[]]
+  File.open(file, 'r').each_line do |line|
+    data << line.split(';')
+  end
+
+  data
+end
+
 def load_data_from_csv(file)
   data = Array.new
   text = File.read(file)  
@@ -186,12 +195,16 @@ Despesa.delete_all
 
 ['db/despesas_ano_corrente_db.csv'].each do |f|
   documents = []
-  load_data_from_csv(f).each do |row|
-    documents << { :descricao_despesa => row['descricao_despesa'], :nome_beneficiario => row['nome_beneficiario'],
-                   :identificador_beneficiario => row['identificador_beneficiario'], :data_emissao => row['data_emissao'].sub(/T00:00:00/, ''),
-                   :valor_documento => row['valor_documento'].to_f, :valor_glosa => row['valor_glosa'].to_f,
-                   :valor_liquido => row['valor_liquido'].to_f, :mes => row['mes'].to_i,
-                   :ano => row['ano'].to_i, :id_deputado => row['id_deputado'].to_i }
+  data = load_data_from_file(f)
+  
+  data.each do |row|
+    if row && row.size > 0
+    documents << { :descricao_despesa => row[0], :nome_beneficiario => row[1],
+                   :identificador_beneficiario => row[2], :data_emissao => row[3].sub(/T00:00:00/, ''),
+                   :valor_documento => row[4].to_f, :valor_glosa => row[5].to_f,
+                   :valor_liquido => row[6].to_f, :mes => row[7].to_i,
+                   :ano => row[8].to_i, :id_deputado => row[9].to_i }
+    end
   end
 
   while !documents.empty? do

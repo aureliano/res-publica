@@ -30,13 +30,13 @@ namespace :data do
         s = ic.iconv(File.read 'tmp/AnoAtual.xml')[0..-2]
 
         doc = Nokogiri::XML(s)
-        data = [['descricao_despesa', 'nome_beneficiario', 'identificador_beneficiario', 'data_emissao', 'valor_documento', 'valor_glosa', 'valor_liquido', 'mes', 'ano', 'id_deputado']]
+        data = [[]]
         
         puts 'Preparando arquivo de dados.'
         
         data.concat(doc.xpath('orgao/DESPESAS/DESPESA').map do |despesa|
           nodes = despesa.children
-          [7, 10, 11, 14, 15, 16, 17, 18, 19, 23].map {|i| (i == 10) ? "\"#{nodes[i].text.gsub(/"/, '""')}\"" : nodes[i] }
+          [7, 10, 11, 14, 15, 16, 17, 18, 19, 23].map {|i| nodes[i] }
         end)
         
         file = 'db/despesas_ano_corrente_db.csv'
@@ -65,13 +65,13 @@ namespace :data do
         s = ic.iconv(File.read 'tmp/AnoAnterior.xml')[0..-2]
 
         doc = Nokogiri::XML(s)
-        data = [['descricao_despesa', 'nome_beneficiario', 'identificador_beneficiario', 'data_emissao', 'valor_documento', 'valor_glosa', 'valor_liquido', 'mes', 'ano', 'id_deputado']]
+        data = [[]]
         
         puts 'Preparando arquivo de dados.'
         
         data.concat(doc.xpath('orgao/DESPESAS/DESPESA').map do |despesa|
           nodes = despesa.children
-          [7, 10, 11, 14, 15, 16, 17, 18, 19, 23].map {|i| (i == 10) ? "\"#{nodes[i].text.gsub(/"/, '""')}\"" : nodes[i] }
+          [7, 10, 11, 14, 15, 16, 17, 18, 19, 23].map {|i| nodes[i] }
         end)
         
         file = 'db/despesas_ano_anterior_db.csv'
@@ -96,16 +96,5 @@ namespace :data do
     
     end
  
-  end
-  
-  namespace :clean do
-    
-    desc 'Exclui despesas de dois anos atrás da base de dados.'
-    task :despesas do
-      year = Time.now.year - 2
-      puts "Excluindo despesas do ano #{year} e mais antigas."
-      
-      Despesa.delete_all :conditions => {:ano => {:$lte => year}}
-    end
   end
 end
