@@ -59,7 +59,7 @@ module ResPublica
     
     get :feed, :provides => [:rss, :atom] do
       @noticias = Noticia.all.desc(:_id)
-      render 'feed', :layout => get_layout
+      render 'feed'
     end
   
     error 404 do
