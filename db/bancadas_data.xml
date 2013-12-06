@@ -241,6 +241,11 @@
       <uf>MA</uf>
     </vice_lider>
     <vice_lider>
+      <nome>REBECCA GARCIA</nome>
+      <partido>PP</partido>
+      <uf>AM</uf>
+    </vice_lider>
+    <vice_lider>
       <nome>MARCIO JUNQUEIRA</nome>
       <partido>PROS</partido>
       <uf>RR</uf>
@@ -264,11 +269,6 @@
       <nome>BETINHO ROSADO</nome>
       <partido>PP</partido>
       <uf>RN</uf>
-    </vice_lider>
-    <vice_lider>
-      <nome>MISSIONÁRIO JOSÉ OLIMPIO</nome>
-      <partido>PP</partido>
-      <uf>SP</uf>
     </vice_lider>
     <vice_lider>
       <nome>SANDES JÚNIOR</nome>

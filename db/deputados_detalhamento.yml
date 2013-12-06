@@ -193,29 +193,6 @@
     :data_fim: ''
     :causa_fim_exercicio: ''
   :filiacoesPartidarias: []
-'141374':
-  :profissao: COMERCIANTE, FUNCIONÁRIO PÚBLICO
-  :data_nascimento: 15/07/1970
-  :periodosExercicio:
-  - :uf: MG
-    :situacao: Titular
-    :data_inicio: 01/02/2011
-    :data_fim: 03/02/2011
-    :causa_fim_exercicio: Secretário de Estado
-  - :uf: MG
-    :situacao: Titular
-    :data_inicio: 25/10/2011
-    :data_fim: 03/11/2011
-    :causa_fim_exercicio: Secretário de Estado
-  - :uf: MG
-    :situacao: Titular
-    :data_inicio: 26/11/2013
-    :data_fim: ''
-    :causa_fim_exercicio: ''
-  :filiacoesPartidarias:
-  - :partido_anterior: PPS
-    :partido_posterior: PSD
-    :data_filiacao_partido_posterior: 26/10/2011
 '141375':
   :profissao: Empresária
   :data_nascimento: 25/03/1973
@@ -987,21 +964,6 @@
   - :uf: MG
     :situacao: Titular
     :data_inicio: 01/02/2011
-    :data_fim: ''
-    :causa_fim_exercicio: ''
-  :filiacoesPartidarias: []
-'141513':
-  :profissao: ADVOGADO
-  :data_nascimento: 08/06/1963
-  :periodosExercicio:
-  - :uf: MG
-    :situacao: Titular
-    :data_inicio: 01/02/2011
-    :data_fim: 03/02/2011
-    :causa_fim_exercicio: Secretário de Estado
-  - :uf: MG
-    :situacao: Titular
-    :data_inicio: 26/11/2013
     :data_fim: ''
     :causa_fim_exercicio: ''
   :filiacoesPartidarias: []
@@ -2010,34 +1972,6 @@
     :data_fim: ''
     :causa_fim_exercicio: ''
   :filiacoesPartidarias: []
-'160571':
-  :profissao: Empresário, Radialista
-  :data_nascimento: 23/03/1967
-  :periodosExercicio:
-  - :uf: SC
-    :situacao: Titular
-    :data_inicio: 01/02/2011
-    :data_fim: 01/03/2011
-    :causa_fim_exercicio: Secretário de Estado
-  - :uf: SC
-    :situacao: Titular
-    :data_inicio: 25/10/2011
-    :data_fim: 27/10/2011
-    :causa_fim_exercicio: Secretário de Estado
-  - :uf: SC
-    :situacao: Titular
-    :data_inicio: 27/11/2012
-    :data_fim: 30/11/2012
-    :causa_fim_exercicio: Secretário de Estado
-  - :uf: SC
-    :situacao: Titular
-    :data_inicio: 27/11/2013
-    :data_fim: ''
-    :causa_fim_exercicio: ''
-  :filiacoesPartidarias:
-  - :partido_anterior: DEM
-    :partido_posterior: PSD
-    :data_filiacao_partido_posterior: 26/10/2011
 '160572':
   :profissao: Engenheiro Civil
   :data_nascimento: 09/05/1951
@@ -2667,8 +2601,8 @@
   - :uf: MG
     :situacao: Titular
     :data_inicio: 26/11/2013
-    :data_fim: ''
-    :causa_fim_exercicio: ''
+    :data_fim: 05/12/2013
+    :causa_fim_exercicio: Secretário de Estado
   :filiacoesPartidarias:
   - :partido_anterior: PDT
     :partido_posterior: SDD
@@ -2751,21 +2685,6 @@
   - :uf: TO
     :situacao: Titular
     :data_inicio: 01/02/2011
-    :data_fim: ''
-    :causa_fim_exercicio: ''
-  :filiacoesPartidarias: []
-'160640':
-  :profissao: Médico Veterinário, Músico
-  :data_nascimento: 20/05/1971
-  :periodosExercicio:
-  - :uf: MG
-    :situacao: Titular
-    :data_inicio: 01/02/2011
-    :data_fim: 25/10/2012
-    :causa_fim_exercicio: Secretário de Estado
-  - :uf: MG
-    :situacao: Titular
-    :data_inicio: 26/11/2013
     :data_fim: ''
     :causa_fim_exercicio: ''
   :filiacoesPartidarias: []
@@ -3630,7 +3549,7 @@
   :data_nascimento: 21/04/1956
   :periodosExercicio:
   - :uf: SP
-    :situacao: Suplente
+    :situacao: Efetivado
     :data_inicio: 23/01/2013
     :data_fim: ''
     :causa_fim_exercicio: ''
@@ -3662,6 +3581,26 @@
   - :uf: SP
     :situacao: Suplente
     :data_inicio: 09/10/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'3151':
+  :profissao: ! "\n    "
+  :data_nascimento: 18/09/1944
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Suplente
+    :data_inicio: 04/02/2011
+    :data_fim: 25/10/2011
+    :causa_fim_exercicio: Afastamento
+  - :uf: MG
+    :situacao: Suplente
+    :data_inicio: 03/11/2011
+    :data_fim: 26/11/2013
+    :causa_fim_exercicio: Afastamento
+  - :uf: MG
+    :situacao: Suplente
+    :data_inicio: 05/12/2013
     :data_fim: ''
     :causa_fim_exercicio: ''
   :filiacoesPartidarias: []
@@ -3950,16 +3889,6 @@
   - :partido_anterior: PDT
     :partido_posterior: PROS
     :data_filiacao_partido_posterior: 02/10/2013
-'73565':
-  :profissao: Administrador de Empresas
-  :data_nascimento: 11/08/1949
-  :periodosExercicio:
-  - :uf: SP
-    :situacao: Titular
-    :data_inicio: 01/02/2011
-    :data_fim: ''
-    :causa_fim_exercicio: ''
-  :filiacoesPartidarias: []
 '73568':
   :profissao: ! "\n    "
   :data_nascimento: 19/01/1957
@@ -4409,6 +4338,21 @@
     :data_fim: ''
     :causa_fim_exercicio: ''
   :filiacoesPartidarias: []
+'74010':
+  :profissao: Engenheiro Agrônomo
+  :data_nascimento: 15/10/1949
+  :periodosExercicio:
+  - :uf: SC
+    :situacao: Suplente
+    :data_inicio: 01/03/2011
+    :data_fim: 27/11/2013
+    :causa_fim_exercicio: Afastamento
+  - :uf: SC
+    :situacao: Suplente
+    :data_inicio: 05/12/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
 '74016':
   :profissao: Advogado, Torneiro Mecânico e Professor
   :data_nascimento: 28/07/1939
@@ -4773,6 +4717,21 @@
   - :partido_anterior: PPS
     :partido_posterior: PSD
     :data_filiacao_partido_posterior: 26/10/2011
+'74152':
+  :profissao: ! "\n    "
+  :data_nascimento: 18/03/1948
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Suplente
+    :data_inicio: 30/10/2012
+    :data_fim: 26/11/2013
+    :causa_fim_exercicio: Afastamento
+  - :uf: MG
+    :situacao: Suplente
+    :data_inicio: 05/12/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
 '74156':
   :profissao: Advogado
   :data_nascimento: 09/10/1951
@@ -5755,6 +5714,21 @@
   - :uf: MG
     :situacao: Titular
     :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74662':
+  :profissao: Contador e Advogado
+  :data_nascimento: 03/06/1934
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Suplente
+    :data_inicio: 19/12/2012
+    :data_fim: 26/11/2013
+    :causa_fim_exercicio: Afastamento
+  - :uf: MG
+    :situacao: Suplente
+    :data_inicio: 05/12/2013
     :data_fim: ''
     :causa_fim_exercicio: ''
   :filiacoesPartidarias: []
