@@ -80,7 +80,8 @@ ResPublica::App.helpers do
   end
   
   def format_date(date)
-    tokens = date.split '-'
+    return '' if date.nil? || date.empty?
+    tokens = date.sub(/T\d{2}:\d{2}:\d{2}(.\d{3})?/, '').split '-'
     "#{tokens[2]}/#{tokens[1]}/#{tokens[0]}"
   end
   
