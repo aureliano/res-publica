@@ -11,7 +11,9 @@
   
 <div class="container">
   <h4>Despesas - <%= Time.now.year %></h4>
-  
+  <div id="loading" style="display: none; position: fixed; top: 50%; left: 50%;">
+    <%= image_tag 'loading.gif' %>
+  </div>
   <% (1..Time.now.month).each do |month| %>
   <div class="accordion-group">
     <div class="accordion-heading">

@@ -16,6 +16,7 @@ function loadDespesas(deputado, year, month) {
   var loaded = $(field_id).val();
   
   if (loaded == 'false') {
+    $('#loading').show();
     var url = 'http://' + location.host + '/organizacional/deputado/' + deputado + '/despesas/' + year + '/' + month;
     $.getJSON(url, function(data) {
       $('#sumario_despesas_' + month).append('<span><strong>Documentos emitidos: </strong></span>' + data['total_documentos'] + '<span></span><br/>');
@@ -40,6 +41,6 @@ function loadDespesas(deputado, year, month) {
       }
       
       $(field_id).val('true');
-    }).error(function(jqXHR, textStatus, errorThrown) { alert('Não foi possível carregar as despesas. Tente acessar esta página novamente mais tarde. ' + errorThrown) });
+    }).done(function() { $('#loading').hide(); }).error(function(jqXHR, textStatus, errorThrown) { alert('Não foi possível carregar as despesas. Tente acessar esta página novamente mais tarde. ' + errorThrown) });
   }
 }
