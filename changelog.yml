@@ -1,4 +1,6 @@
 ---
+'0.4,1':
+- Corrige exibição da data de emissão da despesa de um deputado.
 '0.4.0':
 - Acrescenta o número da versão disponibilizada no feed de nova versão do sistema.
 - Acrescenta campo 'profissão' na página de detalhamento do deputado.
