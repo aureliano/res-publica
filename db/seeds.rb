@@ -127,6 +127,7 @@ doc.xpath('//deputado').each do |e|
     tag = (field.include? '_') ? (field.sub /_[\w\d]/, field[field.index('_') + 1].upcase) : field
     d.send(field + '=', /<#{tag}>.+<\/#{tag}>/.match(e.to_s).to_s.gsub(/(<#{tag}>|<\/#{tag}>)/, ''))
   end
+  d.id = /<ideCadastro>.+<\/ideCadastro>/.match(e.to_s).to_s.gsub(/(<ideCadastro>|<\/ideCadastro>)/, '')
   
   tags = e.at_xpath("//deputado[#{count}]/comissoes/titular").to_s.scan /sigla="[\w\d]+"/
   d.comissoes_titular = []
@@ -138,7 +139,7 @@ doc.xpath('//deputado').each do |e|
 
   d.tags = create_tags([d.nome, d.nome_parlamentar])
   
-  hash = detalhamento[d.ide_cadastro.to_s]
+  hash = detalhamento[d.id.to_s]
 
   d.profissao = hash[:profissao]
   d.data_nascimento = hash[:data_nascimento]

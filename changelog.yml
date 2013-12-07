@@ -1,6 +1,7 @@
 ---
 '0.5.0':
 - Exibe mensagem de processamento ao carregar despesas de um deputado.
+- Altera campos de identificação dos deputados. Isso alteração afeta na URL da página de detalhamento de deputado.
 '0.4.1':
 - Corrige exibição da data de emissão da despesa de um deputado.
 '0.4.0':

@@ -9,7 +9,6 @@ describe Deputado do
   
   it 'permite acesso a todos os atributos' do
     deputado.should respond_to :_id
-    deputado.should respond_to :ide_cadastro
     deputado.should respond_to :condicao
     deputado.should respond_to :matricula
     deputado.should respond_to :id_parlamentar

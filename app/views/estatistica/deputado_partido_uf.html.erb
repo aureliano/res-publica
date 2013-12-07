@@ -13,8 +13,8 @@
       <label for="partido" class="short-label">Partido: </label>
       <select id="partido" name="partido" class="filter-component">
       <option value="">Selecione...</option>
-      <% Partido.where(:data_extincao => '').asc(:sigla).only(:sigla).each do |p| %>
-      <option value="<%= p.sigla %>"<%= ' selected' if params[:partido] == p.sigla %>><%= p.sigla %></option>
+      <% Partido.where(:data_extincao => '').asc(:_id).only(:_id).each do |p| %>
+      <option value="<%= p.id %>"<%= ' selected' if params[:partido] == p.id %>><%= p.id %></option>
       <% end %>
       </select>
     </div>

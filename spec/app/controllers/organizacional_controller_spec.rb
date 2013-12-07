@@ -84,10 +84,10 @@ describe "OrganizacionalController" do
   
   it 'carrega página de detalhamento de deputado' do
     Partido.delete_all
-    partido = Partido.create(:numero => 171, :sigla => 'PCREU', :nome => 'Partido Créu')
+    partido = Partido.create(:numero => 171, :_id => 'PCREU', :nome => 'Partido Créu')
     
     Deputado.delete_all
-    deputado = Deputado.create(:partido => partido.nome, :nome => 'Carloz Ray Norris',
+    deputado = Deputado.create(:_id => 12345, :partido => partido.nome, :nome => 'Carloz Ray Norris',
                 :nome_parlamentar => 'Brother', :periodos_exercicio => [],
                 :filiacoes_partidarias => [], :sexo => 'masculino')
 

@@ -1,7 +1,7 @@
 class Deputado
   include Mongoid::Document
   
-  field :ide_cadastro, :type => Integer
+  field :_id, :type => Integer
   field :condicao, :type => String
   field :matricula, :type => Integer
   field :id_parlamentar, :type => Integer

@@ -48,7 +48,7 @@ ResPublica::App.controllers :organizacional do
   end
   
   get :comissoes, :with => [:deputado, :condicao] do
-    deputado = Deputado.where(:_id => params[:deputado]).first
+    deputado = Deputado.where(:_id => params[:deputado].to_i).first
     redirect '/404' unless deputado
     
     @comissoes = (params[:condicao] == 'suplente') ? deputado.comissoes_suplente : deputado.comissoes_titular
@@ -97,14 +97,14 @@ ResPublica::App.controllers :organizacional do
   end
   
   get :deputado, :with => :id do
-    @deputado = Deputado.where(:_id => params[:id]).first
+    @deputado = Deputado.where(:_id => params[:id].to_i).first
     redirect '/404' unless @deputado
 
     render 'organizacional/dados_deputado', :layout => get_layout
   end
   
   get :despesas, :map => '/organizacional/deputado/:deputado/despesas' do
-    @deputado = Deputado.where(:_id => params[:deputado]).first
+    @deputado = Deputado.where(:_id => params[:deputado].to_i).first
     redirect '/404' unless @deputado
 
     render 'organizacional/despesas', :layout => get_layout

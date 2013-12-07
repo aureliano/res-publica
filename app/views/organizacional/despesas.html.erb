@@ -17,7 +17,7 @@
   <% (1..Time.now.month).each do |month| %>
   <div class="accordion-group">
     <div class="accordion-heading">
-      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion_despesas" href="#collapse<%= month %>" onclick="loadDespesas(<%= @deputado.ide_cadastro %>, <%= year %>, <%= month %>);">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion_despesas" href="#collapse<%= month %>" onclick="loadDespesas(<%= @deputado.id %>, <%= year %>, <%= month %>);">
         <%= mes_local(month).capitalize %> [+/-]
       </a>
       <input type="hidden" id="mes_<%= month %>_carregado" value="false"/>
