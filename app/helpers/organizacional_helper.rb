@@ -20,6 +20,11 @@ ResPublica::App.helpers do
     { :comissao => comissao, :titulares => titulares, :suplentes => suplentes }
   end
   
+  def generate_charges_report(deputado, ano, mes)
+    despesas = Despesa.where(:id_deputado => deputado.id, :ano => ano, :mes => mes)
+    { :deputado => deputado, :ano => ano, :mes => mes, :despesas => despesas }
+  end
+  
   def partido_img(partido)
     path = 'public/images/partidos/'
     img_file = Dir.entries(path).select {|f| /#{partido.id.downcase}\./.match(f) }.first

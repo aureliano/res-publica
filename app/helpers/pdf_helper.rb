@@ -98,6 +98,52 @@ ResPublica::App.helpers do
     end
   end
   
+  def generate_charges_pdf(file, data)    
+    Prawn::Document.generate(file, :info => charges_metadata(data[:deputado], data[:ano], data[:mes])) do
+      repeat :all do
+        stroke { horizontal_line 0, 540, :at => 715 }
+        text_box "Despesas de #{data[:deputado].nome_parlamentar} em #{data[:mes]}/#{data[:ano]}", :at => [0, 700], :size => 15, :align => :center
+        stroke { horizontal_line 0, 540, :at => 680 }
+      end
+      
+      require File.expand_path '../../app.rb', __FILE__
+      helper = Object.const_get('ResPublica').const_get('App').new.helpers
+        
+      draw_text "Sumário das despesas", :at => [200, 640], :style => :bold
+      block_width = 5
+      despesas = data[:despesas]
+      
+      text_box "Documentos emitidos: #{despesas.size}", :at => [0, 620]
+      text_box "Total glosa: #{helper.format_money helper.total_glosa_despesas despesas}", :at => [0, 605]
+      text_box "Total líquido: #{helper.format_money helper.total_liquido_despesas despesas}", :at => [0, 590]
+      text_box "Total bruto: #{helper.format_money helper.total_bruto_despesas despesas}", :at => [0, 575]
+      
+      draw_text "Extrato", :at => [250, 540], :style => :bold
+      move_cursor_to 520
+      
+      despesas.each do |d|
+        str = "Descrição do documento: #{d.descricao_despesa}\n"
+        str << "Beneficiário: #{d.nome_beneficiario}\n"
+        str << "Identificação: #{helper.format_identifier d.identificador_beneficiario}\n"
+        str << "Data de emissão: #{helper.format_date d.data_emissao}\n"
+        str << "Valor da glosa: #{helper.format_money d.valor_glosa}\n"
+        str << "Valor líquido: #{helper.format_money d.valor_liquido}\n"
+        str << "Valor bruto: #{helper.format_money d.valor_documento}\n\n"
+        
+        if cursor < 100
+          start_new_page
+          move_cursor_to 650
+        end
+        
+        span(400) { text str }        
+        move_down block_width
+      end
+      
+      str = "Relatório extraído de http://res-publica.herokuapp.com em #{Time.now.strftime "%d/%m/%Y %H:%M:%S"}\nPágina <page> de <total>"
+      number_pages str, :at => [bounds.right - 500, 0], :align => :right, :start_count_at => 1
+    end
+  end
+  
   private
   def committee_metadata(committee)
     {
@@ -113,6 +159,15 @@ ResPublica::App.helpers do
       :Title => "Lista de votações da proposição #{proposicao.sigla}",
       :Author => 'Res Publica',
       :Subject => "Lista de votações da proposição #{proposicao.sigla}",
+      :CreationDate => Time.now
+    }
+  end
+  
+  def charges_metadata(deputado, ano, mes)
+    {
+      :Title => "Lista de despesas do deputado #{deputado.nome_parlamentar} em #{ano}/#{mes}",
+      :Author => 'Res Publica',
+      :Subject => "Lista de despesas do deputado #{deputado.nome_parlamentar} em #{ano}/#{mes}",
       :CreationDate => Time.now
     }
   end

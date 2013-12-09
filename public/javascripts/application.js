@@ -40,6 +40,7 @@ function loadDespesas(deputado, year, month) {
         $('div#extrato_' + month).append(html);
       }
       
+      $('div#extrato_' + month).append('<a href="/organizacional/despesas_report/' + deputado + '/' + year + '/' + month + '" class="btn btn-primary">Baixar despesas</a>');
       $(field_id).val('true');
     }).done(function() { $('#loading').hide(); }).error(function(jqXHR, textStatus, errorThrown) { alert('Não foi possível carregar as despesas. Tente acessar esta página novamente mais tarde. ' + errorThrown) });
   }

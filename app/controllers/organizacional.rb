@@ -115,5 +115,16 @@ ResPublica::App.controllers :organizacional do
     
     render 'organizacional/despesas_service'
   end
+  
+  get :despesas_report, :with => [:deputado, :ano, :mes] do
+    deputado = Deputado.where(:_id => params[:deputado].to_i).first
+    redirect '/404' unless deputado
+    
+    data = generate_charges_report(deputado, params[:ano].to_i, params[:mes].to_i)
+    file = "tmp/Despesas_Deputado_#{deputado.nome_parlamentar}_#{params[:ano]}_#{params[:mes]}.pdf"
+    generate_charges_pdf file, data
+    
+    send_file file, :filename => file, :type => 'Application/octet-stream'
+  end
 
 end
