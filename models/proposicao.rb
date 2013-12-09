@@ -1,7 +1,7 @@
 class Proposicao
   include Mongoid::Document
 
-  field :id_cadastro, :type => Integer
+  field :_id, :type => Integer
   field :nome, :type => String
   field :sigla, :type => String
   field :numero, :type => Integer
