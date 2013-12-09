@@ -11,7 +11,6 @@ describe Proposicao do
   
   it 'permite acesso a todos os atributos' do
     proposicao.should respond_to :_id
-    proposicao.should respond_to :id_cadastro
     proposicao.should respond_to :nome
     proposicao.should respond_to :sigla
     proposicao.should respond_to :numero

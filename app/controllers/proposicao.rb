@@ -8,15 +8,15 @@ ResPublica::App.controllers :proposicao do
   end
   
   get :index, :with => :id do
-    @proposicao = Proposicao.where(:_id => params[:id]).first
+    @proposicao = Proposicao.where(:_id => params[:id].to_i).first
     redirect '/404' unless @proposicao
-    @dados_prop = proposicao_dados_complementares @proposicao.id_cadastro
+    @dados_prop = proposicao_dados_complementares @proposicao.id
 
     render 'proposicao/dados_proposicao', :layout => get_layout
   end
   
   get :votacoes, :map => '/proposicao/:proposicao/votacoes' do
-    @proposicao = Proposicao.where(:_id => params[:proposicao]).first
+    @proposicao = Proposicao.where(:_id => params[:proposicao].to_i).first
     redirect '/404' unless @proposicao
     
     @dados_votacoes = votacoes_proposicao(@proposicao)
@@ -25,7 +25,7 @@ ResPublica::App.controllers :proposicao do
   end
   
   get :relatorio_votacao, :with => [:proposicao, :votacao] do
-    @proposicao = Proposicao.where(:_id => params[:proposicao]).first
+    @proposicao = Proposicao.where(:_id => params[:proposicao].to_i).first
     redirect '/404' unless @proposicao
 
     @dados_votacoes = votacoes_proposicao(@proposicao)

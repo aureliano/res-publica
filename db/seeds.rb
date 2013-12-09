@@ -186,7 +186,7 @@ data.each do |row|
   tags.concat get_tags_without_stopwords row['autor']
   tags.concat [row['sigla'].downcase, row['numero'], row['ano']]
   
-  Proposicao.create :id_cadastro => row['id'], :nome => row['nome'],
+  Proposicao.create :_id => row['id'].to_i, :nome => row['nome'],
                     :sigla => row['sigla'], :numero => row['numero'], :ano => row['ano'],
                     :autor => row['autor'], :tags => tags
 end
