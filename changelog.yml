@@ -1,7 +1,9 @@
 ---
 '0.5.0':
+- Adiciona botão para exportar as despesas de um deputado como PDF.
 - Exibe mensagem de processamento ao carregar despesas de um deputado.
-- Altera campos de identificação dos deputados. Isso alteração afeta na URL da página de detalhamento de deputado.
+- Altera campos de identificação dos deputados. Esta alteração afeta na URL da página de detalhamento de deputado.
+- Altera campos de identificação das proposições. Esta alteração afeta na URL da página de detalhamento de proposição.
 '0.4.1':
 - Corrige exibição da data de emissão da despesa de um deputado.
 '0.4.0':
