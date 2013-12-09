@@ -16,7 +16,7 @@ describe "ProposicaoController" do
   
   it 'carrega página de detalhamento de proposição' do
     Proposicao.delete_all
-    proposicao = Proposicao.create(:nome => 'PL 123/2013', :sigla => 'PL', :numero => 123, :autor => 'Brother')
+    proposicao = Proposicao.create(:_id => 123, :nome => 'PL 123/2013', :sigla => 'PL', :numero => 123, :autor => 'Brother')
     
     get "/proposicao/#{proposicao.id}"
     
