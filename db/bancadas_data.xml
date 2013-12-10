@@ -643,38 +643,6 @@
       <uf>RJ</uf>
     </vice_lider>
   </bancada>
-  <bancada sigla="PTB" nome="Partido Trabalhista Brasileiro">
-    <lider>
-      <nome>JOVAIR ARANTES</nome>
-      <partido>PTB</partido>
-      <uf>GO</uf>
-    </lider>
-    <vice_lider>
-      <nome>ANTONIO BRITO</nome>
-      <partido>PTB</partido>
-      <uf>BA</uf>
-    </vice_lider>
-    <vice_lider>
-      <nome>ARNALDO FARIA DE SÁ</nome>
-      <partido>PTB</partido>
-      <uf>SP</uf>
-    </vice_lider>
-    <vice_lider>
-      <nome>JOSUÉ BENGTSON</nome>
-      <partido>PTB</partido>
-      <uf>PA</uf>
-    </vice_lider>
-    <vice_lider>
-      <nome>PAES LANDIM</nome>
-      <partido>PTB</partido>
-      <uf>PI</uf>
-    </vice_lider>
-    <vice_lider>
-      <nome>WALNEY ROCHA</nome>
-      <partido>PTB</partido>
-      <uf>RJ</uf>
-    </vice_lider>
-  </bancada>
   <bancada sigla="PDT" nome="Partido Democrático Trabalhista">
     <lider>
       <nome>ANDRÉ FIGUEIREDO</nome>
@@ -705,6 +673,38 @@
       <nome>MARCOS ROGÉRIO</nome>
       <partido>PDT</partido>
       <uf>RO</uf>
+    </vice_lider>
+  </bancada>
+  <bancada sigla="PTB" nome="Partido Trabalhista Brasileiro">
+    <lider>
+      <nome>JOVAIR ARANTES</nome>
+      <partido>PTB</partido>
+      <uf>GO</uf>
+    </lider>
+    <vice_lider>
+      <nome>ANTONIO BRITO</nome>
+      <partido>PTB</partido>
+      <uf>BA</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>ARNALDO FARIA DE SÁ</nome>
+      <partido>PTB</partido>
+      <uf>SP</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>JOSUÉ BENGTSON</nome>
+      <partido>PTB</partido>
+      <uf>PA</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>PAES LANDIM</nome>
+      <partido>PTB</partido>
+      <uf>PI</uf>
+    </vice_lider>
+    <vice_lider>
+      <nome>WALNEY ROCHA</nome>
+      <partido>PTB</partido>
+      <uf>RJ</uf>
     </vice_lider>
   </bancada>
   <bancada sigla="PCdoB" nome="Partido Comunista do Brasil">

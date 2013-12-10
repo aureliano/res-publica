@@ -2584,29 +2584,6 @@
     :data_fim: ''
     :causa_fim_exercicio: ''
   :filiacoesPartidarias: []
-'160632':
-  :profissao: Agricultor, Agrônomo, Extensionista Rural
-  :data_nascimento: 11/05/1963
-  :periodosExercicio:
-  - :uf: MG
-    :situacao: Titular
-    :data_inicio: 01/02/2011
-    :data_fim: 06/02/2013
-    :causa_fim_exercicio: Secretário de Estado
-  - :uf: MG
-    :situacao: Titular
-    :data_inicio: 15/10/2013
-    :data_fim: 18/10/2013
-    :causa_fim_exercicio: Secretário de Estado
-  - :uf: MG
-    :situacao: Titular
-    :data_inicio: 26/11/2013
-    :data_fim: 05/12/2013
-    :causa_fim_exercicio: Secretário de Estado
-  :filiacoesPartidarias:
-  - :partido_anterior: PDT
-    :partido_posterior: SDD
-    :data_filiacao_partido_posterior: 04/10/2013
 '160633':
   :profissao: Médico
   :data_nascimento: 30/11/1964
@@ -3287,6 +3264,31 @@
     :data_fim: ''
     :causa_fim_exercicio: ''
   :filiacoesPartidarias: []
+'164360':
+  :profissao: Enfermeira
+  :data_nascimento: 06/10/1962
+  :periodosExercicio:
+  - :uf: SC
+    :situacao: Suplente
+    :data_inicio: 02/03/2011
+    :data_fim: 25/10/2011
+    :causa_fim_exercicio: Afastamento
+  - :uf: SC
+    :situacao: Suplente
+    :data_inicio: 27/10/2011
+    :data_fim: 27/11/2012
+    :causa_fim_exercicio: Afastamento
+  - :uf: SC
+    :situacao: Suplente
+    :data_inicio: 30/11/2012
+    :data_fim: 22/10/2013
+    :causa_fim_exercicio: Afastamento
+  - :uf: SC
+    :situacao: Suplente
+    :data_inicio: 10/12/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
 '164361':
   :profissao: ! "\n    "
   :data_nascimento: 14/10/1958
@@ -3319,6 +3321,26 @@
   - :uf: GO
     :situacao: Suplente
     :data_inicio: 03/12/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'165583':
+  :profissao: Industrial
+  :data_nascimento: 25/12/1955
+  :periodosExercicio:
+  - :uf: SP
+    :situacao: Suplente
+    :data_inicio: 03/05/2011
+    :data_fim: 18/11/2011
+    :causa_fim_exercicio: Afastamento
+  - :uf: SP
+    :situacao: Suplente
+    :data_inicio: 27/12/2012
+    :data_fim: 04/12/2013
+    :causa_fim_exercicio: Afastamento
+  - :uf: SP
+    :situacao: Suplente
+    :data_inicio: 06/12/2013
     :data_fim: ''
     :causa_fim_exercicio: ''
   :filiacoesPartidarias: []
@@ -3851,21 +3873,6 @@
     :data_fim: ''
     :causa_fim_exercicio: ''
   :filiacoesPartidarias: []
-'73536':
-  :profissao: Economista, Professor e Empresário
-  :data_nascimento: 09/08/1947
-  :periodosExercicio:
-  - :uf: SP
-    :situacao: Titular
-    :data_inicio: 01/02/2011
-    :data_fim: 03/02/2011
-    :causa_fim_exercicio: Secretário de Estado
-  - :uf: SP
-    :situacao: Titular
-    :data_inicio: 04/12/2013
-    :data_fim: ''
-    :causa_fim_exercicio: ''
-  :filiacoesPartidarias: []
 '73553':
   :profissao: Empresário
   :data_nascimento: 29/10/1941
@@ -4153,32 +4160,6 @@
     :data_fim: ''
     :causa_fim_exercicio: ''
   :filiacoesPartidarias: []
-'73883':
-  :profissao: ADVOGADO
-  :data_nascimento: 19/09/1963
-  :periodosExercicio:
-  - :uf: SC
-    :situacao: Titular
-    :data_inicio: 01/02/2011
-    :data_fim: 01/03/2011
-    :causa_fim_exercicio: Secretário de Estado
-  - :uf: SC
-    :situacao: Titular
-    :data_inicio: 24/10/2011
-    :data_fim: 31/10/2011
-    :causa_fim_exercicio: Secretário de Estado
-  - :uf: SC
-    :situacao: Titular
-    :data_inicio: 22/10/2013
-    :data_fim: ''
-    :causa_fim_exercicio: ''
-  :filiacoesPartidarias:
-  - :partido_anterior: DEM
-    :partido_posterior: PSD
-    :data_filiacao_partido_posterior: 26/10/2011
-  - :partido_anterior: PSD
-    :partido_posterior: PSB
-    :data_filiacao_partido_posterior: 04/11/2013
 '73891':
   :profissao: Médico
   :data_nascimento: 02/04/1947
@@ -4739,6 +4720,26 @@
   - :uf: MG
     :situacao: Titular
     :data_inicio: 01/02/2011
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias: []
+'74158':
+  :profissao: MEDICO
+  :data_nascimento: 30/09/1954
+  :periodosExercicio:
+  - :uf: MG
+    :situacao: Suplente
+    :data_inicio: 07/02/2013
+    :data_fim: 15/10/2013
+    :causa_fim_exercicio: Afastamento
+  - :uf: MG
+    :situacao: Suplente
+    :data_inicio: 22/10/2013
+    :data_fim: 26/11/2013
+    :causa_fim_exercicio: Afastamento
+  - :uf: MG
+    :situacao: Suplente
+    :data_inicio: 06/12/2013
     :data_fim: ''
     :causa_fim_exercicio: ''
   :filiacoesPartidarias: []
