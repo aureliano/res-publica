@@ -52,7 +52,7 @@
   </div>
   
   <div name="data_apresentacao">
-    <span><strong>Data da apresentação: </strong></span><span><%= @dados_prop[:data_apresentacao] %></span>
+    <span><strong>Data da apresentação: </strong></span><span><%= format_date @proposicao.data_apresentacao %></span>
   </div>
   
   <div name="regime_tramitacao">

@@ -20,7 +20,7 @@ namespace :data do
       :proposicoes_intervalo => 'http://www.camara.gov.br/SitCamaraWS/Proposicoes.asmx/ListarProposicoes?sigla=<sigla>&numero=&ano=<ano>&datApresentacaoIni=<data_inicial>&datApresentacaoFim=&IdTipoAutor=&autor=&parteNomeAutor=&siglaPartidoAutor=&siglaUFAutor=&generoAutor=&codEstado=&codOrgaoEstado=&emTramitacao=',
       :proposicoes_intervalo_detail => 'http://www.camara.gov.br/SitCamaraWS/Proposicoes.asmx/ObterProposicaoPorID?IdProp=<id>'
     }, :prop => {
-      :proposicoes => 'http://www.camara.gov.br/SitCamaraWS/Proposicoes.asmx/ListarProposicoes?sigla=<sigla>&numero=&ano=<ano>&datApresentacaoIni=&datApresentacaoFim=&autor=&parteNomeAutor=&siglaPartidoAutor=&siglaUFAutor=&generoAutor=&codEstado=&codOrgaoEstado=&emTramitacao=',
+      :proposicoes => 'http://www.camara.gov.br/SitCamaraWS/Proposicoes.asmx/ListarProposicoes?sigla=<sigla>&numero=&ano=<ano>&datApresentacaoIni=&datApresentacaoFim=&IdTipoAutor=&autor=&parteNomeAutor=&siglaPartidoAutor=&siglaUFAutor=&generoAutor=&codEstado=&codOrgaoEstado=&emTramitacao=',
       :proposicoes_detail => 'http://www.camara.gov.br/SitCamaraWS/Proposicoes.asmx/ObterProposicaoPorID?IdProp=<id>'
     }
   }
@@ -41,10 +41,13 @@ namespace :data do
     
     desc 'Web crawler para extração dos dados de proposições criadas a partir do ano 2000 da API de Dados Abertos da Câmara dos Deputados'
     task :prop do
+      inicio = Time.now
       resources[:prop].each do |name, url|
         puts "Carregando arquivos de dados de '#{name}'"
         extract_data(name.to_s, url)
       end
+      
+      puts "Início: #{inicio} - Fim: #{Time.now}"
     end
     
   end

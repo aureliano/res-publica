@@ -127,5 +127,10 @@ ResPublica::App.helpers do
     
     "R$ #{l.reverse.join},#{r}"
   end
+  
+  def format_date(date)
+    return '-' if date.nil?
+    date.strftime('%d/%m/%Y')
+  end
 
 end

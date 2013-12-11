@@ -31,7 +31,6 @@ ResPublica::App.helpers do
     return data if doc.nil?
     data[:ementa] = doc.xpath('proposicao/Ementa').text
     data[:explicacao_ementa] = doc.xpath('proposicao/ExplicacaoEmenta').text
-    data[:data_apresentacao] = doc.xpath('proposicao/DataApresentacao').text
     data[:regime_tramitacao] = doc.xpath('proposicao/RegimeTramitacao').text
     data[:data_despacho] = doc.xpath('proposicao/UltimoDespacho')[0]['Data']
     data[:despacho] = doc.xpath('proposicao/UltimoDespacho').text
@@ -51,7 +50,6 @@ ResPublica::App.helpers do
 
     begin
       if votacoes.nil?
-        puts 'BAIXAR XML'
         xml = RestClient.get(url)
         Votacoes.create :_id => {:sigla => proposicao.sigla, :numero => proposicao.numero, :ano => proposicao.ano}, :xml => xml
       else

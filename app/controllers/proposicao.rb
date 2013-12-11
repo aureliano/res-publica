@@ -1,10 +1,22 @@
 ResPublica::App.controllers :proposicao do
-  
+
   get :index do
+    render 'proposicao/index', :layout => get_layout
+  end
+  
+  get :proposicoes_periodo, :map => '/proposicao/periodo' do
+    last_days = params[:dias] ||= 10
+    @proposicoes = Proposicao.most_up_to_date_proposicoes :skip => skip_value, :limit => DataPage.default_page_size, :last_days => last_days.to_i
+    @total = Proposicao.count_most_up_to_date_proposicoes last_days.to_i
+    
+    render 'proposicao/proposicoes_periodo'
+  end
+  
+  get :consulta do
     options = {:skip => skip_value, :limit => DataPage.default_page_size, :tags => get_tags_without_stopwords(params[:prop_tags])}
     @proposicoes, @total = Proposicao.search options
     
-    render 'proposicao/index', :layout => get_layout
+    render 'proposicao/consulta', :layout => get_layout
   end
   
   get :index, :with => :id do

@@ -185,10 +185,13 @@ data.each do |row|
   tags = get_tags_without_stopwords row['tags']
   tags.concat get_tags_without_stopwords row['autor']
   tags.concat [row['sigla'].downcase, row['numero'], row['ano']]
+  tags.uniq!
+  tokens = /\d{2}\/\d{2}\/\d{4}/.match(row['data_apresentacao']).to_s.split '/'
+  dt = Time.new(tokens[2], tokens[1], tokens[0])
   
   Proposicao.create :_id => row['id'].to_i, :nome => row['nome'],
                     :sigla => row['sigla'], :numero => row['numero'], :ano => row['ano'],
-                    :autor => row['autor'], :tags => tags
+                    :data_apresentacao => dt, :autor => row['autor'], :tags => tags
 end
 
 shell.say "Carregando dados de 'despesas' do arquivo 'db/despesas_ano_corrente_db.csv'"

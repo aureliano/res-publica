@@ -42,10 +42,11 @@ namespace :data do
         doc = Nokogiri::XML(File.open('tmp/' + file_name))
         id = doc.xpath('//proposicao/idProposicao').text
         e = doc.xpath('proposicao')[0]
+        dt = /<DataApresentacao>[\d\/-]*<\/DataApresentacao>/.match(e.to_s).to_s.gsub /<\/?DataApresentacao>/, ''
 
         data << [
           id, doc.xpath('proposicao/nomeProposicao').text,
-          e['tipo'].rstrip, e['numero'], e['ano'],
+          e['tipo'].rstrip, e['numero'], e['ano'], dt,
           "\"#{doc.xpath('//proposicao/Autor').text.gsub(/"/, '""')}\"",
           "\"#{doc.xpath('//proposicao/Indexacao').text.gsub("\n", '').gsub(/[,.]/, '').gsub(/"/, '""')}\""
         ]
@@ -58,7 +59,7 @@ namespace :data do
       save_file file, nil, text
     end
     
-    text = "id;nome;sigla;numero;ano;autor;tags\n"
+    text = "id;nome;sigla;numero;ano;data_apresentacao;autor;tags\n"
     (1..9).each {|num| text << File.read("tmp/proposicoes_#{num}_db.csv") }
     text
   end

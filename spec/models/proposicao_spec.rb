@@ -16,6 +16,7 @@ describe Proposicao do
     proposicao.should respond_to :numero
     proposicao.should respond_to :ano
     proposicao.should respond_to :autor
+    proposicao.should respond_to :data_apresentacao
     proposicao.should respond_to :tags
   end
 end

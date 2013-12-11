@@ -816,6 +816,11 @@
       <partido>PPS</partido>
       <uf>SP</uf>
     </vice_lider>
+    <vice_lider>
+      <nome>CARMEN ZANOTTO</nome>
+      <partido>PPS</partido>
+      <uf>SC</uf>
+    </vice_lider>
   </bancada>
   <bancada sigla="PSOL" nome="Partido Socialismo e Liberdade">
     <lider>

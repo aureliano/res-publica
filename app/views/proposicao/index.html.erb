@@ -1,33 +1,35 @@
 <% @page_title = 'Proposições'
-   @exibir_consulta = (params[:prop_tags] && !params[:prop_tags].empty?)
-   @proposicoes_ativa = !@exibir_consulta %>
+  @proposicoes_ativa = true %>
  
-<% unless @exibir_consulta %>  
 <br/><br/><br/>
-<% end %>
 
 <div class="pagination-centered">
-  <% unless @exibir_consulta %>
   <h2>Res Publica</h2>
-  <h3>Consulta de Proposições</h3>
+  <h3>Proposições</h3>
   <p class="lead">
-    Consulte proposições criadas na Câmara dos Deputados. Aqui você pode encontrar as proposições dos tipos
+    Conheça as proposições apresentadas pelos deputados na Câmara. Aqui você pode encontrar as proposições dos tipos
     <%= tipos_proposicao %> e que tenham sido criadas no perído de <%= APP[:date_init_prop] %> a <%= APP[:date_end_prop] %> (<%= APP[:last_extraction_date] %>).
   </p>
-  <% end %>
 </div>
 
 <div class="container">
-  <% form_tag '', :method => 'get', :id => 'form_consulta' do %>
-    <div align="center">
-        <input type="text" id="prop_tags" name="prop_tags" value="<%= params[:prop_tags] %>" style="height: 28px; width: 500px;" autofocus/>
-        <br/>
-        <button type="submit" class="btn" style="width: 90px;" onclick="return propSearchValidation();">Consultar</button>
-        <button type="button" class="btn" style="width: 90px;" onclick="cleanTextField('prop_tags');">Limpar</button>
+  <div class="row">
+    <div class="span3">
+      <a href="<%= url :proposicao, :consulta %>" class="btn subject-block">
+        <h4>Consulta de Proposições</h4>
+        <p align="justify">Encontre as proposições apresentadas pelos deputados federais desde <%= APP[:date_init_prop] %>.</p>
+        <br/><br/>
+        <p align="right"><b>>> Ver mais</b></p>
+      </a>
     </div>
-  <% end %>
-  
-  <% if @exibir_consulta %>
-    <%= search_data_list(:data => @proposicoes, :total => @total).html_safe %>
-  <% end %>
+    
+    <div class="span3">
+      <a href="<%= url :proposicao, :proposicoes_periodo %>" class="btn subject-block">
+        <h4>Novas Proposições</h4>
+        <p align="justify">Veja quais foram as proposições apresentadas nos últimos dias.</p>
+        <br/><br/><br/><br/>
+        <p align="right"><b>>> Ver mais</b></p>
+      </a>
+    </div>
+  </div>
 </div>

@@ -1,0 +1,24 @@
+<% @page_title = 'Proposiçao' %>
+
+<div class="hero-unit">
+  <h3>Proposições</h3>
+  <p class="lead">
+    Proposições disponibilizadas nos últimos <%= params[:dias] %> dias.
+  </p>
+</div>
+
+<div class="container">
+  <% form_tag '', :method => 'get', :id => 'form_consulta' do %>
+    <div>
+        <label for="dias" class="medium-label">Proposições disponibilizadas nos últimos dias: </label>
+        <input type="text" id="dias" name="dias" value="<%= params[:dias] %>" style="height: 28px; width: 50px;"/>
+    </div>
+    <div align="right" style="width: 500px">
+        <button type="submit" class="btn">Consultar</button>
+    </div>
+  <% end %>
+  
+  <%= data_table(:data => @proposicoes, :total => @total, :seed => 'proposicao',
+      :fields => [{:title => 'Nome', :name => 'nome'}],
+      :detail_path => '/proposicao/', :field_id => 'id').html_safe %>
+</div>
