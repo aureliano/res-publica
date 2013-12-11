@@ -47,7 +47,7 @@ end
 
 def replace_special_characters(text)
   return text if text.nil?
-  
+
   txt = text.dup
   APP[:special_characters].each {|k, v| txt.gsub! /#{k}/, v }
   txt.gsub! /[()]/, ''
@@ -60,6 +60,7 @@ def get_tags_without_stopwords(text)
   
   tags = txt.downcase.split(/[\s\/]/)
   tags.delete_if {|t| APP[:stopwords].include? t }
+  tags
 end
 
 def create_tags(fields)
@@ -180,18 +181,21 @@ end
 
 shell.say "Carregando dados de 'proposição' do arquivo 'db/proposicoes_db.csv'"
 
-data = load_data_from_csv 'db/proposicoes_db.csv'
+data = load_data_from_file 'db/proposicoes_db.csv'
 data.each do |row|
-  tags = get_tags_without_stopwords row['tags']
-  tags.concat get_tags_without_stopwords row['autor']
-  tags.concat [row['sigla'].downcase, row['numero'], row['ano']]
+  next if row.empty?
+  puts " >> ATENÇÃO! #{row}" if row.size != 8
+  tags = get_tags_without_stopwords row[7]
+
+  tags.concat get_tags_without_stopwords row[6]
+  tags.concat [row[2].downcase, row[3], row[4]]
   tags.uniq!
-  tokens = /\d{2}\/\d{2}\/\d{4}/.match(row['data_apresentacao']).to_s.split '/'
+  tokens = /\d{2}\/\d{2}\/\d{4}/.match(row[5]).to_s.split '/'
   dt = Time.new(tokens[2], tokens[1], tokens[0])
-  
-  Proposicao.create :_id => row['id'].to_i, :nome => row['nome'],
-                    :sigla => row['sigla'], :numero => row['numero'], :ano => row['ano'],
-                    :data_apresentacao => dt, :autor => row['autor'], :tags => tags
+
+  Proposicao.create :_id => row[0].to_i, :nome => row[1],
+                    :sigla => row[2], :numero => row[3], :ano => row[4],
+                    :data_apresentacao => dt, :autor => row[6], :tags => tags
 end
 
 shell.say "Carregando dados de 'despesas' do arquivo 'db/despesas_ano_corrente_db.csv'"
