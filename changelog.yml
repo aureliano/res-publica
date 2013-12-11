@@ -1,4 +1,7 @@
 ---
+'0.6.0':
+- Ordena resultado da busca de proposições por ano.
+- Cria página de com as proposições apresentadas recentemente na Câmara dos Deputados.
 '0.5.0':
 - Adiciona botão para exportar as despesas de um deputado como PDF.
 - Exibe mensagem de processamento ao carregar despesas de um deputado.
