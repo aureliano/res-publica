@@ -8,10 +8,27 @@ describe "ProposicaoController" do
     get '/proposicao'
     
     last_response.body.should include '<h2>Res Publica</h2>'
+    last_response.body.should include '<h3>Proposições</h3>'
+    last_response.body.should include '<h4>Consulta de Proposições</h4>'
+    last_response.body.should include '<h4>Novas Proposições</h4>'
+  end
+
+  it 'carrega página de consulta de proposições' do
+    get '/proposicao/consulta'
+    
+    last_response.body.should include '<h2>Res Publica</h2>'
     last_response.body.should include '<h3>Consulta de Proposições</h3>'
     last_response.body.should include '<input type="text" id="prop_tags" name="prop_tags" value="" style="height: 28px; width: 500px;" autofocus/>'
     last_response.body.should include '<button type="submit" class="btn" style="width: 90px;" onclick="return propSearchValidation();">Consultar</button>'
     last_response.body.should include '<button type="button" class="btn" style="width: 90px;" onclick="cleanTextField(\'prop_tags\');">Limpar</button>'
+  end
+
+  it 'carrega página com as proposições apresentadas recentemente' do
+    get '/proposicao/periodo'
+    
+    last_response.body.should include '<h3>Proposições</h3>'
+    last_response.body.should include '<input type="text" id="dias" name="dias" value="10" style="height: 28px; width: 50px;"/>'
+    last_response.body.should include '<button type="submit" class="btn">Consultar</button>'
   end
   
   it 'carrega página de detalhamento de proposição' do
