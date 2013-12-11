@@ -1,4 +1,6 @@
 ---
+'0.6.1':
+- Correção de bugs.
 '0.6.0':
 - Ordena resultado da busca de proposições por ano.
 - Cria página de com as proposições apresentadas recentemente na Câmara dos Deputados.
