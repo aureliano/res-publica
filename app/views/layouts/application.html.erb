@@ -94,6 +94,7 @@
     <%= javascript_inline 'application' %>
     <%= javascript_inline 'respond.min' %>
     <%= javascript_inline 'html5shiv' %>
+    <% unless PADRINO_ENV == 'development' %>
     <!-- Place this tag after the last +1 button tag. -->
     <script type="text/javascript">
       (function() {
@@ -102,5 +103,6 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
       })();
     </script>
+    <% end %>
   </body>
 </html>
