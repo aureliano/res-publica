@@ -1,4 +1,6 @@
 ---
+'0.6.2':
+- Correção de bug no carregamento de despesas do deputado.
 '0.6.1':
 - Correção de bugs.
 '0.6.0':
