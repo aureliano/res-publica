@@ -79,7 +79,7 @@ ResPublica::App.helpers do
     "<script>#{File.read(path + js_file).gsub("\n", '')}</script>".html_safe
   end
   
-  def format_date(date)
+  def format_date_s(date)
     return '' if date.nil? || date.empty?
     tokens = date.sub(/T\d{2}:\d{2}:\d{2}(.\d{3})?/, '').split '-'
     "#{tokens[2]}/#{tokens[1]}/#{tokens[0]}"

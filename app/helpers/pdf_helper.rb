@@ -125,7 +125,7 @@ ResPublica::App.helpers do
         str = "Descrição do documento: #{d.descricao_despesa}\n"
         str << "Beneficiário: #{d.nome_beneficiario}\n"
         str << "Identificação: #{helper.format_identifier d.identificador_beneficiario}\n"
-        str << "Data de emissão: #{helper.format_date d.data_emissao}\n"
+        str << "Data de emissão: #{helper.format_date_s d.data_emissao}\n"
         str << "Valor da glosa: #{helper.format_money d.valor_glosa}\n"
         str << "Valor líquido: #{helper.format_money d.valor_liquido}\n"
         str << "Valor bruto: #{helper.format_money d.valor_documento}\n\n"
