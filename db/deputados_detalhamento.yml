@@ -1676,16 +1676,6 @@
     :data_fim: ''
     :causa_fim_exercicio: ''
   :filiacoesPartidarias: []
-'160541':
-  :profissao: Agropecuarista, Bacharel em Direito, Empresário
-  :data_nascimento: 25/06/1969
-  :periodosExercicio:
-  - :uf: AL
-    :situacao: Titular
-    :data_inicio: 01/02/2011
-    :data_fim: ''
-    :causa_fim_exercicio: ''
-  :filiacoesPartidarias: []
 '160542':
   :profissao: Biólogo, Professor
   :data_nascimento: 18/09/1970
@@ -5597,6 +5587,27 @@
   - :partido_anterior: PSB
     :partido_posterior: PROS
     :data_filiacao_partido_posterior: 30/09/2013
+'74559':
+  :profissao: ! "\n    "
+  :data_nascimento: 24/06/1960
+  :periodosExercicio:
+  - :uf: AL
+    :situacao: Suplente
+    :data_inicio: 18/06/2012
+    :data_fim: 07/10/2012
+    :causa_fim_exercicio: Afastamento
+  - :uf: AL
+    :situacao: Suplente
+    :data_inicio: 11/12/2013
+    :data_fim: ''
+    :causa_fim_exercicio: ''
+  :filiacoesPartidarias:
+  - :partido_anterior: PSDB
+    :partido_posterior: PEN
+    :data_filiacao_partido_posterior: 18/07/2012
+  - :partido_anterior: PEN
+    :partido_posterior: SDD
+    :data_filiacao_partido_posterior: 11/12/2013
 '74566':
   :profissao: Administrador de Empresas, Técnico Agrícola e Funcionário Público Federal
   :data_nascimento: 13/11/1953
